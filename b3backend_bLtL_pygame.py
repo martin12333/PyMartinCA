@@ -28,7 +28,7 @@ for i in range(niter):
         ##n = floor(0.5 +  diam*diam* ( - a /9.0 +  2*filters.uniform_filter(a,diam,mode='wrap')  ))
         #n = floor(0.5 - a + 2*diam*diam*filters.uniform_filter(a,diam,mode='wrap')  )
         a = 1.0* AND( n>=xx , n<=yy )  
-    elif True: #r69
+    elif False: #r69 l1x
         n69=diam*diam*filters.uniform_filter(a,diam,mode='wrap')
         n=n69
         a70=(a>=0.5)
@@ -49,11 +49,11 @@ for i in range(niter):
         b70 = 1.0* OR( birth , survi )  
         #
         a = beta70*b70 + nbeta70*a
-    elif False: #r75
+    elif True: #r75 l2x
         n751 = (diam*diam*filters.uniform_filter(a,diam,mode='wrap')  )
-        n752 = (filters.uniform_filter(n751,diam,mode='wrap')  )
-        #n753 = (filters.uniform_filter(n752,diam,mode='wrap')  )
-        #n754 = (filters.uniform_filter(n753,diam,mode='wrap')  )
+        n752 = (diam*diam*filters.uniform_filter(n751,diam,mode='wrap')  )
+        #n753 = (diam*diam*filters.uniform_filter(n752,diam,mode='wrap')  )
+        #n754 = (diam*diam*filters.uniform_filter(n753,diam,mode='wrap')  )
         n=n752
         a70=(a>=0.5)
         birth = AND(  n>=blo,  AND( n<=bhi, logical_not(a70) )  )
