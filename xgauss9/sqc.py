@@ -22,10 +22,10 @@ print 'np.random.seed()      '
 #diam == 2*r + 1
 ###bfade, q, qqq may be related to Cc
 #M1 or weighted
-#smin==slo
-#smax==shi
-#bmin==blo
-#bmax==bhi
+#smin==smin
+#smax==smax
+#bmin==bmin
+#bmax==bmax
 #NM or weighted
 
 
@@ -35,23 +35,23 @@ print 'np.random.seed()      '
 States = 2 #4
 Counts = 82
 
-blo=24 ##23.5 
-slo=31 ##30.5 
+bmin=24 ##23.5 
+smin=31 ##30.5 
 
-bhi=38
-shi=48
+bmax=38
+smax=48
 
 RT=np.zeros((States,Counts) , dtype=np.int)
 
-RT[0, blo: (bhi+1)] = 1
-RT[1, slo: (shi+1)] = 1
+RT[0, bmin: (bmax+1)] = 1
+RT[1, smin: (smax+1)] = 1
 
 print RT
 
 ##xlo=14 ; dx52=9; ylo=16; dy52=8
 
 
-##print blo,slo
+##print bmin,smin
 
 
 xlo -= 0.2 ; dx52 += 0.4; xhi=xlo+dx52
@@ -76,8 +76,8 @@ x11 = (linspace(xlo, xhi , w))
 y11 = (linspace(yhi  , ylo, h))
 xx, yy = meshgrid(x11, y11)
  
-bhi=xx
-shi=yy
+bmax=xx
+smax=yy
 
 niter = 600 #400 #200 #1000 #3000   
 sli=    0 #0.3      #0.1 #0 #0.01

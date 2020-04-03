@@ -77,7 +77,7 @@ for i in range(niter):
             print i, sam51, sdam51
 
 
-##debug print shape(blo)
+##debug print shape(bmin)
 ##debug numpy.size(yy,0)
-##debug type(bhi)
+##debug type(bmax)
 

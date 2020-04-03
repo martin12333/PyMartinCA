@@ -46,17 +46,17 @@ y11 = floor(linspace(yhi + 0.999 , ylo, h))
 xx, yy = meshgrid(x11, y11)
 
  
-#blo = xx / 10.0    
-blo=7 #3 
+#bmin = xx / 10.0    
+bmin=7 #3 
 
-#bhi=mod(xx,10)
-bhi=xx
+#bmax=mod(xx,10)
+bmax=xx
 
-#slo= yy / 10.0   #blo
-slo = 7  #3
+#smin= yy / 10.0   #bmin
+smin = 7  #3
 
-#shi=mod(yy, 10)
-shi=yy
+#smax=mod(yy, 10)
+smax=yy
 
 
 niter = 300    
@@ -96,8 +96,8 @@ AND = logical_and
 
 for i in range(niter):
     n = floor(0.5+diam*diam*filters.uniform_filter(a,diam,mode='wrap')  )
-    birth = AND(  n>=blo,  AND( n<=bhi, logical_not(a) )  )
-    survi = AND(  n>=slo,  AND( n<=shi, a )  )
+    birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+    survi = AND(  n>=smin,  AND( n<=smax, a )  )
     a = 1.0* OR( birth , survi )  
     #imshow(a)  
     ##matshow()
@@ -122,6 +122,6 @@ for i in range(niter):
         print i
 
 
-##debug print shape(blo)
+##debug print shape(bmin)
 ##debug numpy.size(yy,0)
-##debug typename(blo)
+##debug typename(bmin)

@@ -22,10 +22,10 @@ print 'np.random.seed()      '
 #diam == 2*r + 1
 ###bfade, q, qqq may be related to Cc
 #M1 or weighted
-#smin==slo
-#smax==shi
-#bmin==blo
-#bmax==bhi
+#smin==smin
+#smax==smax
+#bmin==bmin
+#bmax==bmax
 #NM or weighted
 
 
@@ -64,11 +64,11 @@ x11 = (linspace(xlo, xhi , w))
 y11 = (linspace(yhi  , ylo, h))
 xx, yy = meshgrid(x11, y11)
  
-##bhi=xx
+##bmax=xx
 ubmax=xx
 dbmax=xx
 
-##shi=yy
+##smax=yy
 usmax=yy
 dsmax=yy
 

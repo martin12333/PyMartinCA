@@ -22,10 +22,10 @@ print 'np.random.seed()      '
 #diam == 2*r + 1
 ###bfade, q, qqq may be related to Cc
 #M1 or weighted
-#smin==slo
-#smax==shi
-#bmin==blo
-#bmax==bhi
+#smin==smin
+#smax==smax
+#bmin==bmin
+#bmax==bmax
 #NM or weighted
 
 
@@ -33,13 +33,13 @@ print 'np.random.seed()      '
 #=============================
 diam =5 #3
 
-blo=7#5#7#3 ##24 ##23.5 ##2.60 #70 #60 #50 ##6.5 ###7*(beta70 - d691) ##2.98 #3*beta70 #xx #3
+bmin=7#5#7#3 ##24 ##23.5 ##2.60 #70 #60 #50 ##6.5 ###7*(beta70 - d691) ##2.98 #3*beta70 #xx #3
 
 xlo=-0.2+7#5#7####5##3 #4 #3 ##23 ##22.5 ##2.5 #2.9 #2.8 #2.5 #2
 dx52=0.4+4 #2.4
 xhi=xlo +dx52#5.2#6#1 #5 #6 ##45 ##45.5   ##5 #3.6 #4.1 #4.2 #4.5 #5 #10
 
-slo=6##3 ##31 ##30.5 ##3.35 #25 #15 #01 #2.9 #8 #7  #20 #30 #40 #50 ##6.5 ###7*(beta70 - d691) #8  ##2.98 #3*beta70 #yy - 1 #slo = 3
+smin=6##3 ##31 ##30.5 ##3.35 #25 #15 #01 #2.9 #8 #7  #20 #30 #40 #50 ##6.5 ###7*(beta70 - d691) #8  ##2.98 #3*beta70 #yy - 1 #smin = 3
 
 ylo=-0.2+9#10-0.2#7##4 #3 ##28 ##27.5 ##3 # 4.4 #4.2  #3 #3.9 #3.8
 dy52=0.4+2 #2.4
@@ -65,8 +65,8 @@ x11 = (linspace(xlo, xhi , w))
 y11 = (linspace(yhi  , ylo, h))
 xx, yy = meshgrid(x11, y11)
  
-bhi=xx
-shi=yy
+bmax=xx
+smax=yy
 
 niter = 200 #400 #200 #1000 #3000   
 sli=    0 #0.3      #0.1 #0 #0.01

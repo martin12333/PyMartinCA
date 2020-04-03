@@ -19,10 +19,10 @@ from pylab import *
 #diam == 2*r + 1
 #bfade, q, qqq are related to Cc
 #M1 or weighted
-#smin==slo
-#smax==shi
-#bmin==blo
-#bmax==bhi
+#smin==smin
+#smax==smax
+#bmin==bmin
+#bmax==bmax
 #NM or weighted
 
 
@@ -32,8 +32,8 @@ beta70=0.999 #83 #85  ##0.80 #0.85 #0.90 #0.93 #0.96 #0.97 #0.98 #1 #0.99 #1.0
 nbeta70 = 1-beta70
 ###d701=   0.06 #15 #13 #11   ##0.24  #0.12  #0.06  #0.02
 ###d691=0.01
-blo=23.5 ##2.60 #70 #60 #50 ##6.5 ###7*(beta70 - d691) ##2.98 #3*beta70 #xx #3
-slo=30.5 ##3.35 #25 #15 #01 #2.9 #8 #7  #20 #30 #40 #50 ##6.5 ###7*(beta70 - d691) #8  ##2.98 #3*beta70 #yy - 1 #slo = 3
+bmin=23.5 ##2.60 #70 #60 #50 ##6.5 ###7*(beta70 - d691) ##2.98 #3*beta70 #xx #3
+smin=30.5 ##3.35 #25 #15 #01 #2.9 #8 #7  #20 #30 #40 #50 ##6.5 ###7*(beta70 - d691) #8  ##2.98 #3*beta70 #yy - 1 #smin = 3
 
 #diam =5 
 #xlo= 7 #9 ##7
@@ -63,8 +63,8 @@ x11 = (linspace(xlo, xhi , w))
 y11 = (linspace(yhi  , ylo, h))
 xx, yy = meshgrid(x11, y11)
  
-bhi=xx
-shi=yy
+bmax=xx
+smax=yy
 
 niter = 3000   
 sli=0 #0.1 #0 #0.01

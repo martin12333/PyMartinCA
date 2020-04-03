@@ -17,8 +17,8 @@ for i in range(niter):
     n41 = floor(0.5+diam*diam*filters.uniform_filter(a,diam,mode='wrap')  )
     n42 = floor(0.5+diam*diam*filters.uniform_filter(n41,diam,mode='wrap')  )
     n=n42
-    birth = AND(  n>=blo,  AND( n<=bhi, logical_not(a) )  )
-    survi = AND(  n>=slo,  AND( n<=shi, a )  )
+    birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+    survi = AND(  n>=smin,  AND( n<=smax, a )  )
     a = 1.0* OR( birth , survi )  
     ##n753 = (diam*diam*filters.uniform_filter(n752,diam,mode='wrap')  )
     ##n754 = (diam*diam*filters.uniform_filter(n753,diam,mode='wrap')  )
@@ -53,7 +53,7 @@ for i in range(niter):
 #        print i, norm70
         print i
 
-##debug print shape(blo)
+##debug print shape(bmin)
 ##debug numpy.size(yy,0)
-##debug typename(blo)
+##debug typename(bmin)
 
