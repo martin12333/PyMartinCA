@@ -20,7 +20,7 @@ print 'np.random.seed()      '
 
 #in legacy  source code, by Martin Novy
 #diam == 2*r + 1
-###bfade, q, qqq may be related to Cc
+###parameters are described at PARAMETERS.txt
 #M1 or weighted
 #smin==smin
 #smax==smax

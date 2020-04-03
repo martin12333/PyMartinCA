@@ -1,0 +1,14 @@
+
+# bfade, q, qqq are purely visual ... not related to Cc
+
+
+###===================
+### a historical note
+### 
+### there was a mass-rename of 
+### sed   --regexp-extended    -i.sedzalo22 's/\bblo\b/bmin/g' **.py
+### sed   --regexp-extended    -i.sedza2 's/\bbhi\b/bmax/g' **.py
+### sed   --regexp-extended    -i.sedza3 's/\bslo\b/smin/g' **.py
+### sed   --regexp-extended    -i.sedza4 's/\bshi\b/smax/g' **.py
+### 
+### sed   --regexp-extended    -i.sedz5 's/bfade, q, qqq may be related to Cc/parameters are described at PARAMETERS.txt/g' **.py
