@@ -5,7 +5,7 @@
 from pylab import *
 import numpy as np
 np.random.seed()      
-print 'np.random.seed()      '
+#print 'np.random.seed()      '
 
 #=============================
 #a standard rule notation
@@ -83,9 +83,9 @@ bmax=xx
 smax=yy
 
 niter = 600 #400 #200 #1000 #3000   
-sli=    0 #0.3      #0.1 #0 #0.01
-skipy=5#4 #20 #8 #5 #1 #37 #2
-skip2=60#60 #120
+sleep1=    0 #0.3      #0.1 #0 #0.01
+step1=5#4 #20 #8 #5 #1 #37 #2
+step2=60#60 #120
 
 bfade = True  # False
 q = 0.1#0.7 #0.3 #0.1 #q = 1. / 2.

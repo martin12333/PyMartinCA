@@ -54,8 +54,8 @@ bmax=xx
 smax=yy
 
 niter = 3000   
-sli=0 #0.1 #0 #0.01
-skipy=5 #1 #37 #5 #2
+sleep1=0 #0.1 #0 #0.01
+step1=5 #1 #37 #5 #2
 
 bfade = True  # False
 q = 0.3 #0.1 #q = 1. / 2.

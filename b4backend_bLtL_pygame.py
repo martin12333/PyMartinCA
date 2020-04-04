@@ -26,7 +26,7 @@ for i in range(niter):
     ##matshow()
     ##drawnow()
     ###matplotlib.pyplot.show()
-    if (i % skipy)==0:
+    if (i % step1)==0:
         if bfade:
             #asho = (2 * a + averyold )/3
             #imagesc(abs(y-yveryold)')
@@ -41,7 +41,7 @@ for i in range(niter):
         else:
             asho=a
         adaimage = transpose( ( ( asho)))
-        ####print shape(image)
+        #####print shape(image)
         #b = array(255*clip(image,0,1),'B')
         b = array(255*clip(adaimage,0,1),'B')
         # #b = array(clip(transpose(xx),0,255),'B')
@@ -49,11 +49,11 @@ for i in range(niter):
         pygame.surfarray.blit_array(surface,b[:w,:h])
         screen.blit(surface,(0,0))
         pygame.display.flip()
-        time.sleep(sli)
-#        print i, norm70
-        print i
+        time.sleep(sleep1)
+#        #print i, norm70
+        #print i
 
-##debug print shape(bmin)
+##debug #print shape(bmin)
 ##debug numpy.size(yy,0)
 ##debug typename(bmin)
 

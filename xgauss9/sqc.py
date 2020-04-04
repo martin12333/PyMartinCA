@@ -5,7 +5,7 @@
 from pylab import *
 import numpy as np
 np.random.seed()      
-print 'np.random.seed()      '
+#print 'np.random.seed()      '
 
 #=============================
 #a standard rule notation
@@ -46,12 +46,12 @@ RT=np.zeros((States,Counts) , dtype=np.int)
 RT[0, bmin: (bmax+1)] = 1
 RT[1, smin: (smax+1)] = 1
 
-print RT
+#print RT
 
 ##xlo=14 ; dx52=9; ylo=16; dy52=8
 
 
-##print bmin,smin
+###print bmin,smin
 
 
 xlo -= 0.2 ; dx52 += 0.4; xhi=xlo+dx52
@@ -80,9 +80,9 @@ bmax=xx
 smax=yy
 
 niter = 600 #400 #200 #1000 #3000   
-sli=    0 #0.3      #0.1 #0 #0.01
-skipy=5#4 #20 #8 #5 #1 #37 #2
-skip2=60#60 #120
+sleep1=    0 #0.3      #0.1 #0 #0.01
+step1=5#4 #20 #8 #5 #1 #37 #2
+step2=60#60 #120
 
 bfade = True  # False
 q = 0.1#0.7 #0.3 #0.1 #q = 1. / 2.

@@ -60,8 +60,8 @@ smax=yy
 
 
 niter = 300    
-sli=0.1
-skipy=4 #2
+sleep1=0.1
+step1=4 #2
 
 q = 0.1
 qqq=8
@@ -103,7 +103,7 @@ for i in range(niter):
     ##matshow()
     ##drawnow()
     ###matplotlib.pyplot.show()
-    if (i % skipy)==0:
+    if (i % step1)==0:
         #asho = (2 * a + averyold )/3
         #imagesc(abs(y-yveryold)')
         #%imagesc((y-yveryold)')
@@ -118,10 +118,10 @@ for i in range(niter):
         ###imshow(asho)
         ##show()
         plt.draw()
-        time.sleep(sli)
-        print i
+        time.sleep(sleep1)
+        #print i
 
 
-##debug print shape(bmin)
+##debug #print shape(bmin)
 ##debug numpy.size(yy,0)
 ##debug typename(bmin)
