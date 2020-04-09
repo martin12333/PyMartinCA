@@ -58,7 +58,8 @@ for i in range(niter):
 #        #print i, norm70
         am51=a.mean()
         sam51='{:.3f}'.format(am51)
-        ada51=abs(da51)
+        ada51=abs(da51) # calls .__abs__
+        ##ada51=np.abs(da51)
         dam51=ada51.mean()
         sdam51='{:.3f}'.format(dam51)
         if (i % step2)==0:
