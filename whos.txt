@@ -1,0 +1,982 @@
+ALLOW_THREADS                int                           1
+Annotation                   type                          <class 'matplotlib.text.Annotation'>
+Arrow                        type                          <class 'matplotlib.patches.Arrow'>
+Artist                       type                          <class 'matplotlib.artist.Artist'>
+AutoLocator                  type                          <class 'matplotlib.ticker.AutoLocator'>
+Axes                         type                          <class 'matplotlib.axes._axes.Axes'>
+AxisError                    type                          <class 'numpy.core._internal.AxisError'>
+BUFSIZE                      int                           8192
+Button                       type                          <class 'matplotlib.widgets.Button'>
+CLIP                         int                           0
+Circle                       type                          <class 'matplotlib.patches.Circle'>
+ComplexWarning               type                          <class 'numpy.core.numeric.ComplexWarning'>
+DAILY                        int                           3
+DataSource                   type                          <class 'numpy.lib._datasource.DataSource'>
+DateFormatter                type                          <class 'matplotlib.dates.DateFormatter'>
+DateLocator                  type                          <class 'matplotlib.dates.DateLocator'>
+DayLocator                   type                          <class 'matplotlib.dates.DayLocator'>
+ERR_CALL                     int                           3
+ERR_DEFAULT                  int                           521
+ERR_IGNORE                   int                           0
+ERR_LOG                      int                           5
+ERR_PRINT                    int                           4
+ERR_RAISE                    int                           2
+ERR_WARN                     int                           1
+FLOATING_POINT_SUPPORT       int                           1
+FPE_DIVIDEBYZERO             int                           1
+FPE_INVALID                  int                           8
+FPE_OVERFLOW                 int                           2
+FPE_UNDERFLOW                int                           4
+FR                           weekday                       FR
+False_                       bool_                         False
+Figure                       type                          <class 'matplotlib.figure.Figure'>
+FigureCanvasBase             type                          <class 'matplotlib.backen<...>_bases.FigureCanvasBase'>
+FixedFormatter               type                          <class 'matplotlib.ticker.FixedFormatter'>
+FixedLocator                 type                          <class 'matplotlib.ticker.FixedLocator'>
+FormatStrFormatter           type                          <class 'matplotlib.ticker.FormatStrFormatter'>
+Formatter                    type                          <class 'matplotlib.ticker.Formatter'>
+FuncFormatter                type                          <class 'matplotlib.ticker.FuncFormatter'>
+GridSpec                     type                          <class 'matplotlib.gridspec.GridSpec'>
+HOURLY                       int                           4
+HourLocator                  type                          <class 'matplotlib.dates.HourLocator'>
+IndexDateFormatter           type                          <class 'matplotlib.dates.IndexDateFormatter'>
+IndexLocator                 type                          <class 'matplotlib.ticker.IndexLocator'>
+Inf                          float                         inf
+Infinity                     float                         inf
+LinAlgError                  type                          <class 'numpy.linalg.linalg.LinAlgError'>
+Line2D                       type                          <class 'matplotlib.lines.Line2D'>
+LinearLocator                type                          <class 'matplotlib.ticker.LinearLocator'>
+Locator                      type                          <class 'matplotlib.ticker.Locator'>
+LogFormatter                 type                          <class 'matplotlib.ticker.LogFormatter'>
+LogFormatterExponent         type                          <class 'matplotlib.ticker.LogFormatterExponent'>
+LogFormatterMathtext         type                          <class 'matplotlib.ticker.LogFormatterMathtext'>
+LogLocator                   type                          <class 'matplotlib.ticker.LogLocator'>
+MAXDIMS                      int                           32
+MAY_SHARE_BOUNDS             int                           0
+MAY_SHARE_EXACT              int                           -1
+MINUTELY                     int                           5
+MO                           weekday                       MO
+MONTHLY                      int                           1
+MachAr                       type                          <class 'numpy.core.machar.MachAr'>
+MaxNLocator                  type                          <class 'matplotlib.ticker.MaxNLocator'>
+MinuteLocator                type                          <class 'matplotlib.dates.MinuteLocator'>
+ModuleDeprecationWarning     type                          <class 'numpy._globals.ModuleDeprecationWarning'>
+MonthLocator                 type                          <class 'matplotlib.dates.MonthLocator'>
+MultipleLocator              type                          <class 'matplotlib.ticker.MultipleLocator'>
+NAN                          float                         nan
+NINF                         float                         -inf
+NZERO                        float                         -0.0
+NaN                          float                         nan
+Normalize                    type                          <class 'matplotlib.colors.Normalize'>
+NullFormatter                type                          <class 'matplotlib.ticker.NullFormatter'>
+NullLocator                  type                          <class 'matplotlib.ticker.NullLocator'>
+PINF                         float                         inf
+PZERO                        float                         0.0
+PackageLoader                type                          <class 'numpy._import_tools.PackageLoader'>
+PolarAxes                    type                          <class 'matplotlib.projections.polar.PolarAxes'>
+Polygon                      type                          <class 'matplotlib.patches.Polygon'>
+RAISE                        int                           2
+RRuleLocator                 type                          <class 'matplotlib.dates.RRuleLocator'>
+RankWarning                  type                          <class 'numpy.lib.polynomial.RankWarning'>
+Rectangle                    type                          <class 'matplotlib.patches.Rectangle'>
+SA                           weekday                       SA
+SECONDLY                     int                           6
+SHIFT_DIVIDEBYZERO           int                           0
+SHIFT_INVALID                int                           9
+SHIFT_OVERFLOW               int                           3
+SHIFT_UNDERFLOW              int                           6
+SU                           weekday                       SU
+ScalarFormatter              type                          <class 'matplotlib.ticker.ScalarFormatter'>
+ScalarType                   tuple                         n=32
+SecondLocator                type                          <class 'matplotlib.dates.SecondLocator'>
+Slider                       type                          <class 'matplotlib.widgets.Slider'>
+Subplot                      type                          <class 'matplotlib.axes._subplots.AxesSubplot'>
+SubplotTool                  type                          <class 'matplotlib.widgets.SubplotTool'>
+TH                           weekday                       TH
+TU                           weekday                       TU
+Text                         type                          <class 'matplotlib.text.Text'>
+TickHelper                   type                          <class 'matplotlib.ticker.TickHelper'>
+TooHardError                 type                          <class 'numpy.core._internal.TooHardError'>
+True_                        bool_                         True
+UFUNC_BUFSIZE_DEFAULT        int                           8192
+UFUNC_PYVALS_NAME            str                           UFUNC_PYVALS
+VisibleDeprecationWarning    type                          <class 'numpy._globals.Vi<...>sibleDeprecationWarning'>
+WE                           weekday                       WE
+WEEKLY                       int                           2
+WRAP                         int                           1
+WeekdayLocator               type                          <class 'matplotlib.dates.WeekdayLocator'>
+Widget                       type                          <class 'matplotlib.widgets.Widget'>
+YEARLY                       int                           0
+YearLocator                  type                          <class 'matplotlib.dates.YearLocator'>
+absolute                     ufunc                         <ufunc 'absolute'>
+absolute_import              __future__._Feature           _Feature((2, 5, 0, 'alpha<...>0, 0, 'alpha', 0), 16384)
+acorr                        function                      <function acorr at 0x7f7d8cbcded0>
+add                          ufunc                         <ufunc 'add'>
+add_docstring                builtin_function_or_method    <built-in function add_docstring>
+add_newdoc                   function                      <function add_newdoc at 0x7f7d9c4e9ad0>
+add_newdoc_ufunc             builtin_function_or_method    <built-in function _add_newdoc_ufunc>
+add_newdocs                  module                        <module 'numpy.add_newdoc<...>s/numpy/add_newdocs.pyc'>
+alen                         function                      <function alen at 0x7f7da18dc650>
+all                          function                      <function all at 0x7f7da18dc350>
+allclose                     function                      <function allclose at 0x7f7da18dde50>
+alltrue                      function                      <function alltrue at 0x7f7da18dc250>
+amap                         function                      <function amap at 0x7f7d95b87c50>
+amax                         function                      <function amax at 0x7f7da18dc550>
+amin                         function                      <function amin at 0x7f7da18dc5d0>
+angle                        function                      <function angle at 0x7f7d9c4e5750>
+angle_spectrum               function                      <function angle_spectrum at 0x7f7d8cbcdf50>
+annotate                     function                      <function annotate at 0x7f7d8cbd2dd0>
+any                          function                      <function any at 0x7f7da18dc2d0>
+append                       function                      <function append at 0x7f7d9c4e9cd0>
+apply_along_axis             function                      <function apply_along_axis at 0x7f7d9c50a4d0>
+apply_over_axes              function                      <function apply_over_axes at 0x7f7d9c50a550>
+arange                       builtin_function_or_method    <built-in function arange>
+arccos                       ufunc                         <ufunc 'arccos'>
+arccosh                      ufunc                         <ufunc 'arccosh'>
+arcsin                       ufunc                         <ufunc 'arcsin'>
+arcsinh                      ufunc                         <ufunc 'arcsinh'>
+arctan                       ufunc                         <ufunc 'arctan'>
+arctan2                      ufunc                         <ufunc 'arctan2'>
+arctanh                      ufunc                         <ufunc 'arctanh'>
+argmax                       function                      <function argmax at 0x7f7da18dba50>
+argmin                       function                      <function argmin at 0x7f7da18dbad0>
+argpartition                 function                      <function argpartition at 0x7f7da18db8d0>
+argsort                      function                      <function argsort at 0x7f7da18db9d0>
+argwhere                     function                      <function argwhere at 0x7f7da18c5cd0>
+around                       function                      <function around at 0x7f7da18dc950>
+array                        builtin_function_or_method    <built-in function array>
+array2string                 function                      <function array2string at 0x7f7da18dd2d0>
+array_equal                  function                      <function array_equal at 0x7f7da18ddf50>
+array_equiv                  function                      <function array_equiv at 0x7f7da18de050>
+array_repr                   function                      <function array_repr at 0x7f7da18ca8d0>
+array_split                  function                      <function array_split at 0x7f7d9c50a7d0>
+array_str                    function                      <function array_str at 0x7f7da18caad0>
+arrow                        function                      <function arrow at 0x7f7d8cbd1050>
+asanyarray                   function                      <function asanyarray at 0x7f7da18c5a50>
+asarray                      function                      <function asarray at 0x7f7da18c59d0>
+asarray_chkfinite            function                      <function asarray_chkfinite at 0x7f7d9c4e53d0>
+ascontiguousarray            function                      <function ascontiguousarray at 0x7f7da18c5ad0>
+asfarray                     function                      <function asfarray at 0x7f7d9c547ad0>
+asfortranarray               function                      <function asfortranarray at 0x7f7da18c5b50>
+asmatrix                     function                      <function asmatrix at 0x7f7d9c4ef5d0>
+asscalar                     function                      <function asscalar at 0x7f7d9c549050>
+atleast_1d                   function                      <function atleast_1d at 0x7f7da18965d0>
+atleast_2d                   function                      <function atleast_2d at 0x7f7da1896650>
+atleast_3d                   function                      <function atleast_3d at 0x7f7da18966d0>
+autoscale                    function                      <function autoscale at 0x7f7d8cbd40d0>
+autumn                       function                      <function autumn at 0x7f7d8cbcddd0>
+average                      function                      <function average at 0x7f7d9c4e5350>
+axes                         function                      <function axes at 0x7f7d8cbca1d0>
+axhline                      function                      <function axhline at 0x7f7d8cbd10d0>
+axhspan                      function                      <function axhspan at 0x7f7d8cbd1150>
+axis                         function                      <function axis at 0x7f7d8cbcabd0>
+axvline                      function                      <function axvline at 0x7f7d8cbd11d0>
+axvspan                      function                      <function axvspan at 0x7f7d8cbd1250>
+bar                          function                      <function bar at 0x7f7d8cbd12d0>
+barbs                        function                      <function barbs at 0x7f7d8cbd2ad0>
+barh                         function                      <function barh at 0x7f7d8cbd1350>
+bartlett                     function                      <function bartlett at 0x7f7d9c4e92d0>
+base_repr                    function                      <function base_repr at 0x7f7da18cd350>
+bench                        instancemethod                <bound method NoseTester.<...>bject at 0x7f7d9c51f450>>
+beta                         builtin_function_or_method    <built-in method beta of <...>object at 0x7f7d9c0248c0>
+binary_repr                  function                      <function binary_repr at 0x7f7da18cd1d0>
+bincount                     builtin_function_or_method    <built-in function bincount>
+binomial                     builtin_function_or_method    <built-in method binomial<...>object at 0x7f7d9c0248c0>
+bitwise_and                  ufunc                         <ufunc 'bitwise_and'>
+bitwise_not                  ufunc                         <ufunc 'invert'>
+bitwise_or                   ufunc                         <ufunc 'bitwise_or'>
+bitwise_xor                  ufunc                         <ufunc 'bitwise_xor'>
+bivariate_normal             function                      <function bivariate_normal at 0x7f7d95b877d0>
+blackman                     function                      <function blackman at 0x7f7d9c4e9250>
+block                        function                      <function block at 0x7f7da18968d0>
+bmat                         function                      <function bmat at 0x7f7d9c4f38d0>
+bone                         function                      <function bone at 0x7f7d8cbd4150>
+bool8                        type                          <type 'numpy.bool_'>
+bool_                        type                          <type 'numpy.bool_'>
+box                          function                      <function box at 0x7f7d8cbcaad0>
+boxplot                      function                      <function boxplot at 0x7f7d8cbd1450>
+broadcast                    type                          <type 'numpy.broadcast'>
+broadcast_arrays             function                      <function broadcast_arrays at 0x7f7d9c4f51d0>
+broadcast_to                 function                      <function broadcast_to at 0x7f7d9c4f50d0>
+broken_barh                  function                      <function broken_barh at 0x7f7d8cbd13d0>
+busday_count                 builtin_function_or_method    <built-in function busday_count>
+busday_offset                builtin_function_or_method    <built-in function busday_offset>
+busdaycalendar               type                          <type 'numpy.busdaycalendar'>
+byte                         type                          <type 'numpy.int8'>
+byte_bounds                  function                      <function byte_bounds at 0x7f7d9c53af50>
+bytes                        type                          <type 'str'>
+bytes_                       type                          <type 'numpy.string_'>
+c_                           CClass                        <numpy.lib.index_tricks.C<...>object at 0x7f7d9c4f1710>
+can_cast                     builtin_function_or_method    <built-in function can_cast>
+cast                         _typedict                     {<type 'numpy.complex128'<...>mbda> at 0x7f7d9db08ed0>}
+cbook                        module                        <module 'matplotlib.cbook<...>tlib/cbook/__init__.pyc'>
+cbrt                         ufunc                         <ufunc 'cbrt'>
+cdouble                      type                          <type 'numpy.complex128'>
+ceil                         ufunc                         <ufunc 'ceil'>
+center_matrix                function                      <function center_matrix at 0x7f7d95b876d0>
+cfloat                       type                          <type 'numpy.complex128'>
+char                         module                        <module 'numpy.core.defch<...>y/core/defchararray.pyc'>
+character                    type                          <type 'numpy.character'>
+chararray                    type                          <class 'numpy.core.defchararray.chararray'>
+chisquare                    builtin_function_or_method    <built-in method chisquar<...>object at 0x7f7d9c0248c0>
+choice                       builtin_function_or_method    <built-in method choice o<...>object at 0x7f7d9c0248c0>
+cholesky                     function                      <function cholesky at 0x7f7d9c4a8450>
+choose                       function                      <function choose at 0x7f7da18db5d0>
+cla                          function                      <function cla at 0x7f7d8cbd2b50>
+clabel                       function                      <function clabel at 0x7f7d8cbd1550>
+clf                          function                      <function clf at 0x7f7d8cbc8cd0>
+clim                         function                      <function clim at 0x7f7d8cbcd650>
+clip                         function                      <function clip at 0x7f7da18dc050>
+clongdouble                  type                          <type 'numpy.complex256'>
+clongfloat                   type                          <type 'numpy.complex256'>
+close                        function                      <function close at 0x7f7d8cbc8b50>
+cm                           module                        <module 'matplotlib.cm' f<...>kages/matplotlib/cm.pyc'>
+cohere                       function                      <function cohere at 0x7f7d8cbd14d0>
+colorbar                     function                      <function colorbar at 0x7f7d8cbcd5d0>
+colormaps                    function                      <function colormaps at 0x7f7d8cbcd3d0>
+colors                       function                      <function colors at 0x7f7d8cbcd550>
+column_stack                 function                      <function column_stack at 0x7f7d9c50a650>
+common_type                  function                      <function common_type at 0x7f7d9c549150>
+compare_chararrays           builtin_function_or_method    <built-in function compare_chararrays>
+complex128                   type                          <type 'numpy.complex128'>
+complex256                   type                          <type 'numpy.complex256'>
+complex64                    type                          <type 'numpy.complex64'>
+complex_                     type                          <type 'numpy.complex128'>
+complexfloating              type                          <type 'numpy.complexfloating'>
+compress                     function                      <function compress at 0x7f7da18dbf50>
+concatenate                  builtin_function_or_method    <built-in function concatenate>
+cond                         function                      <function cond at 0x7f7d9c4a8850>
+conj                         ufunc                         <ufunc 'conjugate'>
+conjugate                    ufunc                         <ufunc 'conjugate'>
+connect                      function                      <function connect at 0x7f7d8cbc8bd0>
+contour                      function                      <function contour at 0x7f7d8cbd15d0>
+contourf                     function                      <function contourf at 0x7f7d8cbd1650>
+convolve                     function                      <function convolve at 0x7f7da18c5ed0>
+cool                         function                      <function cool at 0x7f7d8cbd41d0>
+copper                       function                      <function copper at 0x7f7d8cbd4250>
+copy                         function                      <function copy at 0x7f7d9c4e5550>
+copysign                     ufunc                         <ufunc 'copysign'>
+copyto                       builtin_function_or_method    <built-in function copyto>
+corrcoef                     function                      <function corrcoef at 0x7f7d9c4e91d0>
+correlate                    function                      <function correlate at 0x7f7da18c5e50>
+cos                          ufunc                         <ufunc 'cos'>
+cosh                         ufunc                         <ufunc 'cosh'>
+count_nonzero                function                      <function count_nonzero at 0x7f7da18c5950>
+cov                          function                      <function cov at 0x7f7d9c4e5e50>
+cross                        function                      <function cross at 0x7f7da18c8350>
+csd                          function                      <function csd at 0x7f7d8cbd16d0>
+csingle                      type                          <type 'numpy.complex64'>
+csv2rec                      function                      <function csv2rec at 0x7f7d95b93750>
+ctypeslib                    module                        <module 'numpy.ctypeslib'<...>ges/numpy/ctypeslib.pyc'>
+cumprod                      function                      <function cumprod at 0x7f7da18dc750>
+cumproduct                   function                      <function cumproduct at 0x7f7da18dc450>
+cumsum                       function                      <function cumsum at 0x7f7da18dc3d0>
+cycler                       function                      <function cycler at 0x7f7d96413e50>
+date2num                     function                      <function date2num at 0x7f7d962b35d0>
+datestr2num                  function                      <function datestr2num at 0x7f7d962af150>
+datetime                     module                        <module 'datetime' (built-in)>
+datetime64                   type                          <type 'numpy.datetime64'>
+datetime_as_string           builtin_function_or_method    <built-in function datetime_as_string>
+datetime_data                builtin_function_or_method    <built-in function datetime_data>
+dedent                       function                      <function dedent at 0x7f7d967c1bd0>
+deg2rad                      ufunc                         <ufunc 'deg2rad'>
+degrees                      ufunc                         <ufunc 'degrees'>
+delaxes                      function                      <function delaxes at 0x7f7d8cbca4d0>
+delete                       function                      <function delete at 0x7f7d9c4e9bd0>
+demean                       function                      <function demean at 0x7f7d95b8b1d0>
+deprecate                    function                      <function deprecate at 0x7f7d9c53ad50>
+deprecate_with_doc           function                      <function <lambda> at 0x7f7d9c53aed0>
+deprecated                   function                      <function deprecated at 0x7f7d9d242a50>
+det                          function                      <function det at 0x7f7d9c4a8a50>
+detrend                      function                      <function detrend at 0x7f7d95b8be50>
+detrend_linear               function                      <function detrend_linear at 0x7f7d95b8bed0>
+detrend_mean                 function                      <function detrend_mean at 0x7f7d95b8b650>
+detrend_none                 function                      <function detrend_none at 0x7f7d95b8bdd0>
+diag                         function                      <function diag at 0x7f7d9c4e3750>
+diag_indices                 function                      <function diag_indices at 0x7f7d9c4f5b50>
+diag_indices_from            function                      <function diag_indices_from at 0x7f7d9c4f5bd0>
+diagflat                     function                      <function diagflat at 0x7f7d9c4e37d0>
+diagonal                     function                      <function diagonal at 0x7f7da18dbcd0>
+diff                         function                      <function diff at 0x7f7d9c4e5650>
+digitize                     builtin_function_or_method    <built-in function digitize>
+dirichlet                    builtin_function_or_method    <built-in method dirichle<...>object at 0x7f7d9c0248c0>
+disconnect                   function                      <function disconnect at 0x7f7d8cbc8c50>
+disp                         function                      <function disp at 0x7f7d9c4e5b50>
+dist                         function                      <function dist at 0x7f7d95b87950>
+dist_point_to_segment        function                      <function dist_point_to_s<...>egment at 0x7f7d95b879d0>
+distances_along_curve        function                      <function distances_along<...>_curve at 0x7f7d95b96ed0>
+divide                       ufunc                         <ufunc 'divide'>
+division                     __future__._Feature           _Feature((2, 2, 0, 'alpha<...> 0, 0, 'alpha', 0), 8192)
+divmod                       ufunc                         <ufunc 'divmod'>
+docstring                    module                        <module 'matplotlib.docst<...>atplotlib/docstring.pyc'>
+dot                          builtin_function_or_method    <built-in function dot>
+double                       type                          <type 'numpy.float64'>
+drange                       function                      <function drange at 0x7f7d962b64d0>
+draw                         function                      <function draw at 0x7f7d8cbc8d50>
+draw_all                     instancemethod                <bound method type.draw_a<...>lib._pylab_helpers.Gcf'>>
+draw_if_interactive          instancemethod                <bound method type.draw_i<...>nd_tkagg._BackendTkAgg'>>
+dsplit                       function                      <function dsplit at 0x7f7d9c50a9d0>
+dstack                       function                      <function dstack at 0x7f7d9c50a6d0>
+dtype                        type                          <type 'numpy.dtype'>
+e                            float                         2.71828182846
+ediff1d                      function                      <function ediff1d at 0x7f7d9c4ac750>
+eig                          function                      <function eig at 0x7f7d9c4a86d0>
+eigh                         function                      <function eigh at 0x7f7d9c4a8750>
+eigvals                      function                      <function eigvals at 0x7f7d9c4a8550>
+eigvalsh                     function                      <function eigvalsh at 0x7f7d9c4a85d0>
+einsum                       function                      <function einsum at 0x7f7da189c4d0>
+einsum_path                  function                      <function einsum_path at 0x7f7da189c450>
+emath                        module                        <module 'numpy.lib.scimat<...>s/numpy/lib/scimath.pyc'>
+empty                        builtin_function_or_method    <built-in function empty>
+empty_like                   builtin_function_or_method    <built-in function empty_like>
+entropy                      function                      <function entropy at 0x7f7d95b87150>
+epoch2num                    function                      <function epoch2num at 0x7f7d95c6f5d0>
+equal                        ufunc                         <ufunc 'equal'>
+errorbar                     function                      <function errorbar at 0x7f7d8cbd1750>
+errstate                     type                          <class 'numpy.core.numeric.errstate'>
+euler_gamma                  float                         0.577215664902
+eventplot                    function                      <function eventplot at 0x7f7d8cbd17d0>
+exception_to_str             function                      <function exception_to_str at 0x7f7d967c3dd0>
+exp                          ufunc                         <ufunc 'exp'>
+exp2                         ufunc                         <ufunc 'exp2'>
+exp_safe                     function                      <function exp_safe at 0x7f7d95b87bd0>
+expand_dims                  function                      <function expand_dims at 0x7f7d9c50a5d0>
+expm1                        ufunc                         <ufunc 'expm1'>
+exponential                  builtin_function_or_method    <built-in method exponent<...>object at 0x7f7d9c0248c0>
+extract                      function                      <function extract at 0x7f7d9c4e5a50>
+eye                          function                      <function eye at 0x7f7d9c4e36d0>
+f                            builtin_function_or_method    <built-in method f of mtr<...>object at 0x7f7d9c0248c0>
+fabs                         ufunc                         <ufunc 'fabs'>
+fastCopyAndTranspose         builtin_function_or_method    <built-in function _fastCopyAndTranspose>
+fft                          function                      <function fft at 0x7f7da18f5c50>
+fft2                         function                      <function fft2 at 0x7f7d9c057450>
+fftfreq                      function                      <function fftfreq at 0x7f7da18f5b50>
+fftn                         function                      <function fftn at 0x7f7d9c057350>
+fftpack                      module                        <module 'numpy.fft.fftpac<...>s/numpy/fft/fftpack.pyc'>
+fftpack_lite                 module                        <module 'numpy.fft.fftpac<...>ite.x86_64-linux-gnu.so'>
+fftshift                     function                      <function fftshift at 0x7f7da18f5a50>
+fftsurr                      function                      <function fftsurr at 0x7f7d95b87ad0>
+figaspect                    function                      <function figaspect at 0x7f7d8f48cd50>
+figimage                     function                      <function figimage at 0x7f7d8cbca150>
+figlegend                    function                      <function figlegend at 0x7f7d8cbc8dd0>
+fignum_exists                function                      <function fignum_exists at 0x7f7d8cbc8950>
+figtext                      function                      <function figtext at 0x7f7d8cbca050>
+figure                       function                      <function figure at 0x7f7d8cbc87d0>
+fill                         function                      <function fill at 0x7f7d8cbd1850>
+fill_between                 function                      <function fill_between at 0x7f7d8cbd18d0>
+fill_betweenx                function                      <function fill_betweenx at 0x7f7d8cbd1950>
+fill_diagonal                function                      <function fill_diagonal at 0x7f7d9c4f5550>
+find                         function                      <function find at 0x7f7d95b87250>
+find_common_type             function                      <function find_common_type at 0x7f7d9d23ebd0>
+findobj                      function                      <function findobj at 0x7f7d8f378ed0>
+finfo                        type                          <class 'numpy.core.getlimits.finfo'>
+fix                          function                      <function fix at 0x7f7d9c547850>
+flag                         function                      <function flag at 0x7f7d8cbd42d0>
+flatiter                     type                          <type 'numpy.flatiter'>
+flatnonzero                  function                      <function flatnonzero at 0x7f7da18c5d50>
+flatten                      function                      <function flatten at 0x7f7d967c1650>
+flexible                     type                          <type 'numpy.flexible'>
+flip                         function                      <function flip at 0x7f7d9c4e3d50>
+fliplr                       function                      <function fliplr at 0x7f7d9c4e35d0>
+flipud                       function                      <function flipud at 0x7f7d9c4e3650>
+float128                     type                          <type 'numpy.float128'>
+float16                      type                          <type 'numpy.float16'>
+float32                      type                          <type 'numpy.float32'>
+float64                      type                          <type 'numpy.float64'>
+float_                       type                          <type 'numpy.float64'>
+float_power                  ufunc                         <ufunc 'float_power'>
+floating                     type                          <type 'numpy.floating'>
+floor                        ufunc                         <ufunc 'floor'>
+floor_divide                 ufunc                         <ufunc 'floor_divide'>
+fmax                         ufunc                         <ufunc 'fmax'>
+fmin                         ufunc                         <ufunc 'fmin'>
+fmod                         ufunc                         <ufunc 'fmod'>
+format_parser                classobj                      numpy.core.records.format_parser
+frange                       function                      <function frange at 0x7f7d95b87ed0>
+frexp                        ufunc                         <ufunc 'frexp'>
+frombuffer                   builtin_function_or_method    <built-in function frombuffer>
+fromfile                     builtin_function_or_method    <built-in function fromfile>
+fromfunction                 function                      <function fromfunction at 0x7f7da18cd850>
+fromiter                     builtin_function_or_method    <built-in function fromiter>
+frompyfunc                   builtin_function_or_method    <built-in function frompyfunc>
+fromregex                    function                      <function fromregex at 0x7f7d9c4d1ad0>
+fromstring                   builtin_function_or_method    <built-in function fromstring>
+full                         function                      <function full at 0x7f7da18c57d0>
+full_like                    function                      <function full_like at 0x7f7da18c5850>
+fv                           function                      <function fv at 0x7f7d9c4cca50>
+gamma                        builtin_function_or_method    <built-in method gamma of<...>object at 0x7f7d9c0248c0>
+gca                          function                      <function gca at 0x7f7d8cbca650>
+gcf                          function                      <function gcf at 0x7f7d8cbc88d0>
+gci                          function                      <function gci at 0x7f7d8f383150>
+generic                      type                          <type 'numpy.generic'>
+genfromtxt                   function                      <function genfromtxt at 0x7f7d9c4d1b50>
+geometric                    builtin_function_or_method    <built-in method geometri<...>object at 0x7f7d9c0248c0>
+geomspace                    function                      <function geomspace at 0x7f7da1884650>
+get                          function                      <function getp at 0x7f7d95bdc150>
+get_array_wrap               function                      <function get_array_wrap at 0x7f7d9c50aad0>
+get_backend                  function                      <function get_backend at 0x7f7d963782d0>
+get_cmap                     function                      <function get_cmap at 0x7f7d95bbd050>
+get_current_fig_manager      function                      <function get_current_fig<...>anager at 0x7f7d8cbc8ad0>
+get_figlabels                function                      <function get_figlabels at 0x7f7d8cbc8a50>
+get_fignums                  function                      <function get_fignums at 0x7f7d8cbc89d0>
+get_include                  function                      <function get_include at 0x7f7d9c53ac50>
+get_plot_commands            function                      <function get_plot_commands at 0x7f7d8cbcd350>
+get_printoptions             function                      <function get_printoptions at 0x7f7da18dccd0>
+get_scale_docs               function                      <function get_scale_docs at 0x7f7d8f4c2f50>
+get_scale_names              function                      <function get_scale_names at 0x7f7d8f4bb850>
+get_sparse_matrix            function                      <function get_sparse_matrix at 0x7f7d95b878d0>
+get_state                    builtin_function_or_method    <built-in method get_stat<...>object at 0x7f7d9c0248c0>
+get_xyz_where                function                      <function get_xyz_where at 0x7f7d95b87850>
+getbuffer                    builtin_function_or_method    <built-in function getbuffer>
+getbufsize                   function                      <function getbufsize at 0x7f7da18de250>
+geterr                       function                      <function geterr at 0x7f7da18de150>
+geterrcall                   function                      <function geterrcall at 0x7f7da18de350>
+geterrobj                    builtin_function_or_method    <built-in function geterrobj>
+getp                         function                      <function getp at 0x7f7d95bdc150>
+ginput                       function                      <function ginput at 0x7f7d8cbc8ed0>
+gradient                     function                      <function gradient at 0x7f7d9c4e55d0>
+gray                         function                      <function gray at 0x7f7d8cbd4350>
+greater                      ufunc                         <ufunc 'greater'>
+greater_equal                ufunc                         <ufunc 'greater_equal'>
+grid                         function                      <function grid at 0x7f7d8cbd2bd0>
+griddata                     function                      <function griddata at 0x7f7d95b966d0>
+gumbel                       builtin_function_or_method    <built-in method gumbel o<...>object at 0x7f7d9c0248c0>
+half                         type                          <type 'numpy.float16'>
+hamming                      function                      <function hamming at 0x7f7d9c4e93d0>
+hanning                      function                      <function hanning at 0x7f7d9c4e9350>
+heaviside                    ufunc                         <ufunc 'heaviside'>
+helper                       module                        <module 'numpy.fft.helper<...>es/numpy/fft/helper.pyc'>
+hexbin                       function                      <function hexbin at 0x7f7d8cbd19d0>
+hfft                         function                      <function hfft at 0x7f7d9c057150>
+hist                         function                      <function hist at 0x7f7d8cbd1a50>
+hist2d                       function                      <function hist2d at 0x7f7d8cbd1ad0>
+histogram                    function                      <function histogram at 0x7f7d9c4e5250>
+histogram2d                  function                      <function histogram2d at 0x7f7d9c4e3a50>
+histogramdd                  function                      <function histogramdd at 0x7f7d9c4e52d0>
+hlines                       function                      <function hlines at 0x7f7d8cbd1bd0>
+hold                         function                      <function hold at 0x7f7d8cbca350>
+hot                          function                      <function hot at 0x7f7d8cbd43d0>
+hsplit                       function                      <function hsplit at 0x7f7d9c50a8d0>
+hstack                       function                      <function hstack at 0x7f7da18967d0>
+hsv                          function                      <function hsv at 0x7f7d8cbd4450>
+hypergeometric               builtin_function_or_method    <built-in method hypergeo<...>object at 0x7f7d9c0248c0>
+hypot                        ufunc                         <ufunc 'hypot'>
+i0                           function                      <function i0 at 0x7f7d9c4e95d0>
+identity                     function                      <function identity at 0x7f7da18dd5d0>
+ifft                         function                      <function ifft at 0x7f7da18f5f50>
+ifft2                        function                      <function ifft2 at 0x7f7d9c0574d0>
+ifftn                        function                      <function ifftn at 0x7f7d9c0573d0>
+ifftshift                    function                      <function ifftshift at 0x7f7da18f5ad0>
+ihfft                        function                      <function ihfft at 0x7f7d9c0571d0>
+iinfo                        type                          <class 'numpy.core.getlimits.iinfo'>
+imag                         function                      <function imag at 0x7f7d9c547bd0>
+imread                       function                      <function imread at 0x7f7d8cbcd7d0>
+imsave                       function                      <function imsave at 0x7f7d8cbcd850>
+imshow                       function                      <function imshow at 0x7f7d8cbd1c50>
+in1d                         function                      <function in1d at 0x7f7d9c4ac9d0>
+index_exp                    IndexExpression               <numpy.lib.index_tricks.I<...>object at 0x7f7d9c4f1550>
+indices                      function                      <function indices at 0x7f7da18cadd0>
+inexact                      type                          <type 'numpy.inexact'>
+inf                          float                         inf
+inferno                      function                      <function inferno at 0x7f7d8cbd4850>
+info                         module                        <module 'numpy.linalg.inf<...>s/numpy/linalg/info.pyc'>
+infty                        float                         inf
+inner                        builtin_function_or_method    <built-in function inner>
+insert                       function                      <function insert at 0x7f7d9c4e9c50>
+inside_poly                  function                      <function inside_poly at 0x7f7d95b968d0>
+install_repl_displayhook     function                      <function install_repl_di<...>ayhook at 0x7f7d8f371750>
+int0                         type                          <type 'numpy.int64'>
+int16                        type                          <type 'numpy.int16'>
+int32                        type                          <type 'numpy.int32'>
+int64                        type                          <type 'numpy.int64'>
+int8                         type                          <type 'numpy.int8'>
+int_                         type                          <type 'numpy.int64'>
+int_asbuffer                 builtin_function_or_method    <built-in function int_asbuffer>
+intc                         type                          <type 'numpy.int32'>
+integer                      type                          <type 'numpy.integer'>
+interactive                  function                      <function interactive at 0x7f7d96378350>
+interp                       function                      <function interp at 0x7f7d9c4e56d0>
+intersect1d                  function                      <function intersect1d at 0x7f7d9c4ac8d0>
+intp                         type                          <type 'numpy.int64'>
+inv                          function                      <function inv at 0x7f7d9c4a83d0>
+invert                       ufunc                         <ufunc 'invert'>
+ioff                         function                      <function ioff at 0x7f7d8f37ff50>
+ion                          function                      <function ion at 0x7f7d8f3830d0>
+ipmt                         function                      <function ipmt at 0x7f7d9c4ccbd0>
+irfft                        function                      <function irfft at 0x7f7d9c0570d0>
+irfft2                       function                      <function irfft2 at 0x7f7d9c0576d0>
+irfftn                       function                      <function irfftn at 0x7f7d9c057650>
+irr                          function                      <function irr at 0x7f7d9c4cced0>
+is_busday                    builtin_function_or_method    <built-in function is_busday>
+is_closed_polygon            function                      <function is_closed_polygon at 0x7f7d95b96c50>
+is_numlike                   function                      <function is_numlike at 0x7f7d967c12d0>
+isclose                      function                      <function isclose at 0x7f7da18dded0>
+iscomplex                    function                      <function iscomplex at 0x7f7d9c547c50>
+iscomplexobj                 function                      <function iscomplexobj at 0x7f7d9c547d50>
+isfinite                     ufunc                         <ufunc 'isfinite'>
+isfortran                    function                      <function isfortran at 0x7f7da18c5c50>
+ishold                       function                      <function ishold at 0x7f7d8cbca450>
+isin                         function                      <function isin at 0x7f7d9c4aca50>
+isinf                        ufunc                         <ufunc 'isinf'>
+isinteractive                function                      <function isinteractive at 0x7f7d8f37fcd0>
+isnan                        ufunc                         <ufunc 'isnan'>
+isnat                        ufunc                         <ufunc 'isnat'>
+isneginf                     function                      <function isneginf at 0x7f7d9c547a50>
+isposinf                     function                      <function isposinf at 0x7f7d9c547950>
+ispower2                     function                      <function ispower2 at 0x7f7d95b931d0>
+isreal                       function                      <function isreal at 0x7f7d9c547cd0>
+isrealobj                    function                      <function isrealobj at 0x7f7d9c547dd0>
+isscalar                     function                      <function isscalar at 0x7f7da18cd050>
+issctype                     function                      <function issctype at 0x7f7da18beed0>
+issubclass_                  function                      <function issubclass_ at 0x7f7d9db08050>
+issubdtype                   function                      <function issubdtype at 0x7f7d9db08150>
+issubsctype                  function                      <function issubsctype at 0x7f7d9db080d0>
+isvector                     function                      <function isvector at 0x7f7d95b93250>
+iterable                     function                      <function iterable at 0x7f7d9c4e3dd0>
+ix_                          function                      <function ix_ at 0x7f7d9c4f3dd0>
+jet                          function                      <function jet at 0x7f7d8cbd44d0>
+kaiser                       function                      <function kaiser at 0x7f7d9c4e9650>
+kron                         function                      <function kron at 0x7f7d9c50ab50>
+l1norm                       function                      <function l1norm at 0x7f7d95b87d50>
+l2norm                       function                      <function l2norm at 0x7f7d95b87dd0>
+lapack_lite                  module                        <module 'numpy.linalg.lap<...>ite.x86_64-linux-gnu.so'>
+laplace                      builtin_function_or_method    <built-in method laplace <...>object at 0x7f7d9c0248c0>
+ldexp                        ufunc                         <ufunc 'ldexp'>
+left_shift                   ufunc                         <ufunc 'left_shift'>
+legend                       function                      <function legend at 0x7f7d8cbd2c50>
+less                         ufunc                         <ufunc 'less'>
+less_equal                   ufunc                         <ufunc 'less_equal'>
+lexsort                      builtin_function_or_method    <built-in function lexsort>
+linalg                       module                        <module 'numpy.linalg.lin<...>numpy/linalg/linalg.pyc'>
+linspace                     function                      <function linspace at 0x7f7da1884550>
+little_endian                bool                          True
+load                         function                      <function load at 0x7f7d9c4c7750>
+loads                        builtin_function_or_method    <built-in function loads>
+loadtxt                      function                      <function loadtxt at 0x7f7d9c4d1950>
+locator_params               function                      <function locator_params at 0x7f7d8cbd2ed0>
+log                          ufunc                         <ufunc 'log'>
+log10                        ufunc                         <ufunc 'log10'>
+log1p                        ufunc                         <ufunc 'log1p'>
+log2                         ufunc                         <ufunc 'log2'>
+logaddexp                    ufunc                         <ufunc 'logaddexp'>
+logaddexp2                   ufunc                         <ufunc 'logaddexp2'>
+logical_and                  ufunc                         <ufunc 'logical_and'>
+logical_not                  ufunc                         <ufunc 'logical_not'>
+logical_or                   ufunc                         <ufunc 'logical_or'>
+logical_xor                  ufunc                         <ufunc 'logical_xor'>
+logistic                     builtin_function_or_method    <built-in method logistic<...>object at 0x7f7d9c0248c0>
+loglog                       function                      <function loglog at 0x7f7d8cbd1cd0>
+lognormal                    builtin_function_or_method    <built-in method lognorma<...>object at 0x7f7d9c0248c0>
+logseries                    builtin_function_or_method    <built-in method logserie<...>object at 0x7f7d9c0248c0>
+logspace                     function                      <function logspace at 0x7f7da18845d0>
+longcomplex                  type                          <type 'numpy.complex256'>
+longdouble                   type                          <type 'numpy.float128'>
+longest_contiguous_ones      function                      <function longest_contigu<...>s_ones at 0x7f7d95b872d0>
+longest_ones                 function                      <function longest_ones at 0x7f7d95b87350>
+longfloat                    type                          <type 'numpy.float128'>
+longlong                     type                          <type 'numpy.int64'>
+lookfor                      function                      <function lookfor at 0x7f7d9c53f350>
+lstsq                        function                      <function lstsq at 0x7f7d9c4a8ad0>
+ma                           module                        <module 'numpy.ma' from '<...>s/numpy/ma/__init__.pyc'>
+mafromtxt                    function                      <function mafromtxt at 0x7f7d9c4d1c50>
+magma                        function                      <function magma at 0x7f7d8cbd47d0>
+magnitude_spectrum           function                      <function magnitude_spectrum at 0x7f7d8cbd1d50>
+margins                      function                      <function margins at 0x7f7d8cbd4050>
+mask_indices                 function                      <function mask_indices at 0x7f7d9c4e3ad0>
+mat                          function                      <function asmatrix at 0x7f7d9c4ef5d0>
+math                         module                        <module 'math' (built-in)>
+matmul                       builtin_function_or_method    <built-in function matmul>
+matplotlib                   module                        <module 'matplotlib' from<...>matplotlib/__init__.pyc'>
+matrix                       type                          <class 'numpy.matrixlib.defmatrix.matrix'>
+matrix_power                 function                      <function matrix_power at 0x7f7d9c4ef650>
+matrix_rank                  function                      <function matrix_rank at 0x7f7d9c4a88d0>
+matshow                      function                      <function matshow at 0x7f7d8cbcd750>
+maximum                      ufunc                         <ufunc 'maximum'>
+maximum_sctype               function                      <function maximum_sctype at 0x7f7da18b1450>
+may_share_memory             builtin_function_or_method    <built-in function may_share_memory>
+mean                         function                      <function mean at 0x7f7da18dca50>
+median                       function                      <function median at 0x7f7d9c4e9850>
+memmap                       type                          <class 'numpy.core.memmap.memmap'>
+meshgrid                     function                      <function meshgrid at 0x7f7d9c4e9b50>
+mgrid                        nd_grid                       <numpy.lib.index_tricks.n<...>object at 0x7f7d9c553190>
+min_scalar_type              builtin_function_or_method    <built-in function min_scalar_type>
+minimum                      ufunc                         <ufunc 'minimum'>
+minorticks_off               function                      <function minorticks_off at 0x7f7d8cbcd150>
+minorticks_on                function                      <function minorticks_on at 0x7f7d8cbcd0d0>
+mintypecode                  function                      <function mintypecode at 0x7f7d9c5476d0>
+mirr                         function                      <function mirr at 0x7f7d9c4d4050>
+mlab                         module                        <module 'matplotlib.mlab'<...>ges/matplotlib/mlab.pyc'>
+mod                          ufunc                         <ufunc 'remainder'>
+modf                         ufunc                         <ufunc 'modf'>
+movavg                       function                      <function movavg at 0x7f7d95b87b50>
+moveaxis                     function                      <function moveaxis at 0x7f7da18c8250>
+mpl                          module                        <module 'matplotlib' from<...>matplotlib/__init__.pyc'>
+msort                        function                      <function msort at 0x7f7d9c4e9750>
+multi_dot                    function                      <function multi_dot at 0x7f7d9c4a8c50>
+multinomial                  builtin_function_or_method    <built-in method multinom<...>object at 0x7f7d9c0248c0>
+multiply                     ufunc                         <ufunc 'multiply'>
+multivariate_normal          builtin_function_or_method    <built-in method multivar<...>object at 0x7f7d9c0248c0>
+mx2num                       function                      <function mx2num at 0x7f7d95c6f6d0>
+nan                          float                         nan
+nan_to_num                   function                      <function nan_to_num at 0x7f7d9c547ed0>
+nanargmax                    function                      <function nanargmax at 0x7f7d9c504050>
+nanargmin                    function                      <function nanargmin at 0x7f7d9c4faf50>
+nancumprod                   function                      <function nancumprod at 0x7f7d9c504250>
+nancumsum                    function                      <function nancumsum at 0x7f7d9c5041d0>
+nanmax                       function                      <function nanmax at 0x7f7d9c4faed0>
+nanmean                      function                      <function nanmean at 0x7f7d9c5042d0>
+nanmedian                    function                      <function nanmedian at 0x7f7d9c5044d0>
+nanmin                       function                      <function nanmin at 0x7f7d9c4fae50>
+nanpercentile                function                      <function nanpercentile at 0x7f7d9c504550>
+nanprod                      function                      <function nanprod at 0x7f7d9c504150>
+nanstd                       function                      <function nanstd at 0x7f7d9c504750>
+nansum                       function                      <function nansum at 0x7f7d9c5040d0>
+nanvar                       function                      <function nanvar at 0x7f7d9c5046d0>
+nbytes                       _typedict                     {<type 'numpy.complex128'<...>ype 'numpy.unicode_'>: 0}
+ndarray                      type                          <type 'numpy.ndarray'>
+ndenumerate                  type                          <class 'numpy.lib.index_tricks.ndenumerate'>
+ndfromtxt                    function                      <function ndfromtxt at 0x7f7d9c4d1bd0>
+ndim                         function                      <function ndim at 0x7f7da18dc7d0>
+ndindex                      type                          <class 'numpy.lib.index_tricks.ndindex'>
+nditer                       type                          <type 'numpy.nditer'>
+negative                     ufunc                         <ufunc 'negative'>
+negative_binomial            builtin_function_or_method    <built-in method negative<...>object at 0x7f7d9c0248c0>
+nested_iters                 builtin_function_or_method    <built-in function nested_iters>
+new_figure_manager           instancemethod                <bound method type.new_fi<...>nd_tkagg._BackendTkAgg'>>
+newaxis                      NoneType                      None
+newbuffer                    builtin_function_or_method    <built-in function newbuffer>
+nextafter                    ufunc                         <ufunc 'nextafter'>
+nipy_spectral                function                      <function nipy_spectral at 0x7f7d8cbd49d0>
+noncentral_chisquare         builtin_function_or_method    <built-in method noncentr<...>object at 0x7f7d9c0248c0>
+noncentral_f                 builtin_function_or_method    <built-in method noncentr<...>object at 0x7f7d9c0248c0>
+nonzero                      function                      <function nonzero at 0x7f7da18dbe50>
+norm                         function                      <function norm at 0x7f7d9c4a8bd0>
+norm_flat                    function                      <function norm_flat at 0x7f7d95b87e50>
+normal                       builtin_function_or_method    <built-in method normal o<...>object at 0x7f7d9c0248c0>
+normpdf                      function                      <function normpdf at 0x7f7d95b871d0>
+not_equal                    ufunc                         <ufunc 'not_equal'>
+np                           module                        <module 'numpy' from '/us<...>ages/numpy/__init__.pyc'>
+nper                         function                      <function nper at 0x7f7d9c4ccb50>
+npv                          function                      <function npv at 0x7f7d9c4ccf50>
+num2date                     function                      <function num2date at 0x7f7d962b3ed0>
+num2epoch                    function                      <function num2epoch at 0x7f7d95c6f650>
+number                       type                          <type 'numpy.number'>
+obj2sctype                   function                      <function obj2sctype at 0x7f7da18bef50>
+object0                      type                          <type 'numpy.object_'>
+object_                      type                          <type 'numpy.object_'>
+ogrid                        nd_grid                       <numpy.lib.index_tricks.n<...>object at 0x7f7d9c4f1590>
+ones                         function                      <function ones at 0x7f7da18c56d0>
+ones_like                    function                      <function ones_like at 0x7f7da18c5750>
+outer                        function                      <function outer at 0x7f7da18c5f50>
+over                         function                      <function over at 0x7f7d8cbca550>
+packbits                     builtin_function_or_method    <built-in function packbits>
+pad                          function                      <function pad at 0x7f7d9c045d50>
+pareto                       builtin_function_or_method    <built-in method pareto o<...>object at 0x7f7d9c0248c0>
+partition                    function                      <function partition at 0x7f7da18db850>
+path_length                  function                      <function path_length at 0x7f7d95b96f50>
+pause                        function                      <function pause at 0x7f7d8f3839d0>
+pcolor                       function                      <function pcolor at 0x7f7d8cbd1e50>
+pcolormesh                   function                      <function pcolormesh at 0x7f7d8cbd1ed0>
+percentile                   function                      <function percentile at 0x7f7d9c4e9950>
+permutation                  builtin_function_or_method    <built-in method permutat<...>object at 0x7f7d9c0248c0>
+phase_spectrum               function                      <function phase_spectrum at 0x7f7d8cbd1f50>
+pi                           float                         3.14159265359
+pie                          function                      <function pie at 0x7f7d8cbd2050>
+piecewise                    function                      <function piecewise at 0x7f7d9c4e5450>
+pink                         function                      <function pink at 0x7f7d8cbd4550>
+pinv                         function                      <function pinv at 0x7f7d9c4a8950>
+pkgload                      function                      <function pkgload at 0x7f7d9d24aad0>
+place                        function                      <function place at 0x7f7d9c4e5ad0>
+plasma                       function                      <function plasma at 0x7f7d8cbd48d0>
+plot                         function                      <function plot at 0x7f7d8cbd20d0>
+plot_date                    function                      <function plot_date at 0x7f7d8cbd2150>
+plotfile                     function                      <function plotfile at 0x7f7d8cbcd950>
+plotting                     function                      <function plotting at 0x7f7d8cbcd2d0>
+plt                          module                        <module 'matplotlib.pyplo<...>s/matplotlib/pyplot.pyc'>
+pmt                          function                      <function pmt at 0x7f7d9c4ccad0>
+poisson                      builtin_function_or_method    <built-in method poisson <...>object at 0x7f7d9c0248c0>
+polar                        function                      <function polar at 0x7f7d8cbcd8d0>
+poly                         function                      <function poly at 0x7f7d9c4a6450>
+poly1d                       type                          <class 'numpy.lib.polynomial.poly1d'>
+poly_below                   function                      <function poly_below at 0x7f7d95b96b50>
+poly_between                 function                      <function poly_between at 0x7f7d95b96bd0>
+polyadd                      function                      <function polyadd at 0x7f7d9c4a9050>
+polyder                      function                      <function polyder at 0x7f7d9c4a8e50>
+polydiv                      function                      <function polydiv at 0x7f7d9c4a91d0>
+polyfit                      function                      <function polyfit at 0x7f7d9c4a8ed0>
+polyint                      function                      <function polyint at 0x7f7d9c5176d0>
+polymul                      function                      <function polymul at 0x7f7d9c4a9150>
+polysub                      function                      <function polysub at 0x7f7d9c4a90d0>
+polyval                      function                      <function polyval at 0x7f7d9c4a8f50>
+positive                     ufunc                         <ufunc 'positive'>
+power                        builtin_function_or_method    <built-in method power of<...>object at 0x7f7d9c0248c0>
+ppmt                         function                      <function ppmt at 0x7f7d9c4cccd0>
+prctile                      function                      <function prctile at 0x7f7d95b873d0>
+prctile_rank                 function                      <function prctile_rank at 0x7f7d95b87650>
+print_function               __future__._Feature           _Feature((2, 6, 0, 'alpha<...>0, 0, 'alpha', 0), 65536)
+prism                        function                      <function prism at 0x7f7d8cbd45d0>
+prod                         function                      <function prod at 0x7f7da18dc6d0>
+product                      function                      <function product at 0x7f7da18dc150>
+promote_types                builtin_function_or_method    <built-in function promote_types>
+psd                          function                      <function psd at 0x7f7d8cbd21d0>
+ptp                          function                      <function ptp at 0x7f7da18dc4d0>
+put                          function                      <function put at 0x7f7da18db6d0>
+putmask                      builtin_function_or_method    <built-in function putmask>
+pv                           function                      <function pv at 0x7f7d9c4ccd50>
+pylab_setup                  function                      <function pylab_setup at 0x7f7d8f444f50>
+qr                           function                      <function qr at 0x7f7d9c4a84d0>
+quiver                       function                      <function quiver at 0x7f7d8cbd2250>
+quiverkey                    function                      <function quiverkey at 0x7f7d8cbd22d0>
+r_                           RClass                        <numpy.lib.index_tricks.R<...>object at 0x7f7d9e329990>
+rad2deg                      ufunc                         <ufunc 'rad2deg'>
+radians                      ufunc                         <ufunc 'radians'>
+rand                         builtin_function_or_method    <built-in method rand of <...>object at 0x7f7d9c0248c0>
+randint                      builtin_function_or_method    <built-in method randint <...>object at 0x7f7d9c0248c0>
+randn                        builtin_function_or_method    <built-in method randn of<...>object at 0x7f7d9c0248c0>
+random                       builtin_function_or_method    <built-in method random_s<...>object at 0x7f7d9c0248c0>
+random_integers              builtin_function_or_method    <built-in method random_i<...>object at 0x7f7d9c0248c0>
+random_sample                builtin_function_or_method    <built-in method random_s<...>object at 0x7f7d9c0248c0>
+ranf                         builtin_function_or_method    <built-in method random_s<...>object at 0x7f7d9c0248c0>
+rank                         function                      <function rank at 0x7f7da18dc850>
+rate                         function                      <function rate at 0x7f7d9c4cce50>
+ravel                        function                      <function ravel at 0x7f7da18dbdd0>
+ravel_multi_index            builtin_function_or_method    <built-in function ravel_multi_index>
+rayleigh                     builtin_function_or_method    <built-in method rayleigh<...>object at 0x7f7d9c0248c0>
+rc                           function                      <function rc at 0x7f7d8f383bd0>
+rcParams                     RcParams                      _internal.classic_mode: F<...>: 0.6\nytick.right: False
+rcParamsDefault              RcParams                      _internal.classic_mode: F<...>: 0.6\nytick.right: False
+rc_context                   function                      <function rc_context at 0x7f7d8f383cd0>
+rcdefaults                   function                      <function rcdefaults at 0x7f7d8f383f50>
+real                         function                      <function real at 0x7f7d9c547b50>
+real_if_close                function                      <function real_if_close at 0x7f7d9c547f50>
+rec                          module                        <module 'numpy.core.recor<...>/numpy/core/records.pyc'>
+rec2csv                      function                      <function rec2csv at 0x7f7d95b96650>
+rec_append_fields            function                      <function rec_append_fields at 0x7f7d95b933d0>
+rec_drop_fields              function                      <function rec_drop_fields at 0x7f7d95b93450>
+rec_join                     function                      <function rec_join at 0x7f7d95b93650>
+recarray                     type                          <class 'numpy.recarray'>
+recfromcsv                   function                      <function recfromcsv at 0x7f7d9c4d1d50>
+recfromtxt                   function                      <function recfromtxt at 0x7f7d9c4d1cd0>
+reciprocal                   ufunc                         <ufunc 'reciprocal'>
+record                       type                          <class 'numpy.record'>
+register_cmap                function                      <function register_cmap at 0x7f7d95c53f50>
+relativedelta                type                          <class 'dateutil.relativedelta.relativedelta'>
+remainder                    ufunc                         <ufunc 'remainder'>
+repeat                       function                      <function repeat at 0x7f7da18db650>
+require                      function                      <function require at 0x7f7da18c5bd0>
+reshape                      function                      <function reshape at 0x7f7da18db550>
+resize                       function                      <function resize at 0x7f7da18dbbd0>
+result_type                  builtin_function_or_method    <built-in function result_type>
+rfft                         function                      <function rfft at 0x7f7d9c057050>
+rfft2                        function                      <function rfft2 at 0x7f7d9c0575d0>
+rfftfreq                     function                      <function rfftfreq at 0x7f7da18f5bd0>
+rfftn                        function                      <function rfftn at 0x7f7d9c057550>
+rgrids                       function                      <function rgrids at 0x7f7d8cbcd1d0>
+right_shift                  ufunc                         <ufunc 'right_shift'>
+rint                         ufunc                         <ufunc 'rint'>
+rk4                          function                      <function rk4 at 0x7f7d95b87750>
+rms_flat                     function                      <function rms_flat at 0x7f7d95b87cd0>
+roll                         function                      <function roll at 0x7f7da18c80d0>
+rollaxis                     function                      <function rollaxis at 0x7f7da18c8150>
+roots                        function                      <function roots at 0x7f7d9c517650>
+rot90                        function                      <function rot90 at 0x7f7d9c4e34d0>
+round_                       function                      <function round_ at 0x7f7da18dc9d0>
+row_stack                    function                      <function vstack at 0x7f7da1896750>
+rrule                        type                          <class 'dateutil.rrule.rrule'>
+s_                           IndexExpression               <numpy.lib.index_tricks.I<...>object at 0x7f7d9c4f17d0>
+safe_eval                    function                      <function safe_eval at 0x7f7d9c53f4d0>
+sample                       builtin_function_or_method    <built-in method random_s<...>object at 0x7f7d9c0248c0>
+save                         function                      <function save at 0x7f7d9c4d16d0>
+savefig                      function                      <function savefig at 0x7f7d8cbc8e50>
+savetxt                      function                      <function savetxt at 0x7f7d9c4d1a50>
+savez                        function                      <function savez at 0x7f7d9c4d1750>
+savez_compressed             function                      <function savez_compressed at 0x7f7d9c4d17d0>
+sca                          function                      <function sca at 0x7f7d8cbca5d0>
+scatter                      function                      <function scatter at 0x7f7d8cbd2350>
+sci                          function                      <function sci at 0x7f7d8f3872d0>
+sctype2char                  function                      <function sctype2char at 0x7f7d9db082d0>
+sctypeDict                   dict                          n=156
+sctypeNA                     dict                          n=88
+sctypes                      dict                          n=5
+searchsorted                 function                      <function searchsorted at 0x7f7da18dbb50>
+seed                         builtin_function_or_method    <built-in method seed of <...>object at 0x7f7d9c0248c0>
+segments_intersect           function                      <function segments_intersect at 0x7f7d95b87a50>
+select                       function                      <function select at 0x7f7d9c4e54d0>
+semilogx                     function                      <function semilogx at 0x7f7d8cbd23d0>
+semilogy                     function                      <function semilogy at 0x7f7d8cbd2450>
+set_cmap                     function                      <function set_cmap at 0x7f7d8cbcd6d0>
+set_numeric_ops              builtin_function_or_method    <built-in function set_numeric_ops>
+set_printoptions             function                      <function set_printoptions at 0x7f7da18dcbd0>
+set_state                    builtin_function_or_method    <built-in method set_stat<...>object at 0x7f7d9c0248c0>
+set_string_function          function                      <function set_string_function at 0x7f7da18cac50>
+setbufsize                   function                      <function setbufsize at 0x7f7da18de1d0>
+setdiff1d                    function                      <function setdiff1d at 0x7f7d9c4acb50>
+seterr                       function                      <function seterr at 0x7f7da18de0d0>
+seterrcall                   function                      <function seterrcall at 0x7f7da18de2d0>
+seterrobj                    builtin_function_or_method    <built-in function seterrobj>
+setp                         function                      <function setp at 0x7f7d8cbbb350>
+setxor1d                     function                      <function setxor1d at 0x7f7d9c4ac950>
+shape                        function                      <function shape at 0x7f7da18dbed0>
+shares_memory                builtin_function_or_method    <built-in function shares_memory>
+short                        type                          <type 'numpy.int16'>
+show                         function                      <function show at 0x7f7d8f37f7d0>
+show_config                  function                      <function show at 0x7f7d9d242cd0>
+shuffle                      builtin_function_or_method    <built-in method shuffle <...>object at 0x7f7d9c0248c0>
+sign                         ufunc                         <ufunc 'sign'>
+signbit                      ufunc                         <ufunc 'signbit'>
+signedinteger                type                          <type 'numpy.signedinteger'>
+silent_list                  type                          <class 'matplotlib.cbook.silent_list'>
+sin                          ufunc                         <ufunc 'sin'>
+sinc                         function                      <function sinc at 0x7f7d9c4e96d0>
+single                       type                          <type 'numpy.float32'>
+singlecomplex                type                          <type 'numpy.complex64'>
+sinh                         ufunc                         <ufunc 'sinh'>
+six                          module                        <module 'six' from '/usr/<...>7/dist-packages/six.pyc'>
+size                         function                      <function size at 0x7f7da18dc8d0>
+slogdet                      function                      <function slogdet at 0x7f7d9c4a89d0>
+slopes                       function                      <function slopes at 0x7f7d95b967d0>
+solve                        function                      <function solve at 0x7f7d9c4a82d0>
+sometrue                     function                      <function sometrue at 0x7f7da18dc1d0>
+sort                         function                      <function sort at 0x7f7da18db950>
+sort_complex                 function                      <function sort_complex at 0x7f7d9c4e5850>
+source                       function                      <function source at 0x7f7d9c53f2d0>
+spacing                      ufunc                         <ufunc 'spacing'>
+specgram                     function                      <function specgram at 0x7f7d8cbd24d0>
+spectral                     function                      <function spectral at 0x7f7d8cbd4a50>
+split                        function                      <function split at 0x7f7d9c50a850>
+spring                       function                      <function spring at 0x7f7d8cbd4650>
+spy                          function                      <function spy at 0x7f7d8cbcdb50>
+sqrt                         ufunc                         <ufunc 'sqrt'>
+square                       ufunc                         <ufunc 'square'>
+squeeze                      function                      <function squeeze at 0x7f7da18dbc50>
+stack                        function                      <function stack at 0x7f7da1896850>
+stackplot                    function                      <function stackplot at 0x7f7d8cbd2550>
+standard_cauchy              builtin_function_or_method    <built-in method standard<...>object at 0x7f7d9c0248c0>
+standard_exponential         builtin_function_or_method    <built-in method standard<...>object at 0x7f7d9c0248c0>
+standard_gamma               builtin_function_or_method    <built-in method standard<...>object at 0x7f7d9c0248c0>
+standard_normal              builtin_function_or_method    <built-in method standard<...>object at 0x7f7d9c0248c0>
+standard_t                   builtin_function_or_method    <built-in method standard<...>object at 0x7f7d9c0248c0>
+std                          function                      <function std at 0x7f7da18dcad0>
+stem                         function                      <function stem at 0x7f7d8cbd25d0>
+step                         function                      <function step at 0x7f7d8cbd2650>
+stineman_interp              function                      <function stineman_interp at 0x7f7d95b96850>
+str_                         type                          <type 'numpy.string_'>
+streamplot                   function                      <function streamplot at 0x7f7d8cbd26d0>
+string0                      type                          <type 'numpy.string_'>
+string_                      type                          <type 'numpy.string_'>
+strpdate2num                 type                          <class 'matplotlib.dates.strpdate2num'>
+style                        module                        <module 'matplotlib.style<...>tlib/style/__init__.pyc'>
+subplot                      function                      <function subplot at 0x7f7d8cbca6d0>
+subplot2grid                 function                      <function subplot2grid at 0x7f7d8cbca7d0>
+subplot_tool                 function                      <function subplot_tool at 0x7f7d8cbca9d0>
+subplots                     function                      <function subplots at 0x7f7d8cbca750>
+subplots_adjust              function                      <function subplots_adjust at 0x7f7d8cbca950>
+subtract                     ufunc                         <ufunc 'subtract'>
+sum                          function                      <function sum at 0x7f7da18dc0d0>
+summer                       function                      <function summer at 0x7f7d8cbd46d0>
+suptitle                     function                      <function suptitle at 0x7f7d8cbca0d0>
+svd                          function                      <function svd at 0x7f7d9c4a87d0>
+swapaxes                     function                      <function swapaxes at 0x7f7da18db750>
+switch_backend               function                      <function switch_backend at 0x7f7d8f378ad0>
+sys                          module                        <module 'sys' (built-in)>
+table                        function                      <function table at 0x7f7d8cbd2cd0>
+take                         function                      <function take at 0x7f7da18db4d0>
+tan                          ufunc                         <ufunc 'tan'>
+tanh                         ufunc                         <ufunc 'tanh'>
+tensordot                    function                      <function tensordot at 0x7f7da18c8050>
+tensorinv                    function                      <function tensorinv at 0x7f7d9c4a8350>
+tensorsolve                  function                      <function tensorsolve at 0x7f7d9c4a8250>
+test                         instancemethod                <bound method NoseTester.<...>bject at 0x7f7d9c51a350>>
+text                         function                      <function text at 0x7f7d8cbd2d50>
+thetagrids                   function                      <function thetagrids at 0x7f7d8cbcd250>
+tick_params                  function                      <function tick_params at 0x7f7d8cbd2f50>
+ticklabel_format             function                      <function ticklabel_format at 0x7f7d8cbd2e50>
+tight_layout                 function                      <function tight_layout at 0x7f7d8cbcaa50>
+tile                         function                      <function tile at 0x7f7d9c50abd0>
+time                         module                        <module 'time' (built-in)>
+timedelta64                  type                          <type 'numpy.timedelta64'>
+title                        function                      <function title at 0x7f7d8cbcab50>
+trace                        function                      <function trace at 0x7f7da18dbd50>
+tracemalloc_domain           int                           389047
+transpose                    function                      <function transpose at 0x7f7da18db7d0>
+trapz                        function                      <function trapz at 0x7f7d9c4e9a50>
+tri                          function                      <function tri at 0x7f7d9c4e3850>
+triangular                   builtin_function_or_method    <built-in method triangul<...>object at 0x7f7d9c0248c0>
+tricontour                   function                      <function tricontour at 0x7f7d8cbd2750>
+tricontourf                  function                      <function tricontourf at 0x7f7d8cbd27d0>
+tril                         function                      <function tril at 0x7f7d9c4e38d0>
+tril_indices                 function                      <function tril_indices at 0x7f7d9c4e3b50>
+tril_indices_from            function                      <function tril_indices_from at 0x7f7d9c4e3bd0>
+trim_zeros                   function                      <function trim_zeros at 0x7f7d9c4e58d0>
+tripcolor                    function                      <function tripcolor at 0x7f7d8cbd2850>
+triplot                      function                      <function triplot at 0x7f7d8cbd28d0>
+triu                         function                      <function triu at 0x7f7d9c4e3950>
+triu_indices                 function                      <function triu_indices at 0x7f7d9c4e3c50>
+triu_indices_from            function                      <function triu_indices_from at 0x7f7d9c4e3cd0>
+true_divide                  ufunc                         <ufunc 'true_divide'>
+trunc                        ufunc                         <ufunc 'trunc'>
+twinx                        function                      <function twinx at 0x7f7d8cbca850>
+twiny                        function                      <function twiny at 0x7f7d8cbca8d0>
+typeDict                     dict                          n=156
+typeNA                       dict                          n=88
+typecodes                    dict                          n=9
+typename                     function                      <function typename at 0x7f7d9c5490d0>
+types                        module                        <module 'types' from '/us<...>lib/python2.7/types.pyc'>
+ubyte                        type                          <type 'numpy.uint8'>
+ufunc                        type                          <type 'numpy.ufunc'>
+uint                         type                          <type 'numpy.uint64'>
+uint0                        type                          <type 'numpy.uint64'>
+uint16                       type                          <type 'numpy.uint16'>
+uint32                       type                          <type 'numpy.uint32'>
+uint64                       type                          <type 'numpy.uint64'>
+uint8                        type                          <type 'numpy.uint8'>
+uintc                        type                          <type 'numpy.uint32'>
+uintp                        type                          <type 'numpy.uint64'>
+ulonglong                    type                          <type 'numpy.uint64'>
+unicode0                     type                          <type 'numpy.unicode_'>
+unicode_                     type                          <type 'numpy.unicode_'>
+unicode_literals             __future__._Feature           _Feature((2, 6, 0, 'alpha<...>, 0, 'alpha', 0), 131072)
+uniform                      builtin_function_or_method    <built-in method uniform <...>object at 0x7f7d9c0248c0>
+uninstall_repl_displayhook   function                      <function uninstall_repl_<...>ayhook at 0x7f7d8f3783d0>
+union1d                      function                      <function union1d at 0x7f7d9c4acad0>
+unique                       function                      <function unique at 0x7f7d9c4ac7d0>
+unpackbits                   builtin_function_or_method    <built-in function unpackbits>
+unravel_index                builtin_function_or_method    <built-in function unravel_index>
+unsignedinteger              type                          <type 'numpy.unsignedinteger'>
+unwrap                       function                      <function unwrap at 0x7f7d9c4e57d0>
+ushort                       type                          <type 'numpy.uint16'>
+vander                       function                      <function vander at 0x7f7d9c4e39d0>
+var                          function                      <function var at 0x7f7da18dcb50>
+vdot                         builtin_function_or_method    <built-in function vdot>
+vector_lengths               function                      <function vector_lengths at 0x7f7d95b96e50>
+vectorize                    type                          <class 'numpy.lib.function_base.vectorize'>
+violinplot                   function                      <function violinplot at 0x7f7d8cbd2950>
+viridis                      function                      <function viridis at 0x7f7d8cbd4950>
+vlines                       function                      <function vlines at 0x7f7d8cbd29d0>
+void                         type                          <type 'numpy.void'>
+void0                        type                          <type 'numpy.void'>
+vonmises                     builtin_function_or_method    <built-in method vonmises<...>object at 0x7f7d9c0248c0>
+vsplit                       function                      <function vsplit at 0x7f7d9c50a950>
+vstack                       function                      <function vstack at 0x7f7da1896750>
+waitforbuttonpress           function                      <function waitforbuttonpress at 0x7f7d8cbc8f50>
+wald                         builtin_function_or_method    <built-in method wald of <...>object at 0x7f7d9c0248c0>
+warnings                     module                        <module 'warnings' from '<...>/python2.7/warnings.pyc'>
+weibull                      builtin_function_or_method    <built-in method weibull <...>object at 0x7f7d9c0248c0>
+where                        builtin_function_or_method    <built-in function where>
+who                          function                      <function who at 0x7f7d9c53f050>
+window_hanning               function                      <function window_hanning at 0x7f7d95b83b50>
+window_none                  function                      <function window_none at 0x7f7d95b83bd0>
+winter                       function                      <function winter at 0x7f7d8cbd4750>
+xcorr                        function                      <function xcorr at 0x7f7d8cbd2a50>
+xkcd                         function                      <function xkcd at 0x7f7d8f387250>
+xlabel                       function                      <function xlabel at 0x7f7d8cbcac50>
+xlim                         function                      <function xlim at 0x7f7d8cbcad50>
+xscale                       function                      <function xscale at 0x7f7d8cbcae50>
+xticks                       function                      <function xticks at 0x7f7d8cbcaf50>
+ylabel                       function                      <function ylabel at 0x7f7d8cbcacd0>
+ylim                         function                      <function ylim at 0x7f7d8cbcadd0>
+yscale                       function                      <function yscale at 0x7f7d8cbcaed0>
+yticks                       function                      <function yticks at 0x7f7d8cbcd050>
+zeros                        builtin_function_or_method    <built-in function zeros>
+zeros_like                   function                      <function zeros_like at 0x7f7da18c5650>
+zipf                         builtin_function_or_method    <built-in method zipf of <...>object at 0x7f7d9c0248c0>

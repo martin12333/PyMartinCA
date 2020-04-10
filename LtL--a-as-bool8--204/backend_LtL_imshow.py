@@ -1,7 +1,23 @@
-
 from scipy.ndimage import filters
 import time
 import matplotlib.pyplot as plt
+
+
+#matplotlib.rc("image",cmap="gray")
+#matplotlib.rc("image",cmap="hot")
+##matplotlib.rc("image",cmap="RdYlGn")
+##matplotlib.rc("image",cmap="BrBG")
+#matplotlib.rc("image",cmap="copper")
+#matplotlib.rc("image",cmap="afmhot")
+#matplotlib.rc("image",cmap="autumn")
+#matplotlib.rc("image",cmap="summer")
+
+#matplotlib.rc("image",interpolation="nearest")
+
+
+
+
+
 
 plt.ion()
 #plt.ioff()
