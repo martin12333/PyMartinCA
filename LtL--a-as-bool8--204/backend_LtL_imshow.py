@@ -5,10 +5,32 @@ import time
 
 import matplotlib.pyplot as plt
 
-pygame.init()
 
-screen = pygame.display.set_mode((w,h))
-surface = pygame.Surface((w,h),depth=8)
+#matplotlib.rc("image",cmap="gray")
+#matplotlib.rc("image",cmap="hot")
+##matplotlib.rc("image",cmap="RdYlGn")
+##matplotlib.rc("image",cmap="BrBG")
+#matplotlib.rc("image",cmap="copper")
+#matplotlib.rc("image",cmap="afmhot")
+#matplotlib.rc("image",cmap="autumn")
+#matplotlib.rc("image",cmap="summer")
+
+#matplotlib.rc("image",interpolation="nearest")
+
+
+plt.ion()
+#plt.ioff()
+
+
+####plt.matshow())
+#plt.figure()
+img_plot = plt.imshow(a)
+#### wrong: extent=(xlo, xhi, ylo, yhi) ) 
+#, interpolation="nearest")
+#, cmap = plt.cm.gray)
+plt.show(block=False)
+
+
 
 OR = logical_or
 AND = logical_and
@@ -31,12 +53,14 @@ for i in range(niter):
         ada51= logical_xor(a, averyold)  
         averyold =a 
         
-        adaimage = transpose( ( ( asho)))
-        b = array(255*clip(adaimage,0,1),'B')
+        #adaimage = transpose( ( ( asho)))
+        #b = array(255*clip(adaimage,0,1),'B')
 
-        pygame.surfarray.blit_array(surface,b[:w,:h])
-        screen.blit(surface,(0,0))
-        pygame.display.flip()
+        img_plot.set_data(asho)
+        ###imshow(asho)
+        ##show()
+        plt.draw()
+
 
         time.sleep(sleep1)
 
