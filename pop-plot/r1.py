@@ -3,10 +3,10 @@ import numpy as np
 
 #parameters are described at PARAMETERS.txt
 
-r=2
+r=1
 
-bmin=7
-smin=7
+bmin=3
+smin=3
 
 xlo=7; dx52=6;  ylo=9; dy52=3
 
@@ -17,14 +17,15 @@ yhi=ylo + dy52
 
 #=============================
 
-w=1850 #2000 #2250 #1800
-h=950 #1300 #1400 #950
+w=256 #1850 #2000 #2250 #1800
+h=256 #1300 #1400 #950
 
 #
 
 np.random.seed()      
-p=0.5 #0.25 #0.16
-a = (rand( h, w )<p) 
+p=0.3#0.5 #0.25 #0.16
+a = zeros( ( h, w ), dtype=bool) 
+a[128:144,128:144] = (rand( 16, 16 )<p) 
 
 #=============================
 
@@ -34,12 +35,14 @@ x11 = (linspace(xlo, xhi , w))
 y11 = (linspace(yhi  , ylo, h))
 xx, yy = meshgrid(x11, y11)
  
-bmax=xx
-smax=yy
+bmax=3#xx
+smax=4#yy
 
 #
 
-niter = 300 #400 #200 #1000 #3000   
+ns=3
+
+niter = 4000 #300 #400 #200 #1000 #3000   
 sleep1=    0 #0.3      #0.1 #0 #0.01
 step1=8 #4 #20 #8 #15 #5 #1 #37 #2
 step2=60 #120 #1
@@ -56,5 +59,5 @@ averyold = a
 diam = 2*r + 1
 
 
-#execfile('backend_LtL_imshow.py')
-execfile('backend_LtL_pygame.py')
+execfile('backend_LtL_imshow.py')
+#execfile('backend_LtL_pygame.py')
