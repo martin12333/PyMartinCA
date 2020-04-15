@@ -23,6 +23,7 @@ plt.ion()
 #plt.ioff()
 
 
+#a = zeros( ( h, w ), dtype=bool)
 #img_plot = plt.imshow(a)
 #plt.show(block=False)
 
@@ -41,7 +42,7 @@ AND = logical_and
 
 plotysum=zeros( (niter,1) )
 
-for j in xrange(ns):
+for j in xrange(1): ###ns):
 
     p=0.5#0.3#0.5 #0.25 #0.16
     a = zeros( ( h, w ), dtype=bool) 
@@ -82,8 +83,9 @@ for j in xrange(ns):
             ##b = array(255*clip(adaimage,0,1),'B')
 
             ###imshow(asho)
+        
+            
             #show()
-
 
             #img_plot.set_data(asho)
             #plt.draw()
@@ -103,6 +105,7 @@ for j in xrange(ns):
     plot(ploty,'x')
     plotysum += ploty
     
+    plt.imshow(asho)
     
     
     

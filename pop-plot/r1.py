@@ -61,5 +61,10 @@ q = 0.1#0.9 #0.8#0.7 #0.3 #0.1
 diam = 2*r + 1
 
 
-execfile('backend_LtL_imshow.py')
+#execfile('backend_LtL_imshow.py')
 #execfile('backend_LtL_pygame.py')
+#execfile('backend-LtL-pop-plot.py' )
+execfile('backend-LtL-pop-plot-sanity-check.py')
+
+
+
