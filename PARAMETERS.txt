@@ -30,6 +30,7 @@ diam = 2*r + 1
 #Mm specifies if the middle cell is included in the neighborhood count (m is 0 or 1).
 
 PyMartinCA uses M1 or weighted
+M1 internally even for HROT 
 
 #Ssmin..smax specifies the count limits for a state 1 cell to survive.
 
