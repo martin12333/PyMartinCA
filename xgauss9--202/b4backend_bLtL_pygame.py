@@ -1,43 +1,27 @@
+
 from scipy.ndimage import filters
 import time
-import matplotlib.pyplot as plt
+import pygame
+from pygame import surfarray
 
-
-#matplotlib.rc("image",cmap="gray")
-#matplotlib.rc("image",cmap="hot")
-##matplotlib.rc("image",cmap="RdYlGn")
-##matplotlib.rc("image",cmap="BrBG")
-#matplotlib.rc("image",cmap="copper")
-#matplotlib.rc("image",cmap="afmhot")
-#matplotlib.rc("image",cmap="autumn")
-#matplotlib.rc("image",cmap="summer")
-
-#matplotlib.rc("image",interpolation="nearest")
-
-
-
-
-
-
-plt.ion()
+pygame.init()
 #plt.ioff()
 
-####plt.matshow())
-#plt.figure()
-img_plot = plt.imshow(a)
-#### wrong: extent=(xlo, xhi, ylo, yhi) ) 
-#, interpolation="nearest")
-#, cmap = plt.cm.gray)
-plt.show(block=False)
+screen = pygame.display.set_mode((w,h))
+surface = pygame.Surface((w,h),depth=8)
 
 OR = logical_or
 AND = logical_and
 
 for i in range(niter):
-    n = floor(0.5+diam*diam*filters.uniform_filter(a,diam,mode='wrap')  )
+    n41 = floor(0.5+diam*diam*filters.uniform_filter(a,diam,mode='wrap')  )
+    n42 = floor(0.5+diam*diam*filters.uniform_filter(n41,diam,mode='wrap')  )
+    n=n42
     birth = AND(  n>=blo,  AND( n<=bhi, logical_not(a) )  )
     survi = AND(  n>=slo,  AND( n<=shi, a )  )
     a = 1.0* OR( birth , survi )  
+    ##n753 = (diam*diam*filters.uniform_filter(n752,diam,mode='wrap')  )
+    ##n754 = (diam*diam*filters.uniform_filter(n753,diam,mode='wrap')  )
     #imshow(a)  
     ##matshow()
     ##drawnow()
@@ -56,14 +40,20 @@ for i in range(niter):
             #averyold = a
         else:
             asho=a
-        img_plot.set_data(asho)
-        ###imshow(asho)
-        ##show()
-        plt.draw()
+        adaimage = transpose( ( ( asho)))
+        ####print shape(image)
+        #b = array(255*clip(image,0,1),'B')
+        b = array(255*clip(adaimage,0,1),'B')
+        # #b = array(clip(transpose(xx),0,255),'B')
+        # #b = array(clip((yy),0,255),'B')
+        pygame.surfarray.blit_array(surface,b[:w,:h])
+        screen.blit(surface,(0,0))
+        pygame.display.flip()
         time.sleep(sli)
+#        print i, norm70
         print i
-
 
 ##debug print shape(blo)
 ##debug numpy.size(yy,0)
 ##debug typename(blo)
+

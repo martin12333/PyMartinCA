@@ -1,0 +1,20 @@
+#CXRLE Pos=-70,-3 Gen=253
+x = 140, y = 219, rule = R2,C0,M1,S6..10,B7..8,NM
+108b2o$108b2o$107bobo$74bo$72b4o$72bo3bo$72b2o2bo$73b3o5$122bo$120b2ob
+o$120bo2bo$120b3o$121bo$69b3o$68bo3bo$69bob2o$69b3o2$88bo$87bob2o$86bo
+3bo$87bob2o$87b3o14$82b3o$82b3o$82b3o3$116b4o$116bo2bo$116bo2bo$116b4o
+3$129bobo$129b3o$131bo5$97b2o$96bo2bo$96bo2bo32b2o$70b3o24b3o32b2o$69b
+o3bo23bo34b2o$54b2o13b2obo$54b3o13b3o$52b2o2b2o$55b3o$54bo3b2o$55bo4bo
+$55b2o3b2o$60b2o$54bobo4bo70b3o$44bo10b2o3b2o69b2o2bo$42b3o9b2o2b3o70b
+2o2bo$42bobo8bobo2bo73b3o$54b2obo60b2o$56bo25bo34bob2o$80b2obo33bo2bo$
+80bo2b2o33b2o$79b2o2b2o$81b3o$40b3o$40b4o67b2o$39b2ob3o65bo2bo$38b2o4b
+3o63b4o$39b2o4bo65b2o$40b6o$43bo11$49o3$82b2o$49o32bo2bo$80b2o2b3o$80b
+2o2b7o$82b6o2b2o$85bo5bo$86b2o3bo$86b2o$86b2o2bo6b2o$87bo2bo5b2obo$88b
+3o4b2o3b2o$88b3o6bo2b3o$96bo5bo20b3o$102bo12bo6b2ob2o$85b3o8bo16b2ob2o
+4bo3bo$84b4o8bo4bo11bo3bo4b2ob2o$84b2o2bo7bo17b3o7bo$84b2obo13bo13bo
+15b4o$86bo10bo33bo2bo$102bo28bo2bo$98bo3bo28b4o$99b3o17$86b3o$87b2o$
+87bo4$66bo$64b2obo$64bo3bo$64b2o2bo$65b3o$66bo2$80b3o$80b3o$80b3o3$
+130b3o$130b3o$130b3o11$67b4o$67bo2bo$67bo2bo42b3o$67b4o42b3o$113b3o30$
+72b3o$72bob2o$71bo3bo$72b3o2$137b2o$124b2obo8bobo$78b2o45b3o7b2o2bo$
+78b3o31b2o11b3o8bobo$77bo3bo31bo23b2o$77bo3bo29b3o$78bob2o$78b3o19b3o$
+100b3o$100b3o!
