@@ -15,7 +15,7 @@ bmax0=3#xx
 #smax=4#3#yy
 smax0=4#3#yy
 bmin0=2; bmax0=2; smin0=2; smax0=2
-#bmin0=3; bmax0=3; smin0=3; smax0=4
+bmin0=3; bmax0=3; smin0=3; smax0=4
 
 
 ndbmin=3; ndbmax=3; ndsmin=3; ndsmax=3
@@ -24,7 +24,7 @@ ndbmin=3; ndbmax=7; ndsmin=3; ndsmax=7
 #ndbmin=3; ndbmax=1; ndsmin=3; ndsmax=1
 ndbmin=4; ndbmax=4; ndsmin=4; ndsmax=4
 ndbmin=3; ndbmax=4; ndsmin=3; ndsmax=4
-#ndbmin=1; ndbmax=1; ndsmin=1; ndsmax=1
+ndbmin=1; ndbmax=1; ndsmin=1; ndsmax=1
 
 
 #
@@ -58,9 +58,12 @@ np.random.seed()
  
 #
 
-ns=1#30#1 #7#10 #3
+ns=15#30#1 #7#10 #3
 
-niter =350 #300#150# 600 #300 #400 #200 #1000 #3000   
+pskip=0
+
+
+niter =4000#2400 #300#150# 600 #300 #400 #200 #1000 #3000   
 niter0=niter-150
 #sleep1=    0 #0.3      #0.1 #0 #0.01
 step1=12 #4 #20 #8 #15 #5 #1 #37 #2
@@ -77,8 +80,8 @@ q = 0.1#0.9 #0.8#0.7 #0.3 #0.1
 
 #execfile('backend_LtL_imshow.py')
 #execfile('backend_LtL_pygame.py')
-execfile('backend-LtL-pop-plot.py' )
 #execfile('backend-LtL-pop-plot-sanity-check.py')
 
-
+execfile('backend-LtL-pop-plot-only-plot.py' )
+#execfile('backend-LtL-automated.py' )
 
