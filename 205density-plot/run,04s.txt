@@ -1,0 +1,432 @@
+martin@sdb3a45g:~$ ssh  -p 2223      -L 8888:localhost:8888         martin@127.0.0.1
+bind: Address already in use
+channel_setup_fwd_listener: cannot listen to port: 8888
+Could not request local forwarding.
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.18.0-15-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+544 packages can be updated.
+321 updates are security updates.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2023.
+Last login: Mon Apr 27 13:17:52 2020 from 10.0.2.2
+martin@martin-VirtualBox:~$ cd grdr20/PyMartinCA/beta/205density-plot/
+martin@martin-VirtualBox:~/grdr20/PyMartinCA/beta/205density-plot$ export DISPLAY=:0
+martin@martin-VirtualBox:~/grdr20/PyMartinCA/beta/205density-plot$ ipython
+Python 2.7.17 (default, Nov  7 2019, 10:07:09) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.5.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: %time %run r3.py
+1920
+960.0
+1416 0.157 0.001 14 14 12 21
+3996 0.000 0.000 12 15 12 17
+480 0.008 0.000 13 15 12 20
+p120:
+240 0.00462890625 0.0007421875 13 16 12 19
+240 0.005 0.001 13 16 12 19
+p120:
+240 0.00171875 0.0004296875 14 16 12 19
+240 0.002 0.000 14 16 12 19
+540 0.000 0.001 12 16 14 20
+528 0.021 0.002 13 16 12 20
+228 0.024 0.000 14 16 12 21
+p120:
+240 0.0044140625 0.000234375 13 17 12 18
+240 0.004 0.000 13 17 12 18
+p120:
+240 0.001923828125 0.0002734375 14 17 12 18
+240 0.002 0.000 14 17 12 18
+372 0.000 0.001 12 17 13 19
+p120:
+240 0.00404296875 0.000703125 14 17 12 19
+240 0.004 0.001 14 17 12 19
+276 0.027 0.002 14 17 12 21
+p120:
+240 0.002978515625 0.000478515625 13 18 13 18
+240 0.003 0.001 13 18 13 18
+p120:
+960 0.00041015625 0.0004296875 12 18 15 20
+960 0.000 0.000 12 18 15 20
+240 0.014 0.002 13 18 12 20
+1668 0.014 0.000 14 18 12 20
+216 0.004 0.001 13 18 14 21
+420 0.010 0.000 13 19 12 20
+p120:
+720 0.004951171875 0.0013671875 13 19 14 21
+720 0.005 0.001 13 19 14 21
+p840:
+1680 0.0329296875 9.765625e-05 14 19 12 21
+1680 0.033 0.000 14 19 12 21
+p120:
+240 0.004501953125 0.001328125 14 19 14 21
+240 0.005 0.001 14 19 14 21
+p120:
+240 0.005556640625 0.0026171875 12 20 14 17
+240 0.006 0.003 12 20 14 17
+p120:
+240 0.001142578125 0.00017578125 12 20 15 17
+240 0.001 0.000 12 20 15 17
+3996 0.002 0.001 12 20 15 18
+p840:
+1680 0.015498046875 0.005234375 13 20 12 19
+1680 0.015 0.004 13 20 12 19
+1176 0.002 0.000 13 20 15 20
+p120:
+360 0.005322265625 3.90625e-05 12 21 12 14
+360 0.005 0.000 12 21 12 14
+408 0.000 0.001 12 21 14 16
+420 0.002 0.001 13 22 12 18
+p120:
+240 0.002802734375 0.00115234375 14 22 14 20
+240 0.003 0.001 14 22 14 20
+276 0.001 0.000 13 23 13 18
+p120:
+600 0.00537109375 0.00416015625 13 23 14 19
+600 0.005 0.004 13 23 14 19
+3996 0.005 0.003 13 23 15 20
+p120:
+240 0.00212890625 0.0005859375 14 23 14 20
+240 0.002 0.001 14 23 14 20
+p120:
+240 0.003447265625 0.000234375 14 23 13 21
+240 0.003 0.000 14 23 13 21
+p840:
+1680 0.007939453125 0.000390625 15 23 12 21
+1680 0.008 0.000 15 23 12 21
+p840:
+1680 0.004189453125 3.90625e-05 15 23 13 21
+1680 0.004 0.000 15 23 13 21
+CPU times: user 3min 18s, sys: 1.06 s, total: 3min 19s
+Wall time: 5min 53s
+
+In [2]: %time %run r3.py
+1920
+960.0
+3996 0.001 0.001 12 16 13 19
+3996 0.002 0.002 12 18 14 19
+1680 0.028 0.000 14 19 12 21
+1680 0.005 0.002 13 20 12 18
+1680 0.016 0.004 13 20 12 19
+1680 0.024 0.001 14 20 12 21
+1260 0.006 0.000 13 21 14 19
+1680 0.008 0.001 15 22 13 21
+3996 0.004 0.002 13 23 15 20
+3120 0.004 0.000 14 23 12 21
+1680 0.010 0.000 15 23 12 21
+1680 0.005 0.001 15 23 13 21
+CPU times: user 1min 29s, sys: 454 ms, total: 1min 30s
+Wall time: 6min 26s
+
+In [3]: %time %run r3.py
+1920
+960.0
+ltl 3996 0.000 0.000 12 16 13 19
+ltl 3996 0.002 0.002 12 18 14 19
+ltl 1680 0.029 0.001 14 19 12 21
+ltl 1680 0.003 0.000 13 20 15 21
+ltl 1956 0.006 0.000 13 21 14 19
+ltl 3996 0.007 0.002 13 22 15 20
+ltl 1680 0.007 0.001 15 22 13 21
+CPU times: user 3min 5s, sys: 1.29 s, total: 3min 6s
+Wall time: 8min 16s
+
+In [4]: fig = plt.figure()
+
+In [5]: %time %run r3.py
+1920
+960.0
+ltl 3996 0.069 0.120 12 15 12 19
+ltl 3996 0.001 0.002 12 16 13 19
+ltl 3996 0.086 0.138 13 16 13 21
+ltl 3996 0.001 0.002 12 18 14 19
+ltl 1680 0.006 0.001 13 20 12 18
+ltl 1680 0.012 0.002 13 20 12 19
+ltl 1680 0.020 0.001 14 20 12 21
+ltl 1692 0.005 0.001 13 21 12 18
+ltl 1788 0.004 0.000 13 21 14 19
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+     83 #execfile('backend-LtL-pop-plot-sanity-check.py')
+     84 
+---> 85 execfile('backend-LtL-pop-plot-only-plot.py' )
+     86 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+     94                     for i in xrange(1,niter):
+     95 
+---> 96                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+     97                         n=n41.round()
+     98                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter(input, size, output, mode, cval, origin)
+    907         for axis, size, origin, mode in axes:
+    908             uniform_filter1d(input, int(size), axis, output, mode,
+--> 909                              cval, origin)
+    910             input = output
+    911     else:
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter1d(input, size, axis, output, mode, cval, origin)
+    848     mode = _ni_support._extend_mode_to_code(mode)
+    849     _nd_image.uniform_filter1d(input, size, axis, output, mode, cval,
+--> 850                                origin)
+    851     return return_value
+    852 
+
+KeyboardInterrupt: 
+CPU times: user 2min 37s, sys: 1.28 s, total: 2min 38s
+Wall time: 7min 40s
+
+In [6]: fig = plt.figure()
+
+In [7]: %time %run r3.py
+4320
+432.0
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+     87 #execfile('backend-LtL-pop-plot-sanity-check.py')
+     88 
+---> 89 execfile('backend-LtL-pop-plot-only-plot.py' )
+     90 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+     94                     for i in xrange(1,niter):
+     95 
+---> 96                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+     97                         n=n41.round()
+     98                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter(input, size, output, mode, cval, origin)
+    907         for axis, size, origin, mode in axes:
+    908             uniform_filter1d(input, int(size), axis, output, mode,
+--> 909                              cval, origin)
+    910             input = output
+    911     else:
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter1d(input, size, axis, output, mode, cval, origin)
+    848     mode = _ni_support._extend_mode_to_code(mode)
+    849     _nd_image.uniform_filter1d(input, size, axis, output, mode, cval,
+--> 850                                origin)
+    851     return return_value
+    852 
+
+KeyboardInterrupt: 
+CPU times: user 11.6 s, sys: 82.4 ms, total: 11.7 s
+Wall time: 1min 22s
+
+In [8]: %time %run r3.py
+4320
+432.0
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+     87 #execfile('backend-LtL-pop-plot-sanity-check.py')
+     88 
+---> 89 execfile('backend-LtL-pop-plot-only-plot.py' )
+     90 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+    101 
+    102                         #as51=(0.0+a).sum()
+--> 103                         am51=(0.0+a).mean()
+    104 
+    105 
+
+KeyboardInterrupt: 
+CPU times: user 48.6 s, sys: 27.7 ms, total: 48.7 s
+Wall time: 1min 47s
+
+In [9]: %time %run r3.py
+4320
+432.0
+ltl 3996 0.078 0.120 12 15 12 19
+ltl 3996 0.084 0.136 12 16 12 19
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+     87 #execfile('backend-LtL-pop-plot-sanity-check.py')
+     88 
+---> 89 execfile('backend-LtL-pop-plot-only-plot.py' )
+     90 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+     94                     for i in xrange(1,niter):
+     95 
+---> 96                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+     97                         n=n41.round()
+     98                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter(input, size, output, mode, cval, origin)
+    907         for axis, size, origin, mode in axes:
+    908             uniform_filter1d(input, int(size), axis, output, mode,
+--> 909                              cval, origin)
+    910             input = output
+    911     else:
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter1d(input, size, axis, output, mode, cval, origin)
+    848     mode = _ni_support._extend_mode_to_code(mode)
+    849     _nd_image.uniform_filter1d(input, size, axis, output, mode, cval,
+--> 850                                origin)
+    851     return return_value
+    852 
+
+KeyboardInterrupt: 
+CPU times: user 11.8 s, sys: 172 ms, total: 12 s
+Wall time: 1min 26s
+
+In [10]: %time %run r3.py
+4320
+432.0
+ltl 1296 0.000 0.000 12 14 12 19
+ltl 3996 0.089 0.120 12 15 15 21
+ltl 3996 0.077 0.121 13 16 13 21
+ltl 408 0.020 0.000 13 17 12 20
+ltl 840 0.008 0.002 13 18 13 19
+ltl 960 0.001 0.000 12 18 15 20
+ltl 1680 0.004 0.001 13 20 12 18
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+     87 #execfile('backend-LtL-pop-plot-sanity-check.py')
+     88 
+---> 89 execfile('backend-LtL-pop-plot-only-plot.py' )
+     90 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+     94                     for i in xrange(1,niter):
+     95 
+---> 96                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+     97                         n=n41.round()
+     98                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter(input, size, output, mode, cval, origin)
+    907         for axis, size, origin, mode in axes:
+    908             uniform_filter1d(input, int(size), axis, output, mode,
+--> 909                              cval, origin)
+    910             input = output
+    911     else:
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter1d(input, size, axis, output, mode, cval, origin)
+    848     mode = _ni_support._extend_mode_to_code(mode)
+    849     _nd_image.uniform_filter1d(input, size, axis, output, mode, cval,
+--> 850                                origin)
+    851     return return_value
+    852 
+
+KeyboardInterrupt: 
+CPU times: user 11.2 s, sys: 72.4 ms, total: 11.3 s
+Wall time: 11.5 s
+
+In [11]: fig = plt.figure()
+
+In [12]: %time %run r3.py
+4320
+129.6
+CPU times: user 4.29 s, sys: 22.2 ms, total: 4.32 s
+Wall time: 4.32 s
+
+In [13]: %time %run r3.py
+4320
+216.0
+CPU times: user 2.24 s, sys: 45.8 ms, total: 2.29 s
+Wall time: 2.29 s
+
+In [14]: %time %run r3.py
+4320
+216.0
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+     87 #execfile('backend-LtL-pop-plot-sanity-check.py')
+     88 
+---> 89 execfile('backend-LtL-pop-plot-only-plot.py' )
+     90 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+     94                     for i in xrange(1,niter):
+     95 
+---> 96                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+     97                         n=n41.round()
+     98                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter(input, size, output, mode, cval, origin)
+    907         for axis, size, origin, mode in axes:
+    908             uniform_filter1d(input, int(size), axis, output, mode,
+--> 909                              cval, origin)
+    910             input = output
+    911     else:
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter1d(input, size, axis, output, mode, cval, origin)
+    848     mode = _ni_support._extend_mode_to_code(mode)
+    849     _nd_image.uniform_filter1d(input, size, axis, output, mode, cval,
+--> 850                                origin)
+    851     return return_value
+    852 
+
+KeyboardInterrupt: 
+CPU times: user 20.1 s, sys: 244 ms, total: 20.4 s
+Wall time: 59.5 s
+
+In [15]: fig = plt.figure()
+
+In [16]: %time %run r3.py
+4320
+216.0
+ltl 3996 0.002 0.003 12 18 14 19
+ltl 1680 0.026 0.000 14 19 12 21
+ltl 3996 0.005 0.003 13 23 15 20
+CPU times: user 20 s, sys: 117 ms, total: 20.1 s
+Wall time: 1min 43s
+
+In [17]: %time %run r3.py
+4320
+216.0
+ltl 1068 0.018 0.000 13 16 12 20
+CPU times: user 4.38 s, sys: 4.19 ms, total: 4.38 s
+Wall time: 4.38 s
+
+In [18]: fig = plt.figure()
+
+In [19]: %time %run r3.py
+6
+60
+ltl 1476 0.000 0.001 12 14 12 19
+ltl 3996 0.079 0.132 12 15 12 19
+ltl 3996 0.084 0.147 12 16 12 19
+ltl 3996 0.003 0.003 12 14 12 19
+ltl 3996 0.075 0.137 12 15 12 19
+ltl 3996 0.081 0.142 12 15 12 19
+ltl 3996 0.087 0.144 12 16 12 19
+ltl 3996 0.086 0.138 12 15 12 19
+ltl 3996 0.100 0.147 12 16 12 19
+ltl 3996 0.073 0.132 12 15 12 19
+ltl 3996 0.086 0.131 12 16 12 19
+ltl 1704 0.001 0.001 12 14 12 19
+ltl 3996 0.069 0.136 12 15 12 19
+ltl 1164 0.001 0.001 12 14 12 19
+ltl 3996 0.078 0.131 12 15 12 19
+ltl 3996 0.078 0.141 12 15 12 19
+ltl 1392 0.001 0.000 12 14 12 19
+ltl 3996 0.071 0.123 12 15 12 19
+ltl 1740 0.000 0.000 12 14 12 19
+ltl 3996 0.086 0.142 12 15 12 19
+CPU times: user 34.5 s, sys: 104 ms, total: 34.6 s
+Wall time: 1min 28s
+
+In [20]: 

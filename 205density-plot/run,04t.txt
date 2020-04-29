@@ -1,0 +1,2405 @@
+martin@sdb3a45g:~$ ssh  -p 2223      -L 8888:localhost:8888         martin@127.0.0.1
+bind: Address already in use
+channel_setup_fwd_listener: cannot listen to port: 8888
+Could not request local forwarding.
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.18.0-15-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+544 packages can be updated.
+321 updates are security updates.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2023.
+Last login: Tue Apr 28 14:16:06 2020 from 10.0.2.2
+martin@martin-VirtualBox:~$ export DISPLAY=:0
+martin@martin-VirtualBox:~$ cd grdr20/PyMartinCA/beta/205density-plot/
+martin@martin-VirtualBox:~/grdr20/PyMartinCA/beta/205density-plot$ ipythonPython 2.7.17 (default, Nov  7 2019, 10:07:09) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.5.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: %time %run r3.py
+1
+9
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+     99 #execfile('backend-LtL-pop-plot-sanity-check.py')
+    100 
+--> 101 execfile('backend-LtL-pop-plot-only-plot.py' )
+    102 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+     98                     iper=0
+     99 
+--> 100                     ahistory=[0]*floor(3+niter/12)
+    101                     assert step1==12
+    102 
+
+TypeError: 'numpy.float64' object cannot be interpreted as an index
+CPU times: user 21.7 ms, sys: 6.29 ms, total: 27.9 ms
+Wall time: 33.5 ms
+
+In [2]: math.floor(2.3)
+Out[2]: 2.0
+
+In [3]: %time %run r3.py
+1
+9
+---------------------------------------------------------------------------
+TypeError                                 Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+     99 #execfile('backend-LtL-pop-plot-sanity-check.py')
+    100 
+--> 101 execfile('backend-LtL-pop-plot-only-plot.py' )
+    102 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+     98                     iper=0
+     99 
+--> 100                     ahistory=[0]*math.floor(3+niter/12)
+    101                     assert step1==12
+    102 
+
+TypeError: can't multiply sequence by non-int of type 'float'
+CPU times: user 0 ns, sys: 0 ns, total: 0 ns
+Wall time: 68.9 µs
+
+In [4]: int(2.3)
+Out[4]: 2
+
+In [5]: %time %run r3.py
+1
+9
+ltl 1632 0.001 0.000 12 14 12 19 320
+ltl 1212 0.000 0.000 12 14 12 19 320
+ltl 1824 0.001 0.000 12 14 12 19 320
+ltl 1776 0.002 0.000 12 14 12 19 320
+ltl 1080 0.000 0.001 12 14 12 19 320
+ltl 2808 0.001 0.000 12 14 12 19 320
+ltl 2964 0.000 0.001 12 14 12 19 320
+ltl 1224 0.001 0.001 12 14 12 19 320
+CPU times: user 18.8 s, sys: 63.9 ms, total: 18.8 s
+Wall time: 18.9 s
+
+In [6]: %time %run r3.py
+4320
+216.0
+  24
+  24
+  24
+  24
+  24
+  24
+  24
+  24
+  24
+  24
+  24
+  24
+  24
+  24
+ltl 216 0.002 0.000 13 18 14 21 320
+ltl 60 0.000 0.000 12 19 13 16 320
+  24
+  24
+ltl 228 0.005 0.000 13 19 12 20 320
+  120
+  240
+ i-iper 120
+ltl 240 0.002 0.000 14 19 14 20 320
+  24
+  24
+  336
+p120:
+ltl 360 0.002 0.001 12 20 14 17 320
+  96
+  144
+ i-iper 48
+ltl 144 0.000 0.000 12 20 15 17 320
+  720
+  1440
+ i-iper 720
+ltl 1440 0.001 0.000 12 20 15 18 320
+  24
+ltl 60 0.003 0.001 13 20 13 19 320
+  24
+  24
+  24
+  24
+  24
+  24
+  24
+ltl 72 0.002 0.001 14 22 12 19 320
+  24
+  24
+ltl 156 0.002 0.001 13 23 15 19 320
+  24
+ltl 60 0.005 0.000 15 23 12 21 320
+  168
+  336
+ i-iper 168
+ltl 336 0.003 0.000 15 23 13 21 320
+CPU times: user 4.54 s, sys: 20 ms, total: 4.56 s
+Wall time: 4.56 s
+
+In [7]: %time %run r3.py
+4320
+216.0
+  24
+  24
+ltl 552 0.008 0.001 13 15 12 20 320
+  24
+  48
+  96
+ i-iper 48
+ltl 96 0.001 0.000 14 16 12 18 320
+  24
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+     99 #execfile('backend-LtL-pop-plot-sanity-check.py')
+    100 
+--> 101 execfile('backend-LtL-pop-plot-only-plot.py' )
+    102 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+    107                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+    108                         n=n41.round()
+--> 109                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+    110                         survi = AND(  n>=smin,  AND( n<=smax, a )  )
+    111                         a =  OR( birth , survi )
+
+KeyboardInterrupt: 
+CPU times: user 36.8 s, sys: 207 ms, total: 37 s
+Wall time: 42.8 s
+
+In [8]: %time %run r3.py
+4320
+216.0
+  24
+ltl 24 0.000 0.000 12 13 12 18 320
+ltl 48 0.001 0.001 13 13 12 20 320
+ltl 3999 0.084 0.132 12 15 12 19 320
+ltl 372 0.008 0.000 13 15 12 20 320
+  24
+ltl 24 0.000 0.000 14 16 13 14 320
+ltl 36 0.000 0.004 12 16 12 17 320
+  24
+ltl 24 0.000 0.000 14 16 14 17 320
+  48
+  96
+ i-iper 48
+ltl 96 0.002 0.000 14 16 12 19 320
+  24
+ltl 24 0.002 0.002 15 16 12 19 320
+  24
+ltl 24 0.000 0.000 16 17 16 17 320
+  24
+ltl 24 0.002 0.002 15 17 14 21 320
+  24
+ltl 24 0.000 0.000 13 18 12 13 320
+  24
+ltl 24 0.000 0.000 16 18 15 17 320
+ltl 48 0.000 0.001 12 18 16 19 320
+  24
+ltl 24 0.002 0.002 15 18 14 19 320
+ltl 48 0.000 0.001 13 18 16 21 320
+  24
+ltl 24 0.000 0.000 17 18 15 21 320
+ltl 96 0.004 0.001 12 19 13 17 320
+  24
+ltl 24 0.001 0.001 16 19 16 21 320
+ltl 36 0.001 0.004 13 20 12 16 320
+  24
+ltl 24 0.002 0.002 15 20 12 16 320
+  24
+ltl 24 0.001 0.001 16 20 14 17 320
+ltl 36 0.003 0.000 16 20 12 19 320
+  24
+ltl 24 0.005 0.005 17 20 12 19 320
+ltl 36 0.004 0.000 15 20 14 20 320
+  168
+  336
+ i-iper 168
+ltl 336 0.016 0.000 14 20 12 21 320
+  24
+ltl 24 0.000 0.000 15 20 16 21 320
+ltl 36 0.002 0.001 14 21 13 16 320
+  24
+ltl 24 0.002 0.002 16 21 12 16 320
+  24
+ltl 24 0.000 0.000 17 21 12 16 320
+ltl 48 0.000 0.000 13 21 16 19 320
+  24
+ltl 24 0.001 0.001 17 21 15 19 320
+ltl 96 0.002 0.000 13 21 15 20 320
+ltl 36 0.005 0.002 16 21 12 20 320
+ltl 48 0.001 0.007 13 22 12 15 320
+ltl 36 0.000 0.000 14 22 14 15 320
+ltl 36 0.000 0.000 14 22 15 16 320
+ltl 36 0.002 0.000 15 22 13 17 320
+ltl 36 0.004 0.000 16 22 12 18 320
+ltl 36 0.003 0.000 15 22 14 19 320
+  360
+  432
+ i-iper 72
+ltl 432 0.005 0.001 13 22 15 20 320
+ltl 36 0.003 0.001 15 22 14 20 320
+  24
+ltl 24 0.001 0.001 16 22 16 21 320
+ltl 36 0.000 0.003 14 23 14 15 320
+ltl 48 0.001 0.001 14 23 12 16 320
+ltl 36 0.001 0.000 15 23 14 16 320
+  24
+ltl 24 0.004 0.004 17 23 13 18 320
+  24
+ltl 24 0.004 0.004 17 23 14 19 320
+ltl 36 0.002 0.002 15 23 15 20 320
+CPU times: user 4.43 s, sys: 30.3 ms, total: 4.46 s
+Wall time: 4.48 s
+
+In [9]: %time %run r3.py
+4320
+216.0
+ltl 60 0.001 0.000 13 14 13 20 320
+  24
+ltl 24 0.001 0.001 14 15 12 18 320
+ltl 36 0.002 0.000 15 15 12 20 320
+  24
+ltl 24 0.000 0.000 13 16 12 15 320
+  24
+ltl 24 0.001 0.001 14 16 13 19 320
+  24
+ltl 24 0.000 0.000 13 17 14 15 320
+ltl 48 0.000 0.000 12 17 12 16 320
+  24
+ltl 24 0.000 0.000 14 17 13 16 320
+ltl 36 0.001 0.006 12 17 12 17 320
+  24
+ltl 24 0.001 0.001 14 17 13 17 320
+  24
+ltl 24 0.000 0.000 16 17 13 17 320
+  24
+ltl 24 0.001 0.001 13 17 14 18 320
+  24
+ltl 24 0.002 0.002 15 17 13 19 320
+  24
+ltl 24 0.000 0.000 15 17 14 19 320
+  24
+ltl 24 0.001 0.001 16 17 13 20 320
+  24
+ltl 24 0.000 0.000 17 17 14 20 320
+  24
+ltl 24 0.000 0.000 16 18 12 13 320
+  24
+ltl 24 0.000 0.000 13 18 13 15 320
+  24
+ltl 24 0.000 0.000 16 18 13 16 320
+  120
+  240
+ i-iper 120
+ltl 240 0.002 0.000 12 18 12 17 320
+  24
+ltl 24 0.001 0.001 15 18 14 18 320
+  24
+ltl 24 0.002 0.002 16 18 12 18 320
+  24
+ltl 24 0.000 0.000 17 18 13 18 320
+ltl 48 0.007 0.001 14 18 12 19 320
+  24
+ltl 24 0.001 0.001 15 18 14 19 320
+ltl 1260 0.000 0.001 12 18 15 20 320
+ltl 48 0.004 0.001 14 18 13 20 320
+  24
+ltl 24 0.000 0.000 17 18 15 20 320
+ltl 48 0.009 0.003 14 18 13 21 320
+  24
+ltl 24 0.001 0.001 14 19 13 16 320
+  24
+ltl 24 0.000 0.000 17 19 15 17 320
+ltl 36 0.002 0.000 14 19 13 18 320
+  24
+ltl 24 0.001 0.001 16 19 14 18 320
+  24
+ltl 24 0.002 0.002 15 19 14 19 320
+  24
+ltl 24 0.001 0.001 14 19 15 20 320
+ltl 36 0.009 0.000 16 19 12 20 320
+  24
+ltl 24 0.002 0.002 16 19 14 20 320
+  120
+  240
+ i-iper 120
+ltl 240 0.004 0.002 14 19 14 21 320
+  24
+ltl 24 0.000 0.000 13 20 12 13 320
+ltl 36 0.001 0.000 13 20 14 16 320
+  24
+ltl 24 0.000 0.000 15 20 13 16 320
+  24
+ltl 24 0.002 0.002 17 20 12 18 320
+ltl 36 0.001 0.000 14 20 15 19 320
+  24
+ltl 24 0.004 0.004 17 20 14 21 320
+ltl 36 0.000 0.001 13 21 14 15 320
+ltl 48 0.000 0.001 13 21 13 17 320
+  24
+ltl 24 0.001 0.001 14 21 15 18 320
+ltl 36 0.001 0.002 14 21 14 19 320
+  24
+ltl 24 0.001 0.001 16 21 15 19 320
+ltl 36 0.002 0.001 14 22 14 17 320
+ltl 36 0.001 0.003 14 22 14 18 320
+ltl 36 0.003 0.000 16 22 12 18 320
+ltl 36 0.001 0.004 14 22 15 19 320
+  24
+ltl 24 0.000 0.000 16 22 16 19 320
+p120:
+ltl 480 0.006 0.002 13 22 14 20 320
+  360
+  432
+ i-iper 72
+ltl 432 0.005 0.002 13 22 15 20 320
+ltl 48 0.003 0.001 14 22 15 21 320
+ltl 60 0.001 0.003 13 23 12 13 320
+ltl 48 0.001 0.000 14 23 13 16 320
+ltl 36 0.002 0.000 16 23 12 16 320
+ltl 96 0.001 0.000 13 23 15 18 320
+ltl 96 0.000 0.001 13 23 16 19 320
+ltl 36 0.000 0.016 14 23 15 19 320
+ltl 36 0.003 0.000 16 23 13 19 320
+  24
+ltl 24 0.001 0.001 17 23 15 19 320
+  2520
+  2592
+ i-iper 72
+ltl 2592 0.005 0.002 13 23 15 20 320
+ltl 216 0.000 0.000 13 23 17 21 320
+CPU times: user 8.78 s, sys: 0 ns, total: 8.78 s
+Wall time: 8.79 s
+
+In [10]: %time %run r3.py
+4320
+216.0
+ltl 240 0.005 0.001 13 15 12 20 320
+  24
+  24
+ltl 84 0.004 0.000 14 16 13 21 320
+  24
+  24
+  24
+  24
+  24
+  24
+  24
+  96
+  144
+ i-iper 48
+ltl 144 0.002 0.001 12 18 13 17 320
+  24
+  24
+  24
+ltl 168 0.020 0.000 14 18 12 21 320
+  24
+  24
+  24
+ltl 576 0.000 0.000 12 19 12 16 320
+  24
+  24
+  24
+ltl 132 0.002 0.000 12 19 12 17 320
+p120:
+ltl 1560 0.002 0.001 12 19 13 18 320
+  24
+  24
+ltl 60 0.000 0.000 13 19 16 21 320
+  24
+  24
+ltl 120 0.000 0.000 12 20 13 16 320
+  24
+p120:
+ltl 360 0.004 0.002 12 20 14 17 320
+ltl 60 0.000 0.001 12 20 15 17 320
+  24
+ltl 60 0.005 0.000 14 20 12 19 320
+  24
+  24
+  360
+  432
+ i-iper 72
+ltl 432 0.005 0.001 13 22 15 20 320
+ltl 84 0.005 0.002 14 22 12 20 320
+  24
+  840
+  1680
+ i-iper 840
+ltl 1680 0.006 0.002 14 22 12 21 320
+  168
+  336
+ i-iper 168
+ltl 336 0.005 0.001 15 22 13 21 320
+  24
+CPU times: user 43.7 s, sys: 49.6 ms, total: 43.7 s
+Wall time: 48.9 s
+
+In [11]: %time %run r3.py
+4320
+216.0
+  24
+  24
+ltl 3999 0.053 0.096 12 15 15 21 320
+  24
+  360
+p120:
+ltl 360 0.004 0.000 12 16 12 18 320
+  24
+  24
+  24
+  24
+  24
+  24
+  24
+ltl 108 0.002 0.000 12 18 13 18 320
+  24
+  24
+  24
+  24
+  144
+  216
+ i-iper 72
+ltl 216 0.000 0.000 12 19 15 18 320
+  24
+  24
+  24
+  24
+  24
+  24
+  24
+ltl 60 0.002 0.000 13 22 13 16 320
+  24
+  24
+ltl 264 0.001 0.001 13 22 12 18 320
+ltl 60 0.001 0.000 13 22 15 18 320
+  24
+  24
+ltl 144 0.001 0.000 13 23 14 18 320
+  168
+  336
+ i-iper 168
+ltl 336 0.005 0.001 15 23 13 21 320
+  24
+CPU times: user 37.6 s, sys: 124 ms, total: 37.7 s
+Wall time: 1min 24s
+
+In [12]: %time %run r3.py
+4320
+432.0
+ i-iper 48
+ i-iper 120
+ltl 240 0.002 0.000 13 18 13 18 320
+ i-iper 120
+ltl 240 0.003 0.001 13 19 14 20 320
+ltl 444 0.005 0.000 13 21 12 19 320
+ltl 204 0.001 0.001 13 22 13 19 320
+CPU times: user 13.6 s, sys: 43.3 ms, total: 13.6 s
+Wall time: 2min 27s
+
+In [13]: %time %run r3.py
+4320
+1296.0
+ i-iper 264
+ltl 528 0.001 0.001 12 15 12 17 320
+ltl 3999 0.001 0.002 12 16 13 19 320
+ i-iper 48
+p120:
+ i-iper 48
+ i-iper 48
+ i-iper 48
+ i-iper 48
+ i-iper 480
+ltl 1440 0.001 0.002 12 18 14 19 320
+p120:
+ltl 600 0.003 0.001 12 19 13 18 320
+ i-iper 168
+ i-iper 168
+ltl 504 0.015 0.001 14 20 12 21 320
+ i-iper 120
+p120:
+ltl 600 0.005 0.001 13 22 14 20 320
+ i-iper 72
+ i-iper 48
+ i-iper 72
+ltl 2376 0.004 0.001 13 23 15 20 320
+ltl 2256 0.003 0.000 14 23 12 21 320
+p120:
+ i-iper 168
+CPU times: user 32.1 s, sys: 172 ms, total: 32.2 s
+Wall time: 4min 37s
+
+In [14]: %time %run r3.py
+4320
+1296.0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+ltl 3999 0.001 0.000 12 14 12 19 320
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+p840:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+ltl 3999 0.087 0.143 12 15 12 19 320
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+ i-iper 168
+ltl 672 0.000 0.000 12 15 14 20 320
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+ltl 672 0.009 0.000 13 15 12 20 320
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+ i-iper 24
+ltl 1104 0.002 0.000 14 15 13 21 320
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+ i-iper 48
+dam51==0
+dam51==0
+ i-iper 24
+ i-iper 48
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+p120:
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+ltl 3999 0.083 0.134 13 16 13 21 320
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+dam51==0
+dam51==0
+dam51==0
+ i-iper 24
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+    101 #execfile('backend-LtL-pop-plot-sanity-check.py')
+    102 
+--> 103 execfile('backend-LtL-pop-plot-only-plot.py' )
+    104 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+    106 
+    107                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+--> 108                         n=n41.round()
+    109                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+    110                         survi = AND(  n>=smin,  AND( n<=smax, a )  )
+
+KeyboardInterrupt: 
+CPU times: user 21.8 s, sys: 77.7 ms, total: 21.9 s
+Wall time: 1min 41s
+
+In [15]: %time %run r3.py
+4320
+1296.0
+ltl 576 0.000 0.000 12 14 12 19 320
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+    101 #execfile('backend-LtL-pop-plot-sanity-check.py')
+    102 
+--> 103 execfile('backend-LtL-pop-plot-only-plot.py' )
+    104 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+    106 
+    107                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+--> 108                         n=n41.round()
+    109                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+    110                         survi = AND(  n>=smin,  AND( n<=smax, a )  )
+
+KeyboardInterrupt: 
+CPU times: user 35.7 s, sys: 153 ms, total: 35.9 s
+Wall time: 2min 25s
+
+In [16]: %time %run r3.py
+4320
+1296.0
+ltl 1524 0.001 0.000 12 14 12 19 320
+ i-iper 48
+ltl 276 0.017 0.001 14 16 12 21 320
+ i-iper 48
+ i-iper 48
+ltl 924 0.000 0.001 12 18 15 20 320
+ i-iper 120
+ltl 240 0.003 0.000 12 19 12 14 320
+ltl 252 0.006 0.000 13 19 12 20 320
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+    101 #execfile('backend-LtL-pop-plot-sanity-check.py')
+    102 
+--> 103 execfile('backend-LtL-pop-plot-only-plot.py' )
+    104 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+    105                     for i in xrange(1,niter):
+    106 
+--> 107                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+    108                         n=n41.round()
+    109                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter(input, size, output, mode, cval, origin)
+    907         for axis, size, origin, mode in axes:
+    908             uniform_filter1d(input, int(size), axis, output, mode,
+--> 909                              cval, origin)
+    910             input = output
+    911     else:
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter1d(input, size, axis, output, mode, cval, origin)
+    848     mode = _ni_support._extend_mode_to_code(mode)
+    849     _nd_image.uniform_filter1d(input, size, axis, output, mode, cval,
+--> 850                                origin)
+    851     return return_value
+    852 
+
+KeyboardInterrupt: 
+CPU times: user 17.9 s, sys: 52.6 ms, total: 17.9 s
+Wall time: 2min 24s
+
+In [17]: %time %run r3.py
+4320
+1296.0
+p120: 120
+ i-iper 48
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+    101 #execfile('backend-LtL-pop-plot-sanity-check.py')
+    102 
+--> 103 execfile('backend-LtL-pop-plot-only-plot.py' )
+    104 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+    106 
+    107                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+--> 108                         n=n41.round()
+    109                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+    110                         survi = AND(  n>=smin,  AND( n<=smax, a )  )
+
+KeyboardInterrupt: 
+CPU times: user 8.94 s, sys: 31.7 ms, total: 8.98 s
+Wall time: 9.03 s
+
+In [18]: %time %run r3.py
+4320
+1296.0
+ltl 60 0.000 0.001 12 14 12 18 320
+ltl 108 0.000 0.000 12 14 15 21 320
+ltl 108 0.000 0.001 12 15 12 18 320
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+    101 #execfile('backend-LtL-pop-plot-sanity-check.py')
+    102 
+--> 103 execfile('backend-LtL-pop-plot-only-plot.py' )
+    104 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+    105                     for i in xrange(1,niter):
+    106 
+--> 107                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+    108                         n=n41.round()
+    109                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter(input, size, output, mode, cval, origin)
+    907         for axis, size, origin, mode in axes:
+    908             uniform_filter1d(input, int(size), axis, output, mode,
+--> 909                              cval, origin)
+    910             input = output
+    911     else:
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter1d(input, size, axis, output, mode, cval, origin)
+    846     if (size // 2 + origin < 0) or (size // 2 + origin >= size):
+    847         raise ValueError('invalid origin')
+--> 848     mode = _ni_support._extend_mode_to_code(mode)
+    849     _nd_image.uniform_filter1d(input, size, axis, output, mode, cval,
+    850                                origin)
+
+KeyboardInterrupt: 
+CPU times: user 6.6 s, sys: 14.1 ms, total: 6.62 s
+Wall time: 6.75 s
+
+In [19]: %time %run r3.py
+4320
+1296.0
+ltl 108 0.001 0.000 13 14 12 19 320
+ltl 240 0.009 0.001 13 15 12 20 320
+ i-iper 48
+ltl 144 0.004 0.000 13 16 12 19 320
+ltl 756 0.000 0.002 12 16 14 20 320
+ltl 60 0.003 0.001 13 16 13 20 320
+ltl 72 0.005 0.000 14 16 12 20 320
+ltl 312 0.019 0.000 14 16 12 21 320
+ltl 60 0.005 0.002 14 16 13 21 320
+ltl 84 0.001 0.000 12 17 12 18 320
+ltl 60 0.002 0.000 13 17 13 19 320
+ltl 72 0.015 0.001 15 17 12 21 320
+ltl 72 0.014 0.000 16 17 12 21 320
+ i-iper 96
+ltl 1824 0.001 0.001 12 18 14 19 320
+p120: 480 0
+p120: 600 0
+p120: 720 720
+ i-iper 120
+ltl 840 0.006 0.000 13 18 13 19 320
+ltl 492 0.012 0.002 13 18 12 20 320
+ltl 60 0.014 0.001 14 18 12 20 320
+ltl 84 0.000 0.001 12 19 16 19 320
+ltl 84 0.007 0.001 13 19 12 19 320
+ltl 60 0.013 0.001 14 19 12 20 320
+ltl 72 0.014 0.000 14 19 13 21 320
+p120: 240 240
+ i-iper 48
+ltl 288 0.003 0.000 12 20 14 17 320
+ltl 72 0.003 0.000 13 20 13 19 320
+ltl 144 0.008 0.001 13 20 13 20 320
+ltl 360 0.001 0.000 13 20 14 21 320
+ltl 60 0.012 0.002 14 20 13 21 320
+ i-iper 120
+ltl 240 0.006 0.001 15 20 14 21 320
+ltl 96 0.003 0.001 12 21 12 13 320
+ltl 60 0.001 0.000 13 21 12 16 320
+ltl 60 0.001 0.002 13 21 12 17 320
+ltl 60 0.002 0.000 13 21 14 18 320
+ltl 180 0.005 0.000 13 21 12 19 320
+ltl 744 0.004 0.000 13 21 14 19 320
+ltl 108 0.001 0.001 13 21 16 21 320
+ltl 72 0.010 0.002 14 21 13 21 320
+ltl 60 0.011 0.000 15 21 12 21 320
+ltl 180 0.001 0.001 12 22 12 12 320
+ltl 72 0.002 0.001 13 22 12 16 320
+ltl 120 0.001 0.000 13 22 12 17 320
+ltl 276 0.001 0.001 13 22 12 18 320
+ltl 72 0.001 0.001 13 22 14 18 320
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+    101 #execfile('backend-LtL-pop-plot-sanity-check.py')
+    102 
+--> 103 execfile('backend-LtL-pop-plot-only-plot.py' )
+    104 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+    105 
+    106                     iper=0
+--> 107 
+    108                     ahistory=[0]*int(3+niter/12)
+    109                     assert step1==12
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter(input, size, output, mode, cval, origin)
+    907         for axis, size, origin, mode in axes:
+    908             uniform_filter1d(input, int(size), axis, output, mode,
+--> 909                              cval, origin)
+    910             input = output
+    911     else:
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter1d(input, size, axis, output, mode, cval, origin)
+    848     mode = _ni_support._extend_mode_to_code(mode)
+    849     _nd_image.uniform_filter1d(input, size, axis, output, mode, cval,
+--> 850                                origin)
+    851     return return_value
+    852 
+
+KeyboardInterrupt: 
+CPU times: user 25.1 s, sys: 134 ms, total: 25.2 s
+Wall time: 4min 34s
+
+In [20]: %time %run r3.py
+4320
+1296.0
+ltl 3999 0.091 0.137 12 15 12 19 320 131
+ltl 264 0.010 0.000 13 15 12 20 320 142
+ltl 60 0.003 0.000 14 15 12 20 320 144
+ltl 144 0.000 0.000 13 15 14 21 320 148
+ltl 72 0.002 0.001 14 15 13 21 320 150
+ i-iper 48 202
+ltl 144 0.004 0.000 13 16 12 19 320 202
+ltl 1452 0.000 0.000 12 16 14 20 320 209
+ltl 876 0.014 0.000 13 16 12 20 320 211
+ltl 144 0.001 0.000 13 16 14 21 320 217
+ltl 60 0.006 0.001 14 16 13 21 320 219
+ltl 60 0.001 0.001 12 17 13 18 320 275
+ i-iper 48 291
+ltl 192 0.005 0.000 13 17 12 19 320 291
+ i-iper 48 293
+ltl 96 0.003 0.000 14 17 12 19 320 293
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+    101 #execfile('backend-LtL-pop-plot-sanity-check.py')
+    102 
+--> 103 execfile('backend-LtL-pop-plot-only-plot.py' )
+    104 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+    114 
+    115                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+--> 116                         n=n41.round()
+    117                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+    118                         survi = AND(  n>=smin,  AND( n<=smax, a )  )
+
+KeyboardInterrupt: 
+CPU times: user 10.9 s, sys: 39.5 ms, total: 11 s
+Wall time: 11 s
+
+In [21]: %time %run r3.py
+4320
+1296.0
+ltl 816 0.008 0.001 13 15 12 20 320 129
+p120: 240 240 173
+ i-iper 120 173
+ i-iper 48 175
+ltl 900 0.000 0.001 12 16 14 20 320 193
+p120: 360 360 255
+ i-iper 120 255
+ i-iper 48 257
+ i-iper 48 339
+ltl 1008 0.013 0.000 14 18 12 20 320 355
+ltl 996 0.000 0.000 12 19 16 20 320 442
+p120: 360 0 457
+p120: 480 480 457
+ i-iper 120 457
+ltl 600 0.003 0.001 13 19 14 21 320 457
+ i-iper 360 511
+ltl 720 0.000 0.000 12 20 15 18 320 511
+ i-iper 336 522
+ltl 672 0.011 0.005 13 20 12 19 320 522
+ i-iper 120 550
+ltl 624 0.006 0.000 13 21 12 19 320 630
+p120: 600 0 718
+p120: 720 0 718
+p120: 840 0 718
+p120: 960 960 718
+ i-iper 120 718
+ltl 1080 0.004 0.001 13 22 14 20 320 718
+ i-iper 120 739
+ i-iper 168 742
+ltl 1104 0.000 0.002 13 23 12 17 320 787
+ i-iper 72 812
+ltl 1656 0.004 0.001 13 23 15 20 320 812
+p120: 1920 0 826
+p120: 2040 0 826
+p120: 2160 0 826
+p120: 2280 0 826
+p120: 2400 0 826
+p120: 2520 0 826
+p120: 2640 0 826
+p120: 2760 0 826
+p120: 2880 0 826
+p120: 3000 0 826
+p120: 3120 0 826
+p120: 3240 0 826
+p120: 3360 0 826
+p840: 3360 0 826
+p120: 3480 3480 826
+ i-iper 120 826
+ltl 3600 0.002 0.000 14 23 12 21 320 826
+p120: 240 240 827
+ i-iper 48 827
+ i-iper 168 828
+CPU times: user 2min 6s, sys: 459 ms, total: 2min 7s
+Wall time: 10min 56s
+
+In [22]: %time %run r3.py
+4320
+1296.0
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+    101 #execfile('backend-LtL-pop-plot-sanity-check.py')
+    102 
+--> 103 execfile('backend-LtL-pop-plot-only-plot.py' )
+    104 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+    113                     for i in xrange(1,niter):
+    114 
+--> 115                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+    116                         n=n41.round()
+    117                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter(input, size, output, mode, cval, origin)
+    907         for axis, size, origin, mode in axes:
+    908             uniform_filter1d(input, int(size), axis, output, mode,
+--> 909                              cval, origin)
+    910             input = output
+    911     else:
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter1d(input, size, axis, output, mode, cval, origin)
+    848     mode = _ni_support._extend_mode_to_code(mode)
+    849     _nd_image.uniform_filter1d(input, size, axis, output, mode, cval,
+--> 850                                origin)
+    851     return return_value
+    852 
+
+KeyboardInterrupt: 
+CPU times: user 5.58 s, sys: 8 ms, total: 5.59 s
+Wall time: 5.6 s
+
+In [23]: %time %run r1.py
+1
+9
+ltl 1536 0.005 0.000 3 3 3 4 192 1
+ltl 1704 0.006 0.001 3 3 3 4 192 3
+ltl 3168 0.014 0.000 3 3 3 4 192 6
+ltl 864 0.004 0.001 3 3 3 4 192 7
+CPU times: user 7.35 s, sys: 23.1 ms, total: 7.37 s
+Wall time: 19.8 s
+
+In [24]: %time %run r1.py
+1
+9
+ltl 2484 0.025 0.000 3 3 3 4 320 240 1
+ltl 3999 0.023 0.001 3 3 3 4 320 240 2
+ltl 3999 0.029 0.005 3 3 3 4 320 240 3
+p120: 3600 0 4
+p120: 3720 0 4
+p120: 3840 0 4
+p120: 3960 0 4
+ltl 3999 0.025 0.000 3 3 3 4 320 240 4
+ltl 2616 0.025 0.000 3 3 3 4 320 240 5
+ltl 2256 0.023 0.000 3 3 3 4 320 240 6
+ltl 3120 0.025 0.000 3 3 3 4 320 240 7
+ltl 3999 0.030 0.009 3 3 3 4 320 240 8
+ltl 3600 0.024 0.000 3 3 3 4 320 240 9
+CPU times: user 10.9 s, sys: 29.5 ms, total: 11 s
+Wall time: 11 s
+
+In [25]: %time %run r1.py
+1
+9
+ltl 3999 0.026 0.003 3 3 3 4 320 240 1
+ltl 3999 0.024 0.001 3 3 3 4 320 240 2
+ltl 2844 0.023 0.000 3 3 3 4 320 240 3
+ltl 3999 0.027 0.003 3 3 3 4 320 240 4
+ltl 1968 0.025 0.000 3 3 3 4 320 240 5
+ltl 3999 0.027 0.005 3 3 3 4 320 240 6
+ltl 3384 0.026 0.000 3 3 3 4 320 240 7
+ltl 2292 0.024 0.000 3 3 3 4 320 240 8
+ltl 1536 0.022 0.000 3 3 3 4 320 240 9
+CPU times: user 10.2 s, sys: 44 ms, total: 10.2 s
+Wall time: 10.2 s
+
+In [26]: %time %run r1.py
+1
+9
+ltl 1980 0.023 0.000 3 3 3 4 320 240 1
+ltl 3999 0.025 0.002 3 3 3 4 320 240 2
+ltl 3756 0.024 0.000 3 3 3 4 320 240 3
+ltl 2400 0.022 0.000 3 3 3 4 320 240 4
+ltl 3999 0.026 0.003 3 3 3 4 320 240 5
+ltl 3999 0.026 0.002 3 3 3 4 320 240 6
+ltl 3999 0.027 0.003 3 3 3 4 320 240 7
+ltl 3999 0.028 0.006 3 3 3 4 320 240 8
+ltl 3999 0.028 0.003 3 3 3 4 320 240 9
+CPU times: user 11.7 s, sys: 0 ns, total: 11.7 s
+Wall time: 11.7 s
+
+In [27]: %time %run r1.py
+1
+9
+ltl 4308 0.026 0.001 3 3 3 4 320 240 1
+ltl 5556 0.024 0.000 3 3 3 4 320 240 2
+ltl 5688 0.025 0.000 3 3 3 4 320 240 3
+ltl 5916 0.027 0.000 3 3 3 4 320 240 4
+ltl 4020 0.023 0.000 3 3 3 4 320 240 5
+ltl 2496 0.026 0.000 3 3 3 4 320 240 6
+ltl 2796 0.024 0.000 3 3 3 4 320 240 7
+ltl 3660 0.026 0.000 3 3 3 4 320 240 8
+ltl 4032 0.027 0.000 3 3 3 4 320 240 9
+CPU times: user 14 s, sys: 6.37 ms, total: 14 s
+Wall time: 45.1 s
+
+In [28]: floor(2.7)
+Out[28]: 2.0
+
+In [29]: fig = plt.figure()
+
+In [30]: %time %run r3.py
+1
+9
+ltl 432 0.001 0.000 12 14 12 19 320 240 1
+ltl 840 0.000 0.000 12 14 12 19 320 240 2
+ltl 864 0.001 0.001 12 14 12 19 320 240 3
+ltl 576 0.002 0.001 12 14 12 19 320 240 4
+ltl 2076 0.001 0.001 12 14 12 19 320 240 5
+ltl 984 0.001 0.000 12 14 12 19 320 240 6
+ltl 876 0.001 0.000 12 14 12 19 320 240 7
+ltl 1692 0.001 0.001 12 14 12 19 320 240 8
+ltl 1728 0.001 0.000 12 14 12 19 320 240 9
+CPU times: user 26.9 s, sys: 23.1 ms, total: 26.9 s
+Wall time: 36.6 s
+
+In [31]: %time %run r3.py
+1
+9
+ltl 1236 0.001 0.001 12 14 12 19 320 240 2
+ltl 2808 0.001 0.001 12 14 12 19 320 240 3
+ltl 2964 0.001 0.001 12 14 12 19 320 240 4
+ltl 3000 0.001 0.001 12 14 12 19 320 240 5
+ltl 1848 0.001 0.000 12 14 12 19 320 240 6
+ltl 468 0.001 0.001 12 14 12 19 320 240 7
+ltl 1788 0.001 0.001 12 14 12 19 320 240 8
+ltl 1944 0.001 0.000 12 14 12 19 320 240 9
+CPU times: user 6.45 s, sys: 0 ns, total: 6.45 s
+Wall time: 6.45 s
+
+In [32]: %time %run r3.py
+1
+9
+ltl 2976 0.001 0.001 12 14 12 19 320 240 1
+ltl 2244 0.001 0.001 12 14 12 19 320 240 2
+ltl 2244 0.001 0.000 12 14 12 19 320 240 3
+ltl 2148 0.000 0.002 12 14 12 19 320 240 4
+ltl 1404 0.000 0.000 12 14 12 19 320 240 5
+ltl 1428 0.001 0.001 12 14 12 19 320 240 6
+ltl 1656 0.001 0.001 12 14 12 19 320 240 7
+ltl 492 0.000 0.001 12 14 12 19 320 240 8
+ltl 2016 0.000 0.000 12 14 12 19 320 240 9
+CPU times: user 5.88 s, sys: 0 ns, total: 5.88 s
+Wall time: 5.88 s
+
+In [33]: %time %run r3.py
+1
+9
+ltl 1380 0.001 0.001 12 14 12 19 320 240 1
+ltl 912 0.001 0.000 12 14 12 19 320 240 2
+ltl 2088 0.000 0.000 12 14 12 19 320 240 3
+ltl 948 0.001 0.001 12 14 12 19 320 240 4
+ltl 1416 0.001 0.000 12 14 12 19 320 240 5
+ltl 3999 0.001 0.002 12 14 12 19 320 240 6
+ltl 684 0.000 0.001 12 14 12 19 320 240 7
+ltl 912 0.001 0.000 12 14 12 19 320 240 8
+ltl 888 0.000 0.001 12 14 12 19 320 240 9
+CPU times: user 12.2 s, sys: 2.48 ms, total: 12.2 s
+Wall time: 12.2 s
+
+In [34]: %time %run r3.py
+1
+9
+ltl 564 0.000 0.000 12 14 12 19 320 240 1
+ltl 984 0.000 0.000 12 14 12 19 320 240 2
+ltl 1500 0.000 0.000 12 14 12 19 320 240 3
+ltl 1080 0.001 0.001 12 14 12 19 320 240 4
+ltl 2076 0.001 0.001 12 14 12 19 320 240 5
+ltl 2472 0.002 0.001 12 14 12 19 320 240 6
+ltl 2316 0.001 0.001 12 14 12 19 320 240 7
+ltl 1872 0.001 0.000 12 14 12 19 320 240 8
+ltl 3324 0.001 0.000 12 14 12 19 320 240 9
+CPU times: user 43.5 s, sys: 44.3 ms, total: 43.6 s
+Wall time: 59.4 s
+
+In [35]: 
