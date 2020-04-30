@@ -18,7 +18,7 @@ bmin0=12; bmax0=14; smin0=12; smax0=19
 
 ##bmin0=6; bmax0=6; smin0=6; smax0=6
 
-#bmin0=12; bmax0=12; smin0=12; smax0=12
+bmin0=12; bmax0=12; smin0=12; smax0=12
 
 ##bmin0=5; bmax0=6; smin0=5; smax0=6
 ##bmin0=4; bmax0=5; smin0=4; smax0=5
@@ -39,7 +39,8 @@ pskip=0;ndbmin=1; ndbmax=1; ndsmin=1; ndsmax=1
 ##ndbmin=3; ndbmax=6; ndsmin=3; ndsmax=5
 #pskip=0.95; ndbmin=6; ndbmax=12; ndsmin=6; ndsmax=10
 #pskip=0.9; ndbmin=6; ndbmax=12; ndsmin=6; ndsmax=10
-#pskip=0.7; ndbmin=6; ndbmax=12; ndsmin=6; ndsmax=10
+pskip=0.7; ndbmin=6; ndbmax=12; ndsmin=6; ndsmax=10
+pskip=0.3; ndbmin=6; ndbmax=12; ndsmin=6; ndsmax=10
 
 ##ndbmin=5; ndbmax=8; ndsmin=5; ndsmax=8
 
@@ -78,7 +79,7 @@ np.random.seed()
  
 #
 
-ns=9#20#30#1 #7#10 #3
+ns=1#5#9#20#30#1 #7#10 #3
 
 
 niter =4000#2400#1200#300#1600 #550 #300#150# 600 #300 #400 #200 #1000 #3000   

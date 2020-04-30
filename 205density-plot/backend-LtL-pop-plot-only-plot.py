@@ -41,7 +41,7 @@ plt.ion()
 OR = logical_or
 AND = logical_and
 
-id1=0
+id1=-1
 
 plotysum=zeros( (niter,1) )
 
@@ -88,7 +88,7 @@ for j in xrange(ns):
                     afade = 0.1 * a
                     ##averyold = a #########??
                     averyold = 0 
-                    aold120=0
+                    aold360=0
                     aold420=0
                     aold840=0
                     
@@ -107,7 +107,9 @@ for j in xrange(ns):
                     
                     ahistory=[0]*int(3+niter/12)
                     assert step1==12
-
+                    
+                    
+                    settleTime=2e9
 
 
                     for i in xrange(1,niter):
@@ -121,7 +123,7 @@ for j in xrange(ns):
                         #as51=(0.0+a).sum()
                         am51=(0.0+a).mean()
 
-                        oldi=i
+                        ######settleTime=i
 
                         plotx[i]=i
                         ploty[i]=am51 #as51
@@ -138,6 +140,7 @@ for j in xrange(ns):
                             if (a==aslower).all() :
                                 #print(' ',i,id1)
                                 if iper==0:
+                                    settleTime=i/2
                                     iper=i
                                 else:
                                     print(' i-iper',i-iper,id1)
@@ -165,6 +168,7 @@ for j in xrange(ns):
                             plotz[i]=dam51
 
                             if dam51 == 0 :
+                                settleTime=i
                                 #print('dam51==0',id1)
                                 break
                             
@@ -189,18 +193,20 @@ for j in xrange(ns):
                             ##time.sleep(sleep1)
                             
                             
-                        if (i % 120)==0:
-                            if (a==aold120).all():
-                                print('p120:',i,iper,id1)
+                        if (i % 360)==0:
+                            if (a==aold360).all():
+                                print(' p360:',i,iper,id1)
                                 #print(i,am51,dam51,bmin,bmax,smin,smax)
-                                #break
-                            aold120=a
+                                settleTime=i-360
+                                break
+                            aold360=a
 
                         if (i % 840)==0:
                             if (a==aold840).all():
-                                print('p840:',i,iper,id1)
+                                print(' p840:',i,iper,id1)
                                 #print(i,am51,dam51,bmin,bmax,smin,smax)
-                                #break
+                                settleTime=i-840
+                                break
                             aold840=a
 
 
@@ -239,24 +245,28 @@ for j in xrange(ns):
 
 
                     dam51=olddam51
+                    
+                    if i<settleTime:
+                        settleTime=i
+                        
                     sam51='{:.3f}'.format(am51)
                     sdam51='{:.3f}'.format(dam51)
                     #if dam51>0.005 and dam51<0.150 and am51>0.005 and am51<0.150:
                     #if dam51>0.001 and dam51<0.150 and am51>0.001 and am51<0.150:
-                    #if dam51>0.000 and dam51<0.150 and am51>0.000 and am51<0.150 and oldi>70:
-                    #if dam51>0.000 and dam51<0.150 and am51>0.000 and am51<0.150 and oldi>150:
-                    #if dam51>0.001 and dam51<0.150 and am51>0.000 and am51<0.150 and oldi>450:
-                    #if dam51>0.000 and dam51<0.150 and am51>0.000 and am51<0.150 and oldi>450:
-                    #if  am51>0.000 and am51<0.175 and oldi>400:
-                    if  dam51<0.150 and am51>0.000 and am51<0.175 and oldi>200:#50:#500:#1000:#400:#600: #1200:
-                        print('ltl',oldi,sam51,sdam51,bmin,bmax,smin,smax,w,w2,id1)
-                        #plot(ploty[:oldi],'x')
+                    #if dam51>0.000 and dam51<0.150 and am51>0.000 and am51<0.150 and settleTime>70:
+                    #if dam51>0.000 and dam51<0.150 and am51>0.000 and am51<0.150 and settleTime>150:
+                    #if dam51>0.001 and dam51<0.150 and am51>0.000 and am51<0.150 and settleTime>450:
+                    #if dam51>0.000 and dam51<0.150 and am51>0.000 and am51<0.150 and settleTime>450:
+                    #if  am51>0.000 and am51<0.175 and settleTime>400:
+                    if  dam51<0.150 and am51>0.000 and am51<0.175 and settleTime>200:#50:#500:#1000:#400:#600: #1200:
+                        print('pmc11',settleTime,sam51,sdam51,'ltl',r,bmin,bmax,smin,smax,w,w2,id1)
+                        #plot(ploty[:settleTime],'x')
                         #plot(ploty,'x-')
                        
                     
                     
                     if am51<0.999:#500:#100: #500: #0.200 :
-                        plot(ploty[:oldi],'x')
+                        plot(ploty[:settleTime],'x')
                         #plot(ploty,'x-')
                         ##plot(plotz,'x')
                         ##plot( ploty[niter0:], plotz[niter0:],'x')
