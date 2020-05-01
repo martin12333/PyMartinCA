@@ -1,0 +1,493 @@
+martin@sdb3a45g:~$ ssh  -p 2223      -L 8888:localhost:8888         martin@127.0.0.1
+bind: Address already in use
+channel_setup_fwd_listener: cannot listen to port: 8888
+Could not request local forwarding.
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.18.0-15-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+544 packages can be updated.
+321 updates are security updates.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2023.
+Last login: Wed Apr 29 10:40:27 2020 from 10.0.2.2
+martin@martin-VirtualBox:~$ export DISPLAY=:0
+martin@martin-VirtualBox:~$ cd grdr20/PyMartinCA/beta/205density-plot/
+martin@martin-VirtualBox:~/grdr20/PyMartinCA/beta/205density-plot$ ipythonPython 2.7.17 (default, Nov  7 2019, 10:07:09) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.5.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: %time %run r3.py
+4320
+1296.0
+pmc10 3999 0.080 0.139 ltl 3 12 15 12 19 320 240 113
+pmc10 252 0.008 0.001 ltl 3 13 15 12 20 320 240 120
+ i-iper 48 193
+ i-iper 48 271
+ i-iper 48 280
+ i-iper 48 356
+pmc10 228 0.001 0.000 ltl 3 12 18 12 18 320 240 366
+ i-iper 120 370
+pmc10 240 0.001 0.000 ltl 3 13 18 13 18 320 240 370
+ i-iper 480 379
+pmc10 1440 0.002 0.002 ltl 3 12 18 14 19 320 240 379
+pmc10 1020 0.001 0.000 ltl 3 12 18 15 20 320 240 393
+pmc10 840 0.000 0.000 ltl 3 12 19 16 20 320 240 473
+ i-iper 168 489
+pmc10 504 0.022 0.000 ltl 3 14 19 12 21 320 240 489
+ i-iper 168 546
+pmc10 336 0.002 0.000 ltl 3 13 20 12 18 320 240 546
+ i-iper 120 574
+pmc10 240 0.004 0.002 ltl 3 14 20 14 21 320 240 574
+pmc10 1764 0.002 0.000 ltl 3 13 21 14 19 320 240 632
+ p120: 600 0 643
+pmc10 600 0.005 0.001 ltl 3 13 21 13 20 320 240 643
+pmc10 324 0.001 0.001 ltl 3 13 22 12 18 320 240 718
+ i-iper 72 738
+pmc10 288 0.006 0.001 ltl 3 13 22 15 20 320 240 738
+ i-iper 168 756
+pmc10 336 0.005 0.001 ltl 3 15 22 13 21 320 240 756
+pmc10 3999 0.064 0.093 ltl 3 12 23 15 14 320 240 768
+pmc10 2076 0.000 0.001 ltl 3 13 23 12 17 320 240 794
+pmc10 204 0.000 0.000 ltl 3 13 23 16 20 320 240 826
+ p120: 240 240 840
+pmc10 240 0.003 0.000 ltl 3 14 23 13 21 320 240 840
+ p120: 240 240 841
+pmc10 240 0.007 0.004 ltl 3 14 23 14 21 320 240 841
+CPU times: user 2min 1s, sys: 314 ms, total: 2min 2s
+Wall time: 5min 46s
+
+In [2]: %time %run r3.py
+4320
+3024.0
+pmc10 1680 0.001 0.001 ltl 3 12 14 12 19 320 240 169
+ i-iper 264 258
+pmc10 528 0.000 0.001 ltl 3 12 15 12 17 320 240 258
+pmc10 3999 0.081 0.141 ltl 3 12 15 12 19 320 240 296
+pmc10 288 0.007 0.001 ltl 3 13 15 12 20 320 240 316
+ i-iper 48 437
+ i-iper 48 460
+ i-iper 48 465
+pmc10 732 0.017 0.000 ltl 3 13 16 12 20 320 240 482
+pmc10 3999 0.096 0.144 ltl 3 13 16 13 21 320 240 504
+ i-iper 48 629
+pmc10 528 0.000 0.000 ltl 3 12 17 13 19 320 240 652
+ i-iper 48 656
+ i-iper 48 661
+pmc10 312 0.015 0.001 ltl 3 13 17 12 20 320 240 681
+ i-iper 48 812
+ i-iper 48 870
+ i-iper 120 871
+pmc10 600 0.006 0.001 ltl 3 13 18 13 19 320 240 871
+pmc10 3999 0.003 0.006 ltl 3 12 18 15 20 320 240 898
+pmc10 588 0.011 0.001 ltl 3 14 18 12 20 320 240 904
+ p360: 1080 0 1045
+pmc10 1080 0.004 0.001 ltl 3 12 19 13 18 320 240 1045
+ i-iper 72 1046
+pmc10 360 0.001 0.000 ltl 3 12 19 14 18 320 240 1046
+pmc10 252 0.006 0.001 ltl 3 13 19 12 20 320 240 1099
+ i-iper 120 1101
+pmc10 240 0.005 0.002 ltl 3 13 19 14 20 320 240 1101
+ i-iper 120 1104
+pmc10 240 0.003 0.000 ltl 3 14 19 14 20 320 240 1104
+ i-iper 120 1127
+pmc10 240 0.004 0.001 ltl 3 14 19 14 21 320 240 1127
+ i-iper 48 1228
+pmc10 336 0.005 0.003 ltl 3 12 20 14 17 320 240 1228
+ i-iper 48 1254
+pmc10 288 0.001 0.000 ltl 3 12 20 15 18 320 240 1254
+ i-iper 168 1257
+pmc10 336 0.004 0.001 ltl 3 13 20 12 18 320 240 1257
+pmc10 780 0.000 0.000 ltl 3 12 20 16 19 320 240 1283
+ i-iper 336 1285
+pmc10 672 0.008 0.002 ltl 3 13 20 12 19 320 240 1285
+ i-iper 120 1309
+pmc10 240 0.012 0.000 ltl 3 14 20 12 20 320 240 1309
+ i-iper 168 1334
+pmc10 504 0.017 0.000 ltl 3 14 20 12 21 320 240 1334
+ i-iper 120 1338
+pmc10 240 0.007 0.002 ltl 3 15 20 14 21 320 240 1338
+pmc10 3999 0.090 0.117 ltl 3 12 21 14 16 320 240 1406
+pmc10 540 0.005 0.000 ltl 3 13 21 12 19 320 240 1486
+pmc10 2556 0.004 0.000 ltl 3 13 21 14 19 320 240 1488
+ i-iper 120 1514
+pmc10 960 0.007 0.001 ltl 3 13 21 13 20 320 240 1514
+ i-iper 96 1543
+pmc10 480 0.002 0.000 ltl 3 13 21 15 21 320 240 1543
+pmc10 396 0.001 0.000 ltl 3 13 22 12 18 320 240 1675
+pmc10 264 0.002 0.000 ltl 3 13 22 13 19 320 240 1700
+ i-iper 120 1727
+pmc10 1080 0.007 0.003 ltl 3 13 22 14 20 320 240 1727
+ i-iper 72 1728
+pmc10 360 0.005 0.002 ltl 3 13 22 15 20 320 240 1728
+ i-iper 120 1733
+pmc10 240 0.002 0.000 ltl 3 14 22 14 20 320 240 1733
+ i-iper 120 1759
+pmc10 240 0.005 0.003 ltl 3 14 22 14 21 320 240 1759
+ i-iper 120 1763
+pmc10 240 0.008 0.000 ltl 3 15 22 12 21 320 240 1763
+ i-iper 168 1764
+pmc10 336 0.007 0.001 ltl 3 15 22 13 21 320 240 1764
+pmc10 1164 0.000 0.001 ltl 3 13 23 12 17 320 240 1866
+pmc10 312 0.001 0.000 ltl 3 13 23 13 18 320 240 1893
+ i-iper 48 1916
+pmc10 912 0.004 0.003 ltl 3 13 23 14 19 320 240 1916
+ p360: 1800 0 1938
+pmc10 1800 0.005 0.003 ltl 3 13 23 15 20 320 240 1938
+ i-iper 120 1964
+pmc10 240 0.005 0.002 ltl 3 14 23 14 21 320 240 1964
+ i-iper 840 1968
+pmc10 1680 0.009 0.000 ltl 3 15 23 12 21 320 240 1968
+CPU times: user 7min 3s, sys: 1.53 s, total: 7min 5s
+Wall time: 13min 54s
+
+In [3]: %time %run r3.py
+4320
+3024.0
+ p360: 2160 0 85
+pmc11 2220 0.001 0.001 ltl 3 12 14 12 19 320 240 160
+pmc11 3999 0.088 0.138 ltl 3 12 15 12 19 320 240 286
+pmc11 468 0.008 0.000 ltl 3 13 15 12 20 320 240 306
+ i-iper 120 431
+ i-iper 48 436
+pmc11 3999 0.085 0.137 ltl 3 12 16 12 19 320 240 450
+ i-iper 72 451
+pmc11 324 0.001 0.001 ltl 3 12 16 13 19 320 240 451
+ i-iper 48 458
+pmc11 492 0.014 0.001 ltl 3 13 16 12 20 320 240 475
+ i-iper 48 631
+ i-iper 48 637
+ i-iper 48 659
+ i-iper 48 663
+ i-iper 48 685
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/r3.py in <module>()
+    102 #execfile('backend-LtL-pop-plot-sanity-check.py')
+    103 
+--> 104 execfile('backend-LtL-pop-plot-only-plot.py' )
+    105 #execfile('backend-LtL-automated.py' )
+
+/home/martin/grdr20/PyMartinCA/beta/205density-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+    115                     for i in xrange(1,niter):
+    116 
+--> 117                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+    118                         n=n41.round()
+    119                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/filters.pyc in uniform_filter(input, size, output, mode, cval, origin)
+    897     """
+    898     input = numpy.asarray(input)
+--> 899     output, return_value = _ni_support._get_output(output, input)
+    900     sizes = _ni_support._normalize_sequence(size, input.ndim)
+    901     origins = _ni_support._normalize_sequence(origin, input.ndim)
+
+/usr/lib/python2.7/dist-packages/scipy/ndimage/_ni_support.pyc in _get_output(output, input, shape)
+     73         shape = input.shape
+     74     if output is None:
+---> 75         output = numpy.zeros(shape, dtype=input.dtype.name)
+     76         return_value = output
+     77     elif type(output) in [type(type), type(numpy.zeros((4,)).dtype)]:
+
+KeyboardInterrupt: 
+CPU times: user 47.4 s, sys: 390 ms, total: 47.8 s
+Wall time: 3min 44s
+
+In [4]: fig = plt.figure()
+
+In [5]: %time %run r1.py
+1
+9
+pmc11 4644 0.025 0.000 ltl 1 3 3 3 4 320 240 0
+pmc11 2208 0.025 0.000 ltl 1 3 3 3 4 320 240 1
+pmc11 3864 0.028 0.001 ltl 1 3 3 3 4 320 240 2
+pmc11 4524 0.022 0.000 ltl 1 3 3 3 4 320 240 3
+pmc11 4392 0.027 0.000 ltl 1 3 3 3 4 320 240 4
+pmc11 5999 0.027 0.007 ltl 1 3 3 3 4 320 240 5
+pmc11 4356 0.026 0.000 ltl 1 3 3 3 4 320 240 6
+pmc11 5999 0.031 0.009 ltl 1 3 3 3 4 320 240 7
+pmc11 4860 0.024 0.000 ltl 1 3 3 3 4 320 240 8
+CPU times: user 42.7 s, sys: 58.8 ms, total: 42.7 s
+Wall time: 2min 37s
+
+In [6]: %time %run r1.py
+1
+9
+pmc11 5999 0.026 0.006 ltl 1 3 3 3 4 320 240 0
+pmc11 5999 0.024 0.002 ltl 1 3 3 3 4 320 240 1
+pmc11 3732 0.024 0.000 ltl 1 3 3 3 4 320 240 2
+ p360: 5040 0 3
+pmc11 4680 0.025 0.000 ltl 1 3 3 3 4 320 240 3
+pmc11 3744 0.024 0.000 ltl 1 3 3 3 4 320 240 4
+ p360: 5040 0 5
+pmc11 4680 0.025 0.000 ltl 1 3 3 3 4 320 240 5
+pmc11 5999 0.027 0.000 ltl 1 3 3 3 4 320 240 6
+pmc11 4284 0.025 0.000 ltl 1 3 3 3 4 320 240 7
+pmc11 4044 0.024 0.000 ltl 1 3 3 3 4 320 240 8
+CPU times: user 45.7 s, sys: 122 ms, total: 45.8 s
+Wall time: 2min 50s
+
+In [7]: git clone https://gitlab.com/apgoucher/python-lifelib.git
+  File "<ipython-input-7-ddf372e220aa>", line 1
+    git clone https://gitlab.com/apgoucher/python-lifelib.git
+            ^
+SyntaxError: invalid syntax
+
+
+In [8]:                                                                                                                                          
+Do you really want to exit ([y]/n)? 
+martin@martin-VirtualBox:~/grdr20/PyMartinCA/beta/205density-plot$ cd
+martin@martin-VirtualBox:~$ git clone https://gitlab.com/apgoucher/python-lifelib.git
+Cloning into 'python-lifelib'...
+remote: Enumerating objects: 41, done.
+remote: Counting objects: 100% (41/41), done.
+remote: Compressing objects: 100% (29/29), done.
+remote: Total 197 (delta 17), reused 26 (delta 11), pack-reused 156
+Receiving objects: 100% (197/197), 115.30 KiB | 9.61 MiB/s, done.
+Resolving deltas: 100% (91/91), done.
+martin@martin-VirtualBox:~$ mc
+
+martin@martin-VirtualBox:~$ py
+py3clean            pycompile           pygettext@          python@             python3@            python3-config@     pyversions@
+py3compile          pydoc@              pygettext2.7        python2@            python3.6           python3-jsonschema  
+py3versions@        pydoc2.7            pygettext3@         python2.7           python3.6-config@   python3m@           
+pybuild@            pydoc3@             pygettext3.6        python2.7-config@   python3.6m          python3m-config@    
+pyclean             pydoc3.6            pygmentize          python2-config@     python3.6m-config@  python-config@      
+martin@martin-VirtualBox:~$ pyt
+python@             python2.7-config@   python3.6           python3.6m-config@  python3m@           
+python2@            python2-config@     python3.6-config@   python3-config@     python3m-config@    
+python2.7           python3@            python3.6m          python3-jsonschema  python-config@      
+martin@martin-VirtualBox:~$ python
+python@             python2.7-config@   python3.6           python3.6m-config@  python3m@           
+python2@            python2-config@     python3.6-config@   python3-config@     python3m-config@    
+python2.7           python3@            python3.6m          python3-jsonschema  python-config@      
+martin@martin-VirtualBox:~$ python3
+python3@            python3.6-config@   python3.6m-config@  python3-jsonschema  python3m-config@    
+python3.6           python3.6m          python3-config@     python3m@           
+martin@martin-VirtualBox:~$ python3
+Python 3.6.9 (default, Nov  7 2019, 10:44:02) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+martin@martin-VirtualBox:~$ cd 
+atari-xf25/     Downloads/      .gimp-2.8/      grdr20/         .luckyBackup/   Pictures/       .qt/            Templates/      .vscode/
+.cache/         emsdk-my/       .git/           .ipython/       .mame/          .pki/           rh-9/           .thumbnails/    .workrave/
+.config/        etc/            .gkrellm2/      .java/          .mozilla/       Public/         snap/           .thunderbird/   write/
+Desktop/        fempty/         .gnupg/         .jupyter/       Music/          python-lifelib/ .snap/          Videos/         
+Documents/      .gconf/         .golly/         .local/         .nx/            .qshutdown/     .ssh/           violet/         
+martin@martin-VirtualBox:~$ cd p
+Pictures/       Public/         python-lifelib/ 
+martin@martin-VirtualBox:~$ cd p
+Pictures/       Public/         python-lifelib/ 
+martin@martin-VirtualBox:~$ cd python-lifelib/
+martin@martin-VirtualBox:~/python-lifelib$ cd install/
+martin@martin-VirtualBox:~/python-lifelib/install$ py
+py3clean            pycompile           pygettext@          python@             python3@            python3-config@     pyversions@
+py3compile          pydoc@              pygettext2.7        python2@            python3.6           python3-jsonschema  
+py3versions@        pydoc2.7            pygettext3@         python2.7           python3.6-config@   python3m@           
+pybuild@            pydoc3@             pygettext3.6        python2.7-config@   python3.6m          python3m-config@    
+pyclean             pydoc3.6            pygmentize          python2-config@     python3.6m-config@  python-config@      
+martin@martin-VirtualBox:~/python-lifelib/install$ pyth
+python@             python2.7-config@   python3.6           python3.6m-config@  python3m@           
+python2@            python2-config@     python3.6-config@   python3-config@     python3m-config@    
+python2.7           python3@            python3.6m          python3-jsonschema  python-config@      
+martin@martin-VirtualBox:~/python-lifelib/install$ python3 install.py 
+Determining whether Golly exists...
+We are running outside Golly.
+Determining Python executable...
+Determining script location...
+Upgrading lifelib in separate process...
+Determining whether Golly exists...
+We are running outside Golly.
+Determining Python executable...
+Determining script location...
+Finding pip package manager...
+Installing/upgrading lifelib...
+Collecting python-lifelib
+  Downloading https://files.pythonhosted.org/packages/33/09/d52ef718096ecdf58668c90dc2f37ea1dc2b0a1f45e93820655fea638e41/python-lifelib-2.3.0.tar.gz (706kB)
+    100% |████████████████████████████████| 716kB 5.1MB/s 
+Collecting numpy>=1.13 (from python-lifelib)
+  Downloading https://files.pythonhosted.org/packages/3d/fc/4763e5f17ac6e7e7d55f377cde859ca1c5d5ac624441ab45315bc578aa9e/numpy-1.18.3-cp36-cp36m-manylinux1_x86_64.whl (20.2MB)
+    100% |████████████████████████████████| 20.2MB 512kB/s 
+Collecting tqdm>=4.27 (from python-lifelib)
+  Downloading https://files.pythonhosted.org/packages/4a/1c/6359be64e8301b84160f6f6f7936bbfaaa5e9a4eab6cbc681db07600b949/tqdm-4.45.0-py2.py3-none-any.whl (60kB)
+    100% |████████████████████████████████| 61kB 2.9MB/s 
+Building wheels for collected packages: python-lifelib
+  Running setup.py bdist_wheel for python-lifelib ... done
+  Stored in directory: /home/martin/.cache/pip/wheels/aa/24/1c/9a299211a8eb5a5f407d1258ff81b001981e05893dd8efbae9
+Successfully built python-lifelib
+Installing collected packages: numpy, tqdm, python-lifelib
+Successfully installed numpy-1.18.3 python-lifelib-2.3.0 tqdm-4.45.0
+Lifelib upgraded; running post-install tasks...
+Checking lifelib is installed...
+Updating sys.path...
+Lifelib version: 2.3.0
+Creating session...
+Generating code for rules ['b3s23']...
+Compiling lifelib shared object (estimated time: 20.0 seconds)...
+Estimated compilation progress: 100%|██████████████████████████████████████████████████████████████████████████| 100/100 [00:03<00:00, 26.03it/s]
+...compilation complete!
+Instruction set SSSE3 detected
+Initial population of Lidka: 13
+Final population of Lidka: 1623
+Checking numpy is installed...
+Numpy version: 1.13.3
+Running comprehensive tests...
+Warning: if you are in a Jupyter notebook you will not see output until the tests complete.
+Use the terminal to view periodic progress...
+Directory has the correct name.
+Checking to see whether both versions of Python are installed...
+/usr/bin/python3 version: Python 3.6.9
+Removing old .so files...
+Running tests...
+
+
+ **** unit tests ****
+....Verifying installation...
+SUCCESS
+Verifying numpy is installed...
+Numpy version: 1.18.3
+...........
+----------------------------------------------------------------------
+Ran 15 tests in 0.423s
+
+OK
+
+ **** integration tests ****
+Generating code for rules ['b3s23']...
+Compiling lifelib shared object (estimated time: 4.3 seconds)...
+/usr/lib/python3/dist-packages/IPython/utils/module_paths.py:29: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+Estimated compilation progress: 100%|██████████████████████████████████████████████████████████████████████████| 100/100 [01:26<00:00,  1.16it/s]
+...compilation complete!
+Instruction set SSSE3 detected
+........................Generating code for rules ['g4b2ikn3ais345', 'b36s23', 'g3b3s23', 'r7b65t95s65t114', 'g11b3s23', 'r2b1e7108s3e7c80', 'b347s3456f038k234567l0346']...
+Compiling lifelib shared object (estimated time: 10.7 seconds)...
+Estimated compilation progress: 100%|██████████████████████████████████████████████████████████████████████████| 100/100 [00:07<00:00, 14.26it/s]
+...compilation complete!
+Instruction set SSSE3 detected
+........Generating code for rules ['xbrew']...
+Compiling lifelib shared object (estimated time: 7.3 seconds)...
+Estimated compilation progress: 100%|██████████████████████████████████████████████████████████████████████████| 100/100 [00:07<00:00, 12.71it/s]
+...compilation complete!
+Instruction set SSSE3 detected
+.Generating code for rules ['x9xlangtons-loops']...
+Compiling lifelib shared object (estimated time: 7.4 seconds)...
+Estimated compilation progress: 100%|██████████████████████████████████████████████████████████████████████████| 100/100 [00:03<00:00, 30.01it/s]
+...compilation complete!
+.Generating code for rules ['b3456s235678d1-7', 'b2s34678d']...
+Compiling lifelib shared object (estimated time: 3.8 seconds)...
+Estimated compilation progress: 100%|██████████████████████████████████████████████████████████████████████████| 100/100 [00:16<00:00,  6.15it/s]
+...compilation complete!
+Instruction set SSSE3 detected
+.
+----------------------------------------------------------------------
+Ran 35 tests in 129.689s
+
+OK
+
+ **** indirection tests ****
+Instruction set SSSE3 detected
+........................
+----------------------------------------------------------------------
+Ran 24 tests in 1.360s
+
+OK
+
+ **** segfault tests ****
+
+All tests completed successfully.
+Completed tests successfully.
+Everything completed successfully.
+martin@martin-VirtualBox:~/python-lifelib/install$ logout
+Connection to 127.0.0.1 closed.
+martin@sdb3a45g:~$ ssh  -p 2223          martin@127.0.0.1
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.18.0-15-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+544 packages can be updated.
+321 updates are security updates.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2023.
+Last login: Thu Apr 30 11:15:13 2020 from 10.0.2.2
+martin@martin-VirtualBox:~$ cd python-lifelib/
+martin@martin-VirtualBox:~/python-lifelib$ mc
+
+martin@martin-VirtualBox:~/python-lifelib$ cd
+martin@martin-VirtualBox:~$ history -a ; history >a,04.bash_history.sh
+martin@martin-VirtualBox:~$ git clone https://gitlab.com/apgoucher/apgmera.git
+Cloning into 'apgmera'...
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 1833 (delta 2), reused 0 (delta 0), pack-reused 1820
+Receiving objects: 100% (1833/1833), 691.01 KiB | 886.00 KiB/s, done.
+Resolving deltas: 100% (1265/1265), done.
+martin@martin-VirtualBox:~$ cd a
+apgmera/    atari-xf25/ 
+martin@martin-VirtualBox:~$ cd apgmera/
+martin@martin-VirtualBox:~/apgmera$ ./re
+README.md*    recompile.sh* 
+martin@martin-VirtualBox:~/apgmera$ ./recompile.sh 
+rm -f *.o */*.o *.op */*.op *.gdca */*.gcda *.profraw *.profdata apgluxe
+echo Clean done
+Clean done
+Skipping updates; use --update to update apgluxe automatically.
+Downloading lifelib...
+Submodule 'lifelib' (https://gitlab.com/apgoucher/lifelib.git) registered for path 'lifelib'
+Cloning into '/home/martin/apgmera/lifelib'...
+Submodule path 'lifelib': checked out '388b1c32b7db303e6b1ff1dc52f74efff84f75e2'
+Rule unspecified; assuming b3s23.
+Symmetry unspecified; assuming C1.
+Configuring rule b3s23; symmetry C1
+Using /usr/bin/python3 to configure lifelib...
+Valid symmetry: C1
+Success!
+g++ -c -Wall -Wextra -pedantic -O3 -pthread -flto -march=native --std=c++11  main.cpp -o main.o
+g++ -c -Wall -Wextra -pedantic -O3 -pthread -flto -march=native --std=c++11  includes/md5.cpp -o includes/md5.o
+g++ -c -Wall -Wextra -pedantic -O3 -pthread -flto -march=native --std=c++11  includes/happyhttp.cpp -o includes/happyhttp.o
+g++ -pthread -flto  main.o includes/md5.o includes/happyhttp.o    -o apgluxe
+rm -f main.op includes/md5.op includes/happyhttp.op apgluxe-profile *.gcda */*.gcda
+true
+true                                                oo o
+true                                                oo ooo
+true                                                      o
+true                                                oo ooo
+true                                                 o o
+true                                                 o o
+true                                                  o
+apgluxe v5.1-ll2.3.0: Rule b3s23 is correctly configured.
+apgluxe v5.1-ll2.3.0: Symmetry C1 is correctly configured.
+martin@martin-VirtualBox:~/apgmera$ history -a ; history >a,04.bash_history.sh
+martin@martin-VirtualBox:~/apgmera$ ./
+apgluxe*           immediate.sh*      lifelib/           makefile*          recompile.sh*      update-lifelib.sh* 
+.git/              includes/          main.cpp*          README.md*         test/              
+martin@martin-VirtualBox:~/apgmera$ ./apgluxe 
+Please enter number of soups per haul (minimum 10000000): ^C
+martin@martin-VirtualBox:~/apgmera$ ./apgluxe --help
+martin@martin-VirtualBox:~/apgmera$ 
+martin@martin-VirtualBox:~/apgmera$ 
+martin@martin-VirtualBox:~/apgmera$ 
+martin@martin-VirtualBox:~/apgmera$ 
+martin@martin-VirtualBox:~/apgmera$ 
+martin@martin-VirtualBox:~/apgmera$ 
