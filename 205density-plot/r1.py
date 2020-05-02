@@ -82,6 +82,6 @@ q = 0.1#0.9 #0.8#0.7 #0.3 #0.1
 #execfile('backend_LtL_pygame.py')
 #execfile('backend-LtL-pop-plot-sanity-check.py')
 
-execfile('backend-LtL-pop-plot-only-plot.py' )
+execfile('backend-LtL-pop-plot.py' )
 #execfile('backend-LtL-automated.py' )
 
