@@ -8,8 +8,26 @@ https://github.com/martin12333/PyMartinCA/tree/beta
 
 depends on Python 2
 
+will be compatible with Python3 after fixing issues #1 #2
+
+depends on
+
 ```
-ipython python-scipy python-pygame python-matplotlib
+python-scipy
+
+```
+
+some parts depend on
+
+```
+python-pygame python-matplotlib
+
+```
+
+recommended
+
+```
+ipython
 
 ```
 
