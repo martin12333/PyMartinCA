@@ -17,7 +17,7 @@ from pylab import *
 
 #in legacy  source code, by Martin Novy
 #diam == 2*r + 1
-#bfade, q, qqq are related to Cc
+#bfade, q, qqq are not related to Cc
 #M1 or weighted
 #smin==smin
 #smax==smax
