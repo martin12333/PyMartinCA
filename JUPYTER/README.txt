@@ -1,3 +1,3 @@
-cannot delete this folder because of rsync
+cannot refactor this folder because of rsync
 
 

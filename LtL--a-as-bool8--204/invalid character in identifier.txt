@@ -80,8 +80,11 @@ import time
 
 
 
-
-
+What's HTML character code 8203? - Stack Overflow
+invisible character charCodeAt(0) site:stackoverflow.com
+https://www.soscisurvey.de/tools/view-chars.php
+https://docs.google.com/document/d/1zgfQpMRWxT_dgDntmOJwm_E_mm7CpAKSiWM65po4QV8/edit
+https://ace.c9.io/build/kitchen-sink.html
 
 SyntaxError: invalid character in identifier
 SyntaxError: invalid character in identifier
