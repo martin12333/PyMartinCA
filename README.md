@@ -1,41 +1,26 @@
 
-# MOST STUFF IS NOW IN THE *BETA* BRANCH
-
-https://github.com/martin12333/PyMartinCA/tree/beta
-
 
 # installation
 
-depends on Python 2
+Jupyter notebooks depend on Python 3 (or Python 2)
 
-will be compatible with Python3 after fixing issues #1 #2
 
 depends on
 
 ```
 python-scipy
+python-matplotlib
 
-```
-
-some parts depend on
-
-```
-python-pygame python-matplotlib
-
-```
-
-recommended
-
-```
-ipython
 
 ```
 
 # running
 
 ```
-cd TAB
-ipython 
-run TAB
+jupyter notebook
 ```
 
+
+# many older scripts are in the  *BETA* branch
+
+https://github.com/martin12333/PyMartinCA/tree/beta
