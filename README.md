@@ -1,14 +1,14 @@
 
-# MOST STUFF IS NOW IN THE *BETA* BRANCH
+# the main readme is in the master branch
 
-https://github.com/martin12333/PyMartinCA/tree/beta
+https://github.com/martin12333/PyMartinCA
 
 
 # installation
 
-depends on Python 2
+the scripts depend on Python 2
 
-will be compatible with Python3 after fixing issues #1 #2
+the scripts will be compatible with Python3 after fixing issues #1 #2
 
 depends on
 
@@ -17,10 +17,10 @@ python-scipy
 
 ```
 
-some parts depend on
+the scripts depend on
 
 ```
-python-pygame python-matplotlib
+python-pygame OR python-matplotlib
 
 ```
 
