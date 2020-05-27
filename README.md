@@ -2,14 +2,14 @@
 
 # installation
 
-Jupyter notebooks depend on Python 3 (or Python 2)
+Jupyter notebooks depend on Python 3 (should also work with Python 2)
 
 
 depends on
 
 ```
-python-scipy
-python-matplotlib
+python3-scipy
+python3-matplotlib
 
 
 ```
