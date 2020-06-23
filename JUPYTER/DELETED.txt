@@ -42,6 +42,92 @@ p.push("HROT M");
             k.push(["Replicator R4", "R4,C2,S1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63,65,67,69,71,73,75,77,79,B1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63,65,67,69,71,73,75,77,79"]);
 
 
+
+
+333333333333333333333333333333333333333333333333333333333333
+
+
+
+
+
+
+
+
+
+    pops = []
+    gens = []
+    hs=[]
+    ws=[]
+    ys=[]
+    
+    currgen = 0
+
+    for _ in range(int(niter/step2)):
+        pops.append(p1.population)
+        gens.append(currgen)
+        
+        bb=p1.bounding_box
+        h=1
+        w=1
+        if bb:
+            h=bb[2]-bb[0]
+            w=bb[3]-bb[1]
+        hs.append(h)
+        ws.append(w)
+        #ys.append(p1.population/h)
+        ys.append(p1.population/(1+currgen))
+        
+        p1 = p1[step2]
+        currgen += step2
+
+
+    #plt.plot(gens, pops)
+    #plt.plot(gens, hs)
+    ###plt.plot(gens, pops/hs)
+    #plt.plot(gens, ys)
+    #plt.show()
+    
+
+    bb=p1.bounding_box
+    #print(bb)
+   
+    h=1
+    w=1
+    if bb:
+        h=bb[2]-bb[0]
+        w=bb[3]-bb[1]
+
+
+    tag1='soup'
+    time_s='time'
+    time11=niter
+    pop_s='pop'
+    population=p1.population
+    space_s='space'
+    rule_s='rule'
+    rulespace='lifelib'
+
+    print(tag1,time_s,time11,pop_s,population,space_s,w2,h2,w,h,rule_s,rulespace,rulestr)
+
+
+
+
+
+
+333333333333333333333333333333333333333333333
+
+
+
+
+
+
+
+
+
+
+
+
+
 #from pylab import 
 
 r_(1)
