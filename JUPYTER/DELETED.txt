@@ -110,6 +110,19 @@ p.push("HROT M");
     print(tag1,time_s,time11,pop_s,population,space_s,w2,h2,w,h,rule_s,rulespace,rulestr)
 
 
+rule lifelib b34s23
+
+B13/S23 [Explosive]
+B23/S23 [Explosive]
+B34/S23 [Explosive]
+B35/S23
+B36/S23
+B37/S23 [Explosive]
+B38/S23
+
+
+
+
 
 
 
