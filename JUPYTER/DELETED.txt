@@ -1,6 +1,9 @@
 
 
 
+soup time 3600 pop 113742 ratio 2.6 space 1800 1800 3269 3052 rule lifelib b3-q4z5ys234k5j #Quickly settles, but explodes if there is a quadratic replicator
+0.05
+
 
 
 

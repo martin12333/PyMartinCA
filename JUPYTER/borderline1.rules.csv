@@ -1,0 +1,7 @@
+rule lifelib b378s01356 #Long-lived, but still stable
+rule lifelib b368s12578 #Marginally explosive; contains a linear replicator
+rule lifelib b3-q4z5ys234k5j #Quickly settles, but explodes if there is a quadratic replicator
+rule lifelib b01346s023 #Has approximately 0.0343 linear growth patterns per soup
+rule lifelib b34a6ns2aek3-a4a #A rare example of an apgsearchable rule with a (relatively common) zz_QUADRATIC; also has a common gun
+rule lifelib b357s1358 #Explodes at very large soup sizes, but smaller soups always die down
+rule lifelib b3aeijs01c2n3ack4q5a6e #Has a common O(sqrt(t)) growth pattern
