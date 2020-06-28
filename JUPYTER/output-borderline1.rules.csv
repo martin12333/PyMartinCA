@@ -125,3 +125,48 @@ soup time 1600 pop 1870 ratio 1.0 space 800 30 801 36 rule lifelib b3aeijs01c2n3
 soup time 1600 pop 2080 ratio 1.0 space 800 30 1865 1218 rule lifelib b3s23 #added for comparison
 soup time 1600 pop 300 ratio 1.0 space 800 30 763 947 rule lifelib r2b7t9s7t10 #added for comparison
 soup time 1600 pop 224727 ratio 2.3 space 800 30 1546 943 rule lifelib r2b7t12s7t10 #added for comparison
+soup time 1600 pop 7905 ratio 1.0 space 800 30 836 125 rule lifelib b378s01356 #Long-lived, but still stable
+soup time 1600 pop 8124 ratio 1.2 space 800 30 843 183 rule lifelib b368s12578 #Marginally explosive; contains a linear replicator
+soup time 1600 pop 11736 ratio 2.9 space 800 30 979 961 rule lifelib b3-q4z5ys234k5j #Quickly settles, but explodes if there is a quadratic replicator
+soup time 1600 pop 1834 ratio 1.8 space 800 30 786 2438 rule lifelib b01346s023 #Has approximately 0.0343 linear growth patterns per soup
+soup time 1600 pop 196 ratio 0.9 space 800 30 1877 1196 rule lifelib b34a6ns2aek3-a4a #A rare example of an apgsearchable rule with a (relatively common) zz_QUADRATIC; also has a common gun
+soup time 1600 pop 8548 ratio 1.0 space 800 30 810 134 rule lifelib b357s1358 #Explodes at very large soup sizes, but smaller soups always die down
+soup time 1600 pop 1903 ratio 1.0 space 800 30 802 34 rule lifelib b3aeijs01c2n3ack4q5a6e #Has a common O(sqrt(t)) growth pattern
+soup time 1600 pop 2278 ratio 0.8 space 800 30 1773 1211 rule lifelib b3s23 #added for comparison
+soup time 1600 pop 217 ratio 1.0 space 800 30 738 39 rule lifelib r2b7t9s7t10 #added for comparison
+soup time 3200 pop 15333 ratio 0.9 space 1600 30 1661 164 rule lifelib b378s01356 #Long-lived, but still stable
+soup time 3200 pop 12912 ratio 0.9 space 1600 30 1663 1264 rule lifelib b368s12578 #Marginally explosive; contains a linear replicator
+soup time 3200 pop 3210 ratio 1.0 space 1600 30 1646 91 rule lifelib b3-q4z5ys234k5j #Quickly settles, but explodes if there is a quadratic replicator
+soup time 3200 pop 505 ratio 1.0 space 1600 30 3467 4827 rule lifelib b01346s023 #Has approximately 0.0343 linear growth patterns per soup
+soup time 3200 pop 1894 ratio 1.7 space 1600 30 3741 3801 rule lifelib b34a6ns2aek3-a4a #A rare example of an apgsearchable rule with a (relatively common) zz_QUADRATIC; also has a common gun
+soup time 3200 pop 37933 ratio 1.3 space 1600 30 1600 209 rule lifelib b357s1358 #Explodes at very large soup sizes, but smaller soups always die down
+soup time 3200 pop 3680 ratio 1.0 space 1600 30 1601 134 rule lifelib b3aeijs01c2n3ack4q5a6e #Has a common O(sqrt(t)) growth pattern
+soup time 3200 pop 6250 ratio 1.0 space 1600 30 3746 2417 rule lifelib b3s23 #added for comparison
+soup time 3200 pop 491 ratio 1.0 space 1600 30 2061 2764 rule lifelib r2b7t9s7t10 #added for comparison
+soup time 6000 pop 18962 ratio 0.9 space 3000 30 3042 235 rule lifelib b378s01356 #Long-lived, but still stable
+soup time 6000 pop 31351 ratio 1.1 space 3000 30 3131 343 rule lifelib b368s12578 #Marginally explosive; contains a linear replicator
+soup time 6000 pop 171488 ratio 2.9 space 3000 30 5111 3026 rule lifelib b3-q4z5ys234k5j #Quickly settles, but explodes if there is a quadratic replicator
+soup time 6000 pop 6906 ratio 1.8 space 3000 30 5929 9027 rule lifelib b01346s023 #Has approximately 0.0343 linear growth patterns per soup
+soup time 6000 pop 2507 ratio 1.3 space 3000 30 6957 4539 rule lifelib b34a6ns2aek3-a4a #A rare example of an apgsearchable rule with a (relatively common) zz_QUADRATIC; also has a common gun
+soup time 6000 pop 96476 ratio 1.5 space 3000 30 3048 260 rule lifelib b357s1358 #Explodes at very large soup sizes, but smaller soups always die down
+soup time 6000 pop 7137 ratio 1.0 space 3000 30 3002 38 rule lifelib b3aeijs01c2n3ack4q5a6e #Has a common O(sqrt(t)) growth pattern
+soup time 6000 pop 10230 ratio 0.9 space 3000 30 7136 4534 rule lifelib b3s23 #added for comparison
+soup time 6000 pop 836 ratio 1.0 space 3000 30 3001 4000 rule lifelib r2b7t9s7t10 #added for comparison
+soup time 10000 pop 12105 ratio 0.7 space 2500 30 2609 242 rule lifelib b378s01356 #Long-lived, but still stable
+soup time 10000 pop 31721 ratio 1.4 space 2500 30 2549 680 rule lifelib b368s12578 #Marginally explosive; contains a linear replicator
+soup time 10000 pop 552996 ratio 2.7 space 2500 30 6912 6015 rule lifelib b3-q4z5ys234k5j #Quickly settles, but explodes if there is a quadratic replicator
+soup time 10000 pop 24301 ratio 2.0 space 2500 30 4862 15042 rule lifelib b01346s023 #Has approximately 0.0343 linear growth patterns per soup
+soup time 10000 pop 2915 ratio 1.7 space 2500 30 9921 7532 rule lifelib b34a6ns2aek3-a4a #A rare example of an apgsearchable rule with a (relatively common) zz_QUADRATIC; also has a common gun
+soup time 10000 pop 98008 ratio 1.7 space 2500 30 2501 285 rule lifelib b357s1358 #Explodes at very large soup sizes, but smaller soups always die down
+soup time 10000 pop 5700 ratio 1.0 space 2500 30 2501 38 rule lifelib b3aeijs01c2n3ack4q5a6e #Has a common O(sqrt(t)) growth pattern
+soup time 10000 pop 8205 ratio 1.0 space 2500 30 9422 7507 rule lifelib b3s23 #added for comparison
+soup time 10000 pop 703 ratio 1.0 space 2500 30 6758 10010 rule lifelib r2b7t9s7t10 #added for comparison
+soup time 400 pop 1896 ratio 1.0 space 200 30 231 64 rule lifelib b378s01356 sumpop 787572 #Long-lived, but still stable
+soup time 400 pop 1615 ratio 0.9 space 200 30 216 90 rule lifelib b368s12578 sumpop 752148 #Marginally explosive; contains a linear replicator
+soup time 400 pop 448 ratio 0.9 space 200 30 222 75 rule lifelib b3-q4z5ys234k5j sumpop 242100 #Quickly settles, but explodes if there is a quadratic replicator
+soup time 400 pop 51 ratio 1.0 space 200 30 174 528 rule lifelib b01346s023 sumpop 66816 #Has approximately 0.0343 linear growth patterns per soup
+soup time 400 pop 326 ratio 0.3 space 200 30 315 280 rule lifelib b34a6ns2aek3-a4a sumpop 359376 #A rare example of an apgsearchable rule with a (relatively common) zz_QUADRATIC; also has a common gun
+soup time 400 pop 2387 ratio 1.0 space 200 30 204 73 rule lifelib b357s1358 sumpop 983268 #Explodes at very large soup sizes, but smaller soups always die down
+soup time 400 pop 430 ratio 1.0 space 200 30 204 33 rule lifelib b3aeijs01c2n3ack4q5a6e sumpop 175440 #Has a common O(sqrt(t)) growth pattern
+soup time 400 pop 1426 ratio 1.4 space 200 30 341 304 rule lifelib b3s23 sumpop 458892 #added for comparison
+soup time 400 pop 103 ratio 1.0 space 200 30 164 180 rule lifelib r2b7t9s7t10 sumpop 49452 #added for comparison

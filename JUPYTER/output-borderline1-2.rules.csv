@@ -1,0 +1,22 @@
+soup time 400 pop 1904 ratio 1.0 space 200 30 229 65 rule lifelib b378s01356 sumpop 765516 #Long-lived, but still stable
+soup time 400 pop 1157 ratio 1.0 space 200 30 224 95 rule lifelib b368s12578 sumpop 577944 #Marginally explosive; contains a linear replicator
+soup time 400 pop 424 ratio 0.7 space 200 30 211 82 rule lifelib b3-q4z5ys234k5j sumpop 256128 #Quickly settles, but explodes if there is a quadratic replicator
+soup time 400 pop 221 ratio 0.9 space 200 30 669 631 rule lifelib b01346s023 sumpop 119364 #Has approximately 0.0343 linear growth patterns per soup
+soup time 400 pop 163 ratio 0.2 space 200 30 266 159 rule lifelib b34a6ns2aek3-a4a sumpop 303348 #A rare example of an apgsearchable rule with a (relatively common) zz_QUADRATIC; also has a common gun
+soup time 400 pop 2354 ratio 0.9 space 200 30 220 90 rule lifelib b357s1358 sumpop 1025436 #Explodes at very large soup sizes, but smaller soups always die down
+soup time 400 pop 472 ratio 1.0 space 200 30 204 34 rule lifelib b3aeijs01c2n3ack4q5a6e sumpop 192576 #Has a common O(sqrt(t)) growth pattern
+soup time 400 pop 821 ratio 1.0 space 200 30 384 389 rule lifelib b3s23 sumpop 350460 #added for comparison
+soup time 400 pop 116 ratio 1.0 space 200 30 157 32 rule lifelib r2b7t9s7t10 sumpop 52536 #added for comparison
+soup time 400 pop 27 ratio 1.0 space 200 30 80 24 rule lifelib r2b7t7s7t10 sumpop 15012 
+soup time 400 pop 8329 ratio 1.7 space 200 30 254 189 rule lifelib r2b7t7s7t11 sumpop 2008704 
+soup time 400 pop 71 ratio 1.0 space 200 30 142 38 rule lifelib r2b7t8s7t10 sumpop 32088 
+soup time 400 pop 11327 ratio 2.4 space 200 30 443 319 rule lifelib r2b7t8s7t11 sumpop 2230236 
+soup time 400 pop 74 ratio 1.0 space 200 30 158 237 rule lifelib r2b7t9s7t10 sumpop 39372 
+soup time 400 pop 14403 ratio 2.5 space 200 30 496 328 rule lifelib r2b7t9s7t11 sumpop 2745528 
+soup time 400 pop 36 ratio 1.0 space 200 30 122 26 rule lifelib r2b7t10s7t10 sumpop 23412 
+soup time 400 pop 16919 ratio 2.4 space 200 30 420 323 rule lifelib r2b7t10s7t11 sumpop 3349212 
+soup time 400 pop 65 ratio 0.2 space 200 30 122 31 rule lifelib r2b7t11s7t10 sumpop 113484 
+soup time 400 pop 34187 ratio 2.4 space 200 30 547 452 rule lifelib r2b7t11s7t11 sumpop 6481740 
+soup time 400 pop 13135 ratio 2.0 space 200 30 336 239 rule lifelib r2b7t12s7t10 sumpop 2856864 
+soup time 400 pop 52199 ratio 2.7 space 200 30 654 543 rule lifelib r2b7t12s7t11 sumpop 9275028 
+soup time 400 pop 1242 ratio 1.2 space 200 30 470 302 rule lifelib b3s23 sumpop 425616 
