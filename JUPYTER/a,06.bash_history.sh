@@ -1,3 +1,34 @@
+    1  history 
+    2  sudo apt-get install sshd
+    3  sudo apt-get install openssh-sftp-server 
+    4  ll
+    5  history 
+    6  ps -u martin |grep fire
+    7  ps -ef |grep fire
+    8  ps -e |grep fire
+    9  ps -f |grep fire
+   10  ps -ef |grep fire
+   11  top
+   12  ps -ef |grep fire
+   13  firefox 
+   14  cd Downloads/
+   15  ll
+   16  sudo -i dpkg --install code_1.36.1-1562627527_amd64.deb 
+   17  pwd
+   18  sudo -i dpkg --install /home/martin/Downloads/code_1.36.1-1562627527_amd64.deb 
+   19  history 
+   20  history >vd182-2223new,j7o.history.sh
+   21  history -a
+   22  history >vd182-2223new,j7o.history.sh
+   23  cd
+   24  history >vd182-2223new,j7o.history.sh
+   25  cat vd182-2223new,j7o.history.sh 
+   26  /usr/bin/sudo -i /bin/nano --backup /etc/gdm3/custom.conf
+   27  history 
+   28  cd Downloads/
+   29  sudo -i dpkg --install /home/martin/Downloads/Brackets.Release.1.14.64-bit.deb 
+   30  history 
+   31  sudo apt-get install gconf-service
    32  sudo apt-get --fix-broken install
    33  xdg-icon-resource --help
    34  history 
@@ -998,3 +1029,54 @@
  1029  cd ..
  1030  cd JUPYTER
  1031  history -a ; history >a,06.bash_history.sh
+ 1032  cd
+ 1033  git commit  -a -m 'hist' ;git push -u origin vd182
+ 1034  history -a ; history >a,06.bash_history.sh
+ 1035  mc
+ 1036  vmstat 2
+ 1037  time vmstat 2
+ 1038  python3   
+ 1039  ipython3   
+ 1040  set|grep -i hist
+ 1041  history -a ; history >a,06.bash_history.sh
+ 1042  history
+ 1043  mc
+ 1044  git add --verbose --dry-run 
+ 1045  git add --verbose .bashrc
+ 1046  git commit  -a -m 'hist' ;  
+ 1047  mc
+ 1048  history
+ 1049  set|grep -i hist
+ 1050  git commit  -a -m 'histsize' ;  
+ 1051  git push -u origin vd182
+ 1052  mc
+ 1053  history|grep -i apg
+ 1054  cd
+ 1055  cd apgmera/
+ 1056  ./apgluxe -L 1 -t 1  --rule r2b7t8s6t10    -n 1000
+ 1057  mc
+ 1058  ./apgluxe -L 1 -t 1  --rule r2b7t8s6t10    -n 10000
+ 1059  echo 
+ 1060  cat ~/grdr20/klic 
+ 1061  echo `cat ~/grdr20/klic  `
+ 1062  ./apgluxe -L 1 -t 1 -k `cat ~/grdr20/klic`   --rule r2b7t8s6t10    -n 10000
+ 1063  ./apgluxe -L 1  -k `cat ~/grdr20/klic`   --rule r2b7t8s6t10    -n 10000
+ 1064  mc
+ 1065  history -a ; history >a,06.bash_history.sh
+ 1066  history
+ 1067  ./apgluxe -L 1 -t 1 -k `cat ~/grdr20/klic`   --rule r3b14t17s14t23    -n 10000 -i 1
+ 1068  mc
+ 1069  free -m
+ 1070  ./apgluxe -L 1  -k `cat ~/grdr20/klic`   --rule r3b14t17s14t23    -n 10000 -i 1
+ 1071  history -a ; history >a,06.bash_history.sh
+ 1072  echo ./apgluxe -L 1 -t 1 -k `cat ~/grdr20/klic`   --rule r3b14t19s14t23    -n 10000 -i 1
+ 1073  mc
+ 1074  ./apgluxe -L 1 -t 1 -k `cat ~/grdr20/klic`   --rule r3b14t19s14t23    -n 10000 -i 1
+ 1075  mc
+ 1076  ./apgluxe -L 1 -t 1 -k `cat ~/grdr20/klic`   --rule r3b14t19s14t23    -n 10000 -i 1
+ 1077  cd
+ 1078  cd grdr20/PyMartinCA/beta/205density-plot/
+ 1079  mc
+ 1080  cd
+ 1081  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1082  history -a ; history >a,06.bash_history.sh
