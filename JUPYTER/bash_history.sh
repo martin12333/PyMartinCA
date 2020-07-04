@@ -1239,3 +1239,17 @@
  1239  history -a ; history >a,07.bash_history.sh
  1240  grep 15t15 r3all.rules.csv 
  1241  history -a ; history >bash_history.sh
+ 1242  history
+ 1243  awk '$7<1.4 && $12>800' <r3all.rules.csv | sort --field-separator=' ' -d -k 15 
+ 1244  awk '$7<1.4 && $12>800' <r3all.rules.csv | sort  -k 15 
+ 1245  awk '$7<1.4 && $12>408' <r3all.rules.csv | sort  -k 15 
+ 1246  awk '$7<1.4 && $12>408' <r3all.rules.csv | sort  -k 12
+ 1247  awk '$7<1.4 && $12>408' <r3all.rules.csv | sort -nr -k 12
+ 1248  awk '$7<1.4 && $12>500' <r3all.rules.csv | sort -nr -k 12
+ 1249  awk '$7<1.4 && $12>500' <r3all.rules.csv | sort -nr -k 5
+ 1250  awk '$7<1.4 && $12>500' <r3all.rules.csv | sort -n -k 5
+ 1251  history
+ 1252  history -a ; history >bash_history.sh
+ 1253  awk '$7<1.4 && $12>500' <r3all.rules.csv | sort -n -k 5|cut -f 1-15 -d ' '|uniq --skip-fields=14
+ 1254  awk '$7<1.4 && $12>500' <r3all.rules.csv | sort -nr -k 5|cut -f 1-15 -d ' '|uniq --skip-fields=14
+ 1255  history -a ; history >bash_history.sh
