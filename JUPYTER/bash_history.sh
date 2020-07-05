@@ -1253,3 +1253,80 @@
  1253  awk '$7<1.4 && $12>500' <r3all.rules.csv | sort -n -k 5|cut -f 1-15 -d ' '|uniq --skip-fields=14
  1254  awk '$7<1.4 && $12>500' <r3all.rules.csv | sort -nr -k 5|cut -f 1-15 -d ' '|uniq --skip-fields=14
  1255  history -a ; history >bash_history.sh
+ 1256  mc
+ 1257  apt search mesa
+ 1258  apt search vulkan
+ 1259  sudo apt-get install   mesa-utils
+ 1260  history -a ; history >bash_history.sh
+ 1261  glxinfo 
+ 1262  export DISPLAY=:0
+ 1263  glxinfo 
+ 1264  jupyter notebook --debug
+ 1265  export DISPLAY=:0
+ 1266  glxinfo 
+ 1267  history -a ; history >bash_history.sh
+ 1268  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1269  history -a ; history >bash_history.sh
+ 1270  history
+ 1271  wget -qO - http://packages.lunarg.com/lunarg-signing-key-pub.asc | sudo apt-key add -
+ 1272  history
+ 1273  sudo wget -qO /etc/apt/sources.list.d/lunarg-vulkan-1.2.141-bionic.list http://packages.lunarg.com/vulkan/1.2.141/lunarg-vulkan-1.2.141-bionic.list
+ 1274  sudo apt update
+ 1275  sudo apt install vulkan-sdk
+ 1276  history -a ; history >bash_history.sh
+ 1277  export DISPLAY=:0
+ 1278  glxinfo 
+ 1279  vulkaninfo 
+ 1280  history -a ; history >bash_history.sh
+ 1281  export DISPLAY=:0
+ 1282  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1283  apt show vulkan-tools
+ 1284  apt show vulkan-utils 
+ 1285  apt show mesa-vulkan-drivers -a
+ 1286  sudo apt install mesa-vulkan-drivers 
+ 1287  history -a ; history >bash_history.sh
+ 1288  vulkaninfo 
+ 1289  echo MY SHELL HISTORY CONTAINS MANY BLINDALLEYS
+ 1290  awk '$7<1.4 && $12>500' <r3all.rules.csv | sort  -k 15,15
+ 1291  awk '$7<1.4 && $12>500' <r3all.rules.csv | sort  -k 15,15 -k 12,12
+ 1292  awk '$7<1.4 && $12>500' <r3all.rules.csv | sort  -k 15,15 -k 12,12n
+ 1293  awk '$7<1.4 && $12>500' <r3all.rules.csv | sort  -k 15,15 -k 12,12nr
+ 1294  export LC_ALL=C
+ 1295  history -a ; history >bash_history.sh
+ 1296  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1297  history
+ 1298  vulkaninfo 
+ 1299  export DISPLAY=:0
+ 1300  vulkaninfo 
+ 1301  history -a ; history >bash_history.sh
+ 1302  history
+ 1303  glxinfo 
+ 1304  history
+ 1305  apt search virgl
+ 1306  cd
+ 1307  ls
+ 1308  git clone https://github.com/google/swiftshader.git
+ 1309  git clone https://github.com/google/swiftshader.git --depth=1
+ 1310  df
+ 1311  df -m
+ 1312  history -a ; history >bash_history.sh
+ 1313  history
+ 1314  cd swiftshader/
+ 1315  cd build
+ 1316  cmake ..
+ 1317  sudo apt remove --purge cmake
+ 1318  cmake
+ 1319  sudo snap install cmake 
+ 1320  sudo snap install cmake --classic
+ 1321  cmake ..
+ 1322  df -m
+ 1323  cd
+ 1324  history -a ; history >bash_history.sh
+ 1325  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1326  history -a ; history >bash_history.sh
+ 1327  cd
+ 1328  cd swiftshader/build
+ 1329  make
+ 1330  cd
+ 1331  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1332  history -a ; history >bash_history.sh
