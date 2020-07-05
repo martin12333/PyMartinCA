@@ -91,3 +91,40 @@ soup time 144 pop 528 ratio 0.9 space 300 10 341 80 rule lifelib r3b14t19s14t23 
 soup time 144 pop 281 ratio 0.2 space 300 10 125 135 rule lifelib r3b14t17s14t23 sumpop 143676 
 soup time 144 pop 84 ratio 1.0 space 300 10 120 15 rule lifelib r5b34t45s34t58 sumpop 29436 Bosco's Rule
 soup time 144 pop 563 ratio 0.8 space 300 10 297 74 rule lifelib b3s23 sumpop 102432 
+
+soup time 144 pop 606 ratio 0.5 space 300 10 72 100 rule lifelib r3b14t17s14t23 sumpop 178716 
+soup time 144 pop 710 ratio 0.9 space 300 10 262 88 rule lifelib r3b14t19s14t23 sumpop 111444 
+soup time 144 pop 187 ratio 0.2 space 300 10 190 39 rule lifelib r3b14t17s14t23 sumpop 98160 
+soup time 144 pop 1041 ratio 2.6 space 300 10 121 121 rule lifelib r5b34t45s34t58 sumpop 91584 Bosco's Rule
+soup time 144 pop 699 ratio 1.3 space 300 10 318 122 rule lifelib b3s23 sumpop 96180 
+soup time 144 pop 481 ratio 0.9 space 300 10 243 120 rule lifelib g6r2b7t10s7t11 sumpop 58320 
+
+soup time 264 pop 729 ratio 0.4 space 530 20 442 166 rule lifelib r3b14t17s14t23 sumpop 419196 
+soup time 264 pop 2113 ratio 1.0 space 530 20 557 170 rule lifelib r3b14t19s14t23 sumpop 526596 
+soup time 264 pop 2059 ratio 0.9 space 530 20 572 173 rule lifelib r3b14t17s14t23 sumpop 549732 
+soup time 264 pop 138 ratio 1.0 space 530 20 -137 458 rule lifelib r5b34t45s34t58 sumpop 98832 Bosco's Rule
+soup time 264 pop 1548 ratio 1.0 space 530 20 544 153 rule lifelib b3s23 sumpop 474756 
+soup time 264 pop 493 ratio 1.3 space 530 20 593 90 rule lifelib g6r2b7t10s7t11 sumpop 171024 
+
+soup time 264 pop 3043 ratio 1.8 space 530 20 623 241 rule lifelib r3b14t17s14t23 sumpop 580416 
+soup time 264 pop 1602 ratio 0.9 space 530 20 492 179 rule lifelib r3b14t19s14t23 sumpop 444924 
+soup time 264 pop 1016 ratio 0.9 space 530 20 501 132 rule lifelib r3b14t17s14t23 sumpop 308208 
+soup time 264 pop 183 ratio 1.0 space 530 20 429 404 rule lifelib r5b34t45s34t58 sumpop 102048 Bosco's Rule
+soup time 264 pop 2330 ratio 1.1 space 530 20 541 202 rule lifelib b3s23 sumpop 581652 
+soup time 264 pop 474 ratio 0.4 space 530 20 421 135 rule lifelib g6r2b7t10s7t11 sumpop 215592 
+
+soup time 264 pop 1513 ratio 1.4 space 530 20 456 154 rule lifelib r3b14t17s14t23 sumpop 298932 
+soup time 264 pop 1210 ratio 0.8 space 530 20 562 130 rule lifelib r3b14t19s14t23 sumpop 397584 
+soup time 264 pop 121 ratio 0.2 space 530 20 312 51 rule lifelib r3b14t17s14t23 sumpop 116484 
+soup time 264 pop 68 ratio 1.0 space 530 20 -318 6 rule lifelib r5b34t45s34t58 sumpop 90804 Bosco's Rule
+soup time 264 pop 1705 ratio 1.2 space 530 20 652 188 rule lifelib b3s23 sumpop 450144 
+soup time 264 pop 0 ratio 0.0 space 530 20 1 1 rule lifelib g6b7s7 sumpop 0 
+soup time 264 pop 137 ratio 1.0 space 530 20 506 39 rule lifelib g6r2b7t10s7t11 sumpop 79188 
+
+soup time 264 pop 1452 ratio 0.6 space 530 20 425 204 rule lifelib r3b14t17s14t23 sumpop 547704 
+soup time 264 pop 1714 ratio 1.5 space 530 20 529 93 rule lifelib r3b14t19s14t23 sumpop 384264 
+soup time 264 pop 1600 ratio 1.0 space 530 20 593 162 rule lifelib r3b14t17s14t23 sumpop 433776 
+soup time 264 pop 36 ratio 0.1 space 530 20 -502 22 rule lifelib r5b34t45s34t58 sumpop 96816 Bosco's Rule
+soup time 264 pop 1758 ratio 0.9 space 530 20 548 179 rule lifelib b3s23 sumpop 491412 
+soup time 264 pop 546 ratio 0.5 space 530 20 554 94 rule lifelib g6r2b7t10s7t11 sumpop 186888 
+soup time 264 pop 0 ratio 0.0 space 530 20 1 1 rule lifelib g6b7s7 sumpop 0 
