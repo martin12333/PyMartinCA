@@ -1324,9 +1324,111 @@
  1324  history -a ; history >bash_history.sh
  1325  cd grdr20/PyMartinCA/beta/JUPYTER
  1326  history -a ; history >bash_history.sh
- 1327  cd
- 1328  cd swiftshader/build
- 1329  make
- 1330  cd
- 1331  cd grdr20/PyMartinCA/beta/JUPYTER
- 1332  history -a ; history >bash_history.sh
+ 1327  apt search swiftshader
+ 1328  cd
+ 1329  cd swiftshader/build
+ 1330  make
+ 1331  cd
+ 1332  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1333  history -a ; history >bash_history.sh
+ 1334  cd
+ 1335  cd swiftshader/build
+ 1336  make
+ 1337  cd
+ 1338  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1339  history -a ; history >bash_history.sh
+ 1340  cd
+ 1341  df -m
+ 1342  lsmod
+ 1343  lsmod|grep fgl
+ 1344  lsmod|grep vid
+ 1345  lsmod|grep rad
+ 1346  lsmod|grep ati
+ 1347  lsmod|grep amd
+ 1348  lsmod|grep mes
+ 1349  lsmod|grep gal
+ 1350  export DISPLAY=:0
+ 1351  lsmod|grep kvm
+ 1352  history -a ; history >bash_history.sh
+ 1353  top
+ 1354  cd Downloads/
+ 1355  ll
+ 1356  tar xvf golly-3.3-src.tar.gz 
+ 1357  history -a ; history >bash_history.sh
+ 1358  mc
+ 1359  wget https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.5/wxWidgets-3.0.5.tar.bz2
+ 1360  sudo apt-get install mesa-common-dev
+ 1361  history -a ; history >bash_history.sh
+ 1362  sudo apt-get install freeglut3-dev
+ 1363  tar xvf wxWidgets-3.0.5.tar.bz2 
+ 1364  cd wxWidgets-3.0.5/
+ 1365  mkdir build-gtk
+ 1366  ../configure --with-gtk --disable-shared --enable-unicode --with-opengl
+ 1367  make
+ 1368  sudo apt-get install wx3.0-headers 
+ 1369  sudo apt-get install wx-common 
+ 1370  cd
+ 1371  mc
+ 1372  history -a ; history >bash_history.sh
+ 1373  history
+ 1374  wget https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxWidgets-3.0.4.tar.bz2
+ 1375  tar xvf wxWidgets-3.0.4.tar.bz2 
+ 1376  history
+ 1377  cd wxWidgets-3.0.4
+ 1378  mkdir build-gtk
+ 1379  cd build-gtk/
+ 1380  ../configure --with-gtk --disable-shared --enable-unicode --with-opengl
+ 1381  sudo apt-get install wxglade 
+ 1382  sudo apt-get install python2.7-dev 
+ 1383  history -a ; history >bash_history.sh
+ 1384  mc
+ 1385  sudo apt-get install libgtk2.0-dev
+ 1386  history -a ; history >bash_history.sh
+ 1387  cd
+ 1388  history -a ; history >bash_history.sh
+ 1389  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1390  history -a ; history >bash_history.sh
+ 1391  cd
+ 1392  cd Downloads/wxWidgets-3.0.4/build-gtk/
+ 1393  history
+ 1394  ../configure --with-gtk --disable-shared --enable-unicode --with-opengl
+ 1395  cd
+ 1396  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1397  history -a ; history >bash_history.sh
+ 1398  uname -a
+ 1399  uname 
+ 1400  uname -a
+ 1401  history -a ; history >bash_history.sh
+ 1402  ll
+ 1403  sh
+ 1404  bash
+ 1405  mc
+ 1406  history
+ 1407  uname -a
+ 1408  mc
+ 1409  history -a ; history >bash_history.sh
+ 1410  cd
+ 1411  cd swiftshader/
+ 1412  cd build
+ 1413  ll
+ 1414  export DISPLAY=:0
+ 1415  ./vk-unittests --h
+ 1416  ./vk-unittests 
+ 1417  cd
+ 1418  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1419  history
+ 1420  history -a ; history >bash_history.sh
+ 1421  cd
+ 1422  mc
+ 1423  cd Downloads/golly-3.3-src/gui-wx
+ 1424  make -f makefile-gtk
+ 1425  make -f makefile-gtk bgolly
+ 1426  mc
+ 1427  cd
+ 1428  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1429  history -a ; history >bash_history.sh
+ 1430  mc
+ 1431  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1432  mkdir PRE-VM-REVERT
+ 1433  mc
+ 1434  history -a ; history >bash_history.sh
