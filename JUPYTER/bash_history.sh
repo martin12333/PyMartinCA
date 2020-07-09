@@ -1432,3 +1432,33 @@
  1432  mkdir PRE-VM-REVERT
  1433  mc
  1434  history -a ; history >bash_history.sh
+ 1435  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1436  mc
+ 1437  history -a ; history >bash_history.sh
+ 1438  history
+ 1439  set|grep -i edi
+ 1440  set|grep -i edit
+ 1441  mc
+ 1442  set|grep -i edit
+ 1443  history
+ 1444  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1445  history -a ; history >bash_history.sh
+ 1446  ls
+ 1447  ls -la
+ 1448  cd
+ 1449  cd ~/Downloads
+ 1450  tar xvf golly-3.3-src.tar.gz 
+ 1451  tar xvf wxWidgets-3.0.5.tar.bz2 
+ 1452  mc
+ 1453  history -a ; history >bash_history.sh
+ 1454  history
+ 1455  sudo apt-get install --yes libgtk2.0-dev
+ 1456  sudo apt-get install --yes mesa-common-dev
+ 1457  sudo apt-get install --yes freeglut3-dev
+ 1458  sudo apt-get install --yes mesa-common-dev
+ 1459  sudo apt-get install --yes freeglut3-dev
+ 1460  sudo apt-get install --yes python2.7-dev 
+ 1461  mc
+ 1462  cd
+ 1463  cd grdr20/PyMartinCA/beta/JUPYTER
+ 1464  history -a ; history >bash_history.sh
