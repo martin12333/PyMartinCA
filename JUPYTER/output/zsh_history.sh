@@ -1284,3 +1284,32 @@
  1284  awk '$12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
  1285  history >zsh_history.sh
  1286  mc
+ 1287  history >zsh_history.sh
+ 1288  awk '$12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+ 1289  awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+ 1290  awk '$12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+ 1291  awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+ 1292  awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'| sort -n -k 4
+ 1293  awk '$7<1.6 && $12>500' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'| sort -n -k 4
+ 1294  awk '$7<1.6 && $12>500' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'| sort 
+ 1295  mc
+ 1296  free -m 
+ 1297  mc
+ 1298  free -m 
+ 1299  mc
+ 1300  free -m 
+ 1301  top
+ 1302  mc
+ 1303  free -m 
+ 1304  top -b -n 1 | grep pyt
+ 1305  free -m 
+ 1306  mc
+ 1307  nl p100520.csv-old
+ 1308  nl p100520.csv-old|grep '7c8 '
+ 1309  nl p100520.csv-old|grep 'y6n7c8 '
+ 1310  nl p100520.csv
+ 1311  mc
+ 1312  free -m 
+ 1313  top -b -n 1 | grep pyt
+ 1314  free -m 
+ 1315  mc

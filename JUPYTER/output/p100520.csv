@@ -1,99 +1,81 @@
 
-soup time 1596 pop 40 ratio 1.0 space 1600 30 80 21 rule lifelib g3r2b6t7s6t8 sumpop 99792 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b6t8s6t8 sumpop 85152 
-soup time 1596 pop 48339 ratio 1.8 space 1600 30 1997 807 rule lifelib g3r2b6t9s6t8 sumpop 43863948 
-soup time 480 pop 432174 ratio 2.1 space 1600 30 2301 806 rule lifelib g3r2b6t10s6t8 sumpop 104296260 
-soup time 336 pop 449212 ratio 2.1 space 1600 30 2249 818 rule lifelib g3r2b6t11s6t8 sumpop 77682000 
-soup time 288 pop 446994 ratio 2.0 space 1600 30 2227 822 rule lifelib g3r2b6t12s6t8 sumpop 68695020 
-soup time 276 pop 437412 ratio 2.1 space 1600 30 2235 802 rule lifelib g3r2b6t13s6t8 sumpop 64513464 
-soup time 276 pop 443915 ratio 2.1 space 1600 30 2216 829 rule lifelib g3r2b6t14s6t8 sumpop 65747580 
-soup time 1008 pop 3607 ratio 0.6 space 1600 30 1847 802 rule lifelib g3r2b6t7s6t9 sumpop 5975904 
-soup time 552 pop 287569 ratio 2.1 space 1600 30 2338 813 rule lifelib g3r2b6t8s6t9 sumpop 80445936 
-soup time 372 pop 429133 ratio 2.1 space 1600 30 2306 813 rule lifelib g3r2b6t9s6t9 sumpop 82260300 
-soup time 276 pop 479222 ratio 2.1 space 1600 30 2320 808 rule lifelib g3r2b6t10s6t9 sumpop 70479192 
-soup time 252 pop 523853 ratio 2.1 space 1600 30 2346 813 rule lifelib g3r2b6t11s6t9 sumpop 70721388 
-soup time 252 pop 540248 ratio 2.1 space 1600 30 2362 820 rule lifelib g3r2b6t12s6t9 sumpop 73566000 
-soup time 252 pop 543405 ratio 2.1 space 1600 30 2365 822 rule lifelib g3r2b6t13s6t9 sumpop 74008872 
-soup time 252 pop 540936 ratio 2.1 space 1600 30 2370 822 rule lifelib g3r2b6t14s6t9 sumpop 73493652 
-soup time 444 pop 393291 ratio 2.1 space 1600 30 2334 807 rule lifelib g3r2b6t7s6t10 sumpop 89811444 
-soup time 360 pop 430034 ratio 2.1 space 1600 30 2326 815 rule lifelib g3r2b6t8s6t10 sumpop 80973804 
-soup time 312 pop 507019 ratio 2.0 space 1600 30 2343 825 rule lifelib g3r2b6t9s6t10 sumpop 82847028 
-soup time 264 pop 548160 ratio 2.0 space 1600 30 2372 823 rule lifelib g3r2b6t10s6t10 sumpop 77111904 
-soup time 252 pop 594778 ratio 2.1 space 1600 30 2380 822 rule lifelib g3r2b6t11s6t10 sumpop 79912656 
-soup time 252 pop 611113 ratio 2.1 space 1600 30 2389 822 rule lifelib g3r2b6t12s6t10 sumpop 81946176 
-soup time 252 pop 612297 ratio 2.1 space 1600 30 2389 822 rule lifelib g3r2b6t13s6t10 sumpop 82330416 
-soup time 252 pop 604667 ratio 2.1 space 1600 30 2389 822 rule lifelib g3r2b6t14s6t10 sumpop 81829968 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b6t7s7t8 sumpop 2340 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b6t8s7t8 sumpop 4968 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b6t9s7t8 sumpop 12852 
-soup time 1596 pop 12 ratio 0.9 space 1600 30 -1342 3 rule lifelib g3r2b6t10s7t8 sumpop 34092 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b6t11s7t8 sumpop 28116 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b6t12s7t8 sumpop 50652 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b6t13s7t8 sumpop 54708 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b6t14s7t8 sumpop 50352 
-soup time 1596 pop 8 ratio 0.9 space 1600 30 -538 -25 rule lifelib g3r2b6t7s7t9 sumpop 56352 
-soup time 1596 pop 12 ratio 0.9 space 1600 30 -544 -7 rule lifelib g3r2b6t8s7t9 sumpop 118200 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b6t9s7t9 sumpop 817800 
-soup time 528 pop 383751 ratio 2.1 space 1600 30 2173 782 rule lifelib g3r2b6t10s7t9 sumpop 101298360 
-soup time 372 pop 445298 ratio 2.1 space 1600 30 2157 823 rule lifelib g3r2b6t11s7t9 sumpop 84681480 
-soup time 324 pop 479626 ratio 2.1 space 1600 30 2277 807 rule lifelib g3r2b6t12s7t9 sumpop 79367520 
-soup time 300 pop 475555 ratio 2.2 space 1600 30 2279 813 rule lifelib g3r2b6t13s7t9 sumpop 73617132 
-soup time 300 pop 491039 ratio 2.2 space 1600 30 2298 803 rule lifelib g3r2b6t14s7t9 sumpop 75726048 
-soup time 912 pop 216075 ratio 2.0 space 1600 30 2103 727 rule lifelib g3r2b6t7s7t10 sumpop 101058372 
-soup time 516 pop 336806 ratio 2.1 space 1600 30 2274 805 rule lifelib g3r2b6t8s7t10 sumpop 88319544 
-soup time 360 pop 429101 ratio 2.1 space 1600 30 2302 803 rule lifelib g3r2b6t9s7t10 sumpop 78639000 
-soup time 300 pop 503603 ratio 2.1 space 1600 30 2317 807 rule lifelib g3r2b6t10s7t10 sumpop 79204332 
-soup time 264 pop 547254 ratio 2.0 space 1600 30 2319 808 rule lifelib g3r2b6t11s7t10 sumpop 75739884 
-soup time 252 pop 563596 ratio 2.2 space 1600 30 2349 803 rule lifelib g3r2b6t12s7t10 sumpop 75252096 
-soup time 252 pop 572054 ratio 2.1 space 1600 30 2352 807 rule lifelib g3r2b6t13s7t10 sumpop 76704372 
-soup time 252 pop 574003 ratio 2.1 space 1600 30 2356 815 rule lifelib g3r2b6t14s7t10 sumpop 76956432 
-soup time 1596 pop 349 ratio 1.0 space 1600 30 1589 35 rule lifelib g3r2b7t7s6t8 sumpop 561696 
-soup time 1596 pop 86 ratio 1.0 space 1600 30 1017 29 rule lifelib g3r2b7t8s6t8 sumpop 139212 
-soup time 1596 pop 98 ratio 1.0 space 1600 30 1421 31 rule lifelib g3r2b7t9s6t8 sumpop 159300 
-soup time 1596 pop 142 ratio 1.0 space 1600 30 1273 35 rule lifelib g3r2b7t10s6t8 sumpop 230244 
-soup time 1596 pop 78 ratio 1.0 space 1600 30 1433 25 rule lifelib g3r2b7t11s6t8 sumpop 128364 
-soup time 1596 pop 129 ratio 1.0 space 1600 30 1215 33 rule lifelib g3r2b7t12s6t8 sumpop 210828 
-soup time 1596 pop 95 ratio 1.0 space 1600 30 1301 33 rule lifelib g3r2b7t13s6t8 sumpop 159168 
-soup time 1596 pop 88 ratio 1.0 space 1600 30 1316 30 rule lifelib g3r2b7t14s6t8 sumpop 147792 
-soup time 1596 pop 896 ratio 1.0 space 1600 30 1577 37 rule lifelib g3r2b7t7s6t9 sumpop 1452936 
-soup time 1596 pop 571 ratio 1.0 space 1600 30 1463 40 rule lifelib g3r2b7t8s6t9 sumpop 933600 
-soup time 1596 pop 386 ratio 1.0 space 1600 30 1594 39 rule lifelib g3r2b7t9s6t9 sumpop 644004 
-soup time 1596 pop 233 ratio 1.0 space 1600 30 1528 36 rule lifelib g3r2b7t10s6t9 sumpop 408264 
-soup time 1596 pop 159 ratio 1.0 space 1600 30 1583 31 rule lifelib g3r2b7t11s6t9 sumpop 294960 
-soup time 1596 pop 174 ratio 1.0 space 1600 30 1055 33 rule lifelib g3r2b7t12s6t9 sumpop 347064 
-soup time 1596 pop 238 ratio 1.0 space 1600 30 1483 45 rule lifelib g3r2b7t13s6t9 sumpop 439560 
-soup time 1596 pop 318 ratio 1.0 space 1600 30 1389 41 rule lifelib g3r2b7t14s6t9 sumpop 593940 
-soup time 1596 pop 1800 ratio 1.0 space 1600 30 1615 100 rule lifelib g3r2b7t7s6t10 sumpop 3779748 
-soup time 1596 pop 1409 ratio 1.0 space 1600 30 1607 94 rule lifelib g3r2b7t8s6t10 sumpop 2810676 
-soup time 1596 pop 845 ratio 0.7 space 1600 30 1549 156 rule lifelib g3r2b7t9s6t10 sumpop 3087720 
-soup time 1596 pop 12146 ratio 1.3 space 1600 30 1776 275 rule lifelib g3r2b7t10s6t10 sumpop 15738312 
-soup time 852 pop 231490 ratio 2.0 space 1600 30 2050 529 rule lifelib g3r2b7t11s6t10 sumpop 100864344 
-soup time 660 pop 296352 ratio 2.1 space 1600 30 2070 606 rule lifelib g3r2b7t12s6t10 sumpop 100498704 
-soup time 624 pop 326021 ratio 2.0 space 1600 30 2063 632 rule lifelib g3r2b7t13s6t10 sumpop 103554036 
-soup time 600 pop 328080 ratio 2.0 space 1600 30 2098 639 rule lifelib g3r2b7t14s6t10 sumpop 100792692 
-soup time 1596 pop 16 ratio 0.9 space 1600 30 -1276 -2 rule lifelib g3r2b7t7s7t8 sumpop 25728 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b7t8s7t8 sumpop 0 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b7t9s7t8 sumpop 0 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b7t10s7t8 sumpop 0 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b7t11s7t8 sumpop 0 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b7t12s7t8 sumpop 0 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b7t13s7t8 sumpop 0 
-soup time 1596 pop 0 ratio 0.0 space 1600 30 1 1 rule lifelib g3r2b7t14s7t8 sumpop 0 
-soup time 1596 pop 128 ratio 1.0 space 1600 30 1514 21 rule lifelib g3r2b7t7s7t9 sumpop 205944 
-soup time 1596 pop 153 ratio 1.0 space 1600 30 1309 33 rule lifelib g3r2b7t8s7t9 sumpop 246636 
-soup time 1596 pop 153 ratio 1.0 space 1600 30 1375 35 rule lifelib g3r2b7t9s7t9 sumpop 247080 
-soup time 1596 pop 153 ratio 1.0 space 1600 30 1155 29 rule lifelib g3r2b7t10s7t9 sumpop 248460 
-soup time 1596 pop 189 ratio 1.0 space 1600 30 1533 33 rule lifelib g3r2b7t11s7t9 sumpop 306288 
-soup time 1596 pop 202 ratio 1.0 space 1600 30 1412 27 rule lifelib g3r2b7t12s7t9 sumpop 327000 
-soup time 1596 pop 152 ratio 1.0 space 1600 30 1416 29 rule lifelib g3r2b7t13s7t9 sumpop 248508 
-soup time 1596 pop 153 ratio 1.0 space 1600 30 1350 28 rule lifelib g3r2b7t14s7t9 sumpop 254676 
-soup time 1596 pop 291 ratio 1.0 space 1600 30 1477 38 rule lifelib g3r2b7t7s7t10 sumpop 492336 
-soup time 1596 pop 420 ratio 1.0 space 1600 30 1479 416 rule lifelib g3r2b7t8s7t10 sumpop 697632 
-soup time 1152 pop 342 ratio 1.0 space 1600 30 1511 803 rule lifelib g3r2b7t9s7t10 sumpop 418596 
-soup time 1200 pop 325 ratio 1.0 space 1600 30 1395 808 rule lifelib g3r2b7t10s7t10 sumpop 421572 
-soup time 1596 pop 189 ratio 1.0 space 1600 30 1341 32 rule lifelib g3r2b7t11s7t10 sumpop 344076 
-soup time 1596 pop 189 ratio 1.0 space 1600 30 1244 36 rule lifelib g3r2b7t12s7t10 sumpop 379584 
-soup time 1596 pop 186 ratio 1.0 space 1600 30 1575 33 rule lifelib g3r2b7t13s7t10 sumpop 402168 
-soup time 1596 pop 194 ratio 1.0 space 1600 30 1441 39 rule lifelib g3r2b7t14s7t10 sumpop 444684 
-
-
+soup time 1596 pop 107822 ratio 1.8 space 1600 30 1814 287 rule lifelib b2-ak3eqry4aciw5-akr6-a7es012aik3ry4rwyz5ekqry6n7c8 sumpop 98296332 i 1 
+soup time 780 pop 97867 ratio 1.7 space 1600 30 1755 810 rule lifelib b2eik3ciy4ijnrtw5-ae7s12eik3-cer4eikqry5-ekqy7c sumpop 47052048 i 2 
+soup time 996 pop 181921 ratio 1.8 space 1600 30 1853 415 rule lifelib b2cek3ejkn4aceijnt5-cejr6cek7es1c2ikn3-ijy4-aekqr5ejny6kn7c8 sumpop 102067008 i 3 
+soup time 792 pop 224399 ratio 1.8 space 1600 30 1842 342 rule lifelib b2ekn3eiry4aertwyz5-aknr6-in8s01c2ak3-eiy4-acntw5-er6ack7c sumpop 101240436 i 4 
+soup time 672 pop 284070 ratio 1.9 space 1600 30 1987 452 rule lifelib b2-ac3aikqy4acejnqz5-cn6cn7es2ein3-eqr4-cijwy5-ijqy6-cn8 sumpop 102584340 i 5 
+soup time 456 pop 418629 ratio 2.0 space 1600 30 2206 667 rule lifelib b2-ac3-ekny4ajnryz5acknq6cik7es12cik3-jry4qtw5acnqr6ein7 sumpop 100610628 i 6 
+soup time 480 pop 389797 ratio 1.9 space 1600 30 2110 671 rule lifelib b2cn3ainqy4aeijqrw5-ceiy6en7e8s01c2-n3ciqry4ckrwy5-aen6kn7e8 sumpop 101746656 i 7 
+soup time 636 pop 296182 ratio 2.0 space 1600 30 2105 567 rule lifelib b2ce3iry4cijnqt5-ceik6-e7es1c23acijr4-rwyz5qy7c8 sumpop 100834992 i 8 
+soup time 1596 pop 991 ratio 1.0 space 1600 30 1600 43 rule lifelib b2cei3enr4ijkqwy5-qr6ci78s01c2in3einy4-cntz5ajqy6en7e sumpop 1809192 i 9 
+soup time 444 pop 424699 ratio 2.0 space 1600 30 2159 804 rule lifelib b2c3-kqry4-ekrw5ceq6cns01c2-en3-ceq4ejkrwyz5cinr7c8 sumpop 102133020 i 10 
+soup time 432 pop 452053 ratio 1.9 space 1600 30 2150 731 rule lifelib b2-ae3-ejky4aeinry5aenqy6ce78s2-cn3-cenq4-akty5-ijk6cn7e sumpop 105259296 i 11 
+soup time 588 pop 330106 ratio 2.0 space 1600 30 2077 539 rule lifelib b2-an3ajny4eijtw5cjnqr6-ek7es2-in3-cekr4acjknz5jkqry6ck78 sumpop 103827000 i 12 
+soup time 528 pop 365722 ratio 1.9 space 1600 30 2146 679 rule lifelib b2-ae3-ceik4aejkqt5-aijn6n7c8s02cen3aejq4-eiyz5akqr6ek sumpop 103063416 i 13 
+soup time 684 pop 273194 ratio 1.9 space 1600 30 1983 509 rule lifelib b2-ai3ejqry4aijknr5inr6-an7es2-ck3cejr4eijqrwy5cknq6c78 sumpop 102420312 i 14 
+soup time 384 pop 525402 ratio 2.2 space 1600 30 2068 584 rule lifelib b2e3ijry4aejrwz5-eijy6-ck8s01e2ace3-i4acjnqwy5-jknr6-ck78 sumpop 101339352 i 15 
+soup time 828 pop 223806 ratio 1.9 space 1600 30 1974 428 rule lifelib b2ei3aeiq4-nqr5cnqry6cn7s012ei3ijkr4ajkrwyz5cjkny6aen8 sumpop 101130144 i 16 
+soup time 576 pop 327608 ratio 2.0 space 1600 30 2149 612 rule lifelib b2-ak3-enr4einwz5aejy6ci78s02aen3-jknq4cknqtwz5-air6ae7c8 sumpop 100087152 i 17 
+soup time 1176 pop 148951 ratio 1.8 space 1600 30 1799 328 rule lifelib b2cek3-inr4ackqwyz5-jn6in7c8s1c2kn3eky4ceqrwyz5-acey6-ck78 sumpop 101028420 i 18 
+soup time 528 pop 357419 ratio 1.9 space 1600 30 2047 588 rule lifelib b2-ae3-cen4enz5-aeiy6-i7cs02ack3-aekq4-acny5ajkqy6ekn7e8 sumpop 103111296 i 19 
+soup time 1464 pop 122113 ratio 1.8 space 1600 30 2139 564 rule lifelib b2cen3cin4ceknqtz5iny6ckn7e8s1e2ak3cjkq4-aciny5cijkr6aei7e8 sumpop 101164716 i 20 
+soup time 624 pop 312966 ratio 2.0 space 1600 30 2115 581 rule lifelib b2-ak3-cejy4jqrw5-acjq6aik7cs12ein3jkry4cejqtz5-ejry6ace7e sumpop 103647396 i 21 
+soup time 516 pop 6511 ratio 1.9 space 1600 30 1683 805 rule lifelib b2en3cinqy4cknz5jqr6-in7c8s01e2kn3ejkq4eijknqz5ckq6-a8 sumpop 2171676 i 22 
+soup time 648 pop 292799 ratio 1.9 space 1600 30 2034 555 rule lifelib b2en3ijnr4-ikrt5acry6-n7es02ekn3-ikry4aeijrw5aejkr6ce7e sumpop 103030608 i 23 
+soup time 1596 pop 2616 ratio 0.7 space 1600 30 1635 422 rule lifelib b2ce3-cejq4ekqtyz5-anqy6cn7c8s12ik3jnr4erw5kqr6-kn7 sumpop 8655972 i 24 
+soup time 1128 pop 158289 ratio 1.8 space 1600 30 1874 368 rule lifelib b2-ak3-aejq4eiqrt5-jnqy6cis02-ai3-acnr4-ajrty5ack6aik7e8 sumpop 100667400 i 25 
+soup time 1596 pop 1630 ratio 1.0 space 1600 30 1604 50 rule lifelib b2-ak3ei4cijnwyz5aqy6ein78s01e2cik3-ikqy4cjnr5aei6-kn7e sumpop 2821644 i 26 
+soup time 612 pop 300571 ratio 1.9 space 1600 30 2022 533 rule lifelib b2-a3ejy4aktw5aenry6eik7s2-ek3-cin4-jqz5acenq6cn78 sumpop 100570896 i 27 
+soup time 1596 pop 671 ratio 0.9 space 1600 30 1596 78 rule lifelib b2k3-ekqy4qwz5-iknr6ei7es1e2-ce3ceir4aciz5-ijnr6in8 sumpop 3678696 i 28 
+soup time 1596 pop 339 ratio 1.0 space 1600 30 1498 33 rule lifelib b2cn3-ijkq4-anrty5acikn6ac7c8s2-k3cjkn4cryz5cijkn6cik7 sumpop 667200 i 29 
+soup time 1596 pop 1146 ratio 1.0 space 1600 30 1598 36 rule lifelib b2cen3cejkr4cikrz5ay6-aes2ei3ejn4eknrwy5-ejkr6ack7e8 sumpop 1883712 i 30 
+soup time 1584 pop 2360 ratio 1.3 space 1600 30 1613 805 rule lifelib b2-ak3eknr4eijnry5ceikq6-cn7e8s012ekn3inry4-acej5jn6-ak78 sumpop 4141728 i 31 
+soup time 708 pop 266167 ratio 2.0 space 1600 30 2047 545 rule lifelib b2ce3aijy4acknwy5aciky6-aes02cek3cinqr4-certy5jknr6acn sumpop 101323584 i 32 
+soup time 768 pop 246035 ratio 1.9 space 1600 30 1997 476 rule lifelib b2ci3aeinr4-acijq5cen6-ans2-in3-ijkr4-ijnrt5kqr6-ei7c sumpop 102420480 i 33 
+soup time 1596 pop 22522 ratio 1.0 space 1600 30 1341 99 rule lifelib b2en3-ar4anty5aijkn6as1c2cen3acery4cjnrtwy5-ijqy6ack7e8 sumpop 35592036 i 34 
+soup time 432 pop 421431 ratio 1.9 space 1600 30 2027 807 rule lifelib b2-ae3-k4ackqw5-ikqr6-ai7es02ik3-knq4iqrtyz5cnqy6ci8 sumpop 100307028 i 35 
+soup time 1596 pop 1440 ratio 1.0 space 1600 30 1605 40 rule lifelib b2en3aciqy4-aeit5ejnr6ein7es02-a3-aikn4-anrw5cekn6ci7e sumpop 2717892 i 36 
+soup time 624 pop 295816 ratio 1.9 space 1600 30 1986 472 rule lifelib b2-an3-ajq4ikny5ciqry6-k7s01c2ein3aijkq4ejkrz5-ace6-in8 sumpop 101155188 i 37 
+soup time 1596 pop 3667 ratio 1.0 space 1600 30 1610 52 rule lifelib b3-ckn4ceryz5cijry6an7s012n3-ejkq4aeiqwy5eijq6-ce7e sumpop 6391032 i 38 
+soup time 720 pop 263469 ratio 1.9 space 1600 30 2071 554 rule lifelib b2-an3iknry4ceijrwz5cejqy6-ce7cs01c2-ik3-cjr4knw5cj6an7e sumpop 102469416 i 39 
+soup time 528 pop 356928 ratio 1.9 space 1600 30 2050 510 rule lifelib b2in3-ekq4knrtwyz5-ijqy6-e7e8s01e2-ik3anr4-cekny5aekry6-e7c8 sumpop 102161160 i 40 
+soup time 936 pop 196933 ratio 1.9 space 1600 30 1915 385 rule lifelib b2ce3acjry4ijtw5ejkny67c8s1e2-ei3-jkry4ejknrty5-aejr6-ck sumpop 101391324 i 41 
+soup time 1596 pop 2076 ratio 1.0 space 1600 30 1791 327 rule lifelib b2cek3cky4cektwz5qr6ckn7s01c2aen3-eir4-aiqz5-acy6e sumpop 5409456 i 42 
+soup time 840 pop 221121 ratio 1.9 space 1600 30 1965 452 rule lifelib b2e3-ckn4ijnqz5aciry6ei8s1c2aci3-jnqy4-acntz5-enqy6-ae7c8 sumpop 100123164 i 43 
+soup time 504 pop 385574 ratio 2.0 space 1600 30 2185 680 rule lifelib b2-ai3ainqy4cknr5aciky6aci78s1c2cik3anqy4eijkqrz5-ceqy6-kn7e sumpop 102861312 i 44 
+soup time 744 pop 260242 ratio 2.0 space 1600 30 2099 566 rule lifelib b2cek3-eiqy4ckrwz5-kqr6cei7e8s01c2aci3ir4cz5-aeiq6ein7e8 sumpop 102272316 i 45 
+soup time 1596 pop 1899 ratio 1.0 space 1600 30 1601 55 rule lifelib b2ci3ackr4aceqrw5cjqy6kn8s12-ek3ejky4acknw5enqy6eik7c8 sumpop 3222024 i 46 
+soup time 1596 pop 2851 ratio 1.0 space 1600 30 1602 35 rule lifelib b2ei3iqy4iknqrwz5ain6ekn7c8s01c2cin3aciy4-jnqz5-eiy6akn7c8 sumpop 4619496 i 47 
+soup time 888 pop 203772 ratio 1.8 space 1600 30 1870 372 rule lifelib b2ckn3-ijr4cinqtw5ijknr6aei7s1e2en3-eknq4ajkqtyz5-cqry6an7 sumpop 101618784 i 48 
+soup time 408 pop 454298 ratio 1.8 space 1600 30 1923 416 rule lifelib b2ce3-en4cjknrwy5-ekny6aci7c8s02-an3kq4ackq5-cnqy678 sumpop 104225448 i 49 
+soup time 792 pop 233348 ratio 1.9 space 1600 30 1995 583 rule lifelib b2ik3-nqr4-jntyz5-ekqr6ac7e8s012ein3ck4aceknyz5aciny6ei7 sumpop 100026864 i 50 
+soup time 1596 pop 398 ratio 1.0 space 1600 30 1573 39 rule lifelib b2cek3cky4ikntz5-jqr6aces2-n3ejkn4-aqrtz5aejkq6cik7e sumpop 1277340 i 51 
+soup time 792 pop 230876 ratio 1.9 space 1600 30 1954 621 rule lifelib b2-an3ejkqy4act5-iqy6-ce7c8s01e2-en3cknry4ekntw5ijknr6ck7e sumpop 100507200 i 52 
+soup time 420 pop 453280 ratio 1.9 space 1600 30 1954 406 rule lifelib b2-a3acejr4-anwz5-anry6-an7c8s12aei3-jn4aijntwz5-eiqr6aen78 sumpop 104496960 i 53 
+soup time 600 pop 316025 ratio 1.9 space 1600 30 2003 576 rule lifelib b2eik3-ackn4acir5aij6-ci78s2ain3-ei4-eikz5cijr8 sumpop 103014396 i 54 
+soup time 1356 pop 124653 ratio 1.7 space 1600 30 1750 275 rule lifelib b2-ai3ejkry4cijntwy5acekr6cek7cs12ce3q4-cnw5-aekn6ce7e8 sumpop 101197200 i 55 
+soup time 912 pop 204070 ratio 1.9 space 1600 30 1919 420 rule lifelib b2ik3-cej4-nrwy5ajn6in7cs01e2ak3cei4aijkty5-ejnr6cin8 sumpop 101941308 i 56 
+soup time 672 pop 281326 ratio 1.9 space 1600 30 2028 483 rule lifelib b2eik3-knry4-cjnz5ej67e8s1c2an3anqr4eikrwyz5cjkq6ain7e sumpop 101902428 i 57 
+soup time 456 pop 419213 ratio 2.0 space 1600 30 2087 550 rule lifelib b2ei3-ejky4-cknry5ceijq6-in7s2-e3ain4aijknqz5-cij6-ci7e8 sumpop 102359004 i 58 
+soup time 432 pop 432210 ratio 2.0 space 1600 30 2192 657 rule lifelib b2-ak3acij4ekqrtw5-cqry6-ks012-ck3-knr4acijqry5-ejr6-cn sumpop 100225572 i 59 
+soup time 1596 pop 1338 ratio 1.0 space 1600 30 1590 49 rule lifelib b2ci3-cjkq4-aikqt5aeny6ae78s2ac3cjkqr4ikqw5ijkqy6-ak7c8 sumpop 2276820 i 60 
+soup time 708 pop 154114 ratio 1.0 space 1600 30 1633 361 rule lifelib b2-ak3ceir4aejky5-ekq6-a78s01e2cin3-ijqr4aciry5-cky6ack78 sumpop 100007784 i 61 
+soup time 780 pop 245333 ratio 2.0 space 1600 30 1994 490 rule lifelib b2ekn3-aknr4anz5ceij6i7e8s02ei3-ce4-nqty5aejn6ae8 sumpop 102412968 i 62 
+soup time 456 pop 419969 ratio 1.9 space 1600 30 2147 768 rule lifelib b2cn3-k4ajnqrwz5ciq6a7cs012k3-cnr4-aiqr5aeir6ci8 sumpop 103818768 i 63 
+soup time 816 pop 231739 ratio 1.9 space 1600 30 2028 494 rule lifelib b2ei3ijknr4aejnqrw5einr6ae7es012ekn3ekqy4cijnw5jnq6-e7c sumpop 102637248 i 64 
+soup time 312 pop 593481 ratio 1.9 space 1600 30 2019 567 rule lifelib b2ekn3-ceqr4ceinrtw5-ceir6-ei78s02-in3ainq4aez5-cqry6-kn78 sumpop 101415480 i 65 
+soup time 744 pop 254241 ratio 1.9 space 1600 30 2026 522 rule lifelib b2cen3-ajnr4-jqwyz5aij6-cn8s01c2ae3-aeqr4ejknrz5n6ei7 sumpop 101562672 i 66 
+soup time 300 pop 452995 ratio 2.1 space 1600 30 2078 835 rule lifelib b2ekn3ijnry4aijnwyz5cq6ac7c8s012eik3-ckqr4aejknt5aceqr6-cn sumpop 72439392 i 67 
+soup time 552 pop 335577 ratio 1.9 space 1600 30 2011 546 rule lifelib b2cek3cein4ikw5-cik6kn7cs12eik3-ae4-acenw5acjkn6aek7 sumpop 102560040 i 68 
+soup time 648 pop 296103 ratio 1.9 space 1600 30 2020 490 rule lifelib b2ce3ajnry4-acekr5-k6ac7es02aen3ciy4ajknrtz5enry6-ek8 sumpop 103147128 i 69 
+soup time 648 pop 299575 ratio 2.0 space 1600 30 2107 561 rule lifelib b2cen3aciqr4aekty5-cn6acn7e8s01e2cei3cnq4ceknq5-aeqr6cek78 sumpop 103213056 i 70 
+soup time 504 pop 383986 ratio 1.9 space 1600 30 2096 542 rule lifelib b2-ak3ae4-ceyz5-ciq6-cis01e2ac3-cej4-cejnr5-anqy6akn7e8 sumpop 103985412 i 71 
+soup time 612 pop 168347 ratio 1.8 space 1600 30 2292 803 rule lifelib b2-ak3acqr4eijz5-aiky6-ac78s012eik3-acnq4rtwy5ijnq6-ei7 sumpop 58793292 i 72 
+soup time 852 pop 215201 ratio 1.9 space 1600 30 1944 428 rule lifelib b2cei3ijry4ainy5iqy6-ek7es01c2ik3-jny4-cijnq5-eikq6ak7c8 sumpop 101769156 i 73 
+soup time 1596 pop 1556 ratio 1.0 space 1600 30 1604 93 rule lifelib b2i3-qr4-inqy5ikqry6ae78s12in3-acry4cjktwyz5aejk6ck8 sumpop 5612064 i 74 
+soup time 408 pop 413286 ratio 2.0 space 1600 30 2188 805 rule lifelib b2-ai3ajnry4aint5ainqy6-a7e8s1c2aci3aijkr4ceintw5inqy6-ac7 sumpop 88279692 i 75 
+soup time 1104 pop 167652 ratio 1.9 space 1600 30 1927 423 rule lifelib b2-an3aeikq4acey5-jry6-ck7cs2ekn3aein4airtw5ejny6ain7c sumpop 101979444 i 76 
+soup time 588 pop 325900 ratio 2.0 space 1600 30 2068 532 rule lifelib b2k3-ckry4eijknty5-eknq6in78s012ace3cnqy4ijnry5cnqry6-ce7c sumpop 103043712 i 77 
+soup time 1596 pop 2177 ratio 1.0 space 1600 30 1601 86 rule lifelib b2in3aiq4cijtz5ceij6ack7c8s01e2ik3aijy4jkw5-acq6ck7e8 sumpop 3546408 i 78 
+soup time 1368 pop 128728 ratio 1.8 space 1600 30 1773 342 rule lifelib b2kn3aijn4acjqtw5einqy6ik7c8s2ack3-ij4cknrtw5cijr6e7c sumpop 100365360 i 79 
+soup time 1596 pop 860 ratio 1.0 space 1600 30 1599 44 rule lifelib b2c3-cer4jnwz5aekn6-ce7es2c3-ckqr4-ejrwz5eijnq6cn8 sumpop 1420860 i 80 
