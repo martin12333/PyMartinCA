@@ -1619,3 +1619,7 @@
  1619  git add --verbose beta/testOfRules/*.csv
  1620  history -a
  1621  history -a ; history >bash_history.sh
+ 1622  git add --verbose bash_history.sh 
+ 1623  git commit  -a -m bkup ;  
+ 1624  git push -u origin Jiri
+ 1625  history -a ; history >bash_history.sh
