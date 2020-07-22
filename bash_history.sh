@@ -1623,3 +1623,17 @@
  1623  git commit  -a -m bkup ;  
  1624  git push -u origin Jiri
  1625  history -a ; history >bash_history.sh
+ 1626  ll
+ 1627  cat bash_history.sh 
+ 1628  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
+ 1629  mc
+ 1630  history -a
+ 1631  git add --verbose beta/testOfRules/*.csv
+ 1632  git add --verbose bash_history.sh 
+ 1633  git commit  -a -m bkup ;  
+ 1634  git push -u origin Jiri
+ 1635  top
+ 1636  cd grdr20/PyMartinCA/
+ 1637  history 
+ 1638  git add --verbose bash_history.sh 
+ 1639  history -a ; history >bash_history.sh
