@@ -75,7 +75,7 @@ ndbmin=2; ndbmax=8; ndsmin=2; ndsmax=3
 
 
 #justname='p100520'
-justname='random'
+justname='random-alza2014'
 
 justnameext=justname+'.csv'
 
