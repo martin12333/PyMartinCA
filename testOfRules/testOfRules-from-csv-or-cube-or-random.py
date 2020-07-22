@@ -1,4 +1,4 @@
-#program version 397 ##347
+#program version 400 ##347
 
 from __future__ import print_function
 from __future__ import division
@@ -9,11 +9,20 @@ from __future__ import division
 
 import math
 import lifelib
+
+import sys
+import random
+
 ################ tunable parameters
 
-is_from_csv=True
+is_from_csv=False
+is_from_random=True
 
-batch8=3 #4#8
+batch8=8#3 #4#8
+
+################ tunable parameters
+
+nrnd=6*8 #5#50
 
 ################ tunable parameters
 
@@ -65,7 +74,8 @@ ndbmin=2; ndbmax=8; ndsmin=2; ndsmax=3
 
 
 
-justname='p100520'
+#justname='p100520'
+justname='random'
 
 justnameext=justname+'.csv'
 
@@ -165,11 +175,60 @@ def main1():
 ###################
 
     sp0=None
+    
+    ####
+    random.seed()
+    ####
 
     if is_from_csv:
         with open(input_file1) as f0:
             input1=f0.read()
 
+    elif is_from_random:
+
+        for irnd in range(nrnd):
+
+#            xb=random.getrandbits(15) & random.getrandbits(15)
+   #         xs=random.getrandbits(15) & random.getrandbits(15)
+
+            xb=random.getrandbits(15) 
+            xs=random.getrandbits(15) 
+
+            xb=xb << 4
+            xs=xs << 4
+            
+            
+            #523776
+            #(x)
+
+            ##uintx2=x
+            ##uintx=x>>1
+
+            #hexstring1=format(uintx, '06x')
+            #hexstring1=format(uintx, '0'+    str(r*(r+1))        +'x')
+
+            #('03ff00')
+
+
+            #rulestr='r{}b{}t{}s{}t{}'.format(r,bmin,bmax,smin,smax)
+            #rulestr='g3r{}b{}t{}s{}t{}'.format(r,bmin,bmax,smin,smax)
+            ##rulestr='g3r2b{:07x}s{:06x}'.format(irnd,x)
+            rulestr='g3r2b{:06x}s{:06x}'.format(xb  ,xs)
+            ##rulestr='g3r2b{}s{}'.format(hexstring1,x)
+
+            rule_s='rule'
+            rulespace='lifelib'
+
+
+###                print(rule_s,rulespace,rulestr)
+######                with open(output_file1,'a') as f1:
+######                    print(rule_s,rulespace,rulestr, file=f1)
+
+            ##output_strlist+=  [rule_s,rulespace,rulestr].join(' ')   ' '.join       '{} {} {}'
+            output_strlist.append(  ' '.join([rule_s,rulespace,rulestr])   )
+
+
+#######################################################
     else:
 
         for dbmin in range(ndbmin):
@@ -447,8 +506,20 @@ def test_rule():
     #print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr,rest1)
 #     print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr, 'sumpop' , sumpopeverygen,    rest1)
     
-    if fPPratio<1.6 and h>250  :
-        print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr, 'sumpop' , sumpopeverygen,    rest1)
+    if h>300:
+        if fPPratio<1.6:
+            prefix1='*'
+        else:
+            prefix1='@'
+    else:
+        if fPPratio>1.2 :
+            prefix1='?'
+        else:
+            prefix1='.'
+        
+    print(prefix1,tag1,time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr, 'sumpop' , sumpopeverygen, ii1,   rest1)
+        
+        
     with open(output_file1,'a') as f1:
         #print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,log2PP,space_s,w2,h2,w,h,rule_s,rulespace,rulestr, file=f1)
         #print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr,  'sumpop' , sumpopeverygen,    rest1, file=f1)
