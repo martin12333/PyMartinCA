@@ -1628,3 +1628,5 @@
  1628  history -a ; history >bash_history.sh
  1629  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
  1630  history -a ; history >bash_history.sh
+ 1631  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
+ 1632  history -a ; history >bash_history.sh

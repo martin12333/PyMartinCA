@@ -1,4 +1,4 @@
-#program version 400 ##347
+#program version 401
 
 from __future__ import print_function
 from __future__ import division
@@ -190,11 +190,19 @@ def main1():
 
 #            xb=random.getrandbits(15) & random.getrandbits(15)
    #         xs=random.getrandbits(15) & random.getrandbits(15)
+            xx=random.getrandbits(15) 
+            
+#            xb=(random.getrandbits(15) |xx)&random.getrandbits(15)
+##            xb=(random.getrandbits(15) &xx)&random.getrandbits(15)
+            xb=(random.getrandbits(15) &xx)
 
-            xb=random.getrandbits(15) 
-            xs=random.getrandbits(15) 
+#            xs=(random.getrandbits(15) |xx)&random.getrandbits(15)
+            xs=(random.getrandbits(15) &xx)|random.getrandbits(15)
 
-            xb=xb << 4
+#            xb=xb << 4
+            xb=xb << 5
+            
+            
             xs=xs << 4
             
             
