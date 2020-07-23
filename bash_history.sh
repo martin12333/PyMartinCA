@@ -1637,3 +1637,28 @@
  1637  history 
  1638  git add --verbose bash_history.sh 
  1639  history -a ; history >bash_history.sh
+ 1640  git add --verbose bash_history.sh 
+ 1641  git add --verbose beta/testOfRules/*.csv
+ 1642  git commit  -a -m bkup ;  
+ 1643  git push -u origin Jiri
+ 1644  git add --verbose beta/testOfRules/*.csv
+ 1645  git commit  -a -m bkup ;  
+ 1646  git push -u origin Jiri
+ 1647  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
+ 1648  mc
+ 1649  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
+ 1650  cd grdr20/PyMartinCA/
+ 1651  mc
+ 1652  history -a ; history >bash_history.sh
+ 1653  cd grdr20/PyMartinCA/
+ 1654  cd
+ 1655  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1656  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
+ 1657  ps -ef |grep -i py
+ 1658  while true ; do sleep 1;  python testOfRules-from-csv-or-cube-or-random.py; done
+ 1659  history -a
+ 1660  history |less
+ 1661  history 
+ 1662  cd grdr20/PyMartinCA/
+ 1663  git add --verbose beta/testOfRules/*.csv
+ 1664  history -a ; history >bash_history.sh
