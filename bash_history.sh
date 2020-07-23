@@ -1648,17 +1648,17 @@
  1648  mc
  1649  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
  1650  cd grdr20/PyMartinCA/
- 1651  mc
- 1652  history -a ; history >bash_history.sh
- 1653  cd grdr20/PyMartinCA/
- 1654  cd
- 1655  cd grdr20/PyMartinCA/beta/testOfRules/
- 1656  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
- 1657  ps -ef |grep -i py
- 1658  while true ; do sleep 1;  python testOfRules-from-csv-or-cube-or-random.py; done
- 1659  history -a
- 1660  history |less
- 1661  history 
- 1662  cd grdr20/PyMartinCA/
- 1663  git add --verbose beta/testOfRules/*.csv
+ 1651  git pull -u origin Jiri
+ 1652  git pull  origin Jiri
+ 1653  cd
+ 1654  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1655  mc
+ 1656  cd
+ 1657  cd grdr20/PyMartinCA/
+ 1658  git pull  origin Jiri
+ 1659  mc
+ 1660  cd
+ 1661  cd grdr20/PyMartinCA/
+ 1662  history -a ; history >bash_history.sh
+ 1663  git add --verbose beta/testOfRules/*.csv bash_history.sh 
  1664  history -a ; history >bash_history.sh
