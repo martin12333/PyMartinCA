@@ -1,4 +1,4 @@
-#program version 401
+#program version 402
 
 from __future__ import print_function
 from __future__ import division
@@ -75,7 +75,7 @@ ndbmin=2; ndbmax=8; ndsmin=2; ndsmax=3
 
 
 #justname='p100520'
-justname='random-alza2014'
+justname='random'
 
 justnameext=justname+'.csv'
 
@@ -189,7 +189,6 @@ def main1():
         for irnd in range(nrnd):
 
 #            xb=random.getrandbits(15) & random.getrandbits(15)
-   #         xs=random.getrandbits(15) & random.getrandbits(15)
             xx=random.getrandbits(15) 
             
 #            xb=(random.getrandbits(15) |xx)&random.getrandbits(15)
@@ -197,10 +196,13 @@ def main1():
             xb=(random.getrandbits(15) &xx)
 
 #            xs=(random.getrandbits(15) |xx)&random.getrandbits(15)
-            xs=(random.getrandbits(15) &xx)|random.getrandbits(15)
+#            xs=(random.getrandbits(15) &xx)|random.getrandbits(15)
+            xs=random.getrandbits(15) & random.getrandbits(15)
+            xs=random.getrandbits(15) & random.getrandbits(15)  & random.getrandbits(15)
+            xs=xs|xb
 
-#            xb=xb << 4
-            xb=xb << 5
+            xb=xb << 4
+#            xb=xb << 5
             
             
             xs=xs << 4
@@ -223,6 +225,8 @@ def main1():
             ##rulestr='g3r2b{:07x}s{:06x}'.format(irnd,x)
             rulestr='g3r2b{:06x}s{:06x}'.format(xb  ,xs)
             ##rulestr='g3r2b{}s{}'.format(hexstring1,x)
+            rulestr='g6r2b{:06x}s{:06x}'.format(xb  ,xs)
+            rulestr='r2b{:06x}s{:06x}'.format(xb  ,xs)
 
             rule_s='rule'
             rulespace='lifelib'

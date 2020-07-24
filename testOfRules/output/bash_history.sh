@@ -1685,36 +1685,3 @@
  1685  cat $( ls -1tr *rand* ) | grep r2|awk '$7<1.7 && $12>280'
  1686  cat $( ls -1tr *rand* ) | grep r2|awk '$7<1.6 && $12>280'
  1687  history -a ; history >bash_history.sh
- 1688  cd grdr20/PyMartinCA/beta/testOfRules/
- 1689  mc
- 1690  cd
- 1691  cd grdr20/PyMartinCA
- 1692  history 
- 1693  git pull -vv origin Jiri
- 1694  history 
- 1695  cd
- 1696  cd grdr20/PyMartinCA/beta/testOfRules/
- 1697  cd ..
- 1698  history 
- 1699  while true ; do sleep 1;  python3 testOfRules-from-csv-or-cube-or-random.py; done
- 1700  cd grdr20/PyMartinCA/beta/testOfRules/
- 1701  history 
- 1702  ll output/
- 1703  history -a ; history >bash_history.sh
- 1704  history 
- 1705  grep r2 output/*.csv |awk '$7<1.6 && $12>280'
- 1706  history -a ; history >bash_history.sh
- 1707  history 
- 1708  grep r2 output/*.csv |grep -o 'r2[^ ]*'  |sort|uniq -c|wc
- 1709  grep r2 output/*.csv |grep -o 'r2[^ ]*'  |sort|wc
- 1710  grep r2 output/*.csv |grep -o 'r2[^ ]*'  |sort|uniq -c|wc
- 1711  history -a ; history >bash_history.sh
- 1712  history 
- 1713  grep r2 output/*.csv |awk '$7<1.6 && $12>280'
- 1714  history -a ; history >bash_history.sh
- 1715  mc
- 1716  grep r2 output/*.csv |awk '$7>1.2 && $12<380'
- 1717  grep r2 output/*.csv |awk '$7>1.2 && $12<300'
- 1718  history -a ; history >bash_history.sh
- 1719  history |grep sort
- 1720  history -a ; history >bash_history.sh
