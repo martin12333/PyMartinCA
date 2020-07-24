@@ -1703,3 +1703,14 @@
  1703  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
  1704  cd testOfRules/
  1705  history -a ; history >bash_history.sh
+ 1706  cd ..
+ 1707  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
+ 1708  git commit  -a -m running
+ 1709  git push -u origin beta
+ 1710  history -a ; history >bash_history.sh
+ 1711  ll
+ 1712  ll .*
+ 1713  ll .git/
+ 1714  history 
+ 1715  cd testOfRules/
+ 1716  history -a ; history >bash_history.sh
