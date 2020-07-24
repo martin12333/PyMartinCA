@@ -1676,3 +1676,10 @@
  1676  history -a ; history >bash_history.sh
  1677  cd grdr20/PyMartinCA/
  1678  history -a ; history >bash_history.sh
+ 1679  history 
+ 1680  git add --verbose beta/testOfRules/*.csv bash_history.sh 
+ 1681  git commit  -a -m bkup ;  
+ 1682  git push -u origin Jiri
+ 1683  git add --verbose beta/testOfRules/*.csv bash_history.sh 
+ 1684  git add --verbose beta/testOfRules/*.csv bash_history.sh beta/testOfRules/*.py
+ 1685  history -a ; history >bash_history.sh
