@@ -1,8 +1,14 @@
-#program version 401
+#program version 401seed
 
 from __future__ import print_function
 from __future__ import division
 
+import numpy as np
+#np.random.seed(137)
+# in     for rulestr in rulestrlist:
+#        np.random.seed(137) ###!!!!!!!!!!!!
+   
+        
 ##%matplotlib notebook
 ##%matplotlib inline
 ##from matplotlib import pyplot as plt
@@ -15,10 +21,10 @@ import random
 
 ################ tunable parameters
 
-is_from_csv=False
-is_from_random=True
+is_from_csv=True
+#is_from_random=True
 
-batch8=8#3 #4#8
+batch8=4#3 #4#8
 
 ################ tunable parameters
 
@@ -76,7 +82,7 @@ ndbmin=2; ndbmax=8; ndsmin=2; ndsmax=3
 
 #justname='p100520'
 justname='random-alza2014'
-
+justname='HROT-rulestring-conversion'
 justnameext=justname+'.csv'
 
 
@@ -368,6 +374,8 @@ def test_8_rules(list8)    :
     lt = sess.lifetree()
 
     for rulestr in rulestrlist:
+        
+        np.random.seed(137) ###!!!!!!!!!!!!
         
         p1=lt.pattern(rule=rulestr)
         p=0.3###08#02#05 #1#2#3#4#5 
