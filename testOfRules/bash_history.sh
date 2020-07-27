@@ -1782,3 +1782,9 @@
  1782  git commit -vv  -a -m bkup-post
  1783  git push -v -u origin beta
  1784  history -a ; history >testOfRules/bash_history.sh
+ 1785  git add --verbose testOfRules/output/*.csv testOfRules/*.sh testOfRules/*.py
+ 1786  git commit -vv  -a -m bkup
+ 1787  git push -v -u origin beta
+ 1788  history -a ; history >testOfRules/bash_history.sh
+ 1789  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1790  history -a ; history >testOfRules/bash_history.sh
