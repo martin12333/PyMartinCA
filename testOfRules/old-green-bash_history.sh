@@ -1579,138 +1579,250 @@
  1579  cat history.zsh
  1580  zsh
  1581  jupyter lab
- 1582  cd apgmera/
- 1583  history -a
- 1584  history -a ; history |grep apg
- 1585  ./apgluxe -L 1  -k `cat ~/grdr20/klic`   --rule r3b14t19s14t23    -n 10000 -i 1
+ 1582  top
+ 1583  history 
+ 1584  zsh
+ 1585  cd grdr20/PyMartinCA/beta/JUPYTER
  1586  ll
- 1587  history -a
- 1588  ./apgluxe -L 1  -k `cat ~/grdr20/klic`   --rule r3b14t19s14t23    -n 100000 -i 1
- 1589  history -a
- 1590  history 
- 1591  ./apgluxe -L 1  -k `cat ~/grdr20/klic`   --rule r3b14t19s14t23    -n 20000 -i 1
- 1592  cd apgmera/
- 1593  ./apgluxe -L 1  -k `cat ~/grdr20/klic`   --rule r3b14t19s14t23    -n 20000 -i 1
- 1594  mc
- 1595  cd
- 1596  cd grdr20/PyMartinCA/
- 1597  git clone --single-branch --branch=beta https://github.com/martin12333/PyMartinCA --depth=1
- 1598  mc
- 1599  git clone --single-branch --branch=beta https://github.com/martin12333/PyMartinCA --depth=1
- 1600  cd
- 1601  cd grdr20/PyMartinCA/mc
- 1602  mc
- 1603  cd grdr20/PyMartinCA/beta/testOfRules/
- 1604  history -a
- 1605  mc
- 1606  cd
- 1607  history 
- 1608  cd grdr20/PyMartinCA/
- 1609  history |grep git
- 1610  git init
- 1611  git checkout -b Jiri
- 1612  echo git remote add origin https://github.com/martin12333/PyMartinCA --depth=1
- 1613  git remote add origin https://github.com/martin12333/PyMartinCA 
- 1614  history -a
- 1615  git add --verbose --dry-run *.csv
- 1616  git add --verbose --dry-run '*.csv'
- 1617  mc
- 1618  git add --verbose --dry-run beta/testOfRules/*.csv
- 1619  git add --verbose beta/testOfRules/*.csv
- 1620  history -a
- 1621  history -a ; history >bash_history.sh
- 1622  git add --verbose bash_history.sh 
- 1623  git commit  -a -m bkup ;  
- 1624  git push -u origin Jiri
- 1625  history -a ; history >bash_history.sh
- 1626  ll
- 1627  cat bash_history.sh 
- 1628  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
- 1629  mc
- 1630  history -a
- 1631  git add --verbose beta/testOfRules/*.csv
- 1632  git add --verbose bash_history.sh 
- 1633  git commit  -a -m bkup ;  
- 1634  git push -u origin Jiri
- 1635  top
- 1636  cd grdr20/PyMartinCA/
- 1637  history 
- 1638  git add --verbose bash_history.sh 
- 1639  history -a ; history >bash_history.sh
- 1640  git add --verbose bash_history.sh 
- 1641  git add --verbose beta/testOfRules/*.csv
- 1642  git commit  -a -m bkup ;  
- 1643  git push -u origin Jiri
- 1644  git add --verbose beta/testOfRules/*.csv
- 1645  git commit  -a -m bkup ;  
- 1646  git push -u origin Jiri
- 1647  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
- 1648  mc
- 1649  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
- 1650  cd grdr20/PyMartinCA/
- 1651  git pull -u origin Jiri
- 1652  git pull  origin Jiri
- 1653  cd
- 1654  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1587  history |grep grep
+ 1588  history |grep awk
+ 1589  awk '$7<1.4 && $12>800' <r3all.rules.csv | awk '{print( $13, $14, $15, $12)}'|sort -k 3|cut -d \  -f 1-3|uniq -c 
+ 1590  cd output/
+ 1591  awk '$7<1.4 && $12>800' <r3all.rules.csv | awk '{print( $13, $14, $15, $12)}'|sort -k 3|cut -d \  -f 1-3|uniq -c 
+ 1592  awk '$7<1.4 && $12>800' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12)}'|sort -k 3|cut -d \  -f 1-3|uniq -c 
+ 1593  awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12)}'|sort -k 3|cut -d \  -f 1-3|uniq -c 
+ 1594  awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12)}'|sort -k 3|cut -d \  -f 1-3
+ 1595  awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12)}'|sort -k 3
+ 1596  awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12)}'
+ 1597  awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $8)}'
+ 1598  awk '$7<1.6 && $12>250' <fromcsv-g3ltl-r2.rules.csv | awk '{print( $13, $14, $15, $12, $7)}'
+ 1599  history -a
+ 1600  ll|less
+ 1601  history -a ; history >bash_history.sh
+ 1602  history |grep sort
+ 1603  mc
+ 1604  jupyter notebook
+ 1605  top
+ 1606  jupyter notebook
+ 1607  free -m
+ 1608  jupyter notebook
+ 1609  cd ~/grdr20/PyMartinCA/beta/JUPYTER/output/
+ 1610  zsh
+ 1611  mc
+ 1612  cd ~/grdr20/PyMartinCA/beta/JUPYTER/output/
+ 1613  mc
+ 1614  cd
+ 1615  cd ~/grdr20/PyMartinCA/beta/testOfRules/
+ 1616  ipython3   
+ 1617  ipython testOfRules-from-csv-or-cube-or-random.py
+ 1618  ipython testOfRules-from-csv-or-cube.py 
+ 1619  ipython testOfRules-from-csv-or-cube-or-random.py
+ 1620  history -a ; history >bash_history.sh
+ 1621  ipython testOfRules-from-csv-or-cube-or-random.py
+ 1622  history -a ; history >bash_history.sh
+ 1623  while true ; do ; sleep 1; echo sfsd; done
+ 1624  while true  do ; sleep 1; echo sfsd; done
+ 1625  while true ; do  sleep 1; echo sfsd; done
+ 1626  history -a ; history >bash_history.sh
+ 1627  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
+ 1628  history -a ; history >bash_history.sh
+ 1629  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
+ 1630  history -a ; history >bash_history.sh
+ 1631  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
+ 1632  history -a ; history >bash_history.sh
+ 1633  jupyter notebook
+ 1634  apt show tcl
+ 1635  mc
+ 1636  jupyter notebook
+ 1637  mc
+ 1638  cd
+ 1639  cd grdr20/PyMartinCA
+ 1640  history -a ; history >bash_history.sh
+ 1641  git init
+ 1642  git checkout -b Jiri
+ 1643  git remote add origin https://github.com/martin12333/PyMartinCA 
+ 1644  history -a ; history >bash_history.sh
+ 1645  git add --verbose --dry-run beta/testOfRules/*.csv
+ 1646  mc
+ 1647  history -a ; history >bash_history.sh
+ 1648  history 
+ 1649  echo ZVORAL
+ 1650  git init
+ 1651  git checkout -b Jiri
+ 1652  git remote add origin https://github.com/martin12333/PyMartinCA 
+ 1653  git pull -vv origin Jiri
+ 1654  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
  1655  mc
- 1656  cd
- 1657  cd grdr20/PyMartinCA/
- 1658  git pull  origin Jiri
- 1659  mc
- 1660  cd
- 1661  cd grdr20/PyMartinCA/
- 1662  history -a ; history >bash_history.sh
- 1663  git add --verbose beta/testOfRules/*.csv bash_history.sh 
- 1664  history -a ; history >bash_history.sh
- 1665  git add --verbose beta/testOfRules/*.csv bash_history.sh 
- 1666  git commit  -a -m bkup ;  
- 1667  git push -u origin Jiri
- 1668  cd
- 1669  cd grdr20/PyMartinCA/
- 1670  cd
- 1671  cd grdr20/PyMartinCA/beta/testOfRules/
- 1672  while true ; do sleep 1;  python testOfRules-from-csv-or-cube-or-random.py; done
- 1673  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
- 1674  history -a ; history >bash_history.sh
- 1675  while true ; do sleep 1;  python3 testOfRules-from-csv-or-cube-or-random.py; done
- 1676  history -a ; history >bash_history.sh
- 1677  cd grdr20/PyMartinCA/
+ 1656  while true ; do sleep 1;  ipython testOfRules-from-csv-or-cube-or-random.py; done
+ 1657  history 
+ 1658  cd grdr20/PyMartinCA
+ 1659  git pull -v origin Jiri
+ 1660  mc
+ 1661  git pull -v origin Jiri
+ 1662  git ls
+ 1663  git ls-files
+ 1664  mc
+ 1665  cd
+ 1666  cd grdr20/PyMartinCA/beta/testOfRules/output/
+ 1667  ll
+ 1668  cat $( ls -1tr output/* ) | grep .
+ 1669  cat $( ls -1tr *rand* ) | grep .
+ 1670  cd grdr20/PyMartinCA/beta/testOfRules/output/
+ 1671  history 
+ 1672  cat $( ls -1tr *rand* ) | grep .|wc -l
+ 1673  cat $( ls -1tr *rand* ) | grep r2|wc -l
+ 1674  grep -o 'r3[^ ]*' output-all.rules.csv |sort|uniq -c|wc
+ 1675  cat $( ls -1tr *rand* ) | grep r2|grep -o 'r3[^ ]*' output-all.rules.csv |sort|uniq -c|wc
+ 1676  cat $( ls -1tr *rand* ) | grep r2|grep -o 'r3[^ ]*'  |sort|uniq -c|wc
+ 1677  cat $( ls -1tr *rand* ) | grep r2|grep -o 'r2[^ ]*'  |sort|uniq -c|wc
  1678  history -a ; history >bash_history.sh
- 1679  history 
- 1680  git add --verbose beta/testOfRules/*.csv bash_history.sh 
- 1681  git commit  -a -m bkup ;  
- 1682  git push -u origin Jiri
- 1683  git add --verbose beta/testOfRules/*.csv bash_history.sh 
- 1684  git add --verbose beta/testOfRules/*.csv bash_history.sh beta/testOfRules/*.py
- 1685  history -a ; history >bash_history.sh
- 1686  git add --verbose beta/testOfRules/*.csv bash_history.sh beta/testOfRules/*.py
- 1687  git commit  -a -m bkup ;  
- 1688  git push -u origin Jiri
- 1689  git add --verbose beta/testOfRules/*.csv bash_history.sh beta/testOfRules/*.py
- 1690  git commit  -a -m bkup ;  
- 1691  git push -u origin Jiri
- 1692  mv -iv beta beta,07n
- 1693  git clone --single-branch --branch=beta https://github.com/martin12333/PyMartinCA --depth=1
- 1694  history -a ; history >bash_history.sh
- 1695  mv -iv PyMartinCA beta
- 1696  history -a ; history >bash_history.sh
- 1697  cd
- 1698  cd grdr20/PyMartinCA/beta/testOfRules/
- 1699  history -a ; history >bash_history.sh
- 1700  git add --verbose testOfRules/*.csv bash_history.sh testOfRules/*.py
- 1701  cd ..
- 1702  git add --verbose testOfRules/*.csv bash_history.sh testOfRules/*.py
- 1703  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
- 1704  cd testOfRules/
- 1705  history -a ; history >bash_history.sh
- 1706  cd ..
- 1707  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
- 1708  git commit  -a -m running
- 1709  git push -u origin beta
- 1710  history -a ; history >bash_history.sh
- 1711  ll
- 1712  ll .*
- 1713  ll .git/
- 1714  history 
- 1715  cd testOfRules/
- 1716  history -a ; history >bash_history.sh
+ 1679  cat $( ls -1tr *rand* ) | grep r2|grep -o 'r2[^ ]*'  |sort|uniq -c
+ 1680  history -a ; history >bash_history.sh
+ 1681  cat $( ls -1tr *rand* ) | grep r2|grep -o 'r2[^ ]*'  |sort|uniq -c
+ 1682  cat $( ls -1tr *rand* ) | grep r2|grep -o 'r2[^ ]*'  |sort|uniq -c|wc
+ 1683  cat $( ls -1tr *rand* ) | grep r2|awk '$7<1.5 && $12>120'
+ 1684  cat $( ls -1tr *rand* ) | grep r2|awk '$7<1.5 && $12>280'
+ 1685  cat $( ls -1tr *rand* ) | grep r2|awk '$7<1.7 && $12>280'
+ 1686  cat $( ls -1tr *rand* ) | grep r2|awk '$7<1.6 && $12>280'
+ 1687  history -a ; history >bash_history.sh
+ 1688  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1689  mc
+ 1690  cd
+ 1691  cd grdr20/PyMartinCA
+ 1692  history 
+ 1693  git pull -vv origin Jiri
+ 1694  history 
+ 1695  cd
+ 1696  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1697  cd ..
+ 1698  history 
+ 1699  while true ; do sleep 1;  python3 testOfRules-from-csv-or-cube-or-random.py; done
+ 1700  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1701  history 
+ 1702  ll output/
+ 1703  history -a ; history >bash_history.sh
+ 1704  history 
+ 1705  grep r2 output/*.csv |awk '$7<1.6 && $12>280'
+ 1706  history -a ; history >bash_history.sh
+ 1707  history 
+ 1708  grep r2 output/*.csv |grep -o 'r2[^ ]*'  |sort|uniq -c|wc
+ 1709  grep r2 output/*.csv |grep -o 'r2[^ ]*'  |sort|wc
+ 1710  grep r2 output/*.csv |grep -o 'r2[^ ]*'  |sort|uniq -c|wc
+ 1711  history -a ; history >bash_history.sh
+ 1712  history 
+ 1713  grep r2 output/*.csv |awk '$7<1.6 && $12>280'
+ 1714  history -a ; history >bash_history.sh
+ 1715  mc
+ 1716  grep r2 output/*.csv |awk '$7>1.2 && $12<380'
+ 1717  grep r2 output/*.csv |awk '$7>1.2 && $12<300'
+ 1718  history -a ; history >bash_history.sh
+ 1719  history |grep sort
+ 1720  history -a ; history >bash_history.sh
+ 1721  history 
+ 1722  history |grep git
+ 1723  cd
+ 1724  cd grdr20/PyMartinCA
+ 1725  git pull -vv origin Jiri
+ 1726  git add --verbose  beta/testOfRules/*.csv beta/testOfRules/*.py
+ 1727  mc
+ 1728  git add --verbose  beta/testOfRules/*.csv beta/testOfRules/*.py
+ 1729  git pull -vv origin Jiri
+ 1730  mc
+ 1731  git pull -vv origin Jiri
+ 1732  git add --verbose  beta/testOfRules/*.csv beta/testOfRules/*.py
+ 1733  git pull -vv origin Jiri
+ 1734  git add --verbose  beta/testOfRules/*.csv beta/testOfRules/*.py
+ 1735  git commit  -a -m bkup
+ 1736  mc
+ 1737  git add --verbose  beta/testOfRules/*.csv beta/testOfRules/*.py
+ 1738  git commit  -a -m bkup
+ 1739  git pull -vv origin Jiri
+ 1740  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1741  while true ; do sleep 1;  python3 testOfRules-from-csv-or-cube-or-random.py; done
+ 1742  mc
+ 1743  while true ; do sleep 1;  python3 old-green-testOfRules-from-csv-or-cube-or-random.py; done
+ 1744  mc
+ 1745  du -am
+ 1746  cd
+ 1747  find . -name core
+ 1748  history -a ; history >bash_history.sh
+ 1749  find /etc -name core
+ 1750  find . -name core
+ 1751  find . -name core -type f
+ 1752  history -a ; history >bash_history.sh
+ 1753  cd grdr20/PyMartinCA
+ 1754  du -am
+ 1755  du -am|sort -n
+ 1756  du -ak|sort -n
+ 1757  du -ak|sort -n|grep co
+ 1758  du -ak|sort -n|grep cor
+ 1759  history -a ; history >bash_history.sh
+ 1760  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1761  cd
+ 1762  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1763  history -a ; history >bash_history.sh
+ 1764  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1765  cd
+ 1766  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1767  du -ak|sort -n
+ 1768  du -am|sort -n
+ 1769  history -a ; history >bash_history.sh
+ 1770  find . -name core -type f
+ 1771  cd grdr20/PyMartinCA/beta/
+ 1772  du -am|sort -n
+ 1773  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1774  python3 old-green-testOfRules-from-csv-or-cube-or-random.py; 
+ 1775  history |grep awk
+ 1776  grep r2 output/random.csv |awk '$7>1.2 && $12<300'
+ 1777  grep r2 output/random.csv |awk '$7<1.5 && $12>300'
+ 1778  grep r2 output/random.csv |awk '$7<1.5 && $12>300'|nl
+ 1779  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000  '|nl
+ 1780  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000  '|sort -k 5,5n
+ 1781  history -a ; history >bash_history.sh
+ 1782  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000 {print $3} '|sort -k 5,5n
+ 1783  history -a ; history >bash_history.sh
+ 1784  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000 {print $3} '|sort -k 5,5n
+ 1785  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000  '|sort -k 5,5n
+ 1786  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000 {print $5/$9} '|sort -k 5,5n
+ 1787  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000 {print $5/$9} '|sort -k 1,1n
+ 1788  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000 {print $5/$9,$0} '|sort -k 1,1n
+ 1789  grep r2 output/training.csv |awk '$7<1.5 && $12>300 && $5<1000000 {print $5/$9,$0} '|sort -k 1,1n
+ 1790  history -a ; history >bash_history.sh
+ 1791  history 
+ 1792  grep r2 output/training.csv |awk '$7<1.5 && $12>300 && $5<1000000 {print $5/$9,$0} '|sort -k 1,1n
+ 1793  history 
+ 1794  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000  '|sort -k 5,5n
+ 1795  history 
+ 1796  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000 {print $5/$9,$0} '|sort -k 1,1n
+ 1797  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000 {print $5/$9,$0} '
+ 1798  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000 {print $5/$9,$0} '|nl
+ 1799  grep r2 output/random.csv |awk '$7<1.5 && $12>300  {print $5/$9,$0} '|nl
+ 1800  grep r2 output/random.csv |awk '$7<1.5 && $12>300 && $5<1000000 {print $5/$9,$0} '|sort -k 1,1n
+ 1801  grep r2 output/random.csv |awk '$7<1.5 && $12>300  {print $5/$9,$0} '|nl
+ 1802  wc output/*
+ 1803  history -a ; history >bash_history.sh
+ 1804  history -a ; history >old-green-bash_history.sh
+ 1805  grep r2 output/random.csv |awk '$7<1.5 && $12>300  {print $5/$9,$12/$3,$0} '|nl
+ 1806  grep r2 output/training.csv |awk '$7<1.5 && $12>300  {print $5/$9,$12/$3,$0} '|nl
+ 1807  grep r2 output/random.csv |awk '$7<1.5 && $12>300  {print $5/$9,$12/$3,$0} '|nl
+ 1808  grep r2 output/random.csv |awk '$7<1.5 && $12>300  {print $5/$9,$12/$3,$0} '|sort -n
+ 1809  history -a ; history >old-green-bash_history.sh
+ 1810  grep r2 output/random.csv |awk '$7<1.5 && $12>300  {print $5/$9,$12/$3,$0} '|nl
+ 1811  grep r2 output/random.csv |awk '$7<1.4 && $12>300  {print "Pw2ratio",$5/$9,$12/$3,$0} '|nl
+ 1812  grep r2 output/random.csv |awk '$7<1.4 && $12>300  {print $0,"Pw2ratio",$5/$9,"htratio"$12/$3} '|nl
+ 1813  grep r2 output/random.csv |awk '$7<1.4 && $12>300  {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '|nl
+ 1814  grep r2 output/random.csv |awk '$7<1.4 && $12>300  {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '
+ 1815  grep r2 output/random.csv |awk '$7<1.4 && $12>300  {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '|tr ' ' ','
+ 1816  grep r2 output/random.csv |awk '$7<1.4 && $12>300  {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '|tr ' ' ','|tee awk-random.csv
+ 1817  grep r2 output/random.csv |awk '$7<1.4 && $12>300  {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '|tr ' -s ' ','|tee awk-random.csv
+ 1818  grep r2 output/random.csv |awk '$7<1.4 && $12>300  {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '|tr -s ' ' ','|tee awk-random.csv
+ 1819  history -a ; history >old-green-bash_history.sh
+ 1820  grep r2 output/random.csv |awk '$7<1.4 && $12>300  {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '|tr -s ' ' ','|nl|tee awk-random.csv
+ 1821  grep r2 output/random.csv |awk '$7<1.4 && $12>300  {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '|nl|tr -s ' ' ','|tee awk-random.csv
+ 1822  grep r2 output/random.csv |awk '$7<1.4 && $12>300  {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '|tr -s ' ' ','|tee awk-random.csv
+ 1823  grep r2 output/random.csv |awk '$7<1.4 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '|tr -s ' ' ','|tee awk-random.csv
+ 1824  grep r2 output/random.csv |awk '$7<1.4 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '|tr -s ' ' ','|tee awk-random.csv|nl
+ 1825  history -a ; history >old-green-bash_history.sh
+ 1826  history 
+ 1827  . myawk.sh 
+ 1828  history -a ; history >old-green-bash_history.sh
