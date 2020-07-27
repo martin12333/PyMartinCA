@@ -1788,3 +1788,6 @@
  1788  history -a ; history >testOfRules/bash_history.sh
  1789  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
  1790  history -a ; history >testOfRules/bash_history.sh
+ 1791  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1792  git commit -vv  -a -m bkup
+ 1793  history -a ; history >testOfRules/bash_history.sh
