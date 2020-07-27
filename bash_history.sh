@@ -1761,3 +1761,9 @@
  1761  cd grdr20/PyMartinCA/
  1762  echo git add --verbose beta/testOfRules/*.csv bash_history.sh beta/testOfRules/*.py
  1763  history -a ; history >bash_history.sh
+ 1764  git add --verbose beta/testOfRules/*.csv bash_history.sh beta/testOfRules/*.py
+ 1765  git commit -v  -a -m bkup
+ 1766  git add --verbose beta/testOfRules/output/*.csv bash_history.sh beta/testOfRules/*.py
+ 1767  echo git add -vv beta/testOfRules/output/*.csv bash_history.sh beta/testOfRules/*.py
+ 1768  git add -vv beta/testOfRules/output/*.csv bash_history.sh beta/testOfRules/*.py
+ 1769  history -a ; history >bash_history.sh
