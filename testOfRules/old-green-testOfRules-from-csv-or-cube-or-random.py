@@ -1,4 +1,4 @@
-#program version 401seed
+#program version 403 ##401seed
 
 from __future__ import print_function
 from __future__ import division
@@ -24,7 +24,7 @@ import random
 is_from_csv=True
 #is_from_random=True
 
-batch8=4#3 #4#8
+batch8=8#3 #4#8
 
 ################ tunable parameters
 
@@ -83,6 +83,7 @@ ndbmin=2; ndbmax=8; ndsmin=2; ndsmax=3
 #justname='p100520'
 justname='random-alza2014'
 justname='HROT-rulestring-conversion'
+justname='training'
 justnameext=justname+'.csv'
 
 
@@ -121,15 +122,15 @@ output_file1='output/'+justnameext
 
 #unit1=100#1250#600#1500#800#900#400#200#100#50#1000#256#128
 ##wt=1800##3000#2400#1800#1500#1200#900#700
-w2=1600#800#200#500#400#200#100#50#1000#256#128#16#25
+w2=9876#18765 #37654#76543#6000#1600#800#200#500#400#200#100#50#1000#256#128#16#25
 h2=30#w2#16
 #maxtime=4*unit1 #*2
-maxtime=w2#*2 #*4#*2
+maxtime=w2//2#w2#*2 #*4#*2
 halftime=maxtime//2
 ##niter =wt#600#500#400#300#6##1000#500###800 # #1500
-hthreshold=800#400:#200:#100:
+hthreshold=w2//2#800#400:#200:#100:
 
-step1=12 #4 #20 #8 #15 #5 #1 #37 #2
+step1=12#6#12#24#12 #4 #20 #8 #15 #5 #1 #37 #2
 #step2=120#12#60 #120 #1
 
 
@@ -375,7 +376,7 @@ def test_8_rules(list8)    :
 
     for rulestr in rulestrlist:
         
-        np.random.seed(137) ###!!!!!!!!!!!!
+        ########np.random.seed(137) ###!!!!!!!!!!!!
         
         p1=lt.pattern(rule=rulestr)
         p=0.3###08#02#05 #1#2#3#4#5 
