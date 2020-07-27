@@ -1674,12 +1674,90 @@
  1674  history -a ; history >bash_history.sh
  1675  while true ; do sleep 1;  python3 testOfRules-from-csv-or-cube-or-random.py; done
  1676  history -a ; history >bash_history.sh
- 1677  cd grdr20/PyMartinCA/
- 1678  history -a ; history >bash_history.sh
- 1679  history 
- 1680  git add --verbose beta/testOfRules/*.csv bash_history.sh 
- 1681  git commit  -a -m bkup ;  
- 1682  git push -u origin Jiri
- 1683  git add --verbose beta/testOfRules/*.csv bash_history.sh 
- 1684  git add --verbose beta/testOfRules/*.csv bash_history.sh beta/testOfRules/*.py
- 1685  history -a ; history >bash_history.sh
+ 1677  mc
+ 1678  top
+ 1679  qmc
+ 1680  mc
+ 1681  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1682  mc
+ 1683  cd grdr20/PyMartinCA/
+ 1684  history -a ; history >bash_history.sh
+ 1685  history 
+ 1686  git add --verbose beta/testOfRules/*.csv bash_history.sh 
+ 1687  git commit  -a -m bkup ;  
+ 1688  git push -u origin Jiri
+ 1689  git add --verbose beta/testOfRules/*.csv bash_history.sh 
+ 1690  git add --verbose beta/testOfRules/*.csv bash_history.sh beta/testOfRules/*.py
+ 1691  history -a ; history >bash_history.sh
+ 1692  git add --verbose beta/testOfRules/*.csv bash_history.sh beta/testOfRules/*.py
+ 1693  git commit  -a -m bkup ;  
+ 1694  git push -u origin Jiri
+ 1695  git add --verbose beta/testOfRules/*.csv bash_history.sh beta/testOfRules/*.py
+ 1696  git commit  -a -m bkup ;  
+ 1697  git push -u origin Jiri
+ 1698  mv -iv beta beta,07n
+ 1699  git clone --single-branch --branch=beta https://github.com/martin12333/PyMartinCA --depth=1
+ 1700  history -a ; history >bash_history.sh
+ 1701  mv -iv PyMartinCA beta
+ 1702  history -a ; history >bash_history.sh
+ 1703  cd
+ 1704  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1705  history -a ; history >bash_history.sh
+ 1706  git add --verbose testOfRules/*.csv bash_history.sh testOfRules/*.py
+ 1707  cd ..
+ 1708  git add --verbose testOfRules/*.csv bash_history.sh testOfRules/*.py
+ 1709  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
+ 1710  cd testOfRules/
+ 1711  history -a ; history >bash_history.sh
+ 1712  cd ..
+ 1713  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
+ 1714  git commit  -a -m running
+ 1715  git push -u origin beta
+ 1716  history -a ; history >bash_history.sh
+ 1717  ll
+ 1718  ll .*
+ 1719  ll .git/
+ 1720  history 
+ 1721  cd testOfRules/
+ 1722  history -a ; history >bash_history.sh
+ 1723  cd ..
+ 1724  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
+ 1725  git commit  -a -m running
+ 1726  git push -u origin beta
+ 1727  df -m
+ 1728  mc
+ 1729  df -m
+ 1730  history -a ; history >bash_history.sh
+ 1731  history 
+ 1732  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
+ 1733  git commit  -a -m bkup ;  
+ 1734  git push -u origin beta
+ 1735  git pull -v  origin beta ; history -a
+ 1736  cat ~/.bash_history tory 
+ 1737  less testOfRules/testOfRules-from-csv-or-cube-or-random.py 
+ 1738  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
+ 1739  git commit  -a -m running
+ 1740  git push -u origin beta
+ 1741  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
+ 1742  git commit  -a -m bkup ;  
+ 1743  git push -u origin beta
+ 1744  mc
+ 1745  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
+ 1746  git commit  -a -m running
+ 1747  git push -u origin beta
+ 1748  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
+ 1749  git commit  -a -m running
+ 1750  git push -u origin beta
+ 1751  top
+ 1752  zsh
+ 1753  history |grep awk
+ 1754  cd grdr20/PyMartinCA/beta/
+ 1755  git add --verbose testOfRules/*.csv testOfRules/bash_history.sh testOfRules/*.py
+ 1756  git commit  -a -m bkup
+ 1757  git pull -v  origin beta ; history -a
+ 1758  git push -v -u origin beta
+ 1759  history |less
+ 1760  cd
+ 1761  cd grdr20/PyMartinCA/
+ 1762  echo git add --verbose beta/testOfRules/*.csv bash_history.sh beta/testOfRules/*.py
+ 1763  history -a ; history >bash_history.sh
