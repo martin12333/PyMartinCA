@@ -1791,3 +1791,30 @@
  1791  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
  1792  git commit -vv  -a -m bkup
  1793  history -a ; history >testOfRules/bash_history.sh
+ 1794  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1795  git commit -vv  -a -m bkup
+ 1796  git push -v -u origin beta
+ 1797  df -m
+ 1798  mc
+ 1799  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1800  git commit -vv  -a -m runni
+ 1801  git push -v -u origin beta
+ 1802  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1803  git commit -vv  -a -m bkup
+ 1804  git push -v -u origin beta
+ 1805  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1806  git commit -vv  -a -m runni404
+ 1807  git push -v -u origin beta
+ 1808  mc
+ 1809  history -a ; history >testOfRules/bash_history.sh
+ 1810  df -m
+ 1811  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0|wc
+ 1812  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
+ 1813  du
+ 1814  history -a ; history >testOfRules/bash_history.sh
+ 1815  history 
+ 1816  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
+ 1817  rm ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*
+ 1818  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
+ 1819  df -m
+ 1820  history -a ; history >testOfRules/bash_history.sh
