@@ -1818,3 +1818,21 @@
  1818  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
  1819  df -m
  1820  history -a ; history >testOfRules/bash_history.sh
+ 1821  history 
+ 1822  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
+ 1823  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1824  git commit -vv  -a -m runni404
+ 1825  git push -v -u origin beta
+ 1826  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1827  git commit -vv  -a -m runni404
+ 1828  git push -v -u origin beta
+ 1829  mc
+ 1830  chmod -v u+x testOfRules/*.sh
+ 1831  chmod -v u-x testOfRules/*.sh
+ 1832  chmod -v u+x testOfRules/my*.sh
+ 1833  history -a ; history >testOfRules/bash_history.sh
+ 1834  cd testOfRules/
+ 1835  ./myawk.sh 
+ 1836  ./myawk.sh 404
+ 1837  cd ..
+ 1838  history -a ; history >testOfRules/bash_history.sh
