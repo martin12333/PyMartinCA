@@ -1,4 +1,4 @@
-#program version 402
+#program version 404 uniform other file
 
 from __future__ import print_function
 from __future__ import division
@@ -76,6 +76,7 @@ ndbmin=2; ndbmax=8; ndsmin=2; ndsmax=3
 
 #justname='p100520'
 justname='random'
+justname='random404'
 
 justnameext=justname+'.csv'
 
