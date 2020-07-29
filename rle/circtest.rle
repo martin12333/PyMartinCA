@@ -1,0 +1,12 @@
+R5,C6,M0,S0..0,B10..60,NM
+
+R3,C4,M0,S0..0,B2..48,NM
+R2,C4,M0,S0..0,B4..24,NM
+###R1,C2,M0,S0..8,B3..3,NM
+###R2,C2,M0,S0..24,B5..5,NM
+x = 20, y = 20, rule = R1,C3,M1,S1..1,B2..8,NM
+2o4b3ob2o3bobobo$3b4ob4obobob2o$3obob4obobob5o$bo4b3ob3o2bobobo$b2o3bo
+b3ob2o2bo2bo$bob7ob4o2b3o$obo2bo5b4o2b3o$5obo2b2o3bobo$5b2ob3o2b3o$3bo
+4bobob3o$bo3b2o4bobobo2b2o$ob4ob2obob3o4bo$2b5ob2obob2obob2o$2o3bo6b2o
+$obobob8o5bo$3b4obob2o6bo$2b4o3b3o3b2o2bo$ob2ob3obo2b2obo3bo$o4b2o2bob
+obo2b3o$2b8ob2obobo2bo!
