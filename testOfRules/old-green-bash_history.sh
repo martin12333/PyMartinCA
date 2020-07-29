@@ -1826,3 +1826,8 @@
  1826  history 
  1827  . myawk.sh 
  1828  history -a ; history >old-green-bash_history.sh
+ 1829  cat myawk.sh 
+ 1830  cd ..
+ 1831  history -a ; history >old-green-bash_history.sh
+ 1832  mc
+ 1833  history -a ; history >testOfRules/old-green-bash_history.sh

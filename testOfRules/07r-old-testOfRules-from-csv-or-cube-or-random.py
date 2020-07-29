@@ -1,4 +1,4 @@
-#program version 404 uniform other file
+#program version 402
 
 from __future__ import print_function
 from __future__ import division
@@ -76,7 +76,6 @@ ndbmin=2; ndbmax=8; ndsmin=2; ndsmax=3
 
 #justname='p100520'
 justname='random'
-justname='random404'
 
 justnameext=justname+'.csv'
 
@@ -189,23 +188,21 @@ def main1():
 
         for irnd in range(nrnd):
 
-#        #    xb=random.getrandbits(15) & random.getrandbits(15)
-        #    xx=random.getrandbits(15) 
+#            xb=random.getrandbits(15) & random.getrandbits(15)
+            xx=random.getrandbits(15) 
             
-#        #    xb=(random.getrandbits(15) |xx)&random.getrandbits(15)
-##        #    xb=(random.getrandbits(15) &xx)&random.getrandbits(15)
-#            xb=(random.getrandbits(15) &xx)
-            xb=(random.getrandbits(15) )
+#            xb=(random.getrandbits(15) |xx)&random.getrandbits(15)
+##            xb=(random.getrandbits(15) &xx)&random.getrandbits(15)
+            xb=(random.getrandbits(15) &xx)
 
-##            xs=(random.getrandbits(15) |xx)&random.getrandbits(15)
-##            xs=(random.getrandbits(15) &xx)|random.getrandbits(15)
-#            xs=random.getrandbits(15) & random.getrandbits(15)
-            xs=random.getrandbits(15) 
-#            xs=random.getrandbits(15) & random.getrandbits(15)  & random.getrandbits(15)
-#            xs=xs|xb
+#            xs=(random.getrandbits(15) |xx)&random.getrandbits(15)
+#            xs=(random.getrandbits(15) &xx)|random.getrandbits(15)
+            xs=random.getrandbits(15) & random.getrandbits(15)
+            xs=random.getrandbits(15) & random.getrandbits(15)  & random.getrandbits(15)
+            xs=xs|xb
 
-#            xb=xb << 4
-            xb=xb << 5
+            xb=xb << 4
+#            xb=xb << 5
             
             
             xs=xs << 4
