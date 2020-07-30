@@ -1,4 +1,4 @@
-#program version 407 uniform other file
+#program version 417 
 
 from __future__ import print_function
 from __future__ import division
@@ -15,8 +15,8 @@ import random
 
 ################ tunable parameters
 
-is_from_csv=False
-is_from_random=True
+is_from_csv=True
+#is_from_random=True
 
 batch8=8#3 #4#8
 
@@ -77,6 +77,7 @@ ndbmin=2; ndbmax=8; ndsmin=2; ndsmax=3
 #justname='p100520'
 justname='random'
 justname='random404'
+justname='random417'
 
 justnameext=justname+'.csv'
 
@@ -102,6 +103,7 @@ input_file1='input/g3ltl-r2-3.rules.csv'
 # input_file1='input/input-ltl-r3-03-Copy1.rules.csv'
 input_file1='input/'+justnameext
 input_file1='lifelib-input/'+justnameext
+input_file1='lifelib-input/parts-todo/part.csv'
 
 
 output_file1='output-2.rules.csv'

@@ -1857,3 +1857,25 @@
  1857  history -a ; history >old-green-bash_history.sh
  1858  for x in lifelib-input/parts-todo/x*; do echo $x; done
  1859  history -a ; history >old-green-bash_history.sh
+ 1860  mc
+ 1861  ll
+ 1862  history 
+ 1863  mc ../..
+ 1864  mc
+ 1865  x=lifelib-input/parts-todo/x0000
+ 1866  mv -v $x lifelib-input/parts-todo/part.csv
+ 1867  #python3 testOfRules-from-csv-or-cube-or-random.py
+ 1868  history -a ; history >old-green-bash_history.sh
+ 1869  python3 testOfRules-from-csv-or-cube-or-random.py
+ 1870  mc
+ 1871  history -a ; history >old-green-bash_history.sh
+ 1872  history 
+ 1873  cd lifelib-input/parts-todo/
+ 1874  split --lines=48 --numeric-suffixes --suffix-length=4 --verbose ../convert--output0.csv 
+ 1875  cd ../..
+ 1876  history 
+ 1877  x=lifelib-input/parts-todo/x0000
+ 1878  mv -v $x lifelib-input/parts-todo/part.csv
+ 1879  python3 testOfRules-from-csv-or-cube-or-random.py
+ 1880  mc
+ 1881  history -a ; history >old-green-bash_history.sh
