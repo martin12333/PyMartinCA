@@ -1,17 +1,8 @@
 
-
-
-
-soup time 3996 pop 184 ratio 1.0 space 32768 30 32213 2049 rule lifelib r2b000008s03ff00 sumpop 3151680 i 1 
-soup time 3996 pop 9114 ratio 1.0 space 32768 30 33914 4027 rule lifelib r2b0001c0s0001e0 sumpop 38185992 i 2 
-soup time 3996 pop 12215 ratio 1.0 space 32768 30 33924 4034 rule lifelib r2b0000c0s0001e0 sumpop 49755216 i 3 
-soup time 3996 pop 31476 ratio 1.0 space 32768 30 32787 2432 rule lifelib r2b0000c0s0001f0 sumpop 135068448 i 4 
-soup time 3996 pop 31463 ratio 1.0 space 32768 30 32797 2446 rule lifelib r2b0000c0s0001f0 sumpop 135105948 i 5 
-soup time 3996 pop 175 ratio 1.0 space 32768 30 26853 4023 rule lifelib r2b000008s03ff00 sumpop 3052104 i 6 
-soup time 3996 pop 8943 ratio 1.0 space 32768 30 32730 4041 rule lifelib r2b0001c0s0001e0 sumpop 37260312 i 7 
-soup time 3996 pop 11978 ratio 1.0 space 32768 30 34550 4038 rule lifelib r2b0000c0s0001e0 sumpop 48778848 i 8 
-soup time 3996 pop 31776 ratio 1.0 space 32768 30 32793 2440 rule lifelib r2b0000c0s0001f0 sumpop 136142532 i 9 
-soup time 3996 pop 30936 ratio 1.0 space 32768 30 32730 2435 rule lifelib r2b0000c0s0001f0 sumpop 133321104 i 10 
-soup time 144 pop 2011776 ratio 1.6 space 32768 30 32887 190 rule lifelib r2ba33640s7999e0 sumpop 200390352 i 11 
-soup time 288 pop 2026166 ratio 1.6 space 32768 30 32880 218 rule lifelib r2b047640scba1e0 sumpop 374412468 i 12 
-soup time 192 pop 1989525 ratio 1.6 space 32768 30 32882 198 rule lifelib r2b1ce640s4ea9e0 sumpop 254547408 i 13 
+soup time 3996 pop 4724 ratio 1.0 space 32768 30 32476 32 rule lifelib r2bd61a80s8e68e0 sumpop 21955920 i 1 
+soup time 72 pop 1972316 ratio 1.5 space 32768 30 32851 147 rule lifelib r2bf56cc0sf5e9c0 sumpop 113157948 i 2 
+soup time 156 pop 1996101 ratio 1.7 space 32768 30 32895 224 rule lifelib r2bfd8ac0sae68e0 sumpop 210193368 i 3 
+soup time 696 pop 1974346 ratio 3.7 space 32768 30 32223 290 rule lifelib r2b3bd640sff50e0 sumpop 504641160 i 4 
+soup time 3996 pop 6508 ratio 1.0 space 32768 30 32139 33 rule lifelib r2bc39a80se1c0e0 sumpop 26491332 i 5 
+soup time 3996 pop 11207 ratio 1.0 space 32768 30 32717 36 rule lifelib r2b4cca80s0a41e0 sumpop 45898092 i 6 
+soup time 3996 pop 124 ratio 1.0 space 32768 30 31732 26 rule lifelib r2b903e40s40c0c0 sumpop 2552304 i 7 

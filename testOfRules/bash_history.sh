@@ -1859,3 +1859,13 @@
  1859  mc
  1860  mv -vi testOfRules/output/random404.csv testOfRules/output/random404-jilenovo,07t.csv
  1861  history -a ; history >testOfRules/bash_history.sh
+ 1862  git pull -v  origin beta ; history -a
+ 1863  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1864  git commit -vv  -a -m bkup
+ 1865  git pull -v  origin beta ; history -a
+ 1866  git commit -vv  -a -m merg
+ 1867  git push -v -u origin beta
+ 1868  mc
+ 1869  history -a ; history >testOfRules/bash_history.sh
+ 1870  mc
+ 1871  history -a ; history >testOfRules/bash_history.sh
