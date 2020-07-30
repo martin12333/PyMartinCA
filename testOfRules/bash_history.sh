@@ -1879,3 +1879,25 @@
  1879  ps
  1880  ps -u martin
  1881  history -a ; history >testOfRules/bash_history.sh
+ 1882  history 
+ 1883  ps -ef 
+ 1884  mc
+ 1885  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1886  git commit -vv  -a -m runni417
+ 1887  git push -v -u origin beta
+ 1888  mc
+ 1889  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1890  git commit -vv  -a -m runni417
+ 1891  git pull -v  origin beta ; history -a
+ 1892  git push -v -u origin beta
+ 1893  cd testOfRules/
+ 1894  ll
+ 1895  mc
+ 1896  ll
+ 1897  ./myawk407.sh <output/random417.csv 
+ 1898  ./myawk407.sh <output/random417.csv |nl
+ 1899  cat ./myawk407.sh 
+ 1900  ./myawk407.sh <output/random417.csv |sort -n --field-separator=,
+ 1901  ./myawk407.sh <output/random417.csv |sort -n --field-separator=, -k 5
+ 1902  ./myawk407.sh <output/random417.csv |sort -n --field-separator=, -k 5|nl
+ 1903  history -a ; history >bash_history.sh
