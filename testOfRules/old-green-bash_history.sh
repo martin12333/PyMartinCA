@@ -1879,3 +1879,10 @@
  1879  python3 testOfRules-from-csv-or-cube-or-random.py
  1880  mc
  1881  history -a ; history >old-green-bash_history.sh
+ 1882  mc
+ 1883  python3 testOfRules-from-csv-or-cube-or-random.418.py 
+ 1884  python3 testOfRules-from-csv-or-cube-or-random.418.py <lifelib-input/r2-training.csv 
+ 1885  history -a ; history >old-green-bash_history.sh
+ 1886  ./2myawk.sh <output/v.418.csv >awk418.csv
+ 1887  ./2myawk.sh <output/v.418.csv 
+ 1888  history -a ; history >old-green-bash_history.sh
