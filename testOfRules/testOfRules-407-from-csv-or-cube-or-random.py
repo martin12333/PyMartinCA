@@ -77,6 +77,7 @@ ndbmin=2; ndbmax=8; ndsmin=2; ndsmax=3
 #justname='p100520'
 justname='random'
 justname='random404'
+justname='random407'
 
 justnameext=justname+'.csv'
 
@@ -539,8 +540,8 @@ def test_rule():
         
         
     with open(output_file1,'a') as f1:
-        #print(tag1, time_s,time11,pop_s,population,ratio_s,PPratio,log2PP,space_s,w2,h2,w,h,rule_s,rulespace,rulestr, file=f1)
-        #print(tag1, time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr,  'sumpop' , sumpopeverygen,    rest1, file=f1)
+        #print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,log2PP,space_s,w2,h2,w,h,rule_s,rulespace,rulestr, file=f1)
+        #print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr,  'sumpop' , sumpopeverygen,    rest1, file=f1)
         print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr,  'sumpop' , sumpopeverygen,  'i', ii1,  rest1, file=f1)
        
     ii1+=1
