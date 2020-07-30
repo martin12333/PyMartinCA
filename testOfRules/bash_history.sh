@@ -1869,3 +1869,13 @@
  1869  history -a ; history >testOfRules/bash_history.sh
  1870  mc
  1871  history -a ; history >testOfRules/bash_history.sh
+ 1872  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1873  git commit -vv  -a -m runni417
+ 1874  git push -v -u origin beta
+ 1875  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1876  git commit -vv  -a -m runni417
+ 1877  git push -v -u origin beta
+ 1878  ps -ef |grep -i my
+ 1879  ps
+ 1880  ps -u martin
+ 1881  history -a ; history >testOfRules/bash_history.sh
