@@ -1788,51 +1788,74 @@
  1788  history -a ; history >testOfRules/bash_history.sh
  1789  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
  1790  history -a ; history >testOfRules/bash_history.sh
- 1791  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
- 1792  git commit -vv  -a -m bkup
- 1793  history -a ; history >testOfRules/bash_history.sh
- 1794  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
- 1795  git commit -vv  -a -m bkup
- 1796  git push -v -u origin beta
- 1797  df -m
- 1798  mc
- 1799  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
- 1800  git commit -vv  -a -m runni
- 1801  git push -v -u origin beta
- 1802  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
- 1803  git commit -vv  -a -m bkup
- 1804  git push -v -u origin beta
- 1805  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
- 1806  git commit -vv  -a -m runni404
- 1807  git push -v -u origin beta
- 1808  mc
+ 1791  while true ; do sleep 1;  python3 testOfRules-from-csv-or-cube-or-random.py; done
+ 1792  mc
+ 1793  while true ; do sleep 1;  python3 testOfRules-from-csv-or-cube-or-random.py; done
+ 1794  cd
+ 1795  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1796  while true ; do sleep 1;  python3 testOfRules-from-csv-or-cube-or-random.py; done
+ 1797  mc
+ 1798  while true ; do sleep 1;  python3 testOfRules-from-csv-or-cube-or-random.py; done
+ 1799  mc
+ 1800  while true ; do sleep 1;  python3 testOfRules-from-csv-or-cube-or-random.py; done
+ 1801  mc
+ 1802  while true ; do sleep 1;  python3 testOfRules-from-csv-or-cube-or-random.py; done
+ 1803  mc
+ 1804  while true ; do sleep 1;  python3 testOfRules-from-csv-or-cube-or-random.py; done
+ 1805  . myawk.sh 
+ 1806  ll
+ 1807  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1808  git commit -vv  -a -m bkup
  1809  history -a ; history >testOfRules/bash_history.sh
- 1810  df -m
- 1811  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0|wc
- 1812  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
- 1813  du
- 1814  history -a ; history >testOfRules/bash_history.sh
- 1815  history 
- 1816  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
- 1817  rm ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*
- 1818  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
- 1819  df -m
- 1820  history -a ; history >testOfRules/bash_history.sh
- 1821  history 
- 1822  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
- 1823  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
- 1824  git commit -vv  -a -m runni404
- 1825  git push -v -u origin beta
- 1826  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
- 1827  git commit -vv  -a -m runni404
- 1828  git push -v -u origin beta
- 1829  mc
- 1830  chmod -v u+x testOfRules/*.sh
- 1831  chmod -v u-x testOfRules/*.sh
- 1832  chmod -v u+x testOfRules/my*.sh
- 1833  history -a ; history >testOfRules/bash_history.sh
- 1834  cd testOfRules/
- 1835  ./myawk.sh 
- 1836  ./myawk.sh 404
- 1837  cd ..
- 1838  history -a ; history >testOfRules/bash_history.sh
+ 1810  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1811  git commit -vv  -a -m bkup
+ 1812  git push -v -u origin beta
+ 1813  df -m
+ 1814  mc
+ 1815  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1816  git commit -vv  -a -m runni
+ 1817  git push -v -u origin beta
+ 1818  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1819  git commit -vv  -a -m bkup
+ 1820  git push -v -u origin beta
+ 1821  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1822  git commit -vv  -a -m runni404
+ 1823  git push -v -u origin beta
+ 1824  mc
+ 1825  history -a ; history >testOfRules/bash_history.sh
+ 1826  df -m
+ 1827  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0|wc
+ 1828  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
+ 1829  du
+ 1830  history -a ; history >testOfRules/bash_history.sh
+ 1831  history 
+ 1832  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
+ 1833  rm ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*
+ 1834  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
+ 1835  df -m
+ 1836  history -a ; history >testOfRules/bash_history.sh
+ 1837  history 
+ 1838  ls -1 ~/.local/lib/python3.6/site-packages/lifelib/pythlib/lifelib_r2b0*|wc
+ 1839  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1840  git commit -vv  -a -m runni404
+ 1841  git push -v -u origin beta
+ 1842  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1843  git commit -vv  -a -m runni404
+ 1844  git push -v -u origin beta
+ 1845  mc
+ 1846  chmod -v u+x testOfRules/*.sh
+ 1847  chmod -v u-x testOfRules/*.sh
+ 1848  chmod -v u+x testOfRules/my*.sh
+ 1849  history -a ; history >testOfRules/bash_history.sh
+ 1850  cd testOfRules/
+ 1851  ./myawk.sh 
+ 1852  ./myawk.sh 404
+ 1853  cd ..
+ 1854  history -a ; history >testOfRules/bash_history.sh
+ 1855  cd grdr20/PyMartinCA/beta/
+ 1856  df -m
+ 1857  git pull -vv  origin beta ; history -a
+ 1858  git pull -v  origin beta ; history -a
+ 1859  mc
+ 1860  mv -vi testOfRules/output/random404.csv testOfRules/output/random404-jilenovo,07t.csv
+ 1861  history -a ; history >testOfRules/bash_history.sh
