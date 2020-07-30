@@ -1,0 +1,13 @@
+bo$ob2o$ob2o$ob2o$bo!
+
+"C:\Program Files\Java\jdk-13.0.1\bin\java.exe" --add-modules javafx.base,javafx.graphics --add-reads javafx.base=ALL-UNNAMED --add-reads javafx.graphics=ALL-UNNAMED "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\lib\idea_rt.jar=10634:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin" -Dfile.encoding=UTF-8 -p C:\Users\jedli\Downloads\javafx-sdk-14\lib\javafx.base.jar;C:\Users\jedli\Downloads\javafx-sdk-14\lib\javafx.graphics.jar;C:\Users\jedli\Documents\CAViewer2\out\production\CAViewer2;C:\Users\jedli\Downloads\javafx-sdk-14\lib\javafx-swt.jar;C:\Users\jedli\Downloads\javafx-sdk-14\lib\javafx.controls.jar;C:\Users\jedli\Downloads\javafx-sdk-14\lib\javafx.fxml.jar;C:\Users\jedli\Downloads\javafx-sdk-14\lib\javafx.media.jar;C:\Users\jedli\Downloads\javafx-sdk-14\lib\javafx.swing.jar;C:\Users\jedli\Downloads\javafx-sdk-14\lib\javafx.web.jar -m CAViewer/sample.Main
+0 rules checked!
+(1, 0)c/21
+R2,C2,S6-9,12,13,16,17,20-23,B7,10,11,13,14,17,18,22,24,NM
+100 rules checked!
+P12 Oscillator
+R2,C2,S6-9,14,16-18,20,23,24,B7,10,11,13-15,19,NM
+(-1, 0)c/15
+R2,C2,S6-9,12,14,16,18-20,23,B7,10,11,14-16,19-21,NM
+200 rules checked!
+300 rules checked!
