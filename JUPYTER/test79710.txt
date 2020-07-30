@@ -1,0 +1,11 @@
+
+R2,C2,S9-18,B4    comment1
+
+tggfhffhh
+rrrrr
+      
+R2,C2,S6-9,B7-9
+R2,C2,S6-9,B7-8
+R2,C2,S5-9,B7-8
+
+R2,C2,S5-9,B7-8

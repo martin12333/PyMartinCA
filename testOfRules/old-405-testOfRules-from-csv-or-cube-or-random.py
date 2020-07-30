@@ -1,4 +1,4 @@
-#program version 417 
+#program version 405 uniform other file
 
 from __future__ import print_function
 from __future__ import division
@@ -15,8 +15,8 @@ import random
 
 ################ tunable parameters
 
-is_from_csv=True
-#is_from_random=True
+is_from_csv=False
+is_from_random=True
 
 batch8=8#3 #4#8
 
@@ -77,7 +77,6 @@ ndbmin=2; ndbmax=8; ndsmin=2; ndsmax=3
 #justname='p100520'
 justname='random'
 justname='random404'
-justname='random417'
 
 justnameext=justname+'.csv'
 
@@ -103,7 +102,6 @@ input_file1='input/g3ltl-r2-3.rules.csv'
 # input_file1='input/input-ltl-r3-03-Copy1.rules.csv'
 input_file1='input/'+justnameext
 input_file1='lifelib-input/'+justnameext
-input_file1='lifelib-input/parts-todo/part.csv'
 
 
 output_file1='output-2.rules.csv'
@@ -122,9 +120,9 @@ w2=32768#37654#76543 #18765 #6000#3000#1600 #800#200#500#400#200#100#50#1000#256
 h2=30#w2#16
 #maxtime=4*unit1 #*2
 maxtime=4000 #w2//2#2000#w2#*2 #*4#*2
-halftime=maxtime//2 #None #maxtime//2
+halftime=maxtime//2
 ##niter =wt#600#500#400#300#6##1000#500###800 # #1500
-hthreshold=None #w2//2#1200#800#400:#200:#100:
+hthreshold=w2//2#1200#800#400:#200:#100:
 
 step1=12# 24##60#24#12 #4 #20 #8 #15 #5 #1 #37 #2
 #step2=120#12#60 #120 #1
@@ -444,12 +442,9 @@ def test_rule():
         ####
         sumpopeverygen += p1.population * step1
         
-        #if sumpopeverygen> 100e6:#500e6:
-            #break ###
-        
-        if p1.population / w2 / h2 > 2.0 :
+        if sumpopeverygen> 100e6:#500e6:
             break ###
-
+        
         ####
         
         if currgen//step1 == halftime//step1:
@@ -470,8 +465,8 @@ def test_rule():
         #ys.append(p1.population/h)
         ys.append(p1.population/(1+currgen))
         
-        #if h> hthreshold:#400:#200:#100:
-            #break ###
+        if h> hthreshold:#400:#200:#100:
+            break ###
         
             
 #     !free -m
@@ -541,8 +536,8 @@ def test_rule():
         
         
     with open(output_file1,'a') as f1:
-        #print(tag1, time_s,time11,pop_s,population,ratio_s,PPratio,log2PP,space_s,w2,h2,w,h,rule_s,rulespace,rulestr, file=f1)
-        #print(tag1, time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr,  'sumpop' , sumpopeverygen,    rest1, file=f1)
+        #print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,log2PP,space_s,w2,h2,w,h,rule_s,rulespace,rulestr, file=f1)
+        #print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr,  'sumpop' , sumpopeverygen,    rest1, file=f1)
         print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr,  'sumpop' , sumpopeverygen,  'i', ii1,  rest1, file=f1)
        
     ii1+=1

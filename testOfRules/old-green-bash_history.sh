@@ -1826,3 +1826,56 @@
  1826  history 
  1827  . myawk.sh 
  1828  history -a ; history >old-green-bash_history.sh
+ 1829  cat myawk.sh 
+ 1830  cd ..
+ 1831  history -a ; history >old-green-bash_history.sh
+ 1832  mc
+ 1833  history -a ; history >testOfRules/old-green-bash_history.sh
+ 1834  mc
+ 1835  cd testOfRules/
+ 1836  wc awk-random.csv 
+ 1837  man split
+ 1838  cd lifelib-input/
+ 1839  ll
+ 1840  mkdir parts-todo
+ 1841  cd parts-todo/
+ 1842  split --lines=48 --numeric-suffixes --suffix-length=4 --verbose ../../awk-random.csv 
+ 1843  history -a ; history >../../../testOfRules/old-green-bash_history.sh
+ 1844  ll
+ 1845  cd ../..
+ 1846  cd lifelib-input/parts-todo/
+ 1847  x=x0000
+ 1848  cd ../..
+ 1849  x=lifelib-input/parts-todo/x0000
+ 1850  history -a ; history >testOfRules/old-green-bash_history.sh
+ 1851  history -a ; history >old-green-bash_history.sh
+ 1852  echo $x
+ 1853  history -a ; history >old-green-bash_history.sh
+ 1854  mv -v $x lifelib-input/parts-todo/part.csv
+ 1855  wc lifelib-input/parts-todo/part.csv
+ 1856  mv -v  lifelib-input/parts-todo/part.csv lifelib-input/parts-todo/done
+ 1857  history -a ; history >old-green-bash_history.sh
+ 1858  for x in lifelib-input/parts-todo/x*; do echo $x; done
+ 1859  history -a ; history >old-green-bash_history.sh
+ 1860  mc
+ 1861  ll
+ 1862  history 
+ 1863  mc ../..
+ 1864  mc
+ 1865  x=lifelib-input/parts-todo/x0000
+ 1866  mv -v $x lifelib-input/parts-todo/part.csv
+ 1867  #python3 testOfRules-from-csv-or-cube-or-random.py
+ 1868  history -a ; history >old-green-bash_history.sh
+ 1869  python3 testOfRules-from-csv-or-cube-or-random.py
+ 1870  mc
+ 1871  history -a ; history >old-green-bash_history.sh
+ 1872  history 
+ 1873  cd lifelib-input/parts-todo/
+ 1874  split --lines=48 --numeric-suffixes --suffix-length=4 --verbose ../convert--output0.csv 
+ 1875  cd ../..
+ 1876  history 
+ 1877  x=lifelib-input/parts-todo/x0000
+ 1878  mv -v $x lifelib-input/parts-todo/part.csv
+ 1879  python3 testOfRules-from-csv-or-cube-or-random.py
+ 1880  mc
+ 1881  history -a ; history >old-green-bash_history.sh

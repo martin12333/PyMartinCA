@@ -1,4 +1,4 @@
-#program version 417 
+#program version 407 uniform other file
 
 from __future__ import print_function
 from __future__ import division
@@ -15,8 +15,8 @@ import random
 
 ################ tunable parameters
 
-is_from_csv=True
-#is_from_random=True
+is_from_csv=False
+is_from_random=True
 
 batch8=8#3 #4#8
 
@@ -77,7 +77,7 @@ ndbmin=2; ndbmax=8; ndsmin=2; ndsmax=3
 #justname='p100520'
 justname='random'
 justname='random404'
-justname='random417'
+justname='random407'
 
 justnameext=justname+'.csv'
 
@@ -103,7 +103,6 @@ input_file1='input/g3ltl-r2-3.rules.csv'
 # input_file1='input/input-ltl-r3-03-Copy1.rules.csv'
 input_file1='input/'+justnameext
 input_file1='lifelib-input/'+justnameext
-input_file1='lifelib-input/parts-todo/part.csv'
 
 
 output_file1='output-2.rules.csv'
@@ -541,8 +540,8 @@ def test_rule():
         
         
     with open(output_file1,'a') as f1:
-        #print(tag1, time_s,time11,pop_s,population,ratio_s,PPratio,log2PP,space_s,w2,h2,w,h,rule_s,rulespace,rulestr, file=f1)
-        #print(tag1, time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr,  'sumpop' , sumpopeverygen,    rest1, file=f1)
+        #print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,log2PP,space_s,w2,h2,w,h,rule_s,rulespace,rulestr, file=f1)
+        #print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr,  'sumpop' , sumpopeverygen,    rest1, file=f1)
         print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,space_s,w2,h2,w,h,rule_s,rulespace,rulestr,  'sumpop' , sumpopeverygen,  'i', ii1,  rest1, file=f1)
        
     ii1+=1
