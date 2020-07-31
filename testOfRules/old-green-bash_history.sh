@@ -1886,3 +1886,22 @@
  1886  ./2myawk.sh <output/v.418.csv >awk418.csv
  1887  ./2myawk.sh <output/v.418.csv 
  1888  history -a ; history >old-green-bash_history.sh
+ 1889  mc
+ 1890  history -a ; history >old-green-bash_history.sh
+ 1891  echo ggdfg
+ 1892  history -a ; history >old-green-bash_history.sh
+ 1893  cat myawk.sh 
+ 1894  cat 2myawk.sh 
+ 1895  cat myawk407.sh 
+ 1896  grep <output/random417.csv    r2  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '
+ 1897  grep <output/random417.csv    r2  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5
+ 1898  grep <output/random417.csv    r2  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r
+ 1899  grep <output/random417.csv    r2  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r|tee 417.csv
+ 1900  history -a ; history >old-green-bash_history.sh
+ 1901  mc
+ 1902  ll
+ 1903  grep -E <output/random.csv   'r2|b3s'  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r|tee 402.csv
+ 1904  grep -E <output/random404.csv   'r2|b3s'  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r|tee 404.csv
+ 1905  grep -E <output/v.418.csv   'r2|b3s'  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r|tee 418.csv
+ 1906  ls -latr
+ 1907  history -a ; history >old-green-bash_history.sh
