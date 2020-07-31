@@ -1,13 +1,3 @@
-soup time 348 pop 311656 ratio 1.1 space 37654 30 37627 327 rule lifelib r2b000050s010050 sumpop 103364400 i 2  Pw2ratio 8.27684 htratio 0.939655
-soup time 660 pop 152031 ratio 1.1 space 18765 30 18508 346 rule lifelib r2b000050s000050 sumpop 101559240 i 9  Pw2ratio 8.10184 htratio 0.524242
-soup time 1344 pop 116972 ratio 1.6 space 6000 30 6219 1456 rule lifelib r2b010050s010050 sumpop 102345648 i 16  Pw2ratio 19.4953 htratio 1.08333
-soup time 1392 pop 109094 ratio 1.5 space 6000 30 6135 495 rule lifelib r2b010050s050050 sumpop 102421008 i 25  Pw2ratio 18.1823 htratio 0.355603
-soup time 1704 pop 76884 ratio 1.3 space 6000 30 5967 874 rule lifelib r2b000050s040050 sumpop 100424088 i 3  Pw2ratio 12.814 htratio 0.512911
-soup time 1824 pop 64456 ratio 1.1 space 6000 30 6297 471 rule lifelib r2b000050s000050 sumpop 100812480 i 22  Pw2ratio 10.7427 htratio 0.258224
-soup time 2112 pop 34052 ratio 0.7 space 6000 30 5698 3001 rule lifelib r2b02e210s02e330 sumpop 96019992 i 15  Pw2ratio 5.67533 htratio 1.42093
-soup time 1596 pop 28029 ratio 1.3 space 1600 30 1675 453 rule lifelib r2b020050s030050 sumpop 32036760 i 3  Pw2ratio 17.5181 htratio 0.283835
-soup time 1596 pop 21312 ratio 1.4 space 1600 30 1554 547 rule lifelib r2b000050s000050 sumpop 25292820 i 15  Pw2ratio 13.32 htratio 0.342732
-soup time 1596 pop 15989 ratio 1.3 space 1600 30 1612 323 rule lifelib r2b040050s040050 sumpop 19788648 i 9  Pw2ratio 9.99312 htratio 0.202381
 soup time 6264 pop 4349 ratio 1.0 space 37654 30 37551 18841 rule lifelib r2b010060s010070 sumpop 29353368 i 45  Pw2ratio 0.115499 htratio 3.00782
 soup time 18816 pop 3570 ratio 1.0 space 37654 30 37585 9434 rule lifelib r2b000540s0007c0 sumpop 75868068 i 6  Pw2ratio 0.0948106 htratio 0.501382
 soup time 19128 pop 3021 ratio 1.0 space 76543 30 76169 38280 rule lifelib r2b030060s030060 sumpop 57904848 i 23  Pw2ratio 0.039468 htratio 2.00125
