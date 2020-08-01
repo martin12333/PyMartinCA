@@ -518,6 +518,7 @@ def test_rule():
     #######fPPratio= population_2niter/(population_niter+1)
     fPPratio= population_2niter/(pops[currgen//step1//2]+1)
     PPratio= '{:.1f}'.format(fPPratio)
+    PPratio= '{:.2f}'.format(fPPratio)
     #log2PP= '{:.1f}'.format(math.log2(fPPratio) )
 
     #print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,log2PP,space_s,w2,h2,w,h,rule_s,rulespace,rulestr)
