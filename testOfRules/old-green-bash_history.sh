@@ -1905,3 +1905,10 @@
  1905  grep -E <output/v.418.csv   'r2|b3s'  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r|tee 418.csv
  1906  ls -latr
  1907  history -a ; history >old-green-bash_history.sh
+ 1908  mc
+ 1909  history 
+ 1910  history |grep 418
+ 1911  python3 testOfRules-from-csv-or-cube-or-random.418.py <lifelib-input/r2-training.csv 
+ 1912  history -a ; history >old-green-bash_history.sh
+ 1913  python3 testOfRules-407-from-csv-or-cube-or-random.py 
+ 1914  history -a ; history >old-green-bash_history.sh
