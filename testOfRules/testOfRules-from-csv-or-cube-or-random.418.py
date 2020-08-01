@@ -79,6 +79,7 @@ ndbmin=2; ndbmax=8; ndsmin=2; ndsmax=3
 justname='random'
 justname='random404'
 justname='v.418'
+justname='418'
 
 justnameext=justname+'.csv'
 
@@ -114,7 +115,9 @@ output_file1='output/output-ltl-r3-0.rules.csv'
 output_file1='output/output-ltl-r3-1.rules.csv'
 output_file1='output/fromcsv-ltl-r3-2.rules.csv'
 output_file1='output/fromcsv-g3ltl-r2.rules.csv'
+
 output_file1='output/'+justnameext
+output_file1='recomputed/'+justnameext
 
 
 #unit1=100#1250#600#1500#800#900#400#200#100#50#1000#256#128

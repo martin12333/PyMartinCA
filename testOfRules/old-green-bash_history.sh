@@ -1912,3 +1912,28 @@
  1912  history -a ; history >old-green-bash_history.sh
  1913  python3 testOfRules-407-from-csv-or-cube-or-random.py 
  1914  history -a ; history >old-green-bash_history.sh
+ 1915  history 
+ 1916  grep b  output/*.csv   |awk '$7>3.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 5
+ 1917  history -a ; history >old-green-bash_history.sh
+ 1918  grep b  output/*.csv   |awk '$7>3.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7
+ 1919  export LC_ALL=C
+ 1920  export LC_ALL=C ; grep b  output/*.csv   |awk '$7>3.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7
+ 1921  history -a ; history >old-green-bash_history.sh
+ 1922  export LC_ALL=C ; grep b  output/*.csv   |awk '$7>2.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7
+ 1923  export LC_ALL=C ; grep b  output/*.csv   |awk '$7>2.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 3
+ 1924  export LC_ALL=C ; grep b  output/*.csv   |awk '$7>2.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 3 -r
+ 1925  export LC_ALL=C ; grep b  output/*.csv   |awk '$3>1300 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 3 -r
+ 1926  export LC_ALL=C ; grep b  output/*.csv   |awk '$3>1300 && $7>2 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 3 -r
+ 1927  export LC_ALL=C ; grep b  output/*.csv   |awk '$3>1300 && $7>2 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7 -r
+ 1928  export LC_ALL=C ; grep b  output/*.csv   |awk '$3>1300 && $7>2 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7 
+ 1929  export LC_ALL=C ; grep b  output/*.csv   |awk '  $3>1300 && $7>3 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7 
+ 1930  history -a ; history >old-green-bash_history.sh
+ 1931  export LC_ALL=C ; grep b  output/*.csv   |awk '  $3>1300 && $7>3 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7 -r
+ 1932  mkdir filtered
+ 1933  export LC_ALL=C ; grep b  output/*.csv   |awk '  $3>1300 && $7>3 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7 -r|tee filtered/grow.csv
+ 1934  mkdir recomputed
+ 1935  python3 testOfRules-from-csv-or-cube-or-random.418.py <filtered/grow.csv 
+ 1936  python3 testOfRules-from-csv-or-cube-or-random.418.py 
+ 1937  history -a ; history >old-green-bash_history.sh
+ 1938  python3 testOfRules-from-csv-or-cube-or-random.418.py <lifelib-input/input-borderline1.rules.csv 
+ 1939  history -a ; history >old-green-bash_history.sh
