@@ -1873,64 +1873,92 @@
  1873  history -a ; history >testOfRules/bash_history.sh
  1874  cd grdr20/PyMartinCA/beta/testOfRules/
  1875  history -a ; history >bash_history.sh
- 1876  ll
- 1877  history |wc
- 1878  history -r unix-split.bash_history.sh 
- 1879  wc awk-random.csv 
- 1880  man split
- 1881  cd lifelib-input/
- 1882  ll
- 1883  mkdir parts-todo
- 1884  cd parts-todo/
- 1885  split --lines=48 --numeric-suffixes --suffix-length=4 --verbose ../../awk-random.csv 
- 1886  ll
- 1887  cd ../..
+ 1876  x=lifelib-input/parts-todo/x0000
+ 1877  mv -v $x lifelib-input/parts-todo/part.csv
+ 1878  python3 testOfRules-from-csv-or-cube-or-random.py
+ 1879  history |wc
+ 1880  history -a ; history >bash_history.sh
+ 1881  ll
+ 1882  ll ~/.b*
+ 1883  wc  ~/.b*
+ 1884  history 
+ 1885  wc awk-random.csv 
+ 1886  ll lifelib-input/
+ 1887  history 
  1888  cd lifelib-input/parts-todo/
- 1889  x=x0000
- 1890  cd ../..
- 1891  x=lifelib-input/parts-todo/x0000
- 1892  echo $x
- 1893  mv -v $x lifelib-input/parts-todo/part.csv
- 1894  wc lifelib-input/parts-todo/part.csv
- 1895  mv -v  lifelib-input/parts-todo/part.csv lifelib-input/parts-todo/done
- 1896  for x in lifelib-input/parts-todo/x*; do echo $x; done
- 1897  mc
- 1898  ll
- 1899  history 
- 1900  mc ../..
- 1901  mc
- 1902  x=lifelib-input/parts-todo/x0000
- 1903  mv -v $x lifelib-input/parts-todo/part.csv
- 1904  #python3 testOfRules-from-csv-or-cube-or-random.py
- 1905  python3 testOfRules-from-csv-or-cube-or-random.py
- 1906  mc
- 1907  history 
- 1908  cd lifelib-input/parts-todo/
- 1909  split --lines=48 --numeric-suffixes --suffix-length=4 --verbose ../convert--output0.csv 
- 1910  cd ../..
- 1911  history 
- 1912  x=lifelib-input/parts-todo/x0000
- 1913  mv -v $x lifelib-input/parts-todo/part.csv
- 1914  python3 testOfRules-from-csv-or-cube-or-random.py
- 1915  history |wc
- 1916  history -a ; history >bash_history.sh
- 1917  ll
- 1918  ll ~/.b*
- 1919  wc  ~/.b*
- 1920  history 
- 1921  wc awk-random.csv 
- 1922  ll lifelib-input/
- 1923  history 
- 1924  cd lifelib-input/parts-todo/
- 1925  split --lines=48 --numeric-suffixes --suffix-length=4 --verbose ../convert--output1-4.csv 
- 1926  history -a ; history >bash_history.sh; history
- 1927  cd ../..
- 1928  for x in lifelib-input/parts-todo/x*; do echo $x; done
- 1929  history -a ; history >bash_history.sh; history
- 1930  mc
- 1931  chmod -v u+x testOfRules/my*.sh
- 1932  cd ..
- 1933  chmod -v u+x testOfRules/my*.sh
- 1934  cd -
- 1935  ./myrun-test-parts.sh 
- 1936  history -a ; history >bash_history.sh; history
+ 1889  split --lines=48 --numeric-suffixes --suffix-length=4 --verbose ../convert--output1-4.csv 
+ 1890  history -a ; history >bash_history.sh; history
+ 1891  cd ../..
+ 1892  for x in lifelib-input/parts-todo/x*; do echo $x; done
+ 1893  history -a ; history >bash_history.sh; history
+ 1894  mc
+ 1895  history -a ; history >testOfRules/bash_history.sh
+ 1896  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1897  git commit -vv  -a -m runni417
+ 1898  git push -v -u origin beta
+ 1899  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1900  git commit -vv  -a -m runni417
+ 1901  git push -v -u origin beta
+ 1902  ps -ef |grep -i my
+ 1903  ps
+ 1904  ps -u martin
+ 1905  history -a ; history >testOfRules/bash_history.sh
+ 1906  history 
+ 1907  ps -ef 
+ 1908  mc
+ 1909  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1910  git commit -vv  -a -m runni417
+ 1911  git push -v -u origin beta
+ 1912  mc
+ 1913  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1914  git commit -vv  -a -m runni417
+ 1915  git pull -v  origin beta ; history -a
+ 1916  git push -v -u origin beta
+ 1917  cd testOfRules/
+ 1918  ll
+ 1919  mc
+ 1920  ll
+ 1921  ./myawk407.sh <output/random417.csv 
+ 1922  ./myawk407.sh <output/random417.csv |nl
+ 1923  cat ./myawk407.sh 
+ 1924  ./myawk407.sh <output/random417.csv |sort -n --field-separator=,
+ 1925  ./myawk407.sh <output/random417.csv |sort -n --field-separator=, -k 5
+ 1926  ./myawk407.sh <output/random417.csv |sort -n --field-separator=, -k 5|nl
+ 1927  history -a ; history >bash_history.sh
+ 1928  cd ..
+ 1929  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1930  git commit -vv  -a -m runni417
+ 1931  git push -v -u origin beta
+ 1932  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1933  git commit -vv  -a -m runni417
+ 1934  git pull -v  origin beta ; history -a
+ 1935  git push -v -u origin beta
+ 1936  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1937  git commit -vv  -a -m runni417
+ 1938  git push -v -u origin beta
+ 1939  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1940  git commit -vv  -a -m runni417
+ 1941  git pull -v  origin beta ; history -a
+ 1942  git push -v -u origin beta
+ 1943  mc
+ 1944  ls testOfRules/lifelib-input/parts-todo/
+ 1945  history -a ; history >bash_history.sh
+ 1946  mc
+ 1947  chmod -v u+x testOfRules/my*.sh
+ 1948  cd ..
+ 1949  chmod -v u+x testOfRules/my*.sh
+ 1950  cd -
+ 1951  ./myrun-test-parts.sh 
+ 1952  history -a ; history >bash_history.sh; history
+ 1953  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1954  git commit -vv  -a -m runni417
+ 1955  git push -v -u origin beta
+ 1956  ls testOfRules/lifelib-input/parts-todo/
+ 1957  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1958  cd ..
+ 1959  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1960  git commit -vv  -a -m bkup
+ 1961  history -a ; history >bash_history.sh; history
+ 1962  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1963  git commit -vv  -a -m bkup
+ 1964  history -a ; history >testOfRules/bash_history.sh
