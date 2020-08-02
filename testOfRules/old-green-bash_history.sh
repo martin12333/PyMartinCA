@@ -1961,3 +1961,9 @@
  1961  history -a ; history >old-green-bash_history.sh
  1962  cp -vi filtered/417.csv filtered/$justnameext
  1963  history -a ; history >old-green-bash_history.sh
+ 1964  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   
+ 1965  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   |wc
+ 1966  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   |sort -u
+ 1967  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   |sort -u|wc
+ 1968  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   |sort |uniq -c|sort -n
+ 1969  history -a ; history >old-green-bash_history.sh

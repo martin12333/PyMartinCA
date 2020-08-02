@@ -1,4 +1,4 @@
-#program version 418 stdin 
+#program version 4181todo stdin 
 
 from __future__ import print_function
 from __future__ import division
@@ -117,7 +117,7 @@ output_file1='output/fromcsv-ltl-r3-2.rules.csv'
 output_file1='output/fromcsv-g3ltl-r2.rules.csv'
 
 output_file1='output/'+justnameext
-output_file1='recomputed/'+justnameext
+#output_file1='recomputed/'+justnameext
 
 
 #unit1=100#1250#600#1500#800#900#400#200#100#50#1000#256#128
@@ -527,6 +527,8 @@ def test_rule():
     fPPratio= population_2niter/(pops[currgen//step1//2]+1)
     PPratio= '{:.1f}'.format(fPPratio)
     PPratio= '{:.2f}'.format(fPPratio)
+    PPratio= '{:.3f}'.format(fPPratio)
+
     #log2PP= '{:.1f}'.format(math.log2(fPPratio) )
 
     #print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,log2PP,space_s,w2,h2,w,h,rule_s,rulespace,rulestr)
