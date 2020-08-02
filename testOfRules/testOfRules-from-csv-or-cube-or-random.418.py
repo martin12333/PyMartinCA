@@ -1,4 +1,4 @@
-#program version 4181todo stdin 
+#program version 4181 stdin 
 
 from __future__ import print_function
 from __future__ import division
@@ -125,7 +125,7 @@ output_file1='output/'+justnameext
 w2=32768#37654#76543 #18765 #6000#3000#1600 #800#200#500#400#200#100#50#1000#256#128#16#25
 h2=30#w2#16
 #maxtime=4*unit1 #*2
-maxtime=4000 #w2//2#2000#w2#*2 #*4#*2
+maxtime=1600 #4000 #w2//2#2000#w2#*2 #*4#*2
 halftime=maxtime//2 #None #maxtime//2
 ##niter =wt#600#500#400#300#6##1000#500###800 # #1500
 hthreshold=None #w2//2#1200#800#400:#200:#100:
