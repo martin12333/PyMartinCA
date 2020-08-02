@@ -1952,3 +1952,12 @@
  1952  export LC_ALL=C ; grep b  output/417.csv   |awk ' $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 
  1953  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 
  1954  history -a ; history >old-green-bash_history.sh
+ 1955  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |tee filtered/417.csv
+ 1956  justnameext=r2-date07u.csv
+ 1957  cp -vi output/417.csv output/$justnameext
+ 1958  cp -vi filtered/417.csv filtered/$justnameext
+ 1959  history -a ; history >old-green-bash_history.sh
+ 1960  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 -r |tee filtered/417.csv
+ 1961  history -a ; history >old-green-bash_history.sh
+ 1962  cp -vi filtered/417.csv filtered/$justnameext
+ 1963  history -a ; history >old-green-bash_history.sh
