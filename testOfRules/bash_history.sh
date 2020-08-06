@@ -1962,3 +1962,32 @@
  1962  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
  1963  git commit -vv  -a -m bkup
  1964  history -a ; history >testOfRules/bash_history.sh
+ 1965  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py
+ 1966  git commit -vv  -a -m bkup
+ 1967  git push -v -u origin beta
+ 1968  git pull -v  origin beta ; history -a
+ 1969  git push -v -u origin beta
+ 1970  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1971  cat vmstat.txt 
+ 1972  mc
+ 1973  history -a ; history >testOfRules/bash_history.sh
+ 1974  history -a ; history >bash_history.sh; history
+ 1975  history -a ; history >bash_history.sh; history|grep pyth
+ 1976  grep 418 old*sh
+ 1977  echo python3 testOfRules-from-csv-or-cube-or-random.py
+ 1978  mc
+ 1979  python3 testOfRules-from-csv-or-cube-or-random.418.py <lifelib-input/orig100-p100520.csv 
+ 1980  mc
+ 1981  history -a ; history >bash_history.sh; history|grep pyth
+ 1982  mc
+ 1983  ps -ef
+ 1984  mc
+ 1985  cd grdr20/PyMartinCA/beta/testOfRules/
+ 1986  mc
+ 1987  lsof
+ 1988  lsof|grep 418
+ 1989  mc
+ 1990  cd ..
+ 1991  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py '*.txt'
+ 1992  git add --verbose testOfRules/output/*.csv testOfRules/*.csv testOfRules/*.sh testOfRules/*.py '*.txt' '*.csv'
+ 1993  history -a ; history >testOfRules/bash_history.sh
