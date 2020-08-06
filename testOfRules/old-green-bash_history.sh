@@ -2073,3 +2073,5 @@
  2073  history |grep aw
  2074  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >old-awk-apgsearch.txt
  2075  history -a ; history >old-green-bash_history.sh
+ 2076  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >old-awk-apgsearch.csv
+ 2077  history -a ; history >old-green-bash_history.sh
