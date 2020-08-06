@@ -1,4 +1,4 @@
-#program version 418 stdin 
+#program version 4181 stdin 
 
 from __future__ import print_function
 from __future__ import division
@@ -117,7 +117,7 @@ output_file1='output/fromcsv-ltl-r3-2.rules.csv'
 output_file1='output/fromcsv-g3ltl-r2.rules.csv'
 
 output_file1='output/'+justnameext
-output_file1='recomputed/'+justnameext
+#output_file1='recomputed/'+justnameext
 
 
 #unit1=100#1250#600#1500#800#900#400#200#100#50#1000#256#128
@@ -125,7 +125,7 @@ output_file1='recomputed/'+justnameext
 w2=32768#37654#76543 #18765 #6000#3000#1600 #800#200#500#400#200#100#50#1000#256#128#16#25
 h2=30#w2#16
 #maxtime=4*unit1 #*2
-maxtime=4000 #w2//2#2000#w2#*2 #*4#*2
+maxtime=1600 #4000 #w2//2#2000#w2#*2 #*4#*2
 halftime=maxtime//2 #None #maxtime//2
 ##niter =wt#600#500#400#300#6##1000#500###800 # #1500
 hthreshold=None #w2//2#1200#800#400:#200:#100:
@@ -527,6 +527,8 @@ def test_rule():
     fPPratio= population_2niter/(pops[currgen//step1//2]+1)
     PPratio= '{:.1f}'.format(fPPratio)
     PPratio= '{:.2f}'.format(fPPratio)
+    PPratio= '{:.3f}'.format(fPPratio)
+
     #log2PP= '{:.1f}'.format(math.log2(fPPratio) )
 
     #print(tag1,time_s,time11,pop_s,population,ratio_s,PPratio,log2PP,space_s,w2,h2,w,h,rule_s,rulespace,rulestr)

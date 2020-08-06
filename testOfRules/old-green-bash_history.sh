@@ -1937,3 +1937,33 @@
  1937  history -a ; history >old-green-bash_history.sh
  1938  python3 testOfRules-from-csv-or-cube-or-random.418.py <lifelib-input/input-borderline1.rules.csv 
  1939  history -a ; history >old-green-bash_history.sh
+ 1940  history 
+ 1941  mc
+ 1942  grep b  output/417.csv   |awk '$7>3.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7
+ 1943  history -a ; history >old-green-bash_history.sh
+ 1944  history 
+ 1945  history |grep aw
+ 1946  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r
+ 1947  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 -r
+ 1948  history -a ; history >old-green-bash_history.sh
+ 1949  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |nl
+ 1950  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 -r
+ 1951  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 
+ 1952  export LC_ALL=C ; grep b  output/417.csv   |awk ' $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 
+ 1953  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 
+ 1954  history -a ; history >old-green-bash_history.sh
+ 1955  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |tee filtered/417.csv
+ 1956  justnameext=r2-date07u.csv
+ 1957  cp -vi output/417.csv output/$justnameext
+ 1958  cp -vi filtered/417.csv filtered/$justnameext
+ 1959  history -a ; history >old-green-bash_history.sh
+ 1960  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 -r |tee filtered/417.csv
+ 1961  history -a ; history >old-green-bash_history.sh
+ 1962  cp -vi filtered/417.csv filtered/$justnameext
+ 1963  history -a ; history >old-green-bash_history.sh
+ 1964  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   
+ 1965  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   |wc
+ 1966  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   |sort -u
+ 1967  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   |sort -u|wc
+ 1968  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   |sort |uniq -c|sort -n
+ 1969  history -a ; history >old-green-bash_history.sh
