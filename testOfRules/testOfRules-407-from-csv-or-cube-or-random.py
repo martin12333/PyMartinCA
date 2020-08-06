@@ -22,7 +22,7 @@ batch8=8#3 #4#8
 
 ################ tunable parameters
 
-nrnd=6*8 #5#50
+nrnd=8*12#6#     6*8 #5#50
 
 ################ tunable parameters
 
