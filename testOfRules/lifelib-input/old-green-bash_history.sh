@@ -2061,17 +2061,3 @@
  2061  cd lifelib-input/
  2062  . ./apg-test-r2-02.sh 
  2063  history -a ; history >old-green-bash_history.sh
- 2064  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >old-awk-apgsearch.txt
- 2065  cd ..
- 2066  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >old-awk-apgsearch.txt
- 2067  history -a ; history >old-green-bash_history.sh
- 2068  history |grep aw
- 2069  history |grep my
- 2070  ./mymultiapg.sh <lifelib-input/apg-test-r2-03.csv
- 2071  history |grep my
- 2072  history -a ; history >old-green-bash_history.sh
- 2073  history |grep aw
- 2074  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >old-awk-apgsearch.txt
- 2075  history -a ; history >old-green-bash_history.sh
- 2076  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >old-awk-apgsearch.csv
- 2077  history -a ; history >old-green-bash_history.sh
