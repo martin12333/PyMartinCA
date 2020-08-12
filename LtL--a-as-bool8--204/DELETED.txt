@@ -1,0 +1,32 @@
+
+
+
+
+
+
+###around()
+
+
+PyMartinCA
+==========
+
+##/usr/bin/sudo apt-get update
+/usr/bin/sudo apt-get install   
+
+
+
+
+        # #b = array(clip(transpose(xx),0,255),'B')
+        # #b = array(clip((yy),0,255),'B')
+
+
+
+
+        ####ada51=abs(da51) # calls .__abs__
+        ##ada51=np.abs(da51)
+
+
+
+##debug #print shape(bmin)
+##debug numpy.size(yy,0)
+##debug type(bmax)

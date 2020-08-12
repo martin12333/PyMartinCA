@@ -525,3 +525,219 @@
   525  history -a ; history >a,04.bash_history.sh
   526  cd grdr20/PyMartinCA/beta/LtL--a-as-bool8--204/
   527  history -a ; history >a,04.bash_history.sh
+  528  ipython
+  529  export DISPLAY=:0
+  530  ipython
+  531  cd
+  532  cd grdr20/PyMartinCA/beta/many-pop-plot/
+  533  history -a ; history >a,04.bash_history.sh
+  534  ipython
+  535  cd grdr20/PyMartinCA/beta/many-pop-plot/
+  536  ipython
+  537  export DISPLAY=:0
+  538  ipython
+  539  cd grdr20/PyMartinCA/beta/205density-plot/
+  540  export DISPLAY=:0
+  541  ipython
+  542  export DISPLAY=:0
+  543  cd grdr20/PyMartinCA/beta/205density-plot/
+  544  ipython
+  545  export DISPLAY=:0
+  546  cd grdr20/PyMartinCA/beta/205density-plot/
+  547  ipython
+  548  export DISPLAY=:0
+  549  cd grdr20/PyMartinCA/beta/205density-plot/
+  550  ipython
+  551  cd
+  552  git clone https://gitlab.com/apgoucher/python-lifelib.git
+  553  mc
+  554  python3
+  555  cd python-lifelib/
+  556  cd install/
+  557  python3 install.py 
+  558  jupyter notebook --debug
+  559  cd python-lifelib/
+  560  mc
+  561  cd
+  562  history -a ; history >a,04.bash_history.sh
+  563  git clone https://gitlab.com/apgoucher/apgmera.git
+  564  cd apgmera/
+  565  ./recompile.sh 
+  566  history -a ; history >a,04.bash_history.sh
+  567  ./apgluxe 
+  568  ./apgluxe --help
+  569  jupyter notebook --debug
+  570  jupyter notebook --debug
+  571  cd grdr20/PyMartinCA/beta/205density-plot/
+  572  cd ..
+  573  ipython
+  574  cd grdr20/PyMartinCA/beta/205density-plot/
+  575  ipython
+  576  mc
+  577  cd
+  578  cd CAViewer/
+  579  ls
+  580  history -a ; history >a,05.bash_history.sh
+  581  history
+  582  history|grep apt
+  583  history|grep apt|grep pyth
+  584  /usr/bin/sudo  apt install   python3-numpy
+  585  /usr/bin/sudo  apt install  python3-pyqt5    python3-numpy
+  586  /usr/bin/sudo  apt install  python3-pyqt5  python3-pyperclip  python3-numpy
+  587  /usr/bin/sudo  apt install  python3-pyqt5  python3-pyperclip  python3-numpy python3-pil
+  588  history -a ; history >a,05.bash_history.sh
+  589  history
+  590  python3 
+  591  python3 -i Main.py 
+  592  mc
+  593  cd CACompute
+  594  ll
+  595  python3 -i setup.py 
+  596  history
+  597  /usr/bin/sudo  apt install  cython3
+  598  python3 -i setup.py 
+  599  python3  setup.py 
+  600  python3  setup.py --help
+  601  ll
+  602  mc
+  603  python3  setup.py build
+  604  mc
+  605  python3  setup.py build
+  606  mc
+  607  cd ..
+  608  history -a ; history >a,05.bash_history.sh
+  609  history
+  610  python3  Main.py 
+  611  cd CACompute
+  612  python3  setup.py install
+  613  python3  setup.py --help
+  614  python3  setup.py install  --help
+  615  python3  setup.py install  --user
+  616  cd ..
+  617  python3  Main.py 
+  618  python3 -i  Main.py 
+  619  mc
+  620  python3 -i  Main.py 
+  621  mc
+  622  history -a ; history >a,05.bash_history.sh
+  623  pip --help
+  624  pip3 --help
+  625  pip3 list
+  626  pip3 --help
+  627  pip3 uninstall CACompute
+  628  cd CACompute
+  629  cd CAViewer/
+  630  cd CACompute
+  631  ll
+  632  history -a ; history >a,05.bash_history.sh
+  633  history
+  634  python3  setup.py install  --help
+  635  python3  setup.py  --help
+  636  mc
+  637  cd ..
+  638  python3 -i  Main.py 
+  639  history -a ; history >a,05.bash_history.sh
+  640  history
+  641  mc
+  642  cd CACompute
+  643  python3  setup.py build_ext --inplace
+  644  mc
+  645  python3  setup.py build_ext --inplace
+  646  mc
+  647  python3  
+  648  ipython3  
+  649  sudo apt install ipython3
+  650  ipython3  
+  651  cd ..
+  652  ipython3  
+  653  cd CACompute
+  654  touch __init__.py
+  655  cd ..
+  656  ipython3  
+  657  history -a ; history >a,05.bash_history.sh
+  658  history
+  659  python3 -i  Main.py 
+  660  cd CAComputeParse/
+  661  history
+  662  python3  setup.py build_ext --inplace
+  663  cp -i Compute.cpp compute.cpp
+  664  python3  setup.py build_ext --inplace
+  665  mc
+  666  ll
+  667  cd ..
+  668  python3 -i  Main.py 
+  669  export DISPLAY=:0
+  670  python3 -i  Main.py 
+  671  history -a ; history >a,05.bash_history.sh
+  672  python3   Main.py  &
+  673  cd
+  674  cd grdr20/PyMartinCA/beta/205density-plot/
+  675  python r1.py 
+  676  python3 r1.py 
+  677  ipython3 r1.py 
+  678  cd ..
+  679  cd 206execfile-alternatives/
+  680  ll
+  681  ipython
+  682  cd
+  683  cd grdr20/PyMartinCA/beta/205density-plot/
+  684  mc
+  685  history -a ; history >a,05.bash_history.sh
+  686  mc
+  687  cd
+  688  cd grdr20/CAViewer/
+  689  history -a ; history >a,05.bash_history.sh
+  690  python3   Main.py  &
+  691  top
+  692  pkill python3
+  693  top
+  694  history -a ; history >a,05.bash_history.sh
+  695  python3   Main.py  &
+  696  top
+  697  pkill python3
+  698  python3   Main.py  &
+  699  pkill python3
+  700  mc
+  701  python3   Main.py  &
+  702  mc
+  703  diff transFunc.py diff/transFunc.py 
+  704  mc
+  705  top
+  706  pkill python3
+  707  mc
+  708  python3   Main.py  &
+  709  mc
+  710  pkill python3
+  711  free -m
+  712  history -a ; history >a,05.bash_history.sh
+  713  cd
+  714  cd grdr20/PyMartinCA/beta/205density-plot/
+  715  cd
+  716  cd grdr20/PyMartinCA/beta/210execfile-alternatives/
+  717  history -a ; history >a,05.bash_history.sh
+  718  ipython
+  719  ipython3
+  720  cd
+  721  cd grdr20/PyMartinCA/beta/220execfile-alternatives/
+  722  history -a ; history >a,05.bash_history.sh
+  723  ipython
+  724  ipython r0bb.py
+  725  ipython r0bbccc.py
+  726  ipython3 r0bbccc.py
+  727  ipython3 r0bb.py
+  728  ipython3 r0bbccc.py
+  729  ipython r0bbccc.py
+  730  ipython r0bb.py
+  731  history -a ; history >a,05.bash_history.sh
+  732  ipython3
+  733  ipython3 -i r0bbccc.py
+  734  history -a ; history >a,05.bash_history.sh
+  735  cd
+  736  set|grep -i pyt
+  737  pypy
+  738  snap info pypy
+  739  ipython
+  740  ipython3
+  741  cd
+  742  cd grdr20/PyMartinCA/beta/221execfile-alternatives/
+  743  history -a ; history >a,05.bash_history.sh

@@ -525,3 +525,9 @@
   525  history -a ; history >a,04.bash_history.sh
   526  cd grdr20/PyMartinCA/beta/LtL--a-as-bool8--204/
   527  history -a ; history >a,04.bash_history.sh
+  528  ipython
+  529  export DISPLAY=:0
+  530  ipython
+  531  cd
+  532  cd grdr20/PyMartinCA/beta/many-pop-plot/
+  533  history -a ; history >a,04.bash_history.sh

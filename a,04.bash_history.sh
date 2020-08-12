@@ -514,14 +514,3 @@
   514  history -a ; history >a,04.bash_history.sh
   515  history -a #----
   516  history -a ; history >a,04.bash_history.sh
-  517  mc
-  518  ipython
-  519  cd grdr20/PyMartinCA/beta/
-  520  ipython
-  521  cd
-  522  cd grdr20/PyMartinCA/beta/JUPYTER/
-  523  history -a ; history >a,04.bash_history.sh
-  524  ipython
-  525  history -a ; history >a,04.bash_history.sh
-  526  cd grdr20/PyMartinCA/beta/LtL--a-as-bool8--204/
-  527  history -a ; history >a,04.bash_history.sh

@@ -1,0 +1,563 @@
+martin@sdb3a45g:~$ ssh  -p 2223      -L 8888:localhost:8888         martin@127.0.0.1
+bind: Address already in use
+channel_setup_fwd_listener: cannot listen to port: 8888
+Could not request local forwarding.
+Welcome to Ubuntu 18.04.2 LTS (GNU/Linux 4.18.0-15-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+
+ * Canonical Livepatch is available for installation.
+   - Reduce system reboots and improve kernel security. Activate at:
+     https://ubuntu.com/livepatch
+
+544 packages can be updated.
+321 updates are security updates.
+
+Your Hardware Enablement Stack (HWE) is supported until April 2023.
+Last login: Sat Apr 25 17:25:46 2020 from 10.0.2.2
+martin@martin-VirtualBox:~$ cd grdr20/PyMartinCA/beta/many-pop-plot/
+martin@martin-VirtualBox:~/grdr20/PyMartinCA/beta/many-pop-plot$ ipython
+Python 2.7.17 (default, Nov  7 2019, 10:07:09) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.5.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: run r2.py
+---------------------------------------------------------------------------
+TclError                                  Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/many-pop-plot/r2.py in <module>()
+     71 #execfile('backend_LtL_imshow.py')
+     72 #execfile('backend_LtL_pygame.py')
+---> 73 execfile('backend-LtL-pop-plot.py' )
+     74 #execfile('backend-LtL-pop-plot-sanity-check.py')
+     75 
+
+/home/martin/grdr20/PyMartinCA/beta/many-pop-plot/backend-LtL-pop-plot.py in <module>()
+    154                     #plot(ploty,'x')
+    155                     #plot(plotz,'x')
+--> 156                     plot( ploty[niter0:], plotz[niter0:],'x')
+    157 
+    158 
+
+/usr/lib/python2.7/dist-packages/matplotlib/pyplot.pyc in plot(*args, **kwargs)
+   3248 @_autogen_docstring(Axes.plot)
+   3249 def plot(*args, **kwargs):
+-> 3250     ax = gca()
+   3251     # Deprecated: allow callers to override the hold state
+   3252     # by passing hold=True|False
+
+/usr/lib/python2.7/dist-packages/matplotlib/pyplot.pyc in gca(**kwargs)
+    960     matplotlib.figure.Figure.gca : The figure's gca method.
+    961     """
+--> 962     return gcf().gca(**kwargs)
+    963 
+    964 # More ways of creating axes:
+
+/usr/lib/python2.7/dist-packages/matplotlib/pyplot.pyc in gcf()
+    590         return figManager.canvas.figure
+    591     else:
+--> 592         return figure()
+    593 
+    594 
+
+/usr/lib/python2.7/dist-packages/matplotlib/pyplot.pyc in figure(num, figsize, dpi, facecolor, edgecolor, frameon, FigureClass, clear, **kwargs)
+    537                                         frameon=frameon,
+    538                                         FigureClass=FigureClass,
+--> 539                                         **kwargs)
+    540 
+    541         if figLabel:
+
+/usr/lib/python2.7/dist-packages/matplotlib/backend_bases.pyc in new_figure_manager(cls, num, *args, **kwargs)
+    169         fig_cls = kwargs.pop('FigureClass', Figure)
+    170         fig = fig_cls(*args, **kwargs)
+--> 171         return cls.new_figure_manager_given_figure(num, fig)
+    172 
+    173     @classmethod
+
+/usr/lib/python2.7/dist-packages/matplotlib/backends/backend_tkagg.pyc in new_figure_manager_given_figure(num, figure)
+   1047         """
+   1048         _focus = windowing.FocusManager()
+-> 1049         window = Tk.Tk(className="matplotlib")
+   1050         window.withdraw()
+   1051 
+
+/usr/lib/python2.7/lib-tk/Tkinter.pyc in __init__(self, screenName, baseName, className, useTk, sync, use)
+   1826                 baseName = baseName + ext
+   1827         interactive = 0
+-> 1828         self.tk = _tkinter.create(screenName, baseName, className, interactive, wantobjects, useTk, sync, use)
+   1829         if useTk:
+   1830             self._loadtk()
+
+TclError: no display name and no $DISPLAY environment variable
+
+In [2]:                                                                                                                                          
+Do you really want to exit ([y]/n)? 
+martin@martin-VirtualBox:~/grdr20/PyMartinCA/beta/many-pop-plot$ export DISPLAY=:0
+martin@martin-VirtualBox:~/grdr20/PyMartinCA/beta/many-pop-plot$ ipython
+Python 2.7.17 (default, Nov  7 2019, 10:07:09) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.5.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+
+In [1]: run r2.py
+2988 0.061 0.099 5 6 5 6
+2988 0.001 0.000 5 6 6 6
+2988 0.169 0.274 5 6 5 7
+2988 0.003 0.000 6 7 4 5
+720 0.002 0.000 6 7 5 7
+2040 0.001 0.000 6 7 6 8
+2988 0.154 0.245 6 7 6 9
+780 0.001 0.000 6 7 7 9
+2988 0.007 0.000 6 8 4 5
+2988 0.003 0.000 6 8 5 5
+516 0.003 0.000 6 8 5 7
+2988 0.003 0.000 6 8 6 8
+2988 0.092 0.120 7 8 4 9
+2988 0.029 0.000 8 8 4 9
+780 0.018 0.000 7 8 6 10
+2988 0.069 0.000 8 8 4 10
+2988 0.005 0.000 6 9 5 5
+2988 0.006 0.000 7 9 5 8
+2988 0.035 0.000 8 9 4 9
+636 0.015 0.000 7 9 6 10
+2988 0.009 0.001 7 9 7 10
+1140 0.056 0.000 8 9 4 10
+2988 0.005 0.003 7 9 8 11
+1848 0.046 0.001 8 9 7 12
+528 0.006 0.000 6 10 7 5
+2988 0.018 0.019 6 10 7 6
+1044 0.005 0.000 6 10 8 6
+2988 0.032 0.000 8 10 4 7
+720 0.004 0.000 7 10 7 10
+2988 0.014 0.000 7 11 4 6
+2988 0.045 0.000 8 11 4 7
+2988 0.032 0.000 8 11 4 8
+720 0.003 0.000 7 11 6 9
+2388 0.019 0.000 8 11 4 9
+2988 0.012 0.000 8 11 5 10
+564 0.003 0.000 7 12 5 6
+2988 0.045 0.000 8 12 4 7
+2988 0.014 0.000 8 12 5 7
+2988 0.005 0.001 7 12 8 10
+
+In [2]: run r2.py
+2940 0.070 0.119 5 6 5 6
+2940 0.147 0.238 6 7 6 9
+2940 0.009 0.000 7 8 6 9
+2940 0.007 0.000 6 9 6 6
+2940 0.007 0.000 7 9 5 8
+
+In [3]: run r2.py
+2940 0.074 0.132 5 6 5 6
+2940 0.172 0.281 5 6 5 7
+2940 0.002 0.000 6 7 6 8
+2940 0.143 0.247 6 7 6 9
+2940 0.008 0.000 7 8 6 9
+2940 0.006 0.000 6 9 6 6
+2940 0.009 0.000 7 10 6 9
+2940 0.004 0.000 7 11 7 9
+
+In [4]: run r2.py
+2940 0.065 0.116 5 6 5 6
+2940 0.001 0.000 5 6 6 6
+2820 0.001 0.000 6 7 6 8
+2940 0.139 0.241 6 7 6 9
+2940 0.008 0.000 7 8 6 9
+2940 0.009 0.000 7 9 5 8
+
+In [5]: run r2.py
+2940 0.069 0.112 5 6 5 6
+2940 0.000 0.000 5 6 6 6
+2940 0.165 0.280 5 6 5 7
+2940 0.146 0.256 6 7 6 9
+2940 0.010 0.000 7 8 6 9
+2940 0.007 0.000 7 9 5 8
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/many-pop-plot/r2.py in <module>()
+     71 #execfile('backend_LtL_imshow.py')
+     72 #execfile('backend_LtL_pygame.py')
+---> 73 execfile('backend-LtL-automated.py' )
+     74 #execfile('backend-LtL-pop-plot-sanity-check.py')
+     75 
+
+/home/martin/grdr20/PyMartinCA/beta/many-pop-plot/backend-LtL-automated.py in <module>()
+     97 
+     98                         #as51=(0.0+a).sum()
+---> 99                         am51=(0.0+a).mean()
+    100 
+    101 
+
+/usr/lib/python2.7/dist-packages/numpy/core/_methods.pyc in _mean(a, axis, dtype, out, keepdims)
+     68             is_float16_result = True
+     69 
+---> 70     ret = umr_sum(arr, axis, dtype, out, keepdims)
+     71     if isinstance(ret, mu.ndarray):
+     72         ret = um.true_divide(
+
+KeyboardInterrupt: 
+
+In [6]: run r2.py
+2940 0.070 0.116 5 6 5 6
+2940 0.001 0.000 5 6 6 6
+2940 0.133 0.232 6 7 6 9
+2940 0.008 0.000 7 8 6 9
+2940 0.006 0.000 6 9 6 6
+
+In [7]: run r2.py
+180 0.023 0.041
+180 0.001 0.000
+180 0.095 0.153
+180 0.098 0.151
+180 0.228 0.353
+180 0.232 0.352
+180 0.235 0.355
+180 0.266 0.394
+180 0.264 0.392
+180 0.264 0.391
+180 0.247 0.334
+180 0.374 0.001
+180 0.383 0.021
+180 0.311 0.423
+180 0.367 0.000
+180 0.373 0.000
+180 0.261 0.382
+180 0.247 0.370
+180 0.091 0.136
+180 0.267 0.388
+180 0.260 0.386
+180 0.253 0.379
+180 0.003 0.000
+180 0.279 0.394
+180 0.273 0.395
+180 0.270 0.396
+180 0.001 0.000
+180 0.282 0.411
+180 0.285 0.409
+180 0.282 0.409
+180 0.199 0.313
+180 0.135 0.214
+180 0.303 0.427
+180 0.308 0.426
+180 0.303 0.426
+180 0.278 0.403
+180 0.272 0.397
+180 0.259 0.382
+180 0.364 0.119
+180 0.022 0.011
+180 0.298 0.418
+^C---------------------------------------------------------------------------
+KeyboardInterrupt                         Traceback (most recent call last)
+/home/martin/grdr20/PyMartinCA/beta/many-pop-plot/r2.py in <module>()
+     73 #execfile('backend-LtL-pop-plot-sanity-check.py')
+     74 
+---> 75 execfile('backend-LtL-pop-plot-only-plot.py' )
+     76 #execfile('backend-LtL-automated.py' )
+     77 
+
+/home/martin/grdr20/PyMartinCA/beta/many-pop-plot/backend-LtL-pop-plot-only-plot.py in <module>()
+     85                     for i in xrange(1,niter):
+     86 
+---> 87                         n41 =   diam*diam*filters.uniform_filter(0.0+a,diam )   ##,mode='wrap')  )
+     88                         n=n41.round()
+     89                         birth = AND(  n>=bmin,  AND( n<=bmax, logical_not(a) )  )
+
+KeyboardInterrupt: 
+
+In [8]: run r2.py
+180 0.023 0.039
+180 0.001 0.000
+
+In [9]: run r2.py
+120 0.014 0.024
+120 0.001 0.000
+120 0.054 0.090
+120 0.060 0.097
+120 0.221 0.342
+120 0.231 0.354
+120 0.252 0.384
+120 0.245 0.374
+120 0.267 0.392
+120 0.261 0.385
+120 0.278 0.403
+120 0.274 0.399
+120 0.003 0.001
+120 0.002 0.000
+120 0.293 0.412
+120 0.289 0.414
+120 0.304 0.423
+120 0.296 0.415
+120 0.010 0.012
+120 0.312 0.428
+120 0.298 0.423
+120 0.244 0.357
+120 0.006 0.005
+
+In [10]: run r2.py
+144
+120 0.011 0.016
+120 0.001 0.000
+120 0.052 0.086
+120 0.047 0.073
+120 0.228 0.346
+120 0.233 0.356
+120 0.215 0.325
+120 0.000 0.000
+120 0.266 0.389
+120 0.266 0.395
+120 0.270 0.391
+120 0.227 0.302
+120 0.002 0.001
+120 0.255 0.382
+120 0.248 0.373
+120 0.043 0.061
+120 0.269 0.394
+120 0.264 0.385
+120 0.251 0.376
+120 0.003 0.000
+120 0.281 0.400
+120 0.277 0.397
+120 0.271 0.392
+120 0.002 0.000
+120 0.000 0.000
+120 0.294 0.412
+120 0.286 0.410
+120 0.288 0.406
+120 0.199 0.316
+120 0.121 0.193
+120 0.001 0.000
+120 0.298 0.418
+120 0.291 0.408
+120 0.284 0.402
+120 0.308 0.423
+120 0.301 0.420
+120 0.288 0.414
+120 0.017 0.023
+120 0.005 0.000
+120 0.311 0.428
+120 0.299 0.423
+120 0.300 0.417
+120 0.244 0.360
+120 0.015 0.019
+120 0.315 0.433
+120 0.314 0.435
+120 0.316 0.431
+120 0.270 0.394
+120 0.249 0.374
+120 0.175 0.265
+120 0.008 0.000
+120 0.003 0.000
+120 0.317 0.434
+120 0.315 0.429
+120 0.304 0.427
+120 0.284 0.407
+120 0.006 0.000
+120 0.332 0.447
+120 0.325 0.442
+120 0.319 0.431
+120 0.296 0.419
+120 0.164 0.237
+120 0.338 0.450
+120 0.332 0.443
+120 0.325 0.438
+120 0.305 0.423
+120 0.298 0.415
+120 0.197 0.276
+120 0.007 0.000
+120 0.347 0.453
+120 0.343 0.452
+120 0.335 0.443
+120 0.321 0.437
+120 0.304 0.428
+120 0.295 0.416
+120 0.012 0.005
+
+In [11]: run r2.py
+270
+120 0.017 0.029
+120 0.000 0.000
+120 0.067 0.105
+120 0.014 0.022
+120 0.225 0.346
+120 0.226 0.352
+120 0.221 0.338
+120 0.000 0.000
+120 0.271 0.396
+120 0.262 0.388
+120 0.267 0.394
+120 0.218 0.297
+120 0.003 0.002
+120 0.375 0.009
+120 0.377 0.077
+120 0.315 0.426
+120 0.373 0.007
+120 0.257 0.384
+120 0.247 0.372
+120 0.012 0.016
+120 0.263 0.389
+120 0.255 0.380
+120 0.256 0.379
+120 0.002 0.000
+120 0.272 0.399
+120 0.272 0.393
+120 0.270 0.396
+120 0.003 0.001
+120 0.001 0.000
+120 0.292 0.412
+120 0.288 0.410
+120 0.296 0.409
+120 0.201 0.317
+120 0.112 0.180
+120 0.305 0.426
+120 0.311 0.427
+120 0.305 0.426
+120 0.281 0.405
+120 0.273 0.396
+120 0.266 0.391
+120 0.313 0.244
+120 0.020 0.009
+120 0.287 0.411
+120 0.294 0.415
+120 0.280 0.402
+120 0.306 0.418
+120 0.309 0.423
+120 0.292 0.412
+120 0.006 0.006
+120 0.315 0.429
+120 0.314 0.422
+120 0.304 0.418
+120 0.241 0.362
+120 0.014 0.018
+120 0.323 0.433
+120 0.312 0.430
+120 0.313 0.434
+120 0.271 0.397
+120 0.254 0.372
+120 0.173 0.269
+120 0.016 0.000
+120 0.330 0.444
+120 0.329 0.444
+120 0.328 0.440
+120 0.302 0.415
+120 0.287 0.409
+120 0.283 0.404
+120 0.189 0.298
+120 0.033 0.029
+120 0.010 0.001
+120 0.318 0.432
+120 0.316 0.437
+120 0.313 0.433
+120 0.285 0.409
+120 0.332 0.441
+120 0.322 0.438
+120 0.310 0.429
+120 0.293 0.414
+120 0.182 0.261
+120 0.338 0.450
+120 0.337 0.445
+120 0.326 0.436
+120 0.308 0.429
+120 0.293 0.413
+120 0.197 0.281
+120 0.008 0.000
+120 0.338 0.456
+120 0.350 0.450
+120 0.330 0.445
+120 0.316 0.429
+120 0.314 0.428
+120 0.298 0.418
+120 0.012 0.005
+120 0.349 0.455
+120 0.355 0.454
+120 0.341 0.455
+120 0.330 0.444
+120 0.322 0.438
+120 0.322 0.432
+120 0.261 0.383
+120 0.039 0.049
+120 0.008 0.003
+120 0.340 0.448
+120 0.328 0.439
+120 0.331 0.445
+120 0.321 0.436
+120 0.313 0.429
+120 0.022 0.026
+120 0.347 0.453
+120 0.344 0.455
+120 0.332 0.442
+120 0.325 0.435
+120 0.320 0.437
+120 0.307 0.428
+120 0.347 0.457
+120 0.360 0.457
+120 0.344 0.450
+120 0.339 0.450
+120 0.335 0.443
+120 0.320 0.436
+120 0.005 0.001
+120 0.360 0.463
+120 0.364 0.461
+120 0.362 0.457
+120 0.342 0.454
+120 0.342 0.453
+120 0.335 0.445
+120 0.311 0.419
+120 0.375 0.466
+120 0.368 0.469
+120 0.362 0.464
+120 0.364 0.458
+120 0.353 0.458
+120 0.347 0.455
+120 0.327 0.438
+120 0.197 0.285
+120 0.007 0.003
+120 0.347 0.456
+120 0.360 0.457
+120 0.346 0.450
+120 0.346 0.454
+120 0.338 0.449
+120 0.333 0.441
+120 0.359 0.457
+120 0.356 0.458
+120 0.353 0.454
+120 0.347 0.454
+120 0.349 0.451
+120 0.339 0.449
+120 0.020 0.029
+120 0.366 0.468
+120 0.377 0.466
+120 0.370 0.466
+120 0.356 0.456
+120 0.365 0.459
+120 0.358 0.458
+120 0.319 0.438
+120 0.371 0.468
+120 0.374 0.470
+120 0.377 0.469
+120 0.372 0.470
+120 0.367 0.465
+120 0.364 0.464
+120 0.335 0.450
+120 0.145 0.206
+120 0.388 0.474
+120 0.383 0.469
+120 0.379 0.470
+120 0.374 0.465
+120 0.370 0.466
+120 0.377 0.464
+120 0.353 0.457
+120 0.346 0.450
+120 0.039 0.060
+
+In [12]: 

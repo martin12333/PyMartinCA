@@ -8,7 +8,7 @@ opt=' -v  '
 
 #088 not phys to virt Dr anymore because vibo clock, etc
 #089
-
+#08c entire beta
 
 
 
@@ -35,10 +35,11 @@ rsync -h  $opt    -r -tgo -p --update --protect-args -e "ssh -p 2223"  martin@12
 echo 'virt to phys ========================================'
 
 
-rsync -h  $opt    -r -tgo -p --update --protect-args -e "ssh -p 2223"  martin@127.0.0.1:/home/martin/grdr20/PyMartinCA/beta/JUPYTER/   /home/martin/Dropbox/grdr20/PyMartinCA/beta/JUPYTER/
+##rsync -h  $opt    -r -tgo -p --update --protect-args -e "ssh -p 2223"  martin@127.0.0.1:/home/martin/grdr20/PyMartinCA/beta/JUPYTER/   /home/martin/Dropbox/grdr20/PyMartinCA/beta/JUPYTER/
+rsync -h  $opt    -r -tgo -p --update --protect-args -e "ssh -p 2223"  martin@127.0.0.1:/home/martin/grdr20/PyMartinCA/beta/   /home/martin/Dropbox/grdr20/PyMartinCA/beta/
 
-echo 'virt to phys ========================================'
-rsync $opt -h  -r -tgo -p --update --protect-args -e "ssh -p 2223"  martin@127.0.0.1:/home/martin/grdr20/PyMartinCA/beta/testOfRules/   /home/martin/Dropbox/grdr20/PyMartinCA/beta/testOfRules/
+##echo 'virt to phys ========================================'
+##rsync $opt -h  -r -tgo -p --update --protect-args -e "ssh -p 2223"  martin@127.0.0.1:/home/martin/grdr20/PyMartinCA/beta/testOfRules/   /home/martin/Dropbox/grdr20/PyMartinCA/beta/testOfRules/
 
 
 echo 'virt to phys ========================================'
