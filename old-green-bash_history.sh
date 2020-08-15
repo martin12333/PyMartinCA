@@ -1826,6 +1826,332 @@
  1826  history 
  1827  . myawk.sh 
  1828  history -a ; history >old-green-bash_history.sh
- 1829  cat myawk.sh 
- 1830  cd ..
- 1831  history -a ; history >old-green-bash_history.sh
+ 1829  jupyter notebook
+ 1830  cat myawk.sh 
+ 1831  cd ..
+ 1832  history -a ; history >old-green-bash_history.sh
+ 1833  mc
+ 1834  history -a ; history >testOfRules/old-green-bash_history.sh
+ 1835  mc
+ 1836  cd testOfRules/
+ 1837  wc awk-random.csv 
+ 1838  man split
+ 1839  cd lifelib-input/
+ 1840  ll
+ 1841  mkdir parts-todo
+ 1842  cd parts-todo/
+ 1843  split --lines=48 --numeric-suffixes --suffix-length=4 --verbose ../../awk-random.csv 
+ 1844  history -a ; history >../../../testOfRules/old-green-bash_history.sh
+ 1845  ll
+ 1846  cd ../..
+ 1847  cd lifelib-input/parts-todo/
+ 1848  x=x0000
+ 1849  cd ../..
+ 1850  x=lifelib-input/parts-todo/x0000
+ 1851  history -a ; history >testOfRules/old-green-bash_history.sh
+ 1852  history -a ; history >old-green-bash_history.sh
+ 1853  echo $x
+ 1854  history -a ; history >old-green-bash_history.sh
+ 1855  mv -v $x lifelib-input/parts-todo/part.csv
+ 1856  wc lifelib-input/parts-todo/part.csv
+ 1857  mv -v  lifelib-input/parts-todo/part.csv lifelib-input/parts-todo/done
+ 1858  history -a ; history >old-green-bash_history.sh
+ 1859  for x in lifelib-input/parts-todo/x*; do echo $x; done
+ 1860  history -a ; history >old-green-bash_history.sh
+ 1861  mc
+ 1862  ll
+ 1863  history 
+ 1864  mc ../..
+ 1865  mc
+ 1866  x=lifelib-input/parts-todo/x0000
+ 1867  mv -v $x lifelib-input/parts-todo/part.csv
+ 1868  #python3 testOfRules-from-csv-or-cube-or-random.py
+ 1869  history -a ; history >old-green-bash_history.sh
+ 1870  python3 testOfRules-from-csv-or-cube-or-random.py
+ 1871  mc
+ 1872  history -a ; history >old-green-bash_history.sh
+ 1873  history 
+ 1874  cd lifelib-input/parts-todo/
+ 1875  split --lines=48 --numeric-suffixes --suffix-length=4 --verbose ../convert--output0.csv 
+ 1876  cd ../..
+ 1877  history 
+ 1878  x=lifelib-input/parts-todo/x0000
+ 1879  mv -v $x lifelib-input/parts-todo/part.csv
+ 1880  python3 testOfRules-from-csv-or-cube-or-random.py
+ 1881  mc
+ 1882  history -a ; history >old-green-bash_history.sh
+ 1883  mc
+ 1884  python3 testOfRules-from-csv-or-cube-or-random.418.py 
+ 1885  python3 testOfRules-from-csv-or-cube-or-random.418.py <lifelib-input/r2-training.csv 
+ 1886  history -a ; history >old-green-bash_history.sh
+ 1887  ./2myawk.sh <output/v.418.csv >awk418.csv
+ 1888  ./2myawk.sh <output/v.418.csv 
+ 1889  history -a ; history >old-green-bash_history.sh
+ 1890  mc
+ 1891  history -a ; history >old-green-bash_history.sh
+ 1892  echo ggdfg
+ 1893  history -a ; history >old-green-bash_history.sh
+ 1894  cat myawk.sh 
+ 1895  cat 2myawk.sh 
+ 1896  cat myawk407.sh 
+ 1897  grep <output/random417.csv    r2  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '
+ 1898  grep <output/random417.csv    r2  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5
+ 1899  grep <output/random417.csv    r2  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r
+ 1900  grep <output/random417.csv    r2  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r|tee 417.csv
+ 1901  history -a ; history >old-green-bash_history.sh
+ 1902  mc
+ 1903  ll
+ 1904  grep -E <output/random.csv   'r2|b3s'  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r|tee 402.csv
+ 1905  grep -E <output/random404.csv   'r2|b3s'  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r|tee 404.csv
+ 1906  grep -E <output/v.418.csv   'r2|b3s'  |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r|tee 418.csv
+ 1907  ls -latr
+ 1908  history -a ; history >old-green-bash_history.sh
+ 1909  jupyter lab
+ 1910  jupyter notebook
+ 1911  find . -name core -type f
+ 1912  df -m
+ 1913  history -a ; history >old-green-bash_history.sh
+ 1914  jupyter notebook
+ 1915  pkill jupyter
+ 1916  pkill -v jupyter
+ 1917  pkill jupyter
+ 1918  top
+ 1919  history -a ; history >old-green-bash_history.sh
+ 1920  mc
+ 1921  history 
+ 1922  history |grep 418
+ 1923  python3 testOfRules-from-csv-or-cube-or-random.418.py <lifelib-input/r2-training.csv 
+ 1924  history -a ; history >old-green-bash_history.sh
+ 1925  python3 testOfRules-407-from-csv-or-cube-or-random.py 
+ 1926  history -a ; history >old-green-bash_history.sh
+ 1927  history 
+ 1928  grep b  output/*.csv   |awk '$7>3.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 5
+ 1929  history -a ; history >old-green-bash_history.sh
+ 1930  grep b  output/*.csv   |awk '$7>3.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7
+ 1931  export LC_ALL=C
+ 1932  export LC_ALL=C ; grep b  output/*.csv   |awk '$7>3.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7
+ 1933  history -a ; history >old-green-bash_history.sh
+ 1934  export LC_ALL=C ; grep b  output/*.csv   |awk '$7>2.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7
+ 1935  export LC_ALL=C ; grep b  output/*.csv   |awk '$7>2.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 3
+ 1936  export LC_ALL=C ; grep b  output/*.csv   |awk '$7>2.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 3 -r
+ 1937  export LC_ALL=C ; grep b  output/*.csv   |awk '$3>1300 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 3 -r
+ 1938  export LC_ALL=C ; grep b  output/*.csv   |awk '$3>1300 && $7>2 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 3 -r
+ 1939  export LC_ALL=C ; grep b  output/*.csv   |awk '$3>1300 && $7>2 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7 -r
+ 1940  export LC_ALL=C ; grep b  output/*.csv   |awk '$3>1300 && $7>2 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7 
+ 1941  export LC_ALL=C ; grep b  output/*.csv   |awk '  $3>1300 && $7>3 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7 
+ 1942  history -a ; history >old-green-bash_history.sh
+ 1943  export LC_ALL=C ; grep b  output/*.csv   |awk '  $3>1300 && $7>3 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7 -r
+ 1944  mkdir filtered
+ 1945  export LC_ALL=C ; grep b  output/*.csv   |awk '  $3>1300 && $7>3 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7 -r|tee filtered/grow.csv
+ 1946  mkdir recomputed
+ 1947  python3 testOfRules-from-csv-or-cube-or-random.418.py <filtered/grow.csv 
+ 1948  python3 testOfRules-from-csv-or-cube-or-random.418.py 
+ 1949  history -a ; history >old-green-bash_history.sh
+ 1950  python3 testOfRules-from-csv-or-cube-or-random.418.py <lifelib-input/input-borderline1.rules.csv 
+ 1951  history -a ; history >old-green-bash_history.sh
+ 1952  history 
+ 1953  mc
+ 1954  grep b  output/417.csv   |awk '$7>3.5 {print $0,"Pw2ratio",$5/$9 } '| sort -n -k 7
+ 1955  history -a ; history >old-green-bash_history.sh
+ 1956  history 
+ 1957  history |grep aw
+ 1958  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9,"htratio",$12/$3} '| sort -n -k 5 -r
+ 1959  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 -r
+ 1960  history -a ; history >old-green-bash_history.sh
+ 1961  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>300 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |nl
+ 1962  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 -r
+ 1963  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<20 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 
+ 1964  export LC_ALL=C ; grep b  output/417.csv   |awk ' $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 
+ 1965  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 
+ 1966  history -a ; history >old-green-bash_history.sh
+ 1967  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |tee filtered/417.csv
+ 1968  justnameext=r2-date07u.csv
+ 1969  cp -vi output/417.csv output/$justnameext
+ 1970  cp -vi filtered/417.csv filtered/$justnameext
+ 1971  history -a ; history >old-green-bash_history.sh
+ 1972  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 -r |tee filtered/417.csv
+ 1973  history -a ; history >old-green-bash_history.sh
+ 1974  cp -vi filtered/417.csv filtered/$justnameext
+ 1975  history -a ; history >old-green-bash_history.sh
+ 1976  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   
+ 1977  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   |wc
+ 1978  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   |sort -u
+ 1979  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   |sort -u|wc
+ 1980  export LC_ALL=C ; grep b  output/417.csv   |awk '$7<1.7 && $12>400 && ($5/$9)<18 {print $0,"Pw2ratio",$5/$9} '| sort -n -k 5 |cut -f 15 -d \   |sort |uniq -c|sort -n
+ 1981  history -a ; history >old-green-bash_history.sh
+ 1982  ./update-lifelib.sh
+ 1983  cd apgmera/
+ 1984  du
+ 1985  mc
+ 1986  history -a ; history >old-green-bash_history.sh
+ 1987  history -a ; history >old-green-bash_history.sh; history |grep apg
+ 1988  history -a ; history >old-green-bash_history.sh; history |grep apgl
+ 1989  history -a ; history >old-green-bash_history.sh; history |grep apgl|grep 1000
+ 1990  ./apgluxe -L 1 -t 1  --rule r2bd1a2c0s6601e0    -n 1000
+ 1991  mc
+ 1992  time ./apgluxe -L 1 -t 1  --rule r2bd1a2c0s6601e0    -n 1000
+ 1993  time ./apgluxe -L 1 -t 1  --rule r2bd1a2c0s6601e0    -n 10000
+ 1994  time ./apgluxe -L 1 -t 1  --rule r2bd1a2c0s6601e0    -n 1000
+ 1995  history -a ; history >old-green-bash_history.sh; history |grep apgl|grep 1000
+ 1996  mc
+ 1997  mv -i -v --target-directory=oldlog/ log.*.txt
+ 1998  history -a ; history >old-green-bash_history.sh; history |grep apgl|grep 1000
+ 1999  time ./apgluxe -L 1 -t 1  --rule r2bd1a2c0s6601e0    -n 1000
+ 2000  ll
+ 2001  grep --count '^xq' log.*.txt
+ 2002  history -a ; history >old-green-bash_history.sh
+ 2003  cd
+ 2004  cd grdr20/PyMartinCA/beta/testOfRules/
+ 2005  awk --help 
+ 2006  awk --h
+ 2007  awk -h
+ 2008  gawk -h
+ 2009  man awk
+ 2010  awk -f apgsearch.awk ~/apgmera/oldlog/log.159*
+ 2011  man awk
+ 2012  gawk -h
+ 2013  sudo apt-get install gawk
+ 2014  gawk -h
+ 2015  man gawk
+ 2016  awk -f apgsearch.awk ~/apgmera/oldlog/log.159*
+ 2017  mc
+ 2018  awk -f apgsearch.awk ~/apgmera/oldlog/log.159*
+ 2019  for x in  ~/apgmera/oldlog/log.159* ; do echo; done
+ 2020  history -a ; history >old-green-bash_history.sh
+ 2021  history |grep aw
+ 2022  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done
+ 2023  history -a ; history >old-green-bash_history.sh
+ 2024  mc
+ 2025  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done
+ 2026  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >awk-apgsearch.txt
+ 2027  history -a ; history >old-green-bash_history.sh
+ 2028  cd
+ 2029  cd apgmera/
+ 2030  mv -i -v --target-directory=oldlog/ log.*.txt
+ 2031  cd
+ 2032  cd grdr20/PyMartinCA/beta/testOfRules/
+ 2033  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >awk-apgsearch.txt
+ 2034  history -a ; history >old-green-bash_history.sh
+ 2035  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >old-awk-apgsearch.txt
+ 2036  history -a ; history >old-green-bash_history.sh
+ 2037  mc
+ 2038  cd
+ 2039  cd apgmera/
+ 2040  time ./apgluxe -L 1 -t 1  --rule   r3b14t19s14t23  -n 500
+ 2041  time --?
+ 2042  time --he
+ 2043  time -h
+ 2044  time ./apgluxe -L 1 -t 1  --rule   r2b8022c0s0841e0  -n 1000
+ 2045  echo time ./apgluxe -L 1 -t 1  --rule   r2b8022c0s0841e0  -n 1000
+ 2046  mv -i -v --target-directory=oldlog/ log.*.txt
+ 2047  cd
+ 2048  cd grdr20/PyMartinCA/beta/testOfRules/
+ 2049  history -a ; history >old-green-bash_history.sh
+ 2050  chmod u+x my*.sh
+ 2051  chmod --verbose u+x my*.sh
+ 2052  ./mymultiapg.sh 
+ 2053  history -a ; history >old-green-bash_history.sh
+ 2054  ./recompile.sh
+ 2055  ./mymultiapg.sh <lifelib-input/apg-test-r2-02.csv
+ 2056  cat mymultiapg.sh 
+ 2057  mc
+ 2058  ./mymultiapg.sh <lifelib-input/apg-test-r2-02.csv
+ 2059  cd lifelib-input/
+ 2060  . ./apg-test-r2-02.sh 
+ 2061  cd
+ 2062  cd grdr20/PyMartinCA/beta/testOfRules/
+ 2063  cd lifelib-input/
+ 2064  . ./apg-test-r2-02.sh 
+ 2065  history -a ; history >old-green-bash_history.sh
+ 2066  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >old-awk-apgsearch.txt
+ 2067  cd ..
+ 2068  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >old-awk-apgsearch.txt
+ 2069  history -a ; history >old-green-bash_history.sh
+ 2070  history |grep aw
+ 2071  history |grep my
+ 2072  ./mymultiapg.sh <lifelib-input/apg-test-r2-03.csv
+ 2073  history |grep my
+ 2074  history -a ; history >old-green-bash_history.sh
+ 2075  history |grep aw
+ 2076  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >old-awk-apgsearch.txt
+ 2077  history -a ; history >old-green-bash_history.sh
+ 2078  for x in  ~/apgmera/oldlog/log.159* ; do awk -f apgsearch.awk $x ; done >old-awk-apgsearch.csv
+ 2079  history -a ; history >old-green-bash_history.sh
+ 2080  sleep 5
+ 2081  sleep 2
+ 2082  time sleep 5
+ 2083  cd
+ 2084  cd apgmera/
+ 2085  time ./apgluxe -L 1 -t 1  --rule   r2b8022c0s0841e0  -n 1000
+ 2086  cd apgmera/
+ 2087  time ./apgluxe -L 1 -t 1  --rule   r3b14t19s14t23  -n 500
+ 2088  timeout --foreground 120  ./apgluxe -L 1 -t 1  --rule   r3b14t19s14t23  -n 500
+ 2089  timeout   --foreground 120  ./apgluxe -L 1 -t 1  --rule   r3b14t19s14t23  -n 500
+ 2090  timeout   --foreground 30  ./apgluxe -L 1 -t 1  --rule   r3b14t19s14t23  -n 500
+ 2091  history -a ; history >old-green-bash_history.sh
+ 2092  timeout    30  ./apgluxe -L 1 -t 1  --rule   r3b14t19s14t23  -n 500
+ 2093  history -a ; history >old-green-bash_history.sh
+ 2094  cd apgmera/
+ 2095  time ./apgluxe -L 1 -t 1  --rule   r2b8022c0s0841e0  -n 1000
+ 2096  time ./apgluxe -L 1 -t 1  --rule   r3b14t19s14t23  -n 500
+ 2097  date
+ 2098  while true ; do sleep 10; date; done
+ 2099  cd apgmera/
+ 2100  history -a ; history >old-green-bash_history.sh
+ 2101  history 
+ 2102  timeout    30  ./apgluxe -L 1 -t 1  --rule   r3b14t19s14t23  -n 500
+ 2103  ll Downloads/RSYNCrem/
+ 2104  mc
+ 2105  jupyter lab &  # has classic
+ 2106  history -a ; history >old-green-bash_history.sh
+ 2107  cd grdr20/PyMartinCA/beta/
+ 2108  history -a ; history >old-green-bash_history.sh
+ 2109  mkdir $HOME/GIT-bk04/pymartinca-beta.git
+ 2110  mkdir --parents $HOME/GIT-bk04/pymartinca-beta.git
+ 2111  history -a ; history >old-green-bash_history.sh
+ 2112  git init --separate-git-dir $HOME/GIT-bk04/pymartinca-beta.git
+ 2113  git init --separate-git-dir $HOME/GIT-bk04/pymartinca-beta.git/
+ 2114  ll
+ 2115  mc
+ 2116  git init --separate-git-dir $HOME/GIT-bk04/pymartinca-beta.git/
+ 2117  history -a ; history >old-green-bash_history.sh
+ 2118  git remote add origin https://github.com/martin12333/PyMartinCA
+ 2119  git checkout -b beta
+ 2120  git pull -vv origin beta
+ 2121  history -a ; history >old-green-bash_history.sh
+ 2122  git add --verbose --dry-run 
+ 2123  git add -vv  '*.py' '*.txt' '*.md' '*.sqc' '*.rle' '*.ipynb' '*.csv' '*.sh' '*.awk' old*.git 
+ 2124  git add -vv  '*.py' '*.txt' '*.md' '*.sqc' '*.rle' '*.ipynb' '*.csv' '*.sh' '*.awk' 
+ 2125  git add -vv  '*.py' '*.txt' '*.md' '*.sqc' '*.rle' '*.ipynb' '*.csv' '*.sh' '*.awk' 'old*.git' 
+ 2126  history -a ; history >old-green-bash_history.sh
+ 2127  git commit  -a -m trying
+ 2128  git pull -vv origin beta
+ 2129  mc
+ 2130  cd ..
+ 2131  mv -i -v --target-directory=oldlog/ log.*.txt
+ 2132  mv -i -v beta oldbeta,08e
+ 2133  mkdir beta
+ 2134  history -a ; history >old-green-bash_history.sh
+ 2135  mc
+ 2136  history 
+ 2137  mkdir --parents $HOME/GIT-bk04/pymartinca-beta.git
+ 2138  git init --separate-git-dir $HOME/GIT-bk04/pymartinca-beta.git/
+ 2139  mc
+ 2140  cduild
+ 2141  cd beta
+ 2142  mc
+ 2143  git init --separate-git-dir $HOME/GIT-bk04/pymartinca-beta.git/
+ 2144  mkdir --parents $HOME/GIT-bk04/pymartinca-beta.git
+ 2145  git init --separate-git-dir $HOME/GIT-bk04/pymartinca-beta.git/
+ 2146  history -a ; history >old-green-bash_history.sh
+ 2147  history 
+ 2148  git remote add origin https://github.com/martin12333/PyMartinCA
+ 2149  git checkout -b beta
+ 2150  history -a ; history >old-green-bash_history.sh
+ 2151  git pull -vv origin beta
+ 2152  mc
+ 2153  git pull -vv origin beta
+ 2154  du
+ 2155  mc
+ 2156  history 
+ 2157  history -a ; history >old-green-bash_history.sh
